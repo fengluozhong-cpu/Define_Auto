@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "case-readiness.json",
+      "sha256": "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+    },
+    {
+      "path": "checks.json",
+      "sha256": "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "36d63bf5941aea6e8b41b7cc3fc1546f3ac6885636ac1c8d341e47adb6c35262"
+    },
+    {
+      "path": "inputs-manifest.json",
+      "sha256": "dd210a0e12b71b90d74a1a6a0e82d439ddce9306c647acf9a4d9541bce34b741"
+    },
+    {
+      "path": "run.json",
+      "sha256": "0d623e3e9581b4542c41cd607e724c3e267c57ecd98c933a39d2dc94f7918c65"
+    }
+  ],
+  "excludes_self": true
+}

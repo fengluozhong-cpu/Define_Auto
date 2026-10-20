@@ -1,0 +1,2094 @@
+{
+  "result": "passed",
+  "performed_at": "2026-10-20T23:35:05.576385+08:00",
+  "command": [
+    "tools/task001/check_documents.py",
+    "--run-id",
+    "documents-br03"
+  ],
+  "scope": "UTF-8 decode, paired fences, in-project link target existence, table row endings only. No external page/anchor/semantic validation.",
+  "script_sha256": "a36d9ae86e5d98012c2cbd8f47416704deea875e81e64de507ba49b857e72565",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf"
+    },
+    {
+      "path": "GOALS.md",
+      "sha256": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "sha256": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+    },
+    {
+      "path": "PLANS.md",
+      "sha256": "d8cda82c59a6458556ad7ac1419e5b19c2b269d0ac8e02c69e0ae0b99dcf7797"
+    },
+    {
+      "path": "README.md",
+      "sha256": "19970c2e332404a9de6750b4d2273c69cf8515451dff2f361c56eef1c2c82d28"
+    },
+    {
+      "path": "docs/tasks/TASK-001.md",
+      "sha256": "d9000e0d5ab78e1080fae5d5e41788e66120a6d0dad87162f2cf307673e81243"
+    },
+    {
+      "path": "docs/contracts/TASK-001-contract-v0.1.md",
+      "sha256": "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+    },
+    {
+      "path": "docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "sha256": "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+    }
+  ],
+  "check_count": 396,
+  "failed_count": 0,
+  "skipped_checks": 0,
+  "checks": [
+    {
+      "check": "fences",
+      "path": "AGENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "AGENTS.md",
+      "target": "docs\\approvals\\APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "AGENTS.md",
+      "target": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "AGENTS.md",
+      "target": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "AGENTS.md",
+      "target": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "AGENTS.md",
+      "target": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "AGENTS.md",
+      "target": "discussion.md",
+      "result": "passed"
+    },
+    {
+      "check": "fences",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "GOALS.md",
+      "target": "docs\\approvals\\APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "GOALS.md",
+      "target": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "GOALS.md",
+      "target": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "fences",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "REQUIREMENTS.md",
+      "target": "docs\\approvals\\APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "REQUIREMENTS.md",
+      "target": "discussion.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "REQUIREMENTS.md",
+      "target": "docs\\tasks\\TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "fences",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "ARCHITECTURE.md",
+      "target": "docs\\approvals\\APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "fences",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\approvals\\APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\approvals\\APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "AGENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\approvals\\APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "PLANS.md",
+      "target": "docs\\tasks\\TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "fences",
+      "path": "README.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "docs\\approvals\\APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "AGENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "docs\\tasks\\TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "README.md",
+      "target": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "fences",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "fixtures\\task001\\v0.1\\input-manifest.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "expectations\\task001\\v0.1\\expected.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "expectations\\task001\\v0.1\\coverage.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "expectations\\task001\\v0.1\\gate1-checklist.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "tools\\task001\\build_fixtures.py",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "tools\\task001\\check_materials.py",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "tools\\task001\\requirements-fixtures.lock.txt",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "artifacts\\TASK-001\\references\\sources.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "artifacts\\TASK-001\\start\\dependencies.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "artifacts\\TASK-001\\rebuild-01\\checks.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "docs\\tasks\\task001-review\\independent-xpt-raw-v1.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "docs\\tasks\\TASK-001-findings.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "docs\\tasks\\task001-review\\final-review.md",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "docs\\tasks\\task001-review\\final-review.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "artifacts\\TASK-001\\gate1-v0.1\\expectations\\task001\\v0.1\\expected.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "artifacts\\TASK-001\\gate1-v0.1\\manifest.json",
+      "result": "passed"
+    },
+    {
+      "check": "local_link",
+      "path": "docs\\tasks\\TASK-001.md",
+      "target": "artifacts\\TASK-001\\business-review-03-integrity.json",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\tasks\\TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "check": "fences",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "fences",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check": "table_row_end",
+      "path": "docs\\contracts\\TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    }
+  ]
+}

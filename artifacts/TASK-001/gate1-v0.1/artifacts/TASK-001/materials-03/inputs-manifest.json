@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "path": "fixtures/task001/v0.1/build-record.json",
+      "sha256": "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a"
+    },
+    {
+      "path": "fixtures/task001/v0.1/cm.xpt",
+      "sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a"
+    },
+    {
+      "path": "fixtures/task001/v0.1/dependencies.json",
+      "sha256": "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc"
+    },
+    {
+      "path": "fixtures/task001/v0.1/dependency-changes.json",
+      "sha256": "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e"
+    },
+    {
+      "path": "fixtures/task001/v0.1/dm.xpt",
+      "sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7"
+    },
+    {
+      "path": "fixtures/task001/v0.1/input-manifest.json",
+      "sha256": "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1"
+    },
+    {
+      "path": "fixtures/task001/v0.1/patch.json",
+      "sha256": "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c"
+    },
+    {
+      "path": "fixtures/task001/v0.1/source-data.json",
+      "sha256": "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d"
+    },
+    {
+      "path": "fixtures/task001/v0.1/spec-changed.json",
+      "sha256": "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd"
+    },
+    {
+      "path": "fixtures/task001/v0.1/spec.json",
+      "sha256": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937"
+    },
+    {
+      "path": "fixtures/task001/v0.1/vs.xpt",
+      "sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22"
+    },
+    {
+      "path": "expectations/task001/v0.1/coverage.json",
+      "sha256": "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a"
+    },
+    {
+      "path": "expectations/task001/v0.1/expected.json",
+      "sha256": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808"
+    },
+    {
+      "path": "expectations/task001/v0.1/gate1-checklist.json",
+      "sha256": "5e28f1e2d738d4ec61c4a8b0cc2837cd9381e038d94e2c39709188df54e32230"
+    },
+    {
+      "path": "docs/contracts/TASK-001-contract-v0.1.md",
+      "sha256": "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+    },
+    {
+      "path": "docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "sha256": "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+    },
+    {
+      "path": "tools/task001/check_materials.py",
+      "sha256": "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c"
+    },
+    {
+      "path": "tools/task001/requirements-fixtures.lock.txt",
+      "sha256": "29e73867d345e6cbe16410521689877a9c3cfe1759445efcb576d4b46d17126a"
+    },
+    {
+      "path": "artifacts/TASK-001/references/sources.json",
+      "sha256": "569a708fcb1963ac990aa112b131f3bca93adce5e40b73995c09908def1a6917"
+    }
+  ]
+}

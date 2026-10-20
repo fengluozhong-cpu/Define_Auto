@@ -1,0 +1,347 @@
+{
+  "package_id": "gate1-v0.1",
+  "manifest_sha256": "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3",
+  "checked_at": "2026-10-20T10:04:06.762396+08:00",
+  "check_id": "Q06",
+  "result": "passed",
+  "files_verified": 82,
+  "file_results": [
+    {
+      "path": ".gitignore",
+      "result": "passed"
+    },
+    {
+      "path": "AGENTS.md",
+      "result": "passed"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/documents-01/checks.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/documents-02/checks.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-01/case-readiness.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-01/checks.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-01/run.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/case-readiness.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/checks.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/inputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/outputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/run.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/case-readiness.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/checks.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/coverage.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/inputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/outputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/run.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/case-readiness.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/checks.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/coverage.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/inputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/outputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/run.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/rebuild-01/build-record.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/rebuild-01/checks.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-dds-define.yaml",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-dds.yaml",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-define.yaml",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-LICENSE",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-readme.md",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-xml-define.yaml",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/pyreadstat-api.html",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/sas-xport-v5.pdf",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/sources-initial.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/references/sources.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/start/dependencies.json",
+      "result": "passed"
+    },
+    {
+      "path": "artifacts/TASK-001/start/post-review-changes.json",
+      "result": "passed"
+    },
+    {
+      "path": "baselines/BL-20261020-01/AGENTS.md",
+      "result": "passed"
+    },
+    {
+      "path": "baselines/BL-20261020-01/ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "path": "baselines/BL-20261020-01/docs/tasks/TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "path": "baselines/BL-20261020-01/GOALS.md",
+      "result": "passed"
+    },
+    {
+      "path": "baselines/BL-20261020-01/manifest.json",
+      "result": "passed"
+    },
+    {
+      "path": "baselines/BL-20261020-01/PLANS.md",
+      "result": "passed"
+    },
+    {
+      "path": "baselines/BL-20261020-01/README.md",
+      "result": "passed"
+    },
+    {
+      "path": "baselines/BL-20261020-01/REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-01-checks-initial.json",
+      "result": "passed"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-01-checks.json",
+      "result": "passed"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "path": "docs/contracts/TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "path": "docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "path": "docs/tasks/TASK-001-findings.json",
+      "result": "passed"
+    },
+    {
+      "path": "docs/tasks/TASK-001.md",
+      "result": "passed"
+    },
+    {
+      "path": "docs/tasks/task001-review/final-review.json",
+      "result": "passed"
+    },
+    {
+      "path": "docs/tasks/task001-review/final-review.md",
+      "result": "passed"
+    },
+    {
+      "path": "docs/tasks/task001-review/independent-xpt-raw-v1.json",
+      "result": "passed"
+    },
+    {
+      "path": "docs/tasks/task001-review/independent_xpt_audit.py",
+      "result": "passed"
+    },
+    {
+      "path": "docs/tasks/task001-review/record_final_review.py",
+      "result": "passed"
+    },
+    {
+      "path": "expectations/task001/v0.1/coverage.json",
+      "result": "passed"
+    },
+    {
+      "path": "expectations/task001/v0.1/expected.json",
+      "result": "passed"
+    },
+    {
+      "path": "expectations/task001/v0.1/gate1-checklist.json",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/build-record.json",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/cm.xpt",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/dependencies.json",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/dependency-changes.json",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/dm.xpt",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/input-manifest.json",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/patch.json",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/source-data.json",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/spec-changed.json",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/spec.json",
+      "result": "passed"
+    },
+    {
+      "path": "fixtures/task001/v0.1/vs.xpt",
+      "result": "passed"
+    },
+    {
+      "path": "GOALS.md",
+      "result": "passed"
+    },
+    {
+      "path": "PLANS.md",
+      "result": "passed"
+    },
+    {
+      "path": "README.md",
+      "result": "passed"
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "path": "tools/task001/build_fixtures.py",
+      "result": "passed"
+    },
+    {
+      "path": "tools/task001/check_documents.py",
+      "result": "passed"
+    },
+    {
+      "path": "tools/task001/check_materials.py",
+      "result": "passed"
+    },
+    {
+      "path": "tools/task001/package_gate1.py",
+      "result": "passed"
+    },
+    {
+      "path": "tools/task001/requirements-fixtures.lock.txt",
+      "result": "passed"
+    }
+  ],
+  "excluded_from_frozen_package": true,
+  "gate1": "pending_chris",
+  "approved": false,
+  "Q07": {
+    "result": "not_run",
+    "decision_owner": "Chris",
+    "blocking": true
+  },
+  "restore": "Read manifest, copy listed files to a new independent folder maintaining relative paths, then verify every size and SHA-256. Never overwrite the current workspace or original package."
+}

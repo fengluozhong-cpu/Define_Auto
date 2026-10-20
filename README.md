@@ -4,7 +4,7 @@ Define-XML 2.1 与 SDRG／ADRG 自动化项目，面向统计编程人员。长�
 
 ## 当前状态
 
-项目处于 Task 000 文档基线阶段。文档均为 **DRAFT，待 Chris 审阅批准**；系统尚未实现，Task 001 尚未获准启动。阶段计划和退出条件以 [PLANS.md](PLANS.md) 为准。
+Task 000 的五份核心文件已由 Chris 批准正式生效，基线 `BL-20261020-01`，见 [批准记录](docs/approvals/APR-20261020-01.md)。[Task 001](docs/tasks/TASK-001.md) 已验收，GATE-1 已由 Chris 确认通过；`gate1-v0.1` 的合成 XPT／Spec、最小契约、24 条独立预期、覆盖及质量门已批准作为后续实现依据，见 [APR-20261020-02](docs/approvals/APR-20261020-02.md)。未决项及延期保留；核对引擎尚未实现，MVP 0.1 实施待明确授权。阶段计划和退出条件以 [PLANS.md](PLANS.md) 为准。
 
 ## 项目文档
 
@@ -14,6 +14,19 @@ Define-XML 2.1 与 SDRG／ADRG 自动化项目，面向统计编程人员。长�
 - [ARCHITECTURE.md](ARCHITECTURE.md)：架构边界、逻辑数据契约和设计决策。
 - [PLANS.md](PLANS.md)：当前状态、阶段索引、质量门、批准及任务入口。
 - [docs/tasks/TASK-000.md](docs/tasks/TASK-000.md)：Task 000 任务记录、阶段验收汇总和交接证据。
+- [docs/tasks/TASK-001.md](docs/tasks/TASK-001.md)：当前任务、契约、夹具、独立预期、技术审阅与 GATE-1 审阅包。
+
+## Task 001 夹具检查
+
+固定输入位于 `fixtures/task001/v0.1/`；人工推导预期与覆盖／质量门位于 `expectations/task001/v0.1/`。只含完全合成数据，不是递交级 SDTM。脚本检查材料和固定物理事实，不实现核对或应用 patch。
+
+本机已在 `.venv-task001` 配置 Python 3.12.13，夹具工具版本锁定于 `tools/task001/requirements-fixtures.lock.txt`。恢复机器需先具备兼容的 Python 3.12，在项目内建立 venv 并执行 `python -m pip install -r tools/task001/requirements-fixtures.lock.txt`；不需全局安装。然后在项目根运行：
+
+```powershell
+.\.venv-task001\Scripts\python.exe tools/task001/check_materials.py --run-id materials-new
+```
+
+`run-id` 必须每次唯一，证据写入 `artifacts/TASK-001/<run-id>/`，不会覆盖旧结果。需要重建 XPT 时用 `build_fixtures.py --out work/task001-rebuild-new` 指定新目录；原始固定夹具不覆盖，重建物理字节与正式输入另行比对。不要将检查器通过误记为核对行为、业务预期或 GATE-1 已通过。
 
 ## 长期能力
 

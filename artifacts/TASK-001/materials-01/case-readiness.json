@@ -1,0 +1,324 @@
+{
+  "expected_sha256": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808",
+  "cases": [
+    {
+      "case_id": "T001-C01",
+      "requirements": [
+        "FR-001",
+        "FR-002",
+        "NFR-002"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/0",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C02",
+      "requirements": [
+        "FR-001",
+        "FR-003",
+        "FR-006",
+        "FR-008",
+        "AC-01"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/1",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C03",
+      "requirements": [
+        "FR-001",
+        "FR-014",
+        "NFR-004"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/2",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C04",
+      "requirements": [
+        "FR-002",
+        "FR-008",
+        "AC-02"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/3",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C05",
+      "requirements": [
+        "FR-002",
+        "FR-003",
+        "FR-006",
+        "FR-008",
+        "AC-02"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/4",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C06",
+      "requirements": [
+        "FR-002",
+        "FR-008",
+        "AC-02"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/5",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C07",
+      "requirements": [
+        "FR-002",
+        "FR-008",
+        "AC-02"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/6",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C08",
+      "requirements": [
+        "FR-002",
+        "FR-003",
+        "FR-006",
+        "FR-015",
+        "AC-05"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/7",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C09",
+      "requirements": [
+        "FR-002",
+        "FR-003",
+        "FR-006",
+        "AC-05"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/8",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C10",
+      "requirements": [
+        "FR-002",
+        "FR-003",
+        "FR-006",
+        "AC-05"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/9",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C11",
+      "requirements": [
+        "FR-003",
+        "FR-006",
+        "AC-05"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/10",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C12",
+      "requirements": [
+        "FR-003",
+        "FR-006"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/11",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C13",
+      "requirements": [
+        "FR-015",
+        "NFR-001"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/12",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C14",
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/13",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C15",
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/14",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C16",
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/15",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C17",
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/16",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C18",
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/17",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C19",
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/18",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C20",
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/19",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C21",
+      "requirements": [
+        "FR-018",
+        "NFR-001",
+        "AC-11"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/20",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C22",
+      "requirements": [
+        "FR-015",
+        "NFR-004"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/21",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C23",
+      "requirements": [
+        "FR-005",
+        "FR-007",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/22",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    },
+    {
+      "case_id": "T001-C24",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "NFR-001"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json#/cases/23",
+      "automated_material_check": "passed",
+      "independent_manual_review": "see docs/tasks/task001-review/",
+      "engine_behavior_result": "not_run",
+      "engine_evidence": null
+    }
+  ],
+  "scope": "material readiness fields only; engine behavior not tested"
+}

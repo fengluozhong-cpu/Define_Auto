@@ -1,0 +1,34 @@
+{
+  "schema_version": "task001-spec-0.1",
+  "spec_id": "SYN001-SPEC",
+  "version": "0.1",
+  "study_id": "SYN001",
+  "family": "SDTM",
+  "status": "synthetic_design_draft",
+  "standards": {"define_xml_target": "2.1", "sdtmig": null, "ct": null},
+  "datasets": [
+    {"name": "DM", "label": "Demographics", "variables": [
+      {"name": "STUDYID", "label": "Study Identifier", "type": "character", "declared_length": 6},
+      {"name": "DOMAIN", "label": "Domain Abbreviation", "type": "character", "declared_length": 2},
+      {"name": "USUBJID", "label": "Unique Subject Identifier", "type": "character", "declared_length": 8},
+      {"name": "SEX", "label": "Biological Sex", "type": "character", "declared_length": 3, "origin": {"value": null, "review_state": "unknown"}, "codelist_id": null},
+      {"name": "AGE", "label": "Age", "type": "numeric", "declared_length": 8},
+      {"name": "ARMCD", "label": "Planned Arm Code", "type": "character", "declared_length": 8},
+      {"name": "ARM", "label": "Description of Planned Arm", "type": "character", "declared_length": 20}
+    ], "value_levels": []},
+    {"name": "VS", "label": "Vital Signs", "variables": [
+      {"name": "STUDYID", "label": "Study Identifier", "type": "character", "declared_length": 1},
+      {"name": "DOMAIN", "label": "Domain Abbreviation", "type": "character", "declared_length": 1},
+      {"name": "USUBJID", "label": "Unique Subject Identifier", "type": "character", "declared_length": 1},
+      {"name": "VSTESTCD", "label": "Vital Signs Test Short Name", "type": "character", "declared_length": 1},
+      {"name": "VSORRES", "label": "Result or Finding in Original Units", "type": "character", "declared_length": 1}
+    ], "value_levels": []},
+    {"name": "AE", "label": "Adverse Events", "variables": [
+      {"name": "AETERM", "label": "Reported Term for the Adverse Event", "type": "character", "declared_length": 40}
+    ], "value_levels": []},
+    {"name": "CM", "label": "Concomitant Medications", "variables": [
+      {"name": "CMTRT", "label": "Reported Name of Drug, Med, or Therapy", "type": "character", "declared_length": 40}
+    ], "value_levels": []}
+  ],
+  "extension_slots": {"methods": [], "codelists": [], "documents": [], "comments": [], "protocol": null, "sap": null, "adam_lineage": []}
+}

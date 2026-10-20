@@ -1,0 +1,37 @@
+{
+  "fixture_version": "0.1",
+  "confidentiality": "fully_synthetic",
+  "study_id": "SYN001",
+  "datasets": [
+    {
+      "name": "DM",
+      "label": "Demographics",
+      "columns": [
+        {"name": "STUDYID", "type": "character", "length": 6, "label": "Study Identifier"},
+        {"name": "DOMAIN", "type": "character", "length": 2, "label": "Domain Abbreviation"},
+        {"name": "USUBJID", "type": "character", "length": 8, "label": "Unique Subject Identifier"},
+        {"name": "SEX", "type": "character", "length": 1, "label": "Sex"},
+        {"name": "AGE", "type": "numeric", "length": 8, "label": "Age"},
+        {"name": "ARMCD", "type": "numeric", "length": 8, "label": "Actual Arm Code"},
+        {"name": "EXTRA", "type": "character", "length": 1, "label": "Synthetic Extra"}
+      ],
+      "rows": [
+        ["SYN001", "DM", "SYN-0001", " ", {"sas_missing": "."}, 1, "X"],
+        ["SYN001", "DM", "SYN-0002", " ", {"sas_missing": "A"}, 2, "X"],
+        ["SYN001", "DM", "SYN-0003", " ", {"sas_missing": "Z"}, 1, "Y"]
+      ]
+    },
+    {
+      "name": "VS",
+      "label": "Vital Signs",
+      "columns": [
+        {"name": "STUDYID", "type": "character", "length": 1, "label": "Study Identifier"},
+        {"name": "DOMAIN", "type": "character", "length": 1, "label": "Domain Abbreviation"},
+        {"name": "USUBJID", "type": "character", "length": 1, "label": "Unique Subject Identifier"},
+        {"name": "VSTESTCD", "type": "character", "length": 1, "label": "Vital Signs Test Short Name"},
+        {"name": "VSORRES", "type": "character", "length": 1, "label": "Result or Finding in Original Units"}
+      ],
+      "rows": []
+    }
+  ]
+}

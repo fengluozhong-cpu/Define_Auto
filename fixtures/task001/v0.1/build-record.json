@@ -1,0 +1,39 @@
+{
+  "executed_at": "2026-10-20T09:50:38.761874+08:00",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "script_sha256": "ad83a0ac636e5c8d46041e92eaf0b28f8c7b761f4c9adb4da30d701c1614436c",
+  "pyreadstat": "1.3.6",
+  "pandas": "3.0.6",
+  "byte_edits": [
+    {
+      "file": "dm.xpt",
+      "variable": "AGE",
+      "row_1based": 1,
+      "offset_0based": 1777,
+      "hex": "2e00000000000000",
+      "missing_code": "."
+    },
+    {
+      "file": "dm.xpt",
+      "variable": "AGE",
+      "row_1based": 2,
+      "offset_0based": 1811,
+      "hex": "4100000000000000",
+      "missing_code": "A"
+    },
+    {
+      "file": "dm.xpt",
+      "variable": "AGE",
+      "row_1based": 3,
+      "offset_0based": 1845,
+      "hex": "5a00000000000000",
+      "missing_code": "Z"
+    }
+  ],
+  "purpose": "fixture manufacturing only; no expectations generated",
+  "output_hashes": {
+    "cm.xpt": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+    "dm.xpt": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+    "vs.xpt": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22"
+  }
+}

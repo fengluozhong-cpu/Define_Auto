@@ -1,0 +1,569 @@
+{
+  "scope": "material audit only; independent technical review recorded separately",
+  "rows": [
+    {
+      "requirement": "FR-001",
+      "clause": "每份来源 hash/版本/完整性/定位；未提供与读失败分离",
+      "case_ids": [
+        "T001-C01",
+        "T001-C02",
+        "T001-C03"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1"
+    },
+    {
+      "requirement": "FR-002",
+      "clause": "dataset/variable/label/type/存储长度/行数/缺失/观察聚合",
+      "case_ids": [
+        "T001-C01",
+        "T001-C04",
+        "T001-C05",
+        "T001-C06",
+        "T001-C07",
+        "T001-C08",
+        "T001-C09",
+        "T001-C10"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1"
+    },
+    {
+      "requirement": "FR-003",
+      "clause": "计划对象及 Origin/Method/CodeList/VLM；重复/不支持列",
+      "case_ids": [
+        "T001-C02",
+        "T001-C05",
+        "T001-C08",
+        "T001-C09",
+        "T001-C10",
+        "T001-C11",
+        "T001-C12"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 / MVP 0.2 / ADaM"
+    },
+    {
+      "requirement": "FR-004",
+      "clause": "采集预设/页码/字段映射/未观察选项",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.2"
+    },
+    {
+      "requirement": "FR-005",
+      "clause": "标准/CT 版本身份、术语和扩展",
+      "case_ids": [
+        "T001-C15",
+        "T001-C23"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.2；OQ-02/07"
+    },
+    {
+      "requirement": "FR-006",
+      "clause": "四类断言/缺项/额外/字段冲突/引用/稳定身份",
+      "case_ids": [
+        "T001-C01",
+        "T001-C02",
+        "T001-C05",
+        "T001-C08",
+        "T001-C09",
+        "T001-C10",
+        "T001-C11",
+        "T001-C12",
+        "T001-C24"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1"
+    },
+    {
+      "requirement": "FR-007",
+      "clause": "统一中心模型、证据/规则/批准、DDS 映射",
+      "case_ids": [
+        "T001-C23",
+        "T001-C24"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 / MVP 0.3 / RG 0.1"
+    },
+    {
+      "requirement": "FR-008",
+      "clause": "缺文件/零行/缺变量/全空/条件无行/条件全空；原因人审",
+      "case_ids": [
+        "T001-C02",
+        "T001-C04",
+        "T001-C05",
+        "T001-C06",
+        "T001-C07"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.2 / MVP 0.3 / RG 0.1"
+    },
+    {
+      "requirement": "FR-009",
+      "clause": "计划/观察 VLM、复合条件、等价/重叠/冲突",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.2"
+    },
+    {
+      "requirement": "FR-010",
+      "clause": "SUPP QNAM/父域/QVAL 元数据、异常关联",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.2"
+    },
+    {
+      "requirement": "FR-011",
+      "clause": "SDTM/ADaM Define-XML 2.1、全部适用字段及不支持项",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.3 / ADaM"
+    },
+    {
+      "requirement": "FR-012",
+      "clause": "SDRG 同源清单/No Data/发现/回复/决策/批准",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "RG 0.1"
+    },
+    {
+      "requirement": "FR-013",
+      "clause": "ADRG/分析集/衍生/偏离/来源与批准",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "ADaM / ADRG"
+    },
+    {
+      "requirement": "FR-014",
+      "clause": "分层验证/依据/版本/工具失败不得通过",
+      "case_ids": [
+        "T001-C03"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 起逐层至集成"
+    },
+    {
+      "requirement": "FR-015",
+      "clause": "patch 理由/审阅人/幂等/相关依赖失效",
+      "case_ids": [
+        "T001-C08",
+        "T001-C13",
+        "T001-C14",
+        "T001-C15",
+        "T001-C16",
+        "T001-C17",
+        "T001-C18",
+        "T001-C19",
+        "T001-C20",
+        "T001-C21",
+        "T001-C22"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1"
+    },
+    {
+      "requirement": "FR-016",
+      "clause": "P21 comment/回复/例外/最终批准/快照",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "RG 0.1 / 集成"
+    },
+    {
+      "requirement": "FR-017",
+      "clause": "Protocol/SAP 人工结构化/审阅提取/USDM 扩展",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "Protocol / SAP / USDM"
+    },
+    {
+      "requirement": "FR-018",
+      "clause": "增量影响/重跑/关键输出到依赖和批准",
+      "case_ids": [
+        "T001-C14",
+        "T001-C15",
+        "T001-C16",
+        "T001-C17",
+        "T001-C18",
+        "T001-C19",
+        "T001-C20",
+        "T001-C21",
+        "T001-C24"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 / 集成"
+    },
+    {
+      "requirement": "NFR-001",
+      "clause": "同输入业务结果/稳定身份/版本锁定",
+      "case_ids": [
+        "T001-C13",
+        "T001-C21",
+        "T001-C24"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 / 集成"
+    },
+    {
+      "requirement": "NFR-002",
+      "clause": "本地/公开合成/无凭证与受试者标识外发",
+      "case_ids": [
+        "T001-C01"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "试点前"
+    },
+    {
+      "requirement": "NFR-003",
+      "clause": "差异/原因/来源/下一步可审阅",
+      "case_ids": [
+        "T001-C02",
+        "T001-C08"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 起"
+    },
+    {
+      "requirement": "NFR-004",
+      "clause": "故障/未知/失效 patch 显式，旧批准不覆盖",
+      "case_ids": [
+        "T001-C03",
+        "T001-C14",
+        "T001-C22"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 / MVP 0.3"
+    },
+    {
+      "requirement": "NFR-005",
+      "clause": "内部模型独立模板、能力及转换损失",
+      "case_ids": [
+        "T001-C23"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.3"
+    },
+    {
+      "requirement": "NFR-006",
+      "clause": "标准资料来源/日期/许可/限制；规则如实",
+      "case_ids": [
+        "T001-C23"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "标准接入前；OQ-07"
+    },
+    {
+      "requirement": "NFR-007",
+      "clause": "覆盖/not_run/failed/人工未决；不自动合规",
+      "case_ids": [
+        "T001-C01",
+        "T001-C02",
+        "T001-C03",
+        "T001-C04",
+        "T001-C05",
+        "T001-C06",
+        "T001-C07",
+        "T001-C08",
+        "T001-C09",
+        "T001-C10",
+        "T001-C11",
+        "T001-C12",
+        "T001-C13",
+        "T001-C14",
+        "T001-C15",
+        "T001-C16",
+        "T001-C17",
+        "T001-C18",
+        "T001-C19",
+        "T001-C20",
+        "T001-C21",
+        "T001-C22",
+        "T001-C23",
+        "T001-C24"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "每阶段"
+    },
+    {
+      "requirement": "AC-01",
+      "clause": "Spec AE 未给文件",
+      "case_ids": [
+        "T001-C02"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1"
+    },
+    {
+      "requirement": "AC-02",
+      "clause": "空域/缺变量/全缺失含特殊缺失",
+      "case_ids": [
+        "T001-C04",
+        "T001-C05",
+        "T001-C06",
+        "T001-C07"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 / MVP 0.2"
+    },
+    {
+      "requirement": "AC-03",
+      "clause": "计划条件无行与条件内全空",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.2 / MVP 0.3"
+    },
+    {
+      "requirement": "AC-04",
+      "clause": "采集 A/B/C 实际 A/B 保留 C",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.2"
+    },
+    {
+      "requirement": "AC-05",
+      "clause": "Label/type/length 冲突与选值追溯",
+      "case_ids": [
+        "T001-C08",
+        "T001-C09",
+        "T001-C10",
+        "T001-C11"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1"
+    },
+    {
+      "requirement": "AC-06",
+      "clause": "SUPP 跨父域相同 QNAM/孤立关联",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.2"
+    },
+    {
+      "requirement": "AC-07",
+      "clause": "跨 CT 版本/扩展项无 NCI code",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.2"
+    },
+    {
+      "requirement": "AC-08",
+      "clause": "源或非输入依赖变化/适配器不支持字段",
+      "case_ids": [
+        "T001-C14",
+        "T001-C15",
+        "T001-C16",
+        "T001-C17",
+        "T001-C18",
+        "T001-C19",
+        "T001-C20"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 / MVP 0.3"
+    },
+    {
+      "requirement": "AC-09",
+      "clause": "P21 不可运行/报告解析失败/RG 旧快照",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.3 / RG 0.1"
+    },
+    {
+      "requirement": "AC-10",
+      "clause": "LLM 无出处复杂衍生",
+      "case_ids": [],
+      "independent_expected": null,
+      "coverage_status": "not_covered",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "ADaM / Protocol / SAP"
+    },
+    {
+      "requirement": "AC-11",
+      "clause": "同输入重跑及改批准决定影响链",
+      "case_ids": [
+        "T001-C21",
+        "T001-C24"
+      ],
+      "independent_expected": "expectations/task001/v0.1/expected.json",
+      "coverage_status": "partial",
+      "actual_material_evidence": "artifacts/TASK-001/materials-04/checks.json",
+      "material_result": "passed",
+      "engine_evidence": null,
+      "engine_result": "not_run",
+      "deferred_to": "MVP 0.1 / 集成"
+    }
+  ]
+}

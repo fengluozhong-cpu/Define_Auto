@@ -1,0 +1,188 @@
+{
+  "reviewer": "/root/review_contract",
+  "recorded_at": "2026-10-20T09:54:32.062236+08:00",
+  "script_sha256": "c2199ecc15953657f328415ce0e635d64ce780cceaadce5b3431b2f320fa1731",
+  "method": "stdlib raw bytes only, separate from fixture writer/reader/checker",
+  "result": "passed",
+  "assertions_executed": 8,
+  "engine_behavior": "not_run",
+  "findings": {
+    "DM": {
+      "sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "rows": 3,
+      "descriptors": [
+        {
+          "name": "STUDYID",
+          "type": 2,
+          "width": 6,
+          "label": "Study Identifier",
+          "position": 0
+        },
+        {
+          "name": "DOMAIN",
+          "type": 2,
+          "width": 2,
+          "label": "Domain Abbreviation",
+          "position": 6
+        },
+        {
+          "name": "USUBJID",
+          "type": 2,
+          "width": 8,
+          "label": "Unique Subject Identifier",
+          "position": 8
+        },
+        {
+          "name": "SEX",
+          "type": 2,
+          "width": 1,
+          "label": "Sex",
+          "position": 16
+        },
+        {
+          "name": "AGE",
+          "type": 1,
+          "width": 8,
+          "label": "Age",
+          "position": 17
+        },
+        {
+          "name": "ARMCD",
+          "type": 1,
+          "width": 8,
+          "label": "Actual Arm Code",
+          "position": 25
+        },
+        {
+          "name": "EXTRA",
+          "type": 2,
+          "width": 1,
+          "label": "Synthetic Extra",
+          "position": 33
+        }
+      ],
+      "aggregates": {
+        "STUDYID": {
+          "missing": 0,
+          "distinct_nonmissing": 1,
+          "max_content_bytes": 6
+        },
+        "DOMAIN": {
+          "missing": 0,
+          "distinct_nonmissing": 1,
+          "max_content_bytes": 2
+        },
+        "USUBJID": {
+          "missing": 0,
+          "distinct_nonmissing": 3,
+          "max_content_bytes": 8
+        },
+        "SEX": {
+          "missing": 3,
+          "distinct_nonmissing": 0,
+          "max_content_bytes": 0
+        },
+        "AGE": {
+          "missing": 3,
+          "missing_codes": {
+            ".": 1,
+            "A": 1,
+            "Z": 1
+          },
+          "distinct_nonmissing": 0
+        },
+        "ARMCD": {
+          "missing": 0,
+          "missing_codes": {},
+          "distinct_nonmissing": 2,
+          "synthetic_values": [
+            1.0,
+            2.0,
+            1.0
+          ]
+        },
+        "EXTRA": {
+          "missing": 0,
+          "distinct_nonmissing": 2,
+          "max_content_bytes": 1
+        }
+      },
+      "namestr_header_offset": 560,
+      "observation_header_offset": 1680,
+      "stride": 34,
+      "row_count_limit": "Fixed DM ends in nonblank EXTRA; VS has no payload. Not a general XPT row-count algorithm."
+    },
+    "VS": {
+      "sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "rows": 0,
+      "descriptors": [
+        {
+          "name": "STUDYID",
+          "type": 2,
+          "width": 1,
+          "label": "Study Identifier",
+          "position": 0
+        },
+        {
+          "name": "DOMAIN",
+          "type": 2,
+          "width": 1,
+          "label": "Domain Abbreviation",
+          "position": 1
+        },
+        {
+          "name": "USUBJID",
+          "type": 2,
+          "width": 1,
+          "label": "Unique Subject Identifier",
+          "position": 2
+        },
+        {
+          "name": "VSTESTCD",
+          "type": 2,
+          "width": 1,
+          "label": "Vital Signs Test Short Name",
+          "position": 3
+        },
+        {
+          "name": "VSORRES",
+          "type": 2,
+          "width": 1,
+          "label": "Result or Finding in Original Units",
+          "position": 4
+        }
+      ],
+      "aggregates": {
+        "STUDYID": {
+          "missing": 0,
+          "distinct_nonmissing": 0,
+          "max_content_bytes": 0
+        },
+        "DOMAIN": {
+          "missing": 0,
+          "distinct_nonmissing": 0,
+          "max_content_bytes": 0
+        },
+        "USUBJID": {
+          "missing": 0,
+          "distinct_nonmissing": 0,
+          "max_content_bytes": 0
+        },
+        "VSTESTCD": {
+          "missing": 0,
+          "distinct_nonmissing": 0,
+          "max_content_bytes": 0
+        },
+        "VSORRES": {
+          "missing": 0,
+          "distinct_nonmissing": 0,
+          "max_content_bytes": 0
+        }
+      },
+      "namestr_header_offset": 560,
+      "observation_header_offset": 1360,
+      "stride": 5,
+      "row_count_limit": "Fixed DM ends in nonblank EXTRA; VS has no payload. Not a general XPT row-count algorithm."
+    }
+  }
+}

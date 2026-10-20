@@ -1,0 +1,14 @@
+{
+  "base_snapshot": "dependencies.json#SYN-DEP-001",
+  "synthetic_scenarios_only": true,
+  "changes": [
+    {"id": "P-INPUT", "component": "inputs", "replacement": "spec-changed.json", "reason": "Spec label changed; original source identity preserved at new version"},
+    {"id": "P-CT", "component": "standards", "replacement": {"ct": {"status": "synthetic_reference", "version": "SYN-CT-2", "terms": ["F", "M", "U"]}}, "reason": "Synthetic CT context changed while input bytes unchanged"},
+    {"id": "P-RULE", "component": "rules", "replacement": {"version": "SYN-RULE-2", "label_comparison": "exact"}, "reason": "Label comparison semantics changed"},
+    {"id": "P-CONFIG", "component": "config", "replacement": {"version": "SYN-CONFIG-2", "trim_ascii_spaces": false}, "reason": "Effective normalization changed"},
+    {"id": "P-SCHEMA", "component": "model_schema", "replacement": {"version": "SYN-MODEL-2", "assertion_fields": ["value", "value_type"]}, "reason": "Model schema changed"},
+    {"id": "P-UPSTREAM", "component": "upstream_decisions", "replacement": [{"id": "SYN-UPSTREAM-2", "scope": "SYN001"}], "reason": "Upstream decision changed"},
+    {"id": "P-TOOL", "component": "tools", "replacement": {"extractor": "SYN-EXTRACTOR-2"}, "reason": "Result-affecting extractor changed"},
+    {"id": "P-AUDIT", "component": "audit", "replacement": {"run_started_at": "2000-01-02T00:00:00Z"}, "reason": "Only run audit timestamp changed"}
+  ]
+}

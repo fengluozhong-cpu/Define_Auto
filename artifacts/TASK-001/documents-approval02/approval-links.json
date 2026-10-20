@@ -1,0 +1,41 @@
+{
+  "result": "passed",
+  "scope": "Approval record local links and final administrative file hashes",
+  "performed_at": "2026-10-20T23:38:06.938119+08:00",
+  "checks": [
+    {
+      "link": "../../artifacts/TASK-001/gate1-v0.1/manifest.json",
+      "exists": true
+    },
+    {
+      "link": "../tasks/TASK-001.md#6-分组业务审阅记录",
+      "exists": true
+    },
+    {
+      "link": "APR-20261020-02-checks.json",
+      "exists": true
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/approvals/APR-20261020-02.md",
+      "sha256": "7d6a616156e77bb36e47b76892104212660e75c48cf3ae05066d3cb1abaf5863"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-02-checks.json",
+      "sha256": "dd6c8daa6ffd4cfabefee8e5878379a2df259fcb911931f14360594678a4be38"
+    },
+    {
+      "path": "docs/tasks/TASK-001.md",
+      "sha256": "c66297c72f210af64f2e0b9cae48fbaf3af00a11335712c5a2381c3f529ff0c2"
+    },
+    {
+      "path": "PLANS.md",
+      "sha256": "1d7331d96e3fda9d1644cbb6bfc6739caff4d98368493f30a4911a74a1ee1afe"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3cbc66d5981836bbe6fc01d718ff77a289a3dc9b85ca6b5b0361b78d903ea25d"
+    }
+  ]
+}

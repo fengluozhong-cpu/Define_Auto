@@ -1,0 +1,93 @@
+{
+  "version": "0.1",
+  "scope_confirmation": "pending_chris",
+  "frozen_scope": "Q01-Q07; never silently downgrade required checks",
+  "checks": [
+    {
+      "check_id": "Q01",
+      "requirements_scope": "BL-20261020-01/当前批准同步/保护文件",
+      "applicability": "applicable",
+      "required": true,
+      "method": "automated",
+      "expected": "快照 7 文件、manifest 和保护 hash 一致",
+      "evidence": "artifacts/TASK-001/start/dependencies.json + materials-02/checks.json",
+      "execution_result": "pending_evidence",
+      "blocking_finding": null,
+      "decision_owner": "implementation Agent + independent review Agent; no business approval"
+    },
+    {
+      "check_id": "Q02",
+      "requirements_scope": "固定合成输入和结构化 Spec",
+      "applicability": "applicable",
+      "required": true,
+      "method": "automated",
+      "expected": "固定物理事实/缺席/读失败/特殊缺失/源完整性与独立预期相符",
+      "evidence": "materials-02/checks.json + fixture build-record",
+      "execution_result": "pending_evidence",
+      "blocking_finding": null,
+      "decision_owner": "implementation Agent + independent review Agent; no business approval"
+    },
+    {
+      "check_id": "Q03",
+      "requirements_scope": "独立预期及原始来源",
+      "applicability": "applicable",
+      "required": true,
+      "method": "manual_with_automated_fact_audit",
+      "expected": "逐例从原始来源独立推导；原始字节检查不依赖 writer/reader",
+      "evidence": "docs/tasks/task001-review/",
+      "execution_result": "pending_evidence",
+      "blocking_finding": null,
+      "decision_owner": "implementation Agent + independent review Agent; no business approval"
+    },
+    {
+      "check_id": "Q04",
+      "requirements_scope": "覆盖/延期/身份/DDS/来源责任/状态",
+      "applicability": "applicable",
+      "required": true,
+      "method": "manual_with_structural_check",
+      "expected": "36 条 FR/NFR/AC 记录、24 用例、自动/人工/落实阶段和未覆盖明确",
+      "evidence": "expectations/task001/v0.1/coverage.json + task001-review",
+      "execution_result": "pending_evidence",
+      "blocking_finding": null,
+      "decision_owner": "implementation Agent + independent review Agent; no business approval"
+    },
+    {
+      "check_id": "Q05",
+      "requirements_scope": "独立技术审阅与发现关闭",
+      "applicability": "applicable",
+      "required": true,
+      "method": "manual",
+      "expected": "记录对象 hash、原发现、修复、原场景复测及独立确认；无未关闭技术阻断",
+      "evidence": "docs/tasks/task001-review/",
+      "execution_result": "pending_evidence",
+      "blocking_finding": "pending_technical_review",
+      "decision_owner": "implementation Agent + independent review Agent; no business approval"
+    },
+    {
+      "check_id": "Q06",
+      "requirements_scope": "运行证据和可恢复交付",
+      "applicability": "applicable",
+      "required": true,
+      "method": "automated_and_manual",
+      "expected": "逐文件副本/hash 可核对；运行不覆盖；命令/环境/收集数明确",
+      "evidence": "artifacts/TASK-001/gate1-v0.1/manifest.json + gate1-v0.1-submission.json",
+      "execution_result": "pending_evidence",
+      "blocking_finding": null,
+      "decision_owner": "implementation Agent + independent review Agent; no business approval"
+    },
+    {
+      "check_id": "Q07",
+      "requirements_scope": "业务预期/范围/最小契约与 GATE-1",
+      "applicability": "applicable",
+      "required": true,
+      "method": "manual",
+      "expected": "Chris 对确切包确认首批样本、预期、最小契约和延期边界",
+      "evidence": "尚无批准记录；待 Chris",
+      "execution_result": "not_run",
+      "blocking_finding": "Chris confirmation required",
+      "decision_owner": "Chris"
+    }
+  ],
+  "gate1": "pending_chris",
+  "task_acceptance": "not_accepted"
+}

@@ -1,0 +1,14 @@
+{
+  "decision_id": "SYN-DEC-001",
+  "issue_ids": ["study/SYN001/family/SDTM/dataset/DM/variable/SEX:label:field_conflict:R-LABEL-1"],
+  "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX",
+  "field_path": "label",
+  "selected_value": "Biological Sex",
+  "rationale": "Synthetic review scenario: select the design label; no real business approval.",
+  "reviewer": "SYNTHETIC_REVIEWER",
+  "decided_at": "2000-01-01T00:00:00Z",
+  "dependency_snapshot_id": "SYN-DEP-001",
+  "validity_status": "candidate",
+  "supersedes": null,
+  "authorization_status": "synthetic_only"
+}

@@ -1,0 +1,26 @@
+{
+  "executed_at": "2026-10-20T09:57:36.811280+08:00",
+  "command": ".venv-task001/Scripts/python.exe tools/task001/build_fixtures.py --out work/task001-rebuild-01; then compare raw SHA-256 for dm/vs/cm.xpt",
+  "scope": "XPT fixed byte reproducibility only; not engine business determinism",
+  "checks": [
+    {
+      "file": "dm.xpt",
+      "fixed_sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "rebuilt_sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "result": "passed"
+    },
+    {
+      "file": "vs.xpt",
+      "fixed_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "rebuilt_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "result": "passed"
+    },
+    {
+      "file": "cm.xpt",
+      "fixed_sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "rebuilt_sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "result": "passed"
+    }
+  ],
+  "result": "passed"
+}
