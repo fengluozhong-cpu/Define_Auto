@@ -207,6 +207,7 @@ Chris 明确要求“请你先修复 Git”。本轮延续此前 Git 提交／�
 | 原提交反例 | [git-bytefix-before01](../../artifacts/TASK-001/git-bytefix-before01/checks.json)：91 项，88 项至少一个维度失败；本地 0 项失败，Git blob 56 项失败、恢复字节 32 项失败，验证器正确返回非零 |
 | 修复后 Git tree | [git-bytefix-index01](../../artifacts/TASK-001/git-bytefix-index01/checks.json)：91 项全部通过，0 failed；独立恢复与批准字节一致 |
 | 最终修复 tree 复核 | [git-bytefix-final01](../../artifacts/TASK-001/git-bytefix-final01/checks.json)：91 项全部通过；[全部暂存文件字节检查](../../artifacts/TASK-001/git-bytefix-index01/all-index-bytes.json)另确认 186 份源文件／夹具／证据按原始字节暂存 |
+| 实际修复提交独立克隆 | [fresh-clone.json](../../artifacts/TASK-001/git-bytefix-final01/fresh-clone.json)：从实际提交 da2ad3cfed50410e1b652e45ba2945bcb6d001a1 新克隆并检出，91 项批准检查全部通过；当时全部 188 份跟踪文件与原工作区逐字节一致 |
 
 新增检查器覆盖恢复失败路径；没有执行核对引擎或改变已有预期。提示词只同步 Git 缺口已修复的最新指针，v0.2 其他审阅修订保持。此前提示词审阅产生的修改／正式证据随本次 Git 修复一起保留，不丢弃。
 
