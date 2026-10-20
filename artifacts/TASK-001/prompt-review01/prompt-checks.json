@@ -1,0 +1,40 @@
+{
+  "performed_at": "2026-10-20T23:49:58.753410+08:00",
+  "scope": "Prompt structure and dependency safeguards only; no engine execution",
+  "result": "passed",
+  "checks": {
+    "prompt_under_4000_characters": true,
+    "prompt_characters": 3360,
+    "paired_fences": true,
+    "local_links_exist": true,
+    "baseline_case_ids_present": true,
+    "gate2_explicit": true,
+    "no_automatic_task001_pass_inheritance": true,
+    "human_readable_report_explicit": true,
+    "frozen_manifest_worktree_unchanged": true
+  },
+  "local_links": [
+    {
+      "target": "../approvals/APR-20261020-02.md",
+      "exists": true
+    },
+    {
+      "target": "TASK-001.md#9-启动提示词审阅与交接缺口",
+      "exists": true
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/tasks/MVP-0.1-kickoff-prompt.md",
+      "sha256": "3e3f3fa4badcbafcd3cf6be78655f9ed1d0fb85553ba2e281e110a8bbe00431a"
+    },
+    {
+      "path": "docs/tasks/TASK-001.md",
+      "sha256": "55052e80c370dd884e563400c3aa7c71eff8faf858f05a87b6a7f952816ba235"
+    },
+    {
+      "path": "PLANS.md",
+      "sha256": "53a50b51dc9b79ec0110b2b94b416007324f109bb3b83445913d372544c7ffb2"
+    }
+  ]
+}

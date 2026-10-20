@@ -169,3 +169,45 @@ Q01–Q06 的材料／技术门通过；Q07 由 Chris 本次人工确认通过�
 OQ-01 首批方案及 OQ-05 当前对齐边界已确认；No Data 正式语义、精确兼容性和批准记录所列延期／未决项继续保留。长期 G-01 至 G-08 不减，延期承接以冻结覆盖表及批准记录为准。
 
 最新接续入口：PLANS → 本节 → APR-20261020-02 → 冻结包。[MVP 0.1 启动提示](MVP-0.1-kickoff-prompt.md)已备妥；它是提示草案，不代表阶段已启动。收到明确实施授权后，新任务先建任务卡、承接补测项并冻结质量门，再开发核对核心。本次只登记批准及同步 TASK-001／PLANS／README，未实现引擎，未提交／推送，无运行中服务。
+
+## 9. 启动提示词审阅与交接缺口
+
+2026-10-20：Chris 明确要求审阅提示词并直接修改必要部分。v0.1 原文已随 Git 提交 `30748ec94c4bfc208d164e814e357eaeee25c8fe` 推送至 origin/main；本节补充的是该提交之后的审阅，不改写 §8 或原批准记录。MVP 0.1 未启动。
+
+[提示词 v0.2](MVP-0.1-kickoff-prompt.md) 已修订，正文 3360 字符。审阅依据为已批准契约、覆盖和 CTRL-01 至 CTRL-06，使用 kaz-leader 方法检查执行歧义；按项目既有任务卡交接，不另建 PROGRESS/BLOCKED 体系，不创建 Goal。
+
+| 发现 | 修订与理由 |
+|---|---|
+| v0.1 允许 Agent 将 C01–C24 自行改成延期或不适用 | 固定 24 例为必测基线；改变范围须指定验收负责人批准，防止自行缩小验收 |
+| 直接沿用 Task 001 的 Q01–Q07 | MVP 0.1 独立限定检查 ID，映射旧门但不继承通过结果，最终目标明确为 GATE-2 |
+| 共享模型与运行时约束没有明确交付要求 | 点名中心对象、模型/证据快照及所有报告同源，避免实现退化为扫描器 |
+| “不得自动批准 patch”容易被误解为不能自动应用人工决定 | 区分有效人工授权的自动应用与 Agent 自行批准；合成 patch 仅用于隔离测试 |
+| 新预期要求一概先向 Chris 请求批准，技术细节与新增业务规则混杂 | 已批准规则的技术派生案例自主推导并独立复核；新语义或范围改变仍须确认 |
+| 报告只要求可读，容易继续只交 JSON | 明确中文 Markdown/HTML 表格和字段；保留机器格式，减少人工阅读负担 |
+| 原文缺少精确批准 hash、真实读取路径及恢复失败处置 | 加入 manifest hash、从真实 XPT/Spec 读取、禁止固定答案替代核心行为，核验失败阻断依赖部分 |
+
+### T001-POST-01：Git 字节保真缺口（open）
+
+本轮实际对比本地批准副本和上述提交的 Git blob，证据见 [git-byte-integrity.json](../../artifacts/TASK-001/prompt-review01/git-byte-integrity.json)。本地 82 份副本及 manifest 均仍匹配批准 hash；提交中 54/82 份文件及 manifest 的 hash 不匹配，所有不匹配项均可由 CRLF→LF 转换解释。Git 配置 `core.autocrlf=true`，仓库无 `.gitattributes` 字节保真规则。原“工作区干净、推送成功”不能证明 Git 可恢复同样的批准字节，这是上次交付未检出的验证缺口。
+
+影响：当前本地 GATE-1 批准对象有效，批准内容和历史检查不改；从现有 Git 提交恢复的副本不得直接视为同一批准对象。必须核验实际恢复字节，不能重算 hash 消除差异。本次仅修订提示词／交接并收集只读证据，未修改 Git 配置、索引或冻结文件，未提交／推送。
+
+具体修复建议：增加项目内 `.gitattributes` 对冻结快照及校验材料禁用文本换行转换；以本地仍匹配的原始字节重新入库并保存新提交，不重写旧提交或批准对象；在独立目录从新提交恢复，核验 manifest 及全部文件 hash 后才能关闭本项。修复应同时检查 Task 000 基线及其他按字节校验的来源资产，不能只验证工作区或只验证文件数。该修复尚未执行；后续 Agent 先核对本项最新状态，再决定哪些依赖工作可继续。
+
+## 10. T001-POST-01 修复及接续（2026-10-21）
+
+Chris 明确要求“请你先修复 Git”。本轮延续此前 Git 提交／推送工作，保留 §9 原始失败与发现；最新技术处理为 `closed_fixed`，实际推送状态以 Git 远端核验为准。GATE-1 原批准持续有效，未修改批准记录或冻结对象。
+
+根因：`core.autocrlf=true` 且缺少项目属性，Git 入库和恢复时对混合 LF／CRLF 文件作了转换，造成提交 blob 或恢复物不匹配批准 hash。新增项目根 `.gitattributes` 的 `* -text`，使所有可能参与 hash 的项目文件按原字节入库／恢复；PDF 和 XPT 另禁用文本 diff/merge。此设置只属项目，不改变任何全局 Git 配置。重新暂存原始本地字节，没有重算批准 hash、修改快照或重写历史。
+
+验证入口：[check_git_preservation.py](../../tools/task001/check_git_preservation.py)。参数 `--ref <commit-or-tree> --run-id <unique>`；脚本核对 Task 000 的 7 份快照及 manifest、Task 001 的 82 份副本及 manifest，共 91 项；分别比较工作区、Git blob 和独立 git archive 解包目录。正式检查记录保存到 artifacts/TASK-001/<run-id>/；恢复目录可重建，正式结果不依赖 work 目录存续。
+
+| 检查 | 实际证据与结果 |
+|---|---|
+| 原提交反例 | [git-bytefix-before01](../../artifacts/TASK-001/git-bytefix-before01/checks.json)：91 项，88 项至少一个维度失败；本地 0 项失败，Git blob 56 项失败、恢复字节 32 项失败，验证器正确返回非零 |
+| 修复后 Git tree | [git-bytefix-index01](../../artifacts/TASK-001/git-bytefix-index01/checks.json)：91 项全部通过，0 failed；独立恢复与批准字节一致 |
+| 最终修复 tree 复核 | [git-bytefix-final01](../../artifacts/TASK-001/git-bytefix-final01/checks.json)：91 项全部通过；[全部暂存文件字节检查](../../artifacts/TASK-001/git-bytefix-index01/all-index-bytes.json)另确认 186 份源文件／夹具／证据按原始字节暂存 |
+
+新增检查器覆盖恢复失败路径；没有执行核对引擎或改变已有预期。提示词只同步 Git 缺口已修复的最新指针，v0.2 其他审阅修订保持。此前提示词审阅产生的修改／正式证据随本次 Git 修复一起保留，不丢弃。
+
+下一步：核对本次修复提交及 origin/main 一致；MVP 0.1 仍待明确启动授权，接续入口为 [启动提示词](MVP-0.1-kickoff-prompt.md)。将来克隆或更改 Git 处理方式后仍须重跑批准字节检查；旧提交 30748ec 不应作为原始字节恢复依据。

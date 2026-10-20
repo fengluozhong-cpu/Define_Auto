@@ -1,0 +1,5 @@
+# Preserve exact bytes: approved manifests and evidence hash source contents.
+# Repository-local; do not depend on each user's core.autocrlf setting.
+* -text
+*.pdf -diff -merge
+*.xpt -diff -merge

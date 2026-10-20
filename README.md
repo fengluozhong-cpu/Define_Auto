@@ -28,6 +28,16 @@ Task 000 的五份核心文件已由 Chris 批准正式生效，基线 `BL-20261
 
 `run-id` 必须每次唯一，证据写入 `artifacts/TASK-001/<run-id>/`，不会覆盖旧结果。需要重建 XPT 时用 `build_fixtures.py --out work/task001-rebuild-new` 指定新目录；原始固定夹具不覆盖，重建物理字节与正式输入另行比对。不要将检查器通过误记为核对行为、业务预期或 GATE-1 已通过。
 
+## Git 恢复后的字节核验
+
+项目 `.gitattributes` 保留原始字节，以免换行转换改变批准 manifest 的 SHA-256。克隆或恢复后，可运行以下命令核验 Git 中的 Task 000／Task 001 批准副本及独立恢复物；`run-id` 仍须唯一：
+
+```powershell
+.\.venv-task001\Scripts\python.exe tools/task001/check_git_preservation.py --ref HEAD --run-id git-restore-new
+```
+
+结果须为 91 项全部通过。失败时先定位恢复问题，不能重算批准 hash；修复过程与原失败证据见 Task 001 §10。此核验不是核对引擎测试。
+
 ## 长期能力
 
 目标覆盖 XPT、SDTM／ADaM Spec、aCRF／采集预设值、CT、Protocol／SAP 及项目决定的核对；DDS-aligned 中心模型与字段溯源；Define-XML 2.1、SDRG／ADRG 草稿生成；以及可复现的分层验证和人工批准。
