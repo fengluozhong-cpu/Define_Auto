@@ -1,0 +1,187 @@
+{
+  "checks": [
+    {
+      "check_id": "fixed:expectations/mvp01/v0.1/additional-cases.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixed:expectations/mvp01/v0.2/read-context-cases.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixed:docs/contracts/MVP-0.1-read-context-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\all_missing_codes.xpt",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\invalid_utf8.xpt",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\manufacturing-record.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\nbsp.xpt",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\numeric_date.xpt",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\partial_date.xpt",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\read-context.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\scale10000.xpt",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\unknown_format.xpt",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\v0.1\\utf8.xpt",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\baseline-context-v0.1\\delivery-record.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "fixture:fixtures\\mvp01\\baseline-context-v0.1\\read-context.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "business_rerun_identical",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/checks.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/coverage.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/dependencies.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/evidence.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/inputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/issues.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/model.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/patch-applicability.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/review.html",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/review.md",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:demo-20261021-02/run.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/checks.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/coverage.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/dependencies.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/evidence.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/inputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/issues.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/model.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/patch-applicability.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/review.html",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/review.md",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:rerun-20261021-01/run.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:suite-20261021-04/case-results.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:suite-20261021-04/checks.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:suite-20261021-04/coverage.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:suite-20261021-04/inputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:suite-20261021-04/run.json",
+      "result": "passed"
+    },
+    {
+      "check_id": "output:suite-20261021-04/unittest-output.txt",
+      "result": "passed"
+    },
+    {
+      "check_id": "core_environment_stdlib_only",
+      "result": "passed"
+    }
+  ],
+  "passed": 45,
+  "failed": 0,
+  "scope": "fixed expectations, material immutability, output manifests and deterministic rerun"
+}

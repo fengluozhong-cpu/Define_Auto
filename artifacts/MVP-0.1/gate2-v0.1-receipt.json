@@ -1,0 +1,13 @@
+{
+  "package": "artifacts/MVP-0.1/gate2-v0.1",
+  "manifest_sha256": "825443dd56bd950f417d33a1922e98f283dabe4c297b0fe8a1e9fe5f109f206d",
+  "file_count": 358,
+  "file_checks_passed": 358,
+  "status": "review_ready",
+  "gate2": "pending_Chris",
+  "restored_suite_passed": 88,
+  "restored_no_git_suite_passed": 88,
+  "restored_cli_same_model": true,
+  "original_approved_manifest": "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3",
+  "no_git_operations": true
+}

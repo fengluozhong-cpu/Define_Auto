@@ -1,0 +1,18 @@
+{
+  "synthetic_boundary_fixture": true,
+  "identity_authenticity": "not_independently_verified",
+  "declarations": [
+    {
+      "member": "DM",
+      "source_sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "record_count": 3,
+      "encoding": "ascii"
+    },
+    {
+      "member": "VS",
+      "source_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "record_count": 0,
+      "encoding": "ascii"
+    }
+  ]
+}

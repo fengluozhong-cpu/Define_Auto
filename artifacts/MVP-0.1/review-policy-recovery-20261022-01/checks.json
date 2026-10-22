@@ -1,0 +1,23 @@
+{
+  "result": "passed",
+  "runs": [
+    {
+      "run": "recovery-policy-20261022-01",
+      "result": "passed",
+      "manifest_sha256": "9b8d843ab420502892d8e5e63a48ca7ec74187bf48868852e95e34e8471ea336"
+    },
+    {
+      "run": "recovery-policy-no-git-20261022-01",
+      "result": "passed",
+      "manifest_sha256": "fabe79e1d1181cf5784f0fa37b0d0171849d4aa6fbfeb8a30307a8bdcc82d0b0"
+    },
+    {
+      "run": "recovery-policy-cli-20261022-01",
+      "result": "passed",
+      "manifest_sha256": "a535de19df24d5516acc036ff47e380945720151e3ebc07341f041ee02091aa1"
+    }
+  ],
+  "frozen_candidate_files_verified": 542,
+  "headless_git_result": "explicitly_unavailable",
+  "cli_complete_model_equal": true
+}

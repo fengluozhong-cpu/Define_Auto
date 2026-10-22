@@ -1,0 +1,34 @@
+{
+  "schema_version": "mvp01-read-context-0.1",
+  "study_id": "SYN001",
+  "family": "SDTM",
+  "test_only": true,
+  "declarations": [
+    {
+      "declaration_id": "TEST-BASELINE-READ-DM",
+      "source_sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "member": "DM",
+      "encoding": "ascii",
+      "record_count": 3,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-BASELINE-MANUFACTURE-001",
+        "source_sha256": "60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd",
+        "locator": "/declarations/0"
+      }
+    },
+    {
+      "declaration_id": "TEST-BASELINE-READ-VS",
+      "source_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "member": "VS",
+      "encoding": "ascii",
+      "record_count": 0,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-BASELINE-MANUFACTURE-001",
+        "source_sha256": "60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd",
+        "locator": "/declarations/1"
+      }
+    }
+  ]
+}

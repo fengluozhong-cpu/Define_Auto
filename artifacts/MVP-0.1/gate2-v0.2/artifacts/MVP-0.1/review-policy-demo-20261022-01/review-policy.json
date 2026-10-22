@@ -1,0 +1,116 @@
+{
+  "schema_version": "mvp01-review-0.1",
+  "no_data": [
+    {
+      "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/AGE",
+      "has_no_data": "Yes",
+      "basis": "present_variable_all_missing",
+      "dependency_snapshot_id": "dep-aaa65100c275c3f40582e9d4825f631c97f642f72bcd36b2de6c4c86b4f413db",
+      "evidence_ids": [
+        "ev-02f95a706497644f8c99fb9ed68e5a1f60a1a896cd5150e0cfc78b9b950d46f9",
+        "ev-2871ce6b291c9dabc8f2fb6fba070b2e9908318783d37fcddbf686729e0b7b6b",
+        "ev-2bfe26f293fd5ca1ba633e376601223af9083e8f0b2de781ff526692eb143820",
+        "ev-2ed3dd6e59b1160ea3d357436ee14a31c5c6a55d8fcc51e8563f91082eedb940",
+        "ev-35fe593a564bcc6696b3cb5364adb8904b50d3e723639d6ab27d702cd9993d5c",
+        "ev-3c7b1979a7b741da1e77e84a09c57c5256673f58869c86aeb7b33bf359bf1212",
+        "ev-4ce5caafcc1e7635788411d91f2616d75c5e21834584c2132704039ff238e250",
+        "ev-5e204d0b9e15c10604fb17329794929edb206da2e3bfbc54f69afc37c79e6185",
+        "ev-88e6cad94f503a92b55912d4fc924cab39711d89f73101bf816520bcb0ba0d56",
+        "ev-a6152a7c993ab2f643396e584f31554b6bd16dc62c8c2557ceecdabdb09f8f8c",
+        "ev-ac2ec40898763e5dbca2e466c1800dd6614c736896358839cb5a7a6261728152",
+        "ev-b54a6ca9cf501b6a31c76a3f027a0a0a826f1c24fad1b0d57c7ee16cbc17c481",
+        "ev-bc4e0230963e6bc578203d437e7e3eda663aac3b1122471ccc2440169293c1c7",
+        "ev-c2b966fb97293fa957fc136ed0342a48775e2e1d37cfbf863035c936bc7f6ce0",
+        "ev-d21922d45c9bf7cb05c0334bfab0811118726985c0a0c74ae29ac96294337966",
+        "ev-e8052765785ea2d20ac3c3b7937b71b2ac0c1a8df0f67a277053b47c569516e3",
+        "ev-f7ed0d01721c295ed890bb2819d639666b2e2478f5dc4ac747986fa1e0fa3a40",
+        "ev-fbc0d1297b25467066eed48656199543bec1e5052efa8dd346a64e1f1024ead1",
+        "ev-ff16a36fa8433ffea7d4652b547440daabf5b2e1464c9ca0d2d7602444e9c440"
+      ],
+      "confirmation": "pending",
+      "reason": null,
+      "action_id": null,
+      "xml_comment_required": true,
+      "xml_target": "ItemRef/@def:HasNoData; ItemDef/@CommentOID -> CommentDef/Description",
+      "xml_generation": "not_run"
+    },
+    {
+      "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX",
+      "has_no_data": "Yes",
+      "basis": "present_variable_all_missing",
+      "dependency_snapshot_id": "dep-aaa65100c275c3f40582e9d4825f631c97f642f72bcd36b2de6c4c86b4f413db",
+      "evidence_ids": [
+        "ev-0cdb16815c48c55234ef38ba88344bd5309b5fdc6f98d7db2b89ffb1c33933dd",
+        "ev-134b74822e14235ce6e964a928612eade779e8bb8b7f51561aa7790ec2315d71",
+        "ev-16e698296af4685a27798f4ce037ce2eeee7002d0b7b33eac456d9b8b1e30150",
+        "ev-1c19727e00963f22f285f7ac046fafecfe560b12ca474774df2e73f70fd8406e",
+        "ev-2b739b200e77aed5833457fd280a40f63c22784fc65d63a21c1fdf58f6d70d58",
+        "ev-525483440ae96fbf83b9011cb53f59be7ed268ca6e319500b914c872ac7d9b27",
+        "ev-630ae9f9cd6ddc9fbbeb28349ab0e3d1133873efc97e7f9fd25361c668be95c4",
+        "ev-6a29b1f2fad1072148b1adc4a4b5d64ca526f4f6598f11d1c2728f7c4be94f2b",
+        "ev-6b6aeb04e7fa6a22670d5570b4106848ddc04ae0016b66b26f0d8fedd55f7692",
+        "ev-72d4543aaa62725b043aa6cdaa8e38e7fa85d8f688f0bd934c67b32c96e2b061",
+        "ev-8c8be6878f5ece5b9339df901a96450e2295ffa138483170758fa70aca9d5504",
+        "ev-b159f78e75492cb5f822b849d9ac37b58dbe5d9cfa7d6aa1f575c36bce5323dd",
+        "ev-ba45202556ab57a790f1abd9d34fd277c3a1c3ffee71e04c7294b0066279a405",
+        "ev-ce8b4b6d31bef164391c8e7146729704563680ed9e21819422c085554a2c4d23",
+        "ev-d0b27b439fb88ea104154cc423af0fb3ff1208f804cf35519b52eb3e7ef98bbc",
+        "ev-d41445ae85752ae71d532f19d5b7653870a9d6f56c51cf4d49570eb42304619c",
+        "ev-d88133912259dc12cdf3c2524103c43c1592cbefbd8e7bd7e7a6022d2bb72f1a",
+        "ev-e8d867292fb5bd3551dd0b2ac8a7de442060edbea2261dd5b8aaee60ba3ee9cd",
+        "ev-f74c5c659bb4735510e9672b43eceba1483b8986eb86773837ee8f0cab84a917"
+      ],
+      "confirmation": "pending",
+      "reason": null,
+      "action_id": null,
+      "xml_comment_required": true,
+      "xml_target": "ItemRef/@def:HasNoData; ItemDef/@CommentOID -> CommentDef/Description",
+      "xml_generation": "not_run"
+    },
+    {
+      "object_id": "study/SYN001/family/SDTM/dataset/VS",
+      "has_no_data": "Yes",
+      "basis": "readable_zero_rows",
+      "dependency_snapshot_id": "dep-aaa65100c275c3f40582e9d4825f631c97f642f72bcd36b2de6c4c86b4f413db",
+      "evidence_ids": [
+        "ev-4010909f4f5313cb3ab89fea098a404aa10b1c1a13799be342520ff3a3efcb3e",
+        "ev-e068fbeb48ba544253bdc9447ae3549f9f227f336115416a86eb5b97d87d8399"
+      ],
+      "confirmation": "pending",
+      "reason": null,
+      "action_id": null,
+      "xml_comment_required": true,
+      "xml_target": "ItemGroupDef/@CommentOID -> CommentDef/Description",
+      "xml_generation": "not_run"
+    }
+  ],
+  "manual_confirmation": [
+    {
+      "object_id": "study/SYN001/family/SDTM/dataset/AE",
+      "reason": "缺少输入／读取失败／缺少变量，须人工确认；不能推断无数据"
+    },
+    {
+      "object_id": "study/SYN001/family/SDTM/dataset/CM",
+      "reason": "缺少输入／读取失败／缺少变量，须人工确认；不能推断无数据"
+    },
+    {
+      "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/ARM",
+      "reason": "缺少输入／读取失败／缺少变量，须人工确认；不能推断无数据"
+    }
+  ],
+  "upstream_rework": [
+    {
+      "issue_id": "study/SYN001/family/SDTM/dataset/DM/variable/EXTRA:definition:unexpected_object:R-COMPARE-1",
+      "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/EXTRA",
+      "basis": "unexpected_object",
+      "workflow": "upstream_rework",
+      "blocking": true
+    }
+  ],
+  "rule_findings": [],
+  "standard_check": "not_completed",
+  "standard_conformance": "not_assessed",
+  "p21_check": "not_run",
+  "final_delivery_approved": false,
+  "reuse_offers": []
+}

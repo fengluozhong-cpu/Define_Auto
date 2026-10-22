@@ -1,0 +1,169 @@
+{
+  "recorded_at": "2026-10-20T09:47:27.445207+08:00",
+  "baseline": "BL-20261020-01",
+  "baseline_manifest_sha256": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c",
+  "manifest_matches_approval": true,
+  "baseline_checks": [
+    {
+      "path": "AGENTS.md",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "GOALS.md",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "PLANS.md",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "docs/tasks/TASK-000.md",
+      "hash_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "README.md",
+      "hash_matches": true,
+      "bytes_match": true
+    }
+  ],
+  "current_approval_sync_checks": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf",
+      "matches_approval_sync": true
+    },
+    {
+      "path": "GOALS.md",
+      "sha256": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23",
+      "matches_approval_sync": true
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "sha256": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b",
+      "matches_approval_sync": true
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7",
+      "matches_approval_sync": true
+    },
+    {
+      "path": "PLANS.md",
+      "sha256": "4aaa953ba71d70b54f11fa7908b9a9a7e092e660c87fce0bb650215d96597fa5",
+      "matches_approval_sync": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "6f26c151e36bb295997cbc51cb65b8adf1cf12309d5b437a3b4c362bfbe8a8f9",
+      "matches_approval_sync": true
+    },
+    {
+      "path": "docs/tasks/TASK-000.md",
+      "sha256": "70fba5c11415aaaf69e682a5f45aa1e6ac1d766166e81bbe4ca88a6037b7f610",
+      "matches_approval_sync": true
+    },
+    {
+      "path": "docs/approvals/APR-20261020-01.md",
+      "sha256": "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e",
+      "matches_approval_sync": true
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf"
+    },
+    {
+      "path": "GOALS.md",
+      "sha256": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "sha256": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+    },
+    {
+      "path": "docs/tasks/TASK-000.md",
+      "sha256": "70fba5c11415aaaf69e682a5f45aa1e6ac1d766166e81bbe4ca88a6037b7f610"
+    },
+    {
+      "path": "discussion.md",
+      "sha256": "ecbe95bc8c9a60b402622a8fa428d329c97095dee8b326cfafae9f38355652a6"
+    },
+    {
+      "path": ".workbuddy/memory/2026-10-19.md",
+      "sha256": "48e6d3faaac7559ce678aa91d3347d974d53d880f7e0106b9eed63e9c7350850"
+    },
+    {
+      "path": ".workbuddy/memory/MEMORY.md",
+      "sha256": "7c8965462e0d8c2d4196a2a53ded5408cd0c05ea117f82aafb65a64956986c4c"
+    },
+    {
+      "path": ".workbuddy/tools/export_conversation.py",
+      "sha256": "16b508611cdf74b3c2da2506ef40ea5abc2f18fbd78a1be72a44eff73a358090"
+    },
+    {
+      "path": "baselines/BL-20261020-01/AGENTS.md",
+      "sha256": "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5"
+    },
+    {
+      "path": "baselines/BL-20261020-01/ARCHITECTURE.md",
+      "sha256": "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9"
+    },
+    {
+      "path": "baselines/BL-20261020-01/GOALS.md",
+      "sha256": "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043"
+    },
+    {
+      "path": "baselines/BL-20261020-01/manifest.json",
+      "sha256": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c"
+    },
+    {
+      "path": "baselines/BL-20261020-01/PLANS.md",
+      "sha256": "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c"
+    },
+    {
+      "path": "baselines/BL-20261020-01/README.md",
+      "sha256": "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b"
+    },
+    {
+      "path": "baselines/BL-20261020-01/REQUIREMENTS.md",
+      "sha256": "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36"
+    },
+    {
+      "path": "baselines/BL-20261020-01/docs/tasks/TASK-000.md",
+      "sha256": "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-01-checks-initial.json",
+      "sha256": "449733aad652647f1a5f35a7a92f5a8c5a3ddeabf865cdd7de0c201c23b19f38"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-01-checks.json",
+      "sha256": "c192777de03f42bf20d7a3afc2d689a42fcbc654dc22810bfcaaa45ed7f9ba1b"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-01.md",
+      "sha256": "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e"
+    }
+  ],
+  "git_status": " M AGENTS.md\n M ARCHITECTURE.md\n M GOALS.md\n M PLANS.md\n M README.md\n M REQUIREMENTS.md\n M docs/tasks/TASK-000.md\n?? .gitignore\n?? baselines/\n?? docs/approvals/\n?? docs/tasks/TASK-001.md\n",
+  "result": "passed"
+}

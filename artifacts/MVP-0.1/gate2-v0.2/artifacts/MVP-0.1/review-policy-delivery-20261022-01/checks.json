@@ -1,0 +1,5754 @@
+{
+  "checks": [
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/manifest",
+      "actual": "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3",
+      "expected": "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/count",
+      "actual": 82,
+      "expected": 82,
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/.gitignore",
+      "actual": [
+        34,
+        "f5fbcaddba16ca471b35b0b4545e318f10edb0a6766ec01b192010af462de5d4"
+      ],
+      "expected": [
+        34,
+        "f5fbcaddba16ca471b35b0b4545e318f10edb0a6766ec01b192010af462de5d4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/AGENTS.md",
+      "actual": [
+        9653,
+        "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf"
+      ],
+      "expected": [
+        9653,
+        "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/ARCHITECTURE.md",
+      "actual": [
+        15080,
+        "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+      ],
+      "expected": [
+        15080,
+        "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/documents-01/checks.json",
+      "actual": [
+        43974,
+        "e40df4db7f7a97c27dde5b472bf9b8ac435783a03b71778fd924859f132f3f5b"
+      ],
+      "expected": [
+        43974,
+        "e40df4db7f7a97c27dde5b472bf9b8ac435783a03b71778fd924859f132f3f5b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/documents-02/checks.json",
+      "actual": [
+        44191,
+        "a5deebd1c33d7e02ea390e211bed891ceb66fa7efabbe1c36979fe3c25da981c"
+      ],
+      "expected": [
+        44191,
+        "a5deebd1c33d7e02ea390e211bed891ceb66fa7efabbe1c36979fe3c25da981c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-01/case-readiness.json",
+      "actual": [
+        10123,
+        "c0d714bd0a9f1775f54ae232477a10458f0779d605e3c108c060b9d5bec9b06a"
+      ],
+      "expected": [
+        10123,
+        "c0d714bd0a9f1775f54ae232477a10458f0779d605e3c108c060b9d5bec9b06a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-01/checks.json",
+      "actual": [
+        29718,
+        "e77dd316f91c022fd952214bb6fc405d40905e7653d9129c9812ff5fff7b0a14"
+      ],
+      "expected": [
+        29718,
+        "e77dd316f91c022fd952214bb6fc405d40905e7653d9129c9812ff5fff7b0a14"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-01/run.json",
+      "actual": [
+        1056,
+        "2ab116767042290bcb31859ccf5af12732eec42fbc6af7911e3c369774fcf82a"
+      ],
+      "expected": [
+        1056,
+        "2ab116767042290bcb31859ccf5af12732eec42fbc6af7911e3c369774fcf82a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/case-readiness.json",
+      "actual": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "expected": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/checks.json",
+      "actual": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "expected": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/inputs-manifest.json",
+      "actual": [
+        2335,
+        "c3e92fc9eee4519b25de8947e3c65926963a7914697e2b45bee13b9c499492b6"
+      ],
+      "expected": [
+        2335,
+        "c3e92fc9eee4519b25de8947e3c65926963a7914697e2b45bee13b9c499492b6"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/outputs-manifest.json",
+      "actual": [
+        580,
+        "2145e1bbc08af63e57d4076308c524cdd00a9ca9cb071a16f895a17ecc3bc2f8"
+      ],
+      "expected": [
+        580,
+        "2145e1bbc08af63e57d4076308c524cdd00a9ca9cb071a16f895a17ecc3bc2f8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/run.json",
+      "actual": [
+        1495,
+        "8283496e288df80e7535ccf03fd89a396ceb57b5c89bbd6002691cc852170bfc"
+      ],
+      "expected": [
+        1495,
+        "8283496e288df80e7535ccf03fd89a396ceb57b5c89bbd6002691cc852170bfc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/case-readiness.json",
+      "actual": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "expected": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/checks.json",
+      "actual": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "expected": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/coverage.json",
+      "actual": [
+        19158,
+        "80c3bd873888477ab1ec59c53ca9c0b941da86a7f90dc74ec98ebb80f3610957"
+      ],
+      "expected": [
+        19158,
+        "80c3bd873888477ab1ec59c53ca9c0b941da86a7f90dc74ec98ebb80f3610957"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/inputs-manifest.json",
+      "actual": [
+        2983,
+        "8bd3a7b3feff95661c58b452565dac65edae4ac1d561225de78b698d4005a1b1"
+      ],
+      "expected": [
+        2983,
+        "8bd3a7b3feff95661c58b452565dac65edae4ac1d561225de78b698d4005a1b1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/outputs-manifest.json",
+      "actual": [
+        711,
+        "9e325cf1c759d3db24ca44b55ea545d33fad1ff11eca9e6883b218d206464a61"
+      ],
+      "expected": [
+        711,
+        "9e325cf1c759d3db24ca44b55ea545d33fad1ff11eca9e6883b218d206464a61"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/run.json",
+      "actual": [
+        1495,
+        "6346c4c59ec05ca9d7c603fbead4fc7ea54aa71fbcd70c8c9f6492bf64c3c5ff"
+      ],
+      "expected": [
+        1495,
+        "6346c4c59ec05ca9d7c603fbead4fc7ea54aa71fbcd70c8c9f6492bf64c3c5ff"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/case-readiness.json",
+      "actual": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "expected": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/checks.json",
+      "actual": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "expected": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/coverage.json",
+      "actual": [
+        19158,
+        "36d63bf5941aea6e8b41b7cc3fc1546f3ac6885636ac1c8d341e47adb6c35262"
+      ],
+      "expected": [
+        19158,
+        "36d63bf5941aea6e8b41b7cc3fc1546f3ac6885636ac1c8d341e47adb6c35262"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/inputs-manifest.json",
+      "actual": [
+        2983,
+        "dd210a0e12b71b90d74a1a6a0e82d439ddce9306c647acf9a4d9541bce34b741"
+      ],
+      "expected": [
+        2983,
+        "dd210a0e12b71b90d74a1a6a0e82d439ddce9306c647acf9a4d9541bce34b741"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/outputs-manifest.json",
+      "actual": [
+        711,
+        "ebc4944e442272f77823595e0b49f6a6e6b98095cbf57971a2eaf206b404a5e3"
+      ],
+      "expected": [
+        711,
+        "ebc4944e442272f77823595e0b49f6a6e6b98095cbf57971a2eaf206b404a5e3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/run.json",
+      "actual": [
+        1495,
+        "0d623e3e9581b4542c41cd607e724c3e267c57ecd98c933a39d2dc94f7918c65"
+      ],
+      "expected": [
+        1495,
+        "0d623e3e9581b4542c41cd607e724c3e267c57ecd98c933a39d2dc94f7918c65"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/rebuild-01/build-record.json",
+      "actual": [
+        1191,
+        "94cd96f456dd214614ba46bb3720f302c1363c3cc75a3efa0d82ab62a7231ded"
+      ],
+      "expected": [
+        1191,
+        "94cd96f456dd214614ba46bb3720f302c1363c3cc75a3efa0d82ab62a7231ded"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/rebuild-01/checks.json",
+      "actual": [
+        1091,
+        "289f8c9e19f515b0ff0f399a2ab3b28d01335afd4f394950bdf33d1b54fcdf38"
+      ],
+      "expected": [
+        1091,
+        "289f8c9e19f515b0ff0f399a2ab3b28d01335afd4f394950bdf33d1b54fcdf38"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-dds-define.yaml",
+      "actual": [
+        84668,
+        "010dbaddb6b55041450e4c857e6f0765e84898505aeb2373f256ab19dd37ce02"
+      ],
+      "expected": [
+        84668,
+        "010dbaddb6b55041450e4c857e6f0765e84898505aeb2373f256ab19dd37ce02"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-dds.yaml",
+      "actual": [
+        82157,
+        "a4649e1d33a6d3ef832b301ebd875e782f740811a8d48e9e744c66492b84f91d"
+      ],
+      "expected": [
+        82157,
+        "a4649e1d33a6d3ef832b301ebd875e782f740811a8d48e9e744c66492b84f91d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml",
+      "actual": [
+        83131,
+        "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+      ],
+      "expected": [
+        83131,
+        "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-LICENSE",
+      "actual": [
+        1085,
+        "4c21061e36524297b6173f929b507edea5208254af1d743370047e54f52f9ce1"
+      ],
+      "expected": [
+        1085,
+        "4c21061e36524297b6173f929b507edea5208254af1d743370047e54f52f9ce1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-readme.md",
+      "actual": [
+        21385,
+        "d26495a44cfe931123f39742734632d08dcfdb566c372e351b5a0436317ef413"
+      ],
+      "expected": [
+        21385,
+        "d26495a44cfe931123f39742734632d08dcfdb566c372e351b5a0436317ef413"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml",
+      "actual": [
+        83131,
+        "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+      ],
+      "expected": [
+        83131,
+        "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html",
+      "actual": [
+        246324,
+        "4b2b4145e5c8ba7e902cf07a1bd74ef1bd28002d15a9431d587b6dcd48880cee"
+      ],
+      "expected": [
+        246324,
+        "4b2b4145e5c8ba7e902cf07a1bd74ef1bd28002d15a9431d587b6dcd48880cee"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sas-xport-v5.pdf",
+      "actual": [
+        1038715,
+        "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3"
+      ],
+      "expected": [
+        1038715,
+        "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sources-initial.json",
+      "actual": [
+        2190,
+        "17e6d6b549da4c7ba2f0cde33b7c1d0d7febd97623676c3bc9da96f74878728c"
+      ],
+      "expected": [
+        2190,
+        "17e6d6b549da4c7ba2f0cde33b7c1d0d7febd97623676c3bc9da96f74878728c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sources.json",
+      "actual": [
+        2712,
+        "569a708fcb1963ac990aa112b131f3bca93adce5e40b73995c09908def1a6917"
+      ],
+      "expected": [
+        2712,
+        "569a708fcb1963ac990aa112b131f3bca93adce5e40b73995c09908def1a6917"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/start/dependencies.json",
+      "actual": [
+        5617,
+        "7e9a556918f9727cfafe3caf28c4bd1947bca9e67c4c38575a4d068efcebaf99"
+      ],
+      "expected": [
+        5617,
+        "7e9a556918f9727cfafe3caf28c4bd1947bca9e67c4c38575a4d068efcebaf99"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/start/post-review-changes.json",
+      "actual": [
+        1667,
+        "11d2a370cebcb5912731e48f07b5f176b9641ac39353ab25b3720b94f94a1d70"
+      ],
+      "expected": [
+        1667,
+        "11d2a370cebcb5912731e48f07b5f176b9641ac39353ab25b3720b94f94a1d70"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/AGENTS.md",
+      "actual": [
+        9529,
+        "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5"
+      ],
+      "expected": [
+        9529,
+        "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/baselines/BL-20261020-01/AGENTS.md",
+      "actual": "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5",
+      "expected": "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/ARCHITECTURE.md",
+      "actual": [
+        14667,
+        "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9"
+      ],
+      "expected": [
+        14667,
+        "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/baselines/BL-20261020-01/ARCHITECTURE.md",
+      "actual": "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9",
+      "expected": "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/docs/tasks/TASK-000.md",
+      "actual": [
+        20518,
+        "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc"
+      ],
+      "expected": [
+        20518,
+        "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/baselines/BL-20261020-01/docs/tasks/TASK-000.md",
+      "actual": "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc",
+      "expected": "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/GOALS.md",
+      "actual": [
+        6018,
+        "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043"
+      ],
+      "expected": [
+        6018,
+        "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/baselines/BL-20261020-01/GOALS.md",
+      "actual": "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043",
+      "expected": "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/manifest.json",
+      "actual": [
+        2243,
+        "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c"
+      ],
+      "expected": [
+        2243,
+        "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/baselines/BL-20261020-01/manifest.json",
+      "actual": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c",
+      "expected": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/PLANS.md",
+      "actual": [
+        21111,
+        "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c"
+      ],
+      "expected": [
+        21111,
+        "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/baselines/BL-20261020-01/PLANS.md",
+      "actual": "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c",
+      "expected": "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/README.md",
+      "actual": [
+        1917,
+        "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b"
+      ],
+      "expected": [
+        1917,
+        "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/baselines/BL-20261020-01/README.md",
+      "actual": "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b",
+      "expected": "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/REQUIREMENTS.md",
+      "actual": [
+        22277,
+        "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36"
+      ],
+      "expected": [
+        22277,
+        "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/baselines/BL-20261020-01/REQUIREMENTS.md",
+      "actual": "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36",
+      "expected": "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/approvals/APR-20261020-01-checks-initial.json",
+      "actual": [
+        1975,
+        "449733aad652647f1a5f35a7a92f5a8c5a3ddeabf865cdd7de0c201c23b19f38"
+      ],
+      "expected": [
+        1975,
+        "449733aad652647f1a5f35a7a92f5a8c5a3ddeabf865cdd7de0c201c23b19f38"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/approvals/APR-20261020-01-checks.json",
+      "actual": [
+        2187,
+        "c192777de03f42bf20d7a3afc2d689a42fcbc654dc22810bfcaaa45ed7f9ba1b"
+      ],
+      "expected": [
+        2187,
+        "c192777de03f42bf20d7a3afc2d689a42fcbc654dc22810bfcaaa45ed7f9ba1b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/approvals/APR-20261020-01.md",
+      "actual": [
+        3090,
+        "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e"
+      ],
+      "expected": [
+        3090,
+        "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-contract-v0.1.md",
+      "actual": [
+        10660,
+        "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+      ],
+      "expected": [
+        10660,
+        "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "actual": [
+        5905,
+        "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+      ],
+      "expected": [
+        5905,
+        "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/tasks/TASK-001-findings.json",
+      "actual": [
+        4609,
+        "4e0a670077bf6866b7e7048a6c3bbb268fce5da44486b8bcb57463c3aa3ab7ce"
+      ],
+      "expected": [
+        4609,
+        "4e0a670077bf6866b7e7048a6c3bbb268fce5da44486b8bcb57463c3aa3ab7ce"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/tasks/TASK-001.md",
+      "actual": [
+        13751,
+        "ac3be755e4c58fed0ded5b97f06652887166587eabf13ab07b15d9eef7271376"
+      ],
+      "expected": [
+        13751,
+        "ac3be755e4c58fed0ded5b97f06652887166587eabf13ab07b15d9eef7271376"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/final-review.json",
+      "actual": [
+        36610,
+        "e7df11c35ac071c11f16d677e67cd60af6349e72c02e6269bd341b70a5428564"
+      ],
+      "expected": [
+        36610,
+        "e7df11c35ac071c11f16d677e67cd60af6349e72c02e6269bd341b70a5428564"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/final-review.md",
+      "actual": [
+        2744,
+        "01ff828c0803ace7c4e6872183dd46ba4fa93b17caed44c374e80d583026b02c"
+      ],
+      "expected": [
+        2744,
+        "01ff828c0803ace7c4e6872183dd46ba4fa93b17caed44c374e80d583026b02c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/independent-xpt-raw-v1.json",
+      "actual": [
+        4880,
+        "318846b3ccaff7890548064e791c2ea01c8f3563bc848654c1ceb2d7c85ff257"
+      ],
+      "expected": [
+        4880,
+        "318846b3ccaff7890548064e791c2ea01c8f3563bc848654c1ceb2d7c85ff257"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/independent_xpt_audit.py",
+      "actual": [
+        5043,
+        "c2199ecc15953657f328415ce0e635d64ce780cceaadce5b3431b2f320fa1731"
+      ],
+      "expected": [
+        5043,
+        "c2199ecc15953657f328415ce0e635d64ce780cceaadce5b3431b2f320fa1731"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/record_final_review.py",
+      "actual": [
+        18952,
+        "87efa42d5be4d076cbbc000fb4a4d86ece9bc28c703c73d91d77657f5b5e3777"
+      ],
+      "expected": [
+        18952,
+        "87efa42d5be4d076cbbc000fb4a4d86ece9bc28c703c73d91d77657f5b5e3777"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/coverage.json",
+      "actual": [
+        44169,
+        "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a"
+      ],
+      "expected": [
+        44169,
+        "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/expectations/task001/v0.1/coverage.json",
+      "actual": "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a",
+      "expected": "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/expected.json",
+      "actual": [
+        13024,
+        "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808"
+      ],
+      "expected": [
+        13024,
+        "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/expectations/task001/v0.1/expected.json",
+      "actual": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808",
+      "expected": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/gate1-checklist.json",
+      "actual": [
+        4103,
+        "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373"
+      ],
+      "expected": [
+        4103,
+        "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/expectations/task001/v0.1/gate1-checklist.json",
+      "actual": "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373",
+      "expected": "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/build-record.json",
+      "actual": [
+        1191,
+        "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a"
+      ],
+      "expected": [
+        1191,
+        "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/build-record.json",
+      "actual": "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a",
+      "expected": "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/cm.xpt",
+      "actual": [
+        49,
+        "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a"
+      ],
+      "expected": [
+        49,
+        "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/cm.xpt",
+      "actual": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "expected": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dependencies.json",
+      "actual": [
+        1525,
+        "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc"
+      ],
+      "expected": [
+        1525,
+        "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/dependencies.json",
+      "actual": "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc",
+      "expected": "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dependency-changes.json",
+      "actual": [
+        1453,
+        "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e"
+      ],
+      "expected": [
+        1453,
+        "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/dependency-changes.json",
+      "actual": "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e",
+      "expected": "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dm.xpt",
+      "actual": [
+        1920,
+        "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7"
+      ],
+      "expected": [
+        1920,
+        "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/dm.xpt",
+      "actual": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "expected": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/input-manifest.json",
+      "actual": [
+        3065,
+        "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1"
+      ],
+      "expected": [
+        3065,
+        "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/input-manifest.json",
+      "actual": "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1",
+      "expected": "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/patch.json",
+      "actual": [
+        595,
+        "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c"
+      ],
+      "expected": [
+        595,
+        "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/patch.json",
+      "actual": "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c",
+      "expected": "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/source-data.json",
+      "actual": [
+        1668,
+        "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d"
+      ],
+      "expected": [
+        1668,
+        "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/source-data.json",
+      "actual": "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d",
+      "expected": "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec-changed.json",
+      "actual": [
+        3420,
+        "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd"
+      ],
+      "expected": [
+        3420,
+        "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/spec-changed.json",
+      "actual": "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd",
+      "expected": "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json",
+      "actual": [
+        2295,
+        "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937"
+      ],
+      "expected": [
+        2295,
+        "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/spec.json",
+      "actual": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "expected": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "actual": [
+        1440,
+        "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22"
+      ],
+      "expected": [
+        1440,
+        "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "original/fixtures/task001/v0.1/vs.xpt",
+      "actual": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "expected": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/GOALS.md",
+      "actual": [
+        6246,
+        "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+      ],
+      "expected": [
+        6246,
+        "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/PLANS.md",
+      "actual": [
+        24014,
+        "308c806c907187334593f8e402911b981f5b0c3d53cdcfdaf41acb6e32baeec3"
+      ],
+      "expected": [
+        24014,
+        "308c806c907187334593f8e402911b981f5b0c3d53cdcfdaf41acb6e32baeec3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/README.md",
+      "actual": [
+        3388,
+        "19970c2e332404a9de6750b4d2273c69cf8515451dff2f361c56eef1c2c82d28"
+      ],
+      "expected": [
+        3388,
+        "19970c2e332404a9de6750b4d2273c69cf8515451dff2f361c56eef1c2c82d28"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/REQUIREMENTS.md",
+      "actual": [
+        22567,
+        "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+      ],
+      "expected": [
+        22567,
+        "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/tools/task001/build_fixtures.py",
+      "actual": [
+        6800,
+        "b2c9d290f94a6cfc3ca6393efe8faf2652f59ead924351be76e8b5a2076674ec"
+      ],
+      "expected": [
+        6800,
+        "b2c9d290f94a6cfc3ca6393efe8faf2652f59ead924351be76e8b5a2076674ec"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/tools/task001/check_documents.py",
+      "actual": [
+        2945,
+        "a36d9ae86e5d98012c2cbd8f47416704deea875e81e64de507ba49b857e72565"
+      ],
+      "expected": [
+        2945,
+        "a36d9ae86e5d98012c2cbd8f47416704deea875e81e64de507ba49b857e72565"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/tools/task001/check_materials.py",
+      "actual": [
+        12879,
+        "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c"
+      ],
+      "expected": [
+        12879,
+        "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/tools/task001/package_gate1.py",
+      "actual": [
+        5643,
+        "2941055cb392f609b4300a25dd8cbc310201020bc8eca4f1451fd463b23b8d4b"
+      ],
+      "expected": [
+        5643,
+        "2941055cb392f609b4300a25dd8cbc310201020bc8eca4f1451fd463b23b8d4b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/TASK-001/gate1-v0.1/tools/task001/requirements-fixtures.lock.txt",
+      "actual": [
+        197,
+        "29e73867d345e6cbe16410521689877a9c3cfe1759445efcb576d4b46d17126a"
+      ],
+      "expected": [
+        197,
+        "29e73867d345e6cbe16410521689877a9c3cfe1759445efcb576d4b46d17126a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/manifest",
+      "actual": "825443dd56bd950f417d33a1922e98f283dabe4c297b0fe8a1e9fe5f109f206d",
+      "expected": "825443dd56bd950f417d33a1922e98f283dabe4c297b0fe8a1e9fe5f109f206d",
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/count",
+      "actual": 358,
+      "expected": 358,
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/.gitignore",
+      "actual": [
+        47,
+        "a237040afba60f85adb1cc1af5cae154cddc627e8797aa9944180b2650c91d0a"
+      ],
+      "expected": [
+        47,
+        "a237040afba60f85adb1cc1af5cae154cddc627e8797aa9944180b2650c91d0a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/AGENTS.md",
+      "actual": [
+        10128,
+        "c620815558b35d60bcdf6fdeeb5cafa23eeb2e7076dc4c33395ec88087792f89"
+      ],
+      "expected": [
+        10128,
+        "c620815558b35d60bcdf6fdeeb5cafa23eeb2e7076dc4c33395ec88087792f89"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/ARCHITECTURE.md",
+      "actual": [
+        15080,
+        "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+      ],
+      "expected": [
+        15080,
+        "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/authorization-20261021-01/authorization.json",
+      "actual": [
+        925,
+        "9952586b3abceaba1d9189483bc25f9c71d35364b96828424f129213a70062ec"
+      ],
+      "expected": [
+        925,
+        "9952586b3abceaba1d9189483bc25f9c71d35364b96828424f129213a70062ec"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/authorization-20261021-01/MVP-0.1-skill-setup-draft.md",
+      "actual": [
+        4607,
+        "8cbb9657b18e4a7bd16430bf0556b3cda3bbdc0255576cd3ce7d7dc96ecd875b"
+      ],
+      "expected": [
+        4607,
+        "8cbb9657b18e4a7bd16430bf0556b3cda3bbdc0255576cd3ce7d7dc96ecd875b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/authorization-20261021-01/MVP-0.1.md",
+      "actual": [
+        21868,
+        "111b5e5da72e470892de16c1c503f5c4aec8f04bb4be2dca646fc899fde5240e"
+      ],
+      "expected": [
+        21868,
+        "111b5e5da72e470892de16c1c503f5c4aec8f04bb4be2dca646fc899fde5240e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/closeout-20261021-02/carryover.json",
+      "actual": [
+        48934,
+        "5148800fb0b90c8b4545e5950175102b5b66a1878463f901ae88b62806f5c8c4"
+      ],
+      "expected": [
+        48934,
+        "5148800fb0b90c8b4545e5950175102b5b66a1878463f901ae88b62806f5c8c4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/closeout-20261021-02/checks.json",
+      "actual": [
+        31320,
+        "c4b06de7b8a6ef0476049474c5ebc9bd183423d6a18b1822e9f5b46f9e8a9f11"
+      ],
+      "expected": [
+        31320,
+        "c4b06de7b8a6ef0476049474c5ebc9bd183423d6a18b1822e9f5b46f9e8a9f11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/closeout-20261021-02/frozen-reference-map.json",
+      "actual": [
+        26824,
+        "74de4a142192d0771a7a37f6a089168df40a647620f92654f994d3e86c5ac1c1"
+      ],
+      "expected": [
+        26824,
+        "74de4a142192d0771a7a37f6a089168df40a647620f92654f994d3e86c5ac1c1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/closeout-20261021-02/inputs-manifest.json",
+      "actual": [
+        639,
+        "97a2d4b585a70ace5bc3f000f804886d6568021e0daae6a1e63d10552d115966"
+      ],
+      "expected": [
+        639,
+        "97a2d4b585a70ace5bc3f000f804886d6568021e0daae6a1e63d10552d115966"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/closeout-20261021-02/outputs-manifest.json",
+      "actual": [
+        988,
+        "01a764f5f3ac1fad1517bf60654dfd688a4de7df075fa83b4ab7e3c4a4befbd5"
+      ],
+      "expected": [
+        988,
+        "01a764f5f3ac1fad1517bf60654dfd688a4de7df075fa83b4ab7e3c4a4befbd5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/closeout-20261021-02/reading-record.json",
+      "actual": [
+        5003,
+        "54b11694aa11fa649dd644041539de77e1648eba64990136946e926b222bc051"
+      ],
+      "expected": [
+        5003,
+        "54b11694aa11fa649dd644041539de77e1648eba64990136946e926b222bc051"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/closeout-20261021-02/run.json",
+      "actual": [
+        589,
+        "d5260448a2c1b9f3ffa11b391384bf659fb9c2a7e4a98bddc9d9f95c53d811a8"
+      ],
+      "expected": [
+        589,
+        "d5260448a2c1b9f3ffa11b391384bf659fb9c2a7e4a98bddc9d9f95c53d811a8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/delivery-checks-20261021/checks.json",
+      "actual": [
+        4915,
+        "a3c2d692be5edf55d199e0156383a57c0d881751b5d69c84c29de670720a5766"
+      ],
+      "expected": [
+        4915,
+        "a3c2d692be5edf55d199e0156383a57c0d881751b5d69c84c29de670720a5766"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/checks.json",
+      "actual": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "expected": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/coverage.json",
+      "actual": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "expected": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/dependencies.json",
+      "actual": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "expected": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/evidence.json",
+      "actual": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "expected": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/inputs-manifest.json",
+      "actual": [
+        4636,
+        "fabf5c1a6103c736445fe686a22528c8117749f55dc6d7919d9ab34bc9e8e7d2"
+      ],
+      "expected": [
+        4636,
+        "fabf5c1a6103c736445fe686a22528c8117749f55dc6d7919d9ab34bc9e8e7d2"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/issues.json",
+      "actual": [
+        7870,
+        "6bc78eba993f00dc2bef63584db14d2e7b42e3bbcb3f25453144b400e7feabfe"
+      ],
+      "expected": [
+        7870,
+        "6bc78eba993f00dc2bef63584db14d2e7b42e3bbcb3f25453144b400e7feabfe"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/model.json",
+      "actual": [
+        364971,
+        "f0b4ca4649087a1b28012e4454eff2cb8df3d2bbd580debe7a39c617fdfa93dc"
+      ],
+      "expected": [
+        364971,
+        "f0b4ca4649087a1b28012e4454eff2cb8df3d2bbd580debe7a39c617fdfa93dc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/outputs-manifest.json",
+      "actual": [
+        1678,
+        "56b7a4f19d150f88863158f239ab297151d6fa4b534b3b09529a57a38af204f7"
+      ],
+      "expected": [
+        1678,
+        "56b7a4f19d150f88863158f239ab297151d6fa4b534b3b09529a57a38af204f7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/patch-applicability.json",
+      "actual": [
+        56,
+        "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799"
+      ],
+      "expected": [
+        56,
+        "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/review.html",
+      "actual": [
+        25291,
+        "6ac6d9716051475b4de4da181ed9290f44b3c714c528136896fbb6fc6334a812"
+      ],
+      "expected": [
+        25291,
+        "6ac6d9716051475b4de4da181ed9290f44b3c714c528136896fbb6fc6334a812"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/review.md",
+      "actual": [
+        22634,
+        "953cba0b04a3a62ae6e1f03b3cc21cbcad9fb632dd49c1f75fc723c684733031"
+      ],
+      "expected": [
+        22634,
+        "953cba0b04a3a62ae6e1f03b3cc21cbcad9fb632dd49c1f75fc723c684733031"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/demo-20261021-02/run.json",
+      "actual": [
+        893,
+        "7c5bdf264c12dcea581dac8f7580025e6c2b56a73539fd61e450a4fceb6d2797"
+      ],
+      "expected": [
+        893,
+        "7c5bdf264c12dcea581dac8f7580025e6c2b56a73539fd61e450a4fceb6d2797"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-findings-20261021/initial-results.json",
+      "actual": [
+        1693,
+        "1e15eb620f039921bc99aefa3cd13d8b645f4007f6a877f5f216f1d8dbc66eb2"
+      ],
+      "expected": [
+        1693,
+        "1e15eb620f039921bc99aefa3cd13d8b645f4007f6a877f5f216f1d8dbc66eb2"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-findings-20261021/omission_probe.py",
+      "actual": [
+        611,
+        "e3700561a673041bed94d38b0acbd6517f26edee4a04302b264047add1e923ee"
+      ],
+      "expected": [
+        611,
+        "e3700561a673041bed94d38b0acbd6517f26edee4a04302b264047add1e923ee"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-findings-20261021/outputs-manifest.json",
+      "actual": [
+        711,
+        "1763b7474b85bacff3b5d56692cbfddd10e19fa5360f1125483d1b531415591f"
+      ],
+      "expected": [
+        711,
+        "1763b7474b85bacff3b5d56692cbfddd10e19fa5360f1125483d1b531415591f"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-findings-20261021/preservation.py",
+      "actual": [
+        1537,
+        "eb451fa831a9e62d02a3588b9ec6815ae2801b31d77b2e5f40d87be3ec2de505"
+      ],
+      "expected": [
+        1537,
+        "eb451fa831a9e62d02a3588b9ec6815ae2801b31d77b2e5f40d87be3ec2de505"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-findings-20261021/reproduce.py",
+      "actual": [
+        2329,
+        "c9a751ab0de24717bc9abbade729d1eedb660c2063b7cfbd7c35adec60df1e23"
+      ],
+      "expected": [
+        2329,
+        "c9a751ab0de24717bc9abbade729d1eedb660c2063b7cfbd7c35adec60df1e23"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-error-20261021/case-results.json",
+      "actual": [
+        35257,
+        "4aee87fd21542b4122b27e72269f6477e6825538ebaf7601b94fbb8b043b2925"
+      ],
+      "expected": [
+        35257,
+        "4aee87fd21542b4122b27e72269f6477e6825538ebaf7601b94fbb8b043b2925"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-error-20261021/checks.json",
+      "actual": [
+        6587,
+        "2d93d8ff69e7c196a8780e70f024645094b662f2f93c2cc883589207b501b36f"
+      ],
+      "expected": [
+        6587,
+        "2d93d8ff69e7c196a8780e70f024645094b662f2f93c2cc883589207b501b36f"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-error-20261021/coverage.json",
+      "actual": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "expected": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-error-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "expected": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-error-20261021/outputs-manifest.json",
+      "actual": [
+        944,
+        "13f298dc0f61458cd4e63106e2ded9120319351eaef9c8128244fed1e2c0b6ab"
+      ],
+      "expected": [
+        944,
+        "13f298dc0f61458cd4e63106e2ded9120319351eaef9c8128244fed1e2c0b6ab"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-error-20261021/run.json",
+      "actual": [
+        482,
+        "3238db23ed6de64e801852c2136fdab649eab75141967125b774bed4bd6d45c1"
+      ],
+      "expected": [
+        482,
+        "3238db23ed6de64e801852c2136fdab649eab75141967125b774bed4bd6d45c1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-error-20261021/unittest-output.txt",
+      "actual": [
+        9162,
+        "eed92bdd1f842629ed76049ce9931186665fcc309f9999f879fc3083fbb86864"
+      ],
+      "expected": [
+        9162,
+        "eed92bdd1f842629ed76049ce9931186665fcc309f9999f879fc3083fbb86864"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-missing-20261021/case-results.json",
+      "actual": [
+        35019,
+        "5344be400c16efc803f64b76ee1fce89ef416f976f419ec3f74c3b6efdaaa91d"
+      ],
+      "expected": [
+        35019,
+        "5344be400c16efc803f64b76ee1fce89ef416f976f419ec3f74c3b6efdaaa91d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-missing-20261021/checks.json",
+      "actual": [
+        6512,
+        "df85467f014d0702d1b94a7e20af1d6e55fa5ce9e7d8f0b931dee8ae8580d4bc"
+      ],
+      "expected": [
+        6512,
+        "df85467f014d0702d1b94a7e20af1d6e55fa5ce9e7d8f0b931dee8ae8580d4bc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-missing-20261021/coverage.json",
+      "actual": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "expected": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-missing-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "expected": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-missing-20261021/outputs-manifest.json",
+      "actual": [
+        944,
+        "79631db88859946fdbb984408c669ea048ac1bad5adb0813cb5b1117b02491db"
+      ],
+      "expected": [
+        944,
+        "79631db88859946fdbb984408c669ea048ac1bad5adb0813cb5b1117b02491db"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-missing-20261021/run.json",
+      "actual": [
+        484,
+        "b3a40aae933c4bf9414921654f73fb6b7516e386f22991cc0f91af65d3004528"
+      ],
+      "expected": [
+        484,
+        "b3a40aae933c4bf9414921654f73fb6b7516e386f22991cc0f91af65d3004528"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-missing-20261021/unittest-output.txt",
+      "actual": [
+        8468,
+        "80810a60da93432136132f72442c09c7f3e3fabf4495a9ce6379110d2af6f5aa"
+      ],
+      "expected": [
+        8468,
+        "80810a60da93432136132f72442c09c7f3e3fabf4495a9ce6379110d2af6f5aa"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-retest-20261021/guard_retest.py",
+      "actual": [
+        1030,
+        "176d9e4300732eec1110719e9acc64c28118b5695f23cb2eaece75c45cc09dff"
+      ],
+      "expected": [
+        1030,
+        "176d9e4300732eec1110719e9acc64c28118b5695f23cb2eaece75c45cc09dff"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-retest-20261021/results.json",
+      "actual": [
+        1022,
+        "4b1497b10db13650110a96ffdf656018ab319a5c68873a3df9a66df91c7080f5"
+      ],
+      "expected": [
+        1022,
+        "4b1497b10db13650110a96ffdf656018ab319a5c68873a3df9a66df91c7080f5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-skip-20261021/case-results.json",
+      "actual": [
+        35260,
+        "4814084e6b02c8a45f295930919c66814cd833d290dd4f1ab5183ed3c5a1d2d7"
+      ],
+      "expected": [
+        35260,
+        "4814084e6b02c8a45f295930919c66814cd833d290dd4f1ab5183ed3c5a1d2d7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-skip-20261021/checks.json",
+      "actual": [
+        6587,
+        "a63f1c7e972792920ad54ff2d9e354b36baa6aa9049d7ae735edc8bc4738a771"
+      ],
+      "expected": [
+        6587,
+        "a63f1c7e972792920ad54ff2d9e354b36baa6aa9049d7ae735edc8bc4738a771"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-skip-20261021/coverage.json",
+      "actual": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "expected": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-skip-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "expected": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-skip-20261021/outputs-manifest.json",
+      "actual": [
+        944,
+        "70ea2184e86b385894091e84a14c511a500c865e827a001c42b2f1649d4bc9b4"
+      ],
+      "expected": [
+        944,
+        "70ea2184e86b385894091e84a14c511a500c865e827a001c42b2f1649d4bc9b4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-skip-20261021/run.json",
+      "actual": [
+        481,
+        "4f6b87ce36333f3a646711b2cf63d0b476773a94c61f41d1385d4b485b857143"
+      ],
+      "expected": [
+        481,
+        "4f6b87ce36333f3a646711b2cf63d0b476773a94c61f41d1385d4b485b857143"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-skip-20261021/unittest-output.txt",
+      "actual": [
+        8623,
+        "b436a781f982115b16c90d3935a7589962986e541315bc1d41fdff3bc31e831c"
+      ],
+      "expected": [
+        8623,
+        "b436a781f982115b16c90d3935a7589962986e541315bc1d41fdff3bc31e831c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-zero-20261021/case-results.json",
+      "actual": [
+        190,
+        "914f68479778ea5acac329658723f9939582ea7f9685c061560bd782012c1e74"
+      ],
+      "expected": [
+        190,
+        "914f68479778ea5acac329658723f9939582ea7f9685c061560bd782012c1e74"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-zero-20261021/checks.json",
+      "actual": [
+        4479,
+        "9a1b1f007a2b4df034c8d6102d82a4d83e8e2c20a177c6a069b7d09c5add4ab3"
+      ],
+      "expected": [
+        4479,
+        "9a1b1f007a2b4df034c8d6102d82a4d83e8e2c20a177c6a069b7d09c5add4ab3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-zero-20261021/coverage.json",
+      "actual": [
+        48702,
+        "19368979274f24a7b51959c2ad43190c16c2ddaa8783ca16064aeb5a4f044235"
+      ],
+      "expected": [
+        48702,
+        "19368979274f24a7b51959c2ad43190c16c2ddaa8783ca16064aeb5a4f044235"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-zero-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "expected": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-zero-20261021/outputs-manifest.json",
+      "actual": [
+        941,
+        "3f65f63cf880d924dc7cdec63f5f452cd9b0adf0bd278cab5080c5cb6b67e493"
+      ],
+      "expected": [
+        941,
+        "3f65f63cf880d924dc7cdec63f5f452cd9b0adf0bd278cab5080c5cb6b67e493"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-zero-20261021/run.json",
+      "actual": [
+        480,
+        "e9bb91f10c8c464aecbc39020d56226df308647cd0659d1cb4b4186bf6d3586b"
+      ],
+      "expected": [
+        480,
+        "e9bb91f10c8c464aecbc39020d56226df308647cd0659d1cb4b4186bf6d3586b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-guard-zero-20261021/unittest-output.txt",
+      "actual": [
+        113,
+        "b0281afc5a8f851fedc2bba09c88d720f4dcc47a2a487e40928c779cb967ff8c"
+      ],
+      "expected": [
+        113,
+        "b0281afc5a8f851fedc2bba09c88d720f4dcc47a2a487e40928c779cb967ff8c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-preservation-20261021/checks.json",
+      "actual": [
+        8174,
+        "0e0e4578f56e386da6eebc7944b47cb2f43e3e66a43883574828d4914b030f1e"
+      ],
+      "expected": [
+        8174,
+        "0e0e4578f56e386da6eebc7944b47cb2f43e3e66a43883574828d4914b030f1e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/authorization.json",
+      "actual": [
+        353,
+        "3add30696050b425a6e822d41e62a32762ea46e69ab8d113b9530c9331f9ce48"
+      ],
+      "expected": [
+        353,
+        "3add30696050b425a6e822d41e62a32762ea46e69ab8d113b9530c9331f9ce48"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/bad-dependency.json",
+      "actual": [
+        382316,
+        "7f3d5d30bd5edd0a016680e3ff8d92f8980a9d27f04d6d32b363e6e97c29e28d"
+      ],
+      "expected": [
+        382316,
+        "7f3d5d30bd5edd0a016680e3ff8d92f8980a9d27f04d6d32b363e6e97c29e28d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/bad-snapshot.json",
+      "actual": [
+        382316,
+        "7ba192b2e01b7b0267a88f50dd6d781dd79b1c787dc42162584306f68b792967"
+      ],
+      "expected": [
+        382316,
+        "7ba192b2e01b7b0267a88f50dd6d781dd79b1c787dc42162584306f68b792967"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/checks.json",
+      "actual": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "expected": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/coverage.json",
+      "actual": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "expected": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/dependencies.json",
+      "actual": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "expected": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/evidence.json",
+      "actual": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "expected": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/inputs-manifest.json",
+      "actual": [
+        4636,
+        "fabf5c1a6103c736445fe686a22528c8117749f55dc6d7919d9ab34bc9e8e7d2"
+      ],
+      "expected": [
+        4636,
+        "fabf5c1a6103c736445fe686a22528c8117749f55dc6d7919d9ab34bc9e8e7d2"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/issues.json",
+      "actual": [
+        7870,
+        "6bc78eba993f00dc2bef63584db14d2e7b42e3bbcb3f25453144b400e7feabfe"
+      ],
+      "expected": [
+        7870,
+        "6bc78eba993f00dc2bef63584db14d2e7b42e3bbcb3f25453144b400e7feabfe"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/model.json",
+      "actual": [
+        364971,
+        "f0b4ca4649087a1b28012e4454eff2cb8df3d2bbd580debe7a39c617fdfa93dc"
+      ],
+      "expected": [
+        364971,
+        "f0b4ca4649087a1b28012e4454eff2cb8df3d2bbd580debe7a39c617fdfa93dc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/outputs-manifest.json",
+      "actual": [
+        1679,
+        "8524b129b481fffea506b1d70804c4dad50e0e5c965141cf718caae769414ac1"
+      ],
+      "expected": [
+        1679,
+        "8524b129b481fffea506b1d70804c4dad50e0e5c965141cf718caae769414ac1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/patch-applicability.json",
+      "actual": [
+        56,
+        "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799"
+      ],
+      "expected": [
+        56,
+        "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/review.html",
+      "actual": [
+        25291,
+        "6ac6d9716051475b4de4da181ed9290f44b3c714c528136896fbb6fc6334a812"
+      ],
+      "expected": [
+        25291,
+        "6ac6d9716051475b4de4da181ed9290f44b3c714c528136896fbb6fc6334a812"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/review.md",
+      "actual": [
+        22634,
+        "953cba0b04a3a62ae6e1f03b3cc21cbcad9fb632dd49c1f75fc723c684733031"
+      ],
+      "expected": [
+        22634,
+        "953cba0b04a3a62ae6e1f03b3cc21cbcad9fb632dd49c1f75fc723c684733031"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/base/run.json",
+      "actual": [
+        1040,
+        "61b8dc7eaa1b0a59f2cfa60e906b5c6294e8d73ba7995c969c63e1e9770b20d0"
+      ],
+      "expected": [
+        1040,
+        "61b8dc7eaa1b0a59f2cfa60e906b5c6294e8d73ba7995c969c63e1e9770b20d0"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/checks.json",
+      "actual": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "expected": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/coverage.json",
+      "actual": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "expected": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/dependencies.json",
+      "actual": [
+        5153,
+        "aa2ae3068292bbf62bf494e847483d7570fc80831dfa4c9d57fc0407b402e58f"
+      ],
+      "expected": [
+        5153,
+        "aa2ae3068292bbf62bf494e847483d7570fc80831dfa4c9d57fc0407b402e58f"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/evidence.json",
+      "actual": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "expected": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/inputs-manifest.json",
+      "actual": [
+        6655,
+        "7abfe1ed95cb553a39c788dc8eb1fbde87bbbbd89bfd245521e07946dc5ad3d8"
+      ],
+      "expected": [
+        6655,
+        "7abfe1ed95cb553a39c788dc8eb1fbde87bbbbd89bfd245521e07946dc5ad3d8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/issues.json",
+      "actual": [
+        7878,
+        "7db53b60a7854b496d19c22c664f4788670b214ea260837cf9646b72ab9ed06a"
+      ],
+      "expected": [
+        7878,
+        "7db53b60a7854b496d19c22c664f4788670b214ea260837cf9646b72ab9ed06a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/model.json",
+      "actual": [
+        382996,
+        "371250704fabfe194625763dddd2b3d74974563a73b57d5f7e05031bbbfd3fd1"
+      ],
+      "expected": [
+        382996,
+        "371250704fabfe194625763dddd2b3d74974563a73b57d5f7e05031bbbfd3fd1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/outputs-manifest.json",
+      "actual": [
+        1680,
+        "473eb6cf1a6203a489cebdcff66914a1356af8c69d9c98a2af821354a07abd4b"
+      ],
+      "expected": [
+        1680,
+        "473eb6cf1a6203a489cebdcff66914a1356af8c69d9c98a2af821354a07abd4b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/patch-applicability.json",
+      "actual": [
+        246,
+        "9ae443d5195d24919ed84fcae889c35526bb59cf633253c6474c0433063691fb"
+      ],
+      "expected": [
+        246,
+        "9ae443d5195d24919ed84fcae889c35526bb59cf633253c6474c0433063691fb"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/review.html",
+      "actual": [
+        25291,
+        "6c0e25c6225610505e17f9f0da5941ae78630ea9328fb601632484d5a42d193a"
+      ],
+      "expected": [
+        25291,
+        "6c0e25c6225610505e17f9f0da5941ae78630ea9328fb601632484d5a42d193a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/review.md",
+      "actual": [
+        22634,
+        "cf017c7830f59fb10544c691f12653a578421e12b835dee69933e0d61a4df77e"
+      ],
+      "expected": [
+        22634,
+        "cf017c7830f59fb10544c691f12653a578421e12b835dee69933e0d61a4df77e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/dependency-change/run.json",
+      "actual": [
+        1587,
+        "b6502f7e147d77749d55c67b85876727303cb66e02d3b5af1622bebfeb925075"
+      ],
+      "expected": [
+        1587,
+        "b6502f7e147d77749d55c67b85876727303cb66e02d3b5af1622bebfeb925075"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/checks.json",
+      "actual": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "expected": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/coverage.json",
+      "actual": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "expected": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/dependencies.json",
+      "actual": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "expected": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/evidence.json",
+      "actual": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "expected": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/inputs-manifest.json",
+      "actual": [
+        5853,
+        "c0a1c31cf0a4dd5b7158535e790d182248efdb05e40cf89576ffd020c5daba1c"
+      ],
+      "expected": [
+        5853,
+        "c0a1c31cf0a4dd5b7158535e790d182248efdb05e40cf89576ffd020c5daba1c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/issues.json",
+      "actual": [
+        7875,
+        "e41376881e7865ae86aa83d057183dd8746ba498f05c8f24c65867c6f7fa00b6"
+      ],
+      "expected": [
+        7875,
+        "e41376881e7865ae86aa83d057183dd8746ba498f05c8f24c65867c6f7fa00b6"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/model.json",
+      "actual": [
+        373683,
+        "e5f063a4cab60f57a97bae75b1b89ced5d122a33592ac64ccc1a4ea5a6b76fa7"
+      ],
+      "expected": [
+        373683,
+        "e5f063a4cab60f57a97bae75b1b89ced5d122a33592ac64ccc1a4ea5a6b76fa7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/outputs-manifest.json",
+      "actual": [
+        1680,
+        "51ac28a24eff2166666346464778511f3094aeafc75cdfb23031cabb40404f4d"
+      ],
+      "expected": [
+        1680,
+        "51ac28a24eff2166666346464778511f3094aeafc75cdfb23031cabb40404f4d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/patch-applicability.json",
+      "actual": [
+        215,
+        "95872449e1a098ffa81a8d2d99685c8b04cce77e7cb173e60f64d0a92f822ec4"
+      ],
+      "expected": [
+        215,
+        "95872449e1a098ffa81a8d2d99685c8b04cce77e7cb173e60f64d0a92f822ec4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/review.html",
+      "actual": [
+        25291,
+        "946f226f5fe5d88de6833403d5615b2e5d547ff6743d260ad3c24a133be83300"
+      ],
+      "expected": [
+        25291,
+        "946f226f5fe5d88de6833403d5615b2e5d547ff6743d260ad3c24a133be83300"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/review.md",
+      "actual": [
+        22634,
+        "79bd3aab3d2ef192afe2db79161677cae2d4438fb045f7c5b73b478c788d860b"
+      ],
+      "expected": [
+        22634,
+        "79bd3aab3d2ef192afe2db79161677cae2d4438fb045f7c5b73b478c788d860b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/first/run.json",
+      "actual": [
+        1417,
+        "e69e96c25e72bfe4c1b4efd432ed32ee8b6d1606a81e3bb4c53501ac5dbbd409"
+      ],
+      "expected": [
+        1417,
+        "e69e96c25e72bfe4c1b4efd432ed32ee8b6d1606a81e3bb4c53501ac5dbbd409"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/outputs-manifest.json",
+      "actual": [
+        9009,
+        "ccee258bfc71571dfef822148813c27d4f6cd870549e719d004d78ed02f12aa1"
+      ],
+      "expected": [
+        9009,
+        "ccee258bfc71571dfef822148813c27d4f6cd870549e719d004d78ed02f12aa1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/patch.json",
+      "actual": [
+        658,
+        "378a600b7865da93bc37b3787d73428269c237b62332e31f45dd21b44e388b8e"
+      ],
+      "expected": [
+        658,
+        "378a600b7865da93bc37b3787d73428269c237b62332e31f45dd21b44e388b8e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/checks.json",
+      "actual": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "expected": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/coverage.json",
+      "actual": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "expected": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/dependencies.json",
+      "actual": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "expected": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/evidence.json",
+      "actual": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "expected": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/inputs-manifest.json",
+      "actual": [
+        6062,
+        "23fccb5e91ba1d56f34b6cfc2461e80eb5d2dcd4430a9e404005c14578625a11"
+      ],
+      "expected": [
+        6062,
+        "23fccb5e91ba1d56f34b6cfc2461e80eb5d2dcd4430a9e404005c14578625a11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/issues.json",
+      "actual": [
+        7875,
+        "e41376881e7865ae86aa83d057183dd8746ba498f05c8f24c65867c6f7fa00b6"
+      ],
+      "expected": [
+        7875,
+        "e41376881e7865ae86aa83d057183dd8746ba498f05c8f24c65867c6f7fa00b6"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/model.json",
+      "actual": [
+        373683,
+        "e5f063a4cab60f57a97bae75b1b89ced5d122a33592ac64ccc1a4ea5a6b76fa7"
+      ],
+      "expected": [
+        373683,
+        "e5f063a4cab60f57a97bae75b1b89ced5d122a33592ac64ccc1a4ea5a6b76fa7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/outputs-manifest.json",
+      "actual": [
+        1680,
+        "a9f01047943a041b2feed48185f7d7b4f8ed999c646bbf12fbd842ab2c1ebdae"
+      ],
+      "expected": [
+        1680,
+        "a9f01047943a041b2feed48185f7d7b4f8ed999c646bbf12fbd842ab2c1ebdae"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/patch-applicability.json",
+      "actual": [
+        215,
+        "433f2f3a32123703f4b3cb8e6f1d4d38d5e18e5c51c12d9a9433a2a3ab0cd6e4"
+      ],
+      "expected": [
+        215,
+        "433f2f3a32123703f4b3cb8e6f1d4d38d5e18e5c51c12d9a9433a2a3ab0cd6e4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/review.html",
+      "actual": [
+        25291,
+        "946f226f5fe5d88de6833403d5615b2e5d547ff6743d260ad3c24a133be83300"
+      ],
+      "expected": [
+        25291,
+        "946f226f5fe5d88de6833403d5615b2e5d547ff6743d260ad3c24a133be83300"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/review.md",
+      "actual": [
+        22634,
+        "79bd3aab3d2ef192afe2db79161677cae2d4438fb045f7c5b73b478c788d860b"
+      ],
+      "expected": [
+        22634,
+        "79bd3aab3d2ef192afe2db79161677cae2d4438fb045f7c5b73b478c788d860b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/repeat/run.json",
+      "actual": [
+        1542,
+        "4659db7e4379efd9ce5a93b5aacf3c4ba3a8b0939af815b55766d92b3662686a"
+      ],
+      "expected": [
+        1542,
+        "4659db7e4379efd9ce5a93b5aacf3c4ba3a8b0939af815b55766d92b3662686a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/results.json",
+      "actual": [
+        6539,
+        "8802b6506070e910bfe227a0cd1a66081660baebff19016372ac21d8cfbe79be"
+      ],
+      "expected": [
+        6539,
+        "8802b6506070e910bfe227a0cd1a66081660baebff19016372ac21d8cfbe79be"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/retest.py",
+      "actual": [
+        7093,
+        "c3c95123003ec5439780d8c8242683773e8fd53c321cecf354fe05637d21a5b9"
+      ],
+      "expected": [
+        7093,
+        "c3c95123003ec5439780d8c8242683773e8fd53c321cecf354fe05637d21a5b9"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/checks.json",
+      "actual": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "expected": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/coverage.json",
+      "actual": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "expected": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/dependencies.json",
+      "actual": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "expected": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/evidence.json",
+      "actual": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "expected": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/inputs-manifest.json",
+      "actual": [
+        6653,
+        "f0f1843b27041525b9aeadc93cdffde247cc12c91956a707ba2c124119f87d1a"
+      ],
+      "expected": [
+        6653,
+        "f0f1843b27041525b9aeadc93cdffde247cc12c91956a707ba2c124119f87d1a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/issues.json",
+      "actual": [
+        7875,
+        "e41376881e7865ae86aa83d057183dd8746ba498f05c8f24c65867c6f7fa00b6"
+      ],
+      "expected": [
+        7875,
+        "e41376881e7865ae86aa83d057183dd8746ba498f05c8f24c65867c6f7fa00b6"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/model.json",
+      "actual": [
+        382316,
+        "5823ec6d5069f6b1aa6b4a2bc5eeec157c97388cc83e6e9e3496aeb71563440e"
+      ],
+      "expected": [
+        382316,
+        "5823ec6d5069f6b1aa6b4a2bc5eeec157c97388cc83e6e9e3496aeb71563440e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/outputs-manifest.json",
+      "actual": [
+        1680,
+        "32e36e945eff7799a1a768a53cd5f972acf01ea42958785100545ee542e86245"
+      ],
+      "expected": [
+        1680,
+        "32e36e945eff7799a1a768a53cd5f972acf01ea42958785100545ee542e86245"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/patch-applicability.json",
+      "actual": [
+        215,
+        "95872449e1a098ffa81a8d2d99685c8b04cce77e7cb173e60f64d0a92f822ec4"
+      ],
+      "expected": [
+        215,
+        "95872449e1a098ffa81a8d2d99685c8b04cce77e7cb173e60f64d0a92f822ec4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/review.html",
+      "actual": [
+        25291,
+        "44f7dedb365ba124b6af6f5017669094bdae120db5ef3dcdac3d027b161bfed5"
+      ],
+      "expected": [
+        25291,
+        "44f7dedb365ba124b6af6f5017669094bdae120db5ef3dcdac3d027b161bfed5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/review.md",
+      "actual": [
+        22634,
+        "6b2cafb70a41fbc5419476f2d975776d47438b283291cceeca067821c5f1d7a5"
+      ],
+      "expected": [
+        22634,
+        "6b2cafb70a41fbc5419476f2d975776d47438b283291cceeca067821c5f1d7a5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-retest-20261021/revision/run.json",
+      "actual": [
+        1545,
+        "ddc04c4af6dce4240f6a1ca1c3002ba5e0e0e0a9c2b5b59c30d8197b11fdd390"
+      ],
+      "expected": [
+        1545,
+        "ddc04c4af6dce4240f6a1ca1c3002ba5e0e0e0a9c2b5b59c30d8197b11fdd390"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-final2-20261021/case-results.json",
+      "actual": [
+        35260,
+        "1ad3f080b4bee76005d690f66240c57b0e631e8c2bf5b0093b9ef1013da52e95"
+      ],
+      "expected": [
+        35260,
+        "1ad3f080b4bee76005d690f66240c57b0e631e8c2bf5b0093b9ef1013da52e95"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-final2-20261021/checks.json",
+      "actual": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "expected": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-final2-20261021/coverage.json",
+      "actual": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "expected": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-final2-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "expected": [
+        3064,
+        "40bc65ee809bbacaa7d69089d23d88af40c5d7ac44cb58bb4b40a5b4515c79f1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-final2-20261021/outputs-manifest.json",
+      "actual": [
+        944,
+        "266f8604b61472e9e54da07cb33d02532b262a545f5858ef59f1857258a841c1"
+      ],
+      "expected": [
+        944,
+        "266f8604b61472e9e54da07cb33d02532b262a545f5858ef59f1857258a841c1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-final2-20261021/run.json",
+      "actual": [
+        482,
+        "1e4d11deca0afe9bd5761ce8312754f46109ed4ffcbf8d4a2b12a40116c007f3"
+      ],
+      "expected": [
+        482,
+        "1e4d11deca0afe9bd5761ce8312754f46109ed4ffcbf8d4a2b12a40116c007f3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-final2-20261021/unittest-output.txt",
+      "actual": [
+        8575,
+        "0265ee8ae51c8c20e96d622085b2f85457f651e550132a231c5a2a0f3c91b0bd"
+      ],
+      "expected": [
+        8575,
+        "0265ee8ae51c8c20e96d622085b2f85457f651e550132a231c5a2a0f3c91b0bd"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-nogit-20261021/case-results.json",
+      "actual": [
+        35257,
+        "5eeaff2c3cc9b1234462b3e1cc1df166586139341efdff5f428bd2ddf3eb2fd1"
+      ],
+      "expected": [
+        35257,
+        "5eeaff2c3cc9b1234462b3e1cc1df166586139341efdff5f428bd2ddf3eb2fd1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-nogit-20261021/checks.json",
+      "actual": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "expected": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-nogit-20261021/coverage.json",
+      "actual": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "expected": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-nogit-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "defe004582c615a51d9494f196bf0fbe1ac5a1caa200bbcfc39c9464360f2e2d"
+      ],
+      "expected": [
+        3064,
+        "defe004582c615a51d9494f196bf0fbe1ac5a1caa200bbcfc39c9464360f2e2d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-nogit-20261021/nogit_retest.py",
+      "actual": [
+        394,
+        "35ffc8751e40f91a149daf71c8dfd933652475eb078ee497b76b7df445fd18e3"
+      ],
+      "expected": [
+        394,
+        "35ffc8751e40f91a149daf71c8dfd933652475eb078ee497b76b7df445fd18e3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-nogit-20261021/outputs-manifest.json",
+      "actual": [
+        944,
+        "03ce04724b86030f0c6671e9463c7f6d1e26d702580a9712cdeb881dd6d97e28"
+      ],
+      "expected": [
+        944,
+        "03ce04724b86030f0c6671e9463c7f6d1e26d702580a9712cdeb881dd6d97e28"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-nogit-20261021/run.json",
+      "actual": [
+        471,
+        "3a72e5a11aaeb3d26c5656062c83c942c46569f9a2ab0f05e100462787f3b36b"
+      ],
+      "expected": [
+        471,
+        "3a72e5a11aaeb3d26c5656062c83c942c46569f9a2ab0f05e100462787f3b36b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-nogit-20261021/unittest-output.txt",
+      "actual": [
+        8575,
+        "68084b6cce72b31a79c1441c403d5144b2ff6f243d946d9e8c8921b278f1bdbf"
+      ],
+      "expected": [
+        8575,
+        "68084b6cce72b31a79c1441c403d5144b2ff6f243d946d9e8c8921b278f1bdbf"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-20261021/case-results.json",
+      "actual": [
+        34030,
+        "fd6103aec0832fdbdad0cc1ba2bc8ce22902fb1cd2fc4ab62e630cb4dd5361b7"
+      ],
+      "expected": [
+        34030,
+        "fd6103aec0832fdbdad0cc1ba2bc8ce22902fb1cd2fc4ab62e630cb4dd5361b7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-20261021/checks.json",
+      "actual": [
+        4896,
+        "a7207c6797a56981505a85a9d31eb19fb8519fa5ade5a33d276bf30b248b5fda"
+      ],
+      "expected": [
+        4896,
+        "a7207c6797a56981505a85a9d31eb19fb8519fa5ade5a33d276bf30b248b5fda"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-20261021/coverage.json",
+      "actual": [
+        42285,
+        "429b84e0c72ce25baaf11f49657ed5ddb28da723618717312340a8094af42df7"
+      ],
+      "expected": [
+        42285,
+        "429b84e0c72ce25baaf11f49657ed5ddb28da723618717312340a8094af42df7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "d45f4cc2c0bae1c868a131e4f455fd595b876a7dcf0fb53c54bec5ca633bc706"
+      ],
+      "expected": [
+        3064,
+        "d45f4cc2c0bae1c868a131e4f455fd595b876a7dcf0fb53c54bec5ca633bc706"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-20261021/outputs-manifest.json",
+      "actual": [
+        944,
+        "486880d30775dda4c0b44a3834cde77fb4abebc463877d972bdcb3fc600246ad"
+      ],
+      "expected": [
+        944,
+        "486880d30775dda4c0b44a3834cde77fb4abebc463877d972bdcb3fc600246ad"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-20261021/run.json",
+      "actual": [
+        486,
+        "64e7e991c82b904426589f8e4e16783f4b5d4c99fb4cf6702c18ced6416123ed"
+      ],
+      "expected": [
+        486,
+        "64e7e991c82b904426589f8e4e16783f4b5d4c99fb4cf6702c18ced6416123ed"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-20261021/unittest-output.txt",
+      "actual": [
+        8012,
+        "fe9158fbae8574fe881c20a91ef39d04d31ee2981719b352ef7ec0d08f601b35"
+      ],
+      "expected": [
+        8012,
+        "fe9158fbae8574fe881c20a91ef39d04d31ee2981719b352ef7ec0d08f601b35"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-retest-20261021/case-results.json",
+      "actual": [
+        35021,
+        "126c8b4ad35e166b3facd618e3380f0e0c7473a523e8a5248e26d505304e1821"
+      ],
+      "expected": [
+        35021,
+        "126c8b4ad35e166b3facd618e3380f0e0c7473a523e8a5248e26d505304e1821"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-retest-20261021/checks.json",
+      "actual": [
+        6512,
+        "df85467f014d0702d1b94a7e20af1d6e55fa5ce9e7d8f0b931dee8ae8580d4bc"
+      ],
+      "expected": [
+        6512,
+        "df85467f014d0702d1b94a7e20af1d6e55fa5ce9e7d8f0b931dee8ae8580d4bc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-retest-20261021/coverage.json",
+      "actual": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "expected": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-retest-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "f04af1cd56170ee0cf7cdf48f9df1a54a5666d5367ffc19b1f2ca5a027e78f84"
+      ],
+      "expected": [
+        3064,
+        "f04af1cd56170ee0cf7cdf48f9df1a54a5666d5367ffc19b1f2ca5a027e78f84"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-retest-20261021/outputs-manifest.json",
+      "actual": [
+        944,
+        "86908fddbfc826ae2a406182e38f941da80b5ad5018ca76bf8cfd19156c6a2a3"
+      ],
+      "expected": [
+        944,
+        "86908fddbfc826ae2a406182e38f941da80b5ad5018ca76bf8cfd19156c6a2a3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-retest-20261021/run.json",
+      "actual": [
+        493,
+        "28a004fa954442ee747b642651954b52972bb3378820ba6ce839eb457bd79476"
+      ],
+      "expected": [
+        493,
+        "28a004fa954442ee747b642651954b52972bb3378820ba6ce839eb457bd79476"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/independent-review-omission-retest-20261021/unittest-output.txt",
+      "actual": [
+        8468,
+        "ea8d4a7dfce16116f3b0f4153ce21fa2acbc06474c0af863d360e2f782c342b4"
+      ],
+      "expected": [
+        8468,
+        "ea8d4a7dfce16116f3b0f4153ce21fa2acbc06474c0af863d360e2f782c342b4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/probe-error-20261021/checks.json",
+      "actual": [
+        219,
+        "d1c418d296ba8b811152fb150d26372d022a6fffcc30a51682ebd80380caf588"
+      ],
+      "expected": [
+        219,
+        "d1c418d296ba8b811152fb150d26372d022a6fffcc30a51682ebd80380caf588"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/probe-missing-20261021/checks.json",
+      "actual": [
+        237,
+        "efed867c9c02497a539cbbbb9ac749bf37ebc8915369597f93eb87f945d11239"
+      ],
+      "expected": [
+        237,
+        "efed867c9c02497a539cbbbb9ac749bf37ebc8915369597f93eb87f945d11239"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/probe-skipped-20261021/checks.json",
+      "actual": [
+        219,
+        "9405917a58517eb0aab0dcec97304b8d51bdc899aa07df13e6c97a7214a06dfc"
+      ],
+      "expected": [
+        219,
+        "9405917a58517eb0aab0dcec97304b8d51bdc899aa07df13e6c97a7214a06dfc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/probe-zero-20261021/checks.json",
+      "actual": [
+        237,
+        "efed867c9c02497a539cbbbb9ac749bf37ebc8915369597f93eb87f945d11239"
+      ],
+      "expected": [
+        237,
+        "efed867c9c02497a539cbbbb9ac749bf37ebc8915369597f93eb87f945d11239"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/checks.json",
+      "actual": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "expected": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/coverage.json",
+      "actual": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "expected": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/dependencies.json",
+      "actual": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "expected": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/evidence.json",
+      "actual": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "expected": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/inputs-manifest.json",
+      "actual": [
+        4732,
+        "7712e261b7c0e2229b4949a13d1a0fe929400f00206c78aa1095671c29d02883"
+      ],
+      "expected": [
+        4732,
+        "7712e261b7c0e2229b4949a13d1a0fe929400f00206c78aa1095671c29d02883"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/issues.json",
+      "actual": [
+        7870,
+        "6bc78eba993f00dc2bef63584db14d2e7b42e3bbcb3f25453144b400e7feabfe"
+      ],
+      "expected": [
+        7870,
+        "6bc78eba993f00dc2bef63584db14d2e7b42e3bbcb3f25453144b400e7feabfe"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/model.json",
+      "actual": [
+        364971,
+        "f0b4ca4649087a1b28012e4454eff2cb8df3d2bbd580debe7a39c617fdfa93dc"
+      ],
+      "expected": [
+        364971,
+        "f0b4ca4649087a1b28012e4454eff2cb8df3d2bbd580debe7a39c617fdfa93dc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/outputs-manifest.json",
+      "actual": [
+        1678,
+        "f6b4e4c7edd786e50c5f3edd2a5faa1627c2c973eb93a110e5e5bbc4d3c4c446"
+      ],
+      "expected": [
+        1678,
+        "f6b4e4c7edd786e50c5f3edd2a5faa1627c2c973eb93a110e5e5bbc4d3c4c446"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/patch-applicability.json",
+      "actual": [
+        56,
+        "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799"
+      ],
+      "expected": [
+        56,
+        "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/review.html",
+      "actual": [
+        25291,
+        "6ac6d9716051475b4de4da181ed9290f44b3c714c528136896fbb6fc6334a812"
+      ],
+      "expected": [
+        25291,
+        "6ac6d9716051475b4de4da181ed9290f44b3c714c528136896fbb6fc6334a812"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/review.md",
+      "actual": [
+        22634,
+        "953cba0b04a3a62ae6e1f03b3cc21cbcad9fb632dd49c1f75fc723c684733031"
+      ],
+      "expected": [
+        22634,
+        "953cba0b04a3a62ae6e1f03b3cc21cbcad9fb632dd49c1f75fc723c684733031"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-demo-20261021/run.json",
+      "actual": [
+        931,
+        "7c5c2fb75310616293b997beb5e35c8da7b443c3c3ad9c27bb33ff2b95ff59c0"
+      ],
+      "expected": [
+        931,
+        "7c5c2fb75310616293b997beb5e35c8da7b443c3c3ad9c27bb33ff2b95ff59c0"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-no-git-20261021/case-results.json",
+      "actual": [
+        35259,
+        "688af937e1a0fbd0cf5f300dd1896af7ebd6aec0e8eb822319feb06d55f660e5"
+      ],
+      "expected": [
+        35259,
+        "688af937e1a0fbd0cf5f300dd1896af7ebd6aec0e8eb822319feb06d55f660e5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-no-git-20261021/checks.json",
+      "actual": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "expected": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-no-git-20261021/coverage.json",
+      "actual": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "expected": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-no-git-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "defe004582c615a51d9494f196bf0fbe1ac5a1caa200bbcfc39c9464360f2e2d"
+      ],
+      "expected": [
+        3064,
+        "defe004582c615a51d9494f196bf0fbe1ac5a1caa200bbcfc39c9464360f2e2d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-no-git-20261021/outputs-manifest.json",
+      "actual": [
+        944,
+        "33d7e93ba1cdfbef37da6256cc9b0fa7c4b30d1ad986b7d3e647be22bcff6c1c"
+      ],
+      "expected": [
+        944,
+        "33d7e93ba1cdfbef37da6256cc9b0fa7c4b30d1ad986b7d3e647be22bcff6c1c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-no-git-20261021/run.json",
+      "actual": [
+        460,
+        "1c0fac31f20ad4ab354ea8fc9bea85c34f7aa5291932f659c14454f885894675"
+      ],
+      "expected": [
+        460,
+        "1c0fac31f20ad4ab354ea8fc9bea85c34f7aa5291932f659c14454f885894675"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-no-git-20261021/unittest-output.txt",
+      "actual": [
+        8575,
+        "d603de7fef69cda75ecbed177cc43f8403ee3196be9226edc4d9d6f642763d9d"
+      ],
+      "expected": [
+        8575,
+        "d603de7fef69cda75ecbed177cc43f8403ee3196be9226edc4d9d6f642763d9d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-suite-20261021/case-results.json",
+      "actual": [
+        35254,
+        "570761dade42ded5112c841b2cd7a238b2bc858bf331fbf9632c85f0d6dbc940"
+      ],
+      "expected": [
+        35254,
+        "570761dade42ded5112c841b2cd7a238b2bc858bf331fbf9632c85f0d6dbc940"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-suite-20261021/checks.json",
+      "actual": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "expected": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-suite-20261021/coverage.json",
+      "actual": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "expected": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-suite-20261021/inputs-manifest.json",
+      "actual": [
+        3064,
+        "defe004582c615a51d9494f196bf0fbe1ac5a1caa200bbcfc39c9464360f2e2d"
+      ],
+      "expected": [
+        3064,
+        "defe004582c615a51d9494f196bf0fbe1ac5a1caa200bbcfc39c9464360f2e2d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-suite-20261021/outputs-manifest.json",
+      "actual": [
+        944,
+        "3abcbe447766518ac460591d0ce174f2fede47a487b6d6e03176d456b0e0f02d"
+      ],
+      "expected": [
+        944,
+        "3abcbe447766518ac460591d0ce174f2fede47a487b6d6e03176d456b0e0f02d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-suite-20261021/run.json",
+      "actual": [
+        471,
+        "306c5c741b37640d2a12122d2f7540acde828f3c112cb58e9abde1f5d9453e74"
+      ],
+      "expected": [
+        471,
+        "306c5c741b37640d2a12122d2f7540acde828f3c112cb58e9abde1f5d9453e74"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/recovery-suite-20261021/unittest-output.txt",
+      "actual": [
+        8575,
+        "652d513634bac1dc13e6c6897810f7e43cc4314e6175b439f2e8908df56e1aa3"
+      ],
+      "expected": [
+        8575,
+        "652d513634bac1dc13e6c6897810f7e43cc4314e6175b439f2e8908df56e1aa3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/checks.json",
+      "actual": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "expected": [
+        200,
+        "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/coverage.json",
+      "actual": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "expected": [
+        144,
+        "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/dependencies.json",
+      "actual": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "expected": [
+        5122,
+        "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/evidence.json",
+      "actual": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "expected": [
+        174097,
+        "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/inputs-manifest.json",
+      "actual": [
+        4636,
+        "fabf5c1a6103c736445fe686a22528c8117749f55dc6d7919d9ab34bc9e8e7d2"
+      ],
+      "expected": [
+        4636,
+        "fabf5c1a6103c736445fe686a22528c8117749f55dc6d7919d9ab34bc9e8e7d2"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/issues.json",
+      "actual": [
+        7870,
+        "6bc78eba993f00dc2bef63584db14d2e7b42e3bbcb3f25453144b400e7feabfe"
+      ],
+      "expected": [
+        7870,
+        "6bc78eba993f00dc2bef63584db14d2e7b42e3bbcb3f25453144b400e7feabfe"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/model.json",
+      "actual": [
+        364971,
+        "f0b4ca4649087a1b28012e4454eff2cb8df3d2bbd580debe7a39c617fdfa93dc"
+      ],
+      "expected": [
+        364971,
+        "f0b4ca4649087a1b28012e4454eff2cb8df3d2bbd580debe7a39c617fdfa93dc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/outputs-manifest.json",
+      "actual": [
+        1678,
+        "6d2db9da207d9c2a3cc2c0b3ca562cd4a23435f86430565dabe7ea51567b68e8"
+      ],
+      "expected": [
+        1678,
+        "6d2db9da207d9c2a3cc2c0b3ca562cd4a23435f86430565dabe7ea51567b68e8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/patch-applicability.json",
+      "actual": [
+        56,
+        "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799"
+      ],
+      "expected": [
+        56,
+        "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/review.html",
+      "actual": [
+        25291,
+        "6ac6d9716051475b4de4da181ed9290f44b3c714c528136896fbb6fc6334a812"
+      ],
+      "expected": [
+        25291,
+        "6ac6d9716051475b4de4da181ed9290f44b3c714c528136896fbb6fc6334a812"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/review.md",
+      "actual": [
+        22634,
+        "953cba0b04a3a62ae6e1f03b3cc21cbcad9fb632dd49c1f75fc723c684733031"
+      ],
+      "expected": [
+        22634,
+        "953cba0b04a3a62ae6e1f03b3cc21cbcad9fb632dd49c1f75fc723c684733031"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/rerun-20261021-01/run.json",
+      "actual": [
+        894,
+        "0fee955837cb6f66f9f517f57ae65e30feaf23d0c5f332d87faf9dd55820dc95"
+      ],
+      "expected": [
+        894,
+        "0fee955837cb6f66f9f517f57ae65e30feaf23d0c5f332d87faf9dd55820dc95"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/resume-20261021-01/carryover.json",
+      "actual": [
+        48934,
+        "5148800fb0b90c8b4545e5950175102b5b66a1878463f901ae88b62806f5c8c4"
+      ],
+      "expected": [
+        48934,
+        "5148800fb0b90c8b4545e5950175102b5b66a1878463f901ae88b62806f5c8c4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/resume-20261021-01/checks.json",
+      "actual": [
+        31320,
+        "c4b06de7b8a6ef0476049474c5ebc9bd183423d6a18b1822e9f5b46f9e8a9f11"
+      ],
+      "expected": [
+        31320,
+        "c4b06de7b8a6ef0476049474c5ebc9bd183423d6a18b1822e9f5b46f9e8a9f11"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/resume-20261021-01/frozen-reference-map.json",
+      "actual": [
+        26824,
+        "74de4a142192d0771a7a37f6a089168df40a647620f92654f994d3e86c5ac1c1"
+      ],
+      "expected": [
+        26824,
+        "74de4a142192d0771a7a37f6a089168df40a647620f92654f994d3e86c5ac1c1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/resume-20261021-01/inputs-manifest.json",
+      "actual": [
+        639,
+        "57cbf127c7ca5c673996901f583ee5742de8998117239e9a9c67e2b57ca1615a"
+      ],
+      "expected": [
+        639,
+        "57cbf127c7ca5c673996901f583ee5742de8998117239e9a9c67e2b57ca1615a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/resume-20261021-01/outputs-manifest.json",
+      "actual": [
+        988,
+        "2f4e9de76c9e852d5336ad5c5ae77d29d124f09aa0c5436fb392def66c6e2ff9"
+      ],
+      "expected": [
+        988,
+        "2f4e9de76c9e852d5336ad5c5ae77d29d124f09aa0c5436fb392def66c6e2ff9"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/resume-20261021-01/reading-record.json",
+      "actual": [
+        5003,
+        "59c4ba1f328393f75a2ba510e3c1dd7e92f4f019a542a458bbc9367b4519c477"
+      ],
+      "expected": [
+        5003,
+        "59c4ba1f328393f75a2ba510e3c1dd7e92f4f019a542a458bbc9367b4519c477"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/resume-20261021-01/run.json",
+      "actual": [
+        585,
+        "7f93e71b7f1d652450f4581e2b2029b7f794e3ed3b91c2137b8816ae643f5129"
+      ],
+      "expected": [
+        585,
+        "7f93e71b7f1d652450f4581e2b2029b7f794e3ed3b91c2137b8816ae643f5129"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/suite-20261021-05/case-results.json",
+      "actual": [
+        35260,
+        "026fc0c3db004621bb74311c61904c8f8b141c5d460c50e55743e5851171a9ae"
+      ],
+      "expected": [
+        35260,
+        "026fc0c3db004621bb74311c61904c8f8b141c5d460c50e55743e5851171a9ae"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/suite-20261021-05/checks.json",
+      "actual": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "expected": [
+        6587,
+        "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/suite-20261021-05/coverage.json",
+      "actual": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "expected": [
+        48508,
+        "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/suite-20261021-05/inputs-manifest.json",
+      "actual": [
+        3064,
+        "defe004582c615a51d9494f196bf0fbe1ac5a1caa200bbcfc39c9464360f2e2d"
+      ],
+      "expected": [
+        3064,
+        "defe004582c615a51d9494f196bf0fbe1ac5a1caa200bbcfc39c9464360f2e2d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/suite-20261021-05/outputs-manifest.json",
+      "actual": [
+        944,
+        "f93160cc7f376f80a0720da707c35fc76b730c29b6dd117b159554cad8552aa3"
+      ],
+      "expected": [
+        944,
+        "f93160cc7f376f80a0720da707c35fc76b730c29b6dd117b159554cad8552aa3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/suite-20261021-05/run.json",
+      "actual": [
+        465,
+        "74aad17e72cf259ec2175af64c19c08a318be5fac2a01a4c4498ac9696804592"
+      ],
+      "expected": [
+        465,
+        "74aad17e72cf259ec2175af64c19c08a318be5fac2a01a4c4498ac9696804592"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/MVP-0.1/suite-20261021-05/unittest-output.txt",
+      "actual": [
+        8575,
+        "8b391819499396c895626f841fa6d53410eeb81e9e4405ed3181df68aef82726"
+      ],
+      "expected": [
+        8575,
+        "8b391819499396c895626f841fa6d53410eeb81e9e4405ed3181df68aef82726"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/.gitignore",
+      "actual": [
+        34,
+        "f5fbcaddba16ca471b35b0b4545e318f10edb0a6766ec01b192010af462de5d4"
+      ],
+      "expected": [
+        34,
+        "f5fbcaddba16ca471b35b0b4545e318f10edb0a6766ec01b192010af462de5d4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/AGENTS.md",
+      "actual": [
+        9653,
+        "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf"
+      ],
+      "expected": [
+        9653,
+        "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/ARCHITECTURE.md",
+      "actual": [
+        15080,
+        "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+      ],
+      "expected": [
+        15080,
+        "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/documents-01/checks.json",
+      "actual": [
+        43974,
+        "e40df4db7f7a97c27dde5b472bf9b8ac435783a03b71778fd924859f132f3f5b"
+      ],
+      "expected": [
+        43974,
+        "e40df4db7f7a97c27dde5b472bf9b8ac435783a03b71778fd924859f132f3f5b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/documents-02/checks.json",
+      "actual": [
+        44191,
+        "a5deebd1c33d7e02ea390e211bed891ceb66fa7efabbe1c36979fe3c25da981c"
+      ],
+      "expected": [
+        44191,
+        "a5deebd1c33d7e02ea390e211bed891ceb66fa7efabbe1c36979fe3c25da981c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-01/case-readiness.json",
+      "actual": [
+        10123,
+        "c0d714bd0a9f1775f54ae232477a10458f0779d605e3c108c060b9d5bec9b06a"
+      ],
+      "expected": [
+        10123,
+        "c0d714bd0a9f1775f54ae232477a10458f0779d605e3c108c060b9d5bec9b06a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-01/checks.json",
+      "actual": [
+        29718,
+        "e77dd316f91c022fd952214bb6fc405d40905e7653d9129c9812ff5fff7b0a14"
+      ],
+      "expected": [
+        29718,
+        "e77dd316f91c022fd952214bb6fc405d40905e7653d9129c9812ff5fff7b0a14"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-01/run.json",
+      "actual": [
+        1056,
+        "2ab116767042290bcb31859ccf5af12732eec42fbc6af7911e3c369774fcf82a"
+      ],
+      "expected": [
+        1056,
+        "2ab116767042290bcb31859ccf5af12732eec42fbc6af7911e3c369774fcf82a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/case-readiness.json",
+      "actual": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "expected": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/checks.json",
+      "actual": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "expected": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/inputs-manifest.json",
+      "actual": [
+        2335,
+        "c3e92fc9eee4519b25de8947e3c65926963a7914697e2b45bee13b9c499492b6"
+      ],
+      "expected": [
+        2335,
+        "c3e92fc9eee4519b25de8947e3c65926963a7914697e2b45bee13b9c499492b6"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/outputs-manifest.json",
+      "actual": [
+        580,
+        "2145e1bbc08af63e57d4076308c524cdd00a9ca9cb071a16f895a17ecc3bc2f8"
+      ],
+      "expected": [
+        580,
+        "2145e1bbc08af63e57d4076308c524cdd00a9ca9cb071a16f895a17ecc3bc2f8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/run.json",
+      "actual": [
+        1495,
+        "8283496e288df80e7535ccf03fd89a396ceb57b5c89bbd6002691cc852170bfc"
+      ],
+      "expected": [
+        1495,
+        "8283496e288df80e7535ccf03fd89a396ceb57b5c89bbd6002691cc852170bfc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/case-readiness.json",
+      "actual": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "expected": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/checks.json",
+      "actual": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "expected": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/coverage.json",
+      "actual": [
+        19158,
+        "80c3bd873888477ab1ec59c53ca9c0b941da86a7f90dc74ec98ebb80f3610957"
+      ],
+      "expected": [
+        19158,
+        "80c3bd873888477ab1ec59c53ca9c0b941da86a7f90dc74ec98ebb80f3610957"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/inputs-manifest.json",
+      "actual": [
+        2983,
+        "8bd3a7b3feff95661c58b452565dac65edae4ac1d561225de78b698d4005a1b1"
+      ],
+      "expected": [
+        2983,
+        "8bd3a7b3feff95661c58b452565dac65edae4ac1d561225de78b698d4005a1b1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/outputs-manifest.json",
+      "actual": [
+        711,
+        "9e325cf1c759d3db24ca44b55ea545d33fad1ff11eca9e6883b218d206464a61"
+      ],
+      "expected": [
+        711,
+        "9e325cf1c759d3db24ca44b55ea545d33fad1ff11eca9e6883b218d206464a61"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/run.json",
+      "actual": [
+        1495,
+        "6346c4c59ec05ca9d7c603fbead4fc7ea54aa71fbcd70c8c9f6492bf64c3c5ff"
+      ],
+      "expected": [
+        1495,
+        "6346c4c59ec05ca9d7c603fbead4fc7ea54aa71fbcd70c8c9f6492bf64c3c5ff"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/case-readiness.json",
+      "actual": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "expected": [
+        10315,
+        "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/checks.json",
+      "actual": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "expected": [
+        32567,
+        "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/coverage.json",
+      "actual": [
+        19158,
+        "36d63bf5941aea6e8b41b7cc3fc1546f3ac6885636ac1c8d341e47adb6c35262"
+      ],
+      "expected": [
+        19158,
+        "36d63bf5941aea6e8b41b7cc3fc1546f3ac6885636ac1c8d341e47adb6c35262"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/inputs-manifest.json",
+      "actual": [
+        2983,
+        "dd210a0e12b71b90d74a1a6a0e82d439ddce9306c647acf9a4d9541bce34b741"
+      ],
+      "expected": [
+        2983,
+        "dd210a0e12b71b90d74a1a6a0e82d439ddce9306c647acf9a4d9541bce34b741"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/outputs-manifest.json",
+      "actual": [
+        711,
+        "ebc4944e442272f77823595e0b49f6a6e6b98095cbf57971a2eaf206b404a5e3"
+      ],
+      "expected": [
+        711,
+        "ebc4944e442272f77823595e0b49f6a6e6b98095cbf57971a2eaf206b404a5e3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/run.json",
+      "actual": [
+        1495,
+        "0d623e3e9581b4542c41cd607e724c3e267c57ecd98c933a39d2dc94f7918c65"
+      ],
+      "expected": [
+        1495,
+        "0d623e3e9581b4542c41cd607e724c3e267c57ecd98c933a39d2dc94f7918c65"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/rebuild-01/build-record.json",
+      "actual": [
+        1191,
+        "94cd96f456dd214614ba46bb3720f302c1363c3cc75a3efa0d82ab62a7231ded"
+      ],
+      "expected": [
+        1191,
+        "94cd96f456dd214614ba46bb3720f302c1363c3cc75a3efa0d82ab62a7231ded"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/rebuild-01/checks.json",
+      "actual": [
+        1091,
+        "289f8c9e19f515b0ff0f399a2ab3b28d01335afd4f394950bdf33d1b54fcdf38"
+      ],
+      "expected": [
+        1091,
+        "289f8c9e19f515b0ff0f399a2ab3b28d01335afd4f394950bdf33d1b54fcdf38"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-dds-define.yaml",
+      "actual": [
+        84668,
+        "010dbaddb6b55041450e4c857e6f0765e84898505aeb2373f256ab19dd37ce02"
+      ],
+      "expected": [
+        84668,
+        "010dbaddb6b55041450e4c857e6f0765e84898505aeb2373f256ab19dd37ce02"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-dds.yaml",
+      "actual": [
+        82157,
+        "a4649e1d33a6d3ef832b301ebd875e782f740811a8d48e9e744c66492b84f91d"
+      ],
+      "expected": [
+        82157,
+        "a4649e1d33a6d3ef832b301ebd875e782f740811a8d48e9e744c66492b84f91d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml",
+      "actual": [
+        83131,
+        "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+      ],
+      "expected": [
+        83131,
+        "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-LICENSE",
+      "actual": [
+        1085,
+        "4c21061e36524297b6173f929b507edea5208254af1d743370047e54f52f9ce1"
+      ],
+      "expected": [
+        1085,
+        "4c21061e36524297b6173f929b507edea5208254af1d743370047e54f52f9ce1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-readme.md",
+      "actual": [
+        21385,
+        "d26495a44cfe931123f39742734632d08dcfdb566c372e351b5a0436317ef413"
+      ],
+      "expected": [
+        21385,
+        "d26495a44cfe931123f39742734632d08dcfdb566c372e351b5a0436317ef413"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml",
+      "actual": [
+        83131,
+        "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+      ],
+      "expected": [
+        83131,
+        "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html",
+      "actual": [
+        246324,
+        "4b2b4145e5c8ba7e902cf07a1bd74ef1bd28002d15a9431d587b6dcd48880cee"
+      ],
+      "expected": [
+        246324,
+        "4b2b4145e5c8ba7e902cf07a1bd74ef1bd28002d15a9431d587b6dcd48880cee"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sas-xport-v5.pdf",
+      "actual": [
+        1038715,
+        "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3"
+      ],
+      "expected": [
+        1038715,
+        "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sources-initial.json",
+      "actual": [
+        2190,
+        "17e6d6b549da4c7ba2f0cde33b7c1d0d7febd97623676c3bc9da96f74878728c"
+      ],
+      "expected": [
+        2190,
+        "17e6d6b549da4c7ba2f0cde33b7c1d0d7febd97623676c3bc9da96f74878728c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sources.json",
+      "actual": [
+        2712,
+        "569a708fcb1963ac990aa112b131f3bca93adce5e40b73995c09908def1a6917"
+      ],
+      "expected": [
+        2712,
+        "569a708fcb1963ac990aa112b131f3bca93adce5e40b73995c09908def1a6917"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/start/dependencies.json",
+      "actual": [
+        5617,
+        "7e9a556918f9727cfafe3caf28c4bd1947bca9e67c4c38575a4d068efcebaf99"
+      ],
+      "expected": [
+        5617,
+        "7e9a556918f9727cfafe3caf28c4bd1947bca9e67c4c38575a4d068efcebaf99"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/start/post-review-changes.json",
+      "actual": [
+        1667,
+        "11d2a370cebcb5912731e48f07b5f176b9641ac39353ab25b3720b94f94a1d70"
+      ],
+      "expected": [
+        1667,
+        "11d2a370cebcb5912731e48f07b5f176b9641ac39353ab25b3720b94f94a1d70"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/AGENTS.md",
+      "actual": [
+        9529,
+        "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5"
+      ],
+      "expected": [
+        9529,
+        "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/ARCHITECTURE.md",
+      "actual": [
+        14667,
+        "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9"
+      ],
+      "expected": [
+        14667,
+        "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/docs/tasks/TASK-000.md",
+      "actual": [
+        20518,
+        "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc"
+      ],
+      "expected": [
+        20518,
+        "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/GOALS.md",
+      "actual": [
+        6018,
+        "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043"
+      ],
+      "expected": [
+        6018,
+        "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/manifest.json",
+      "actual": [
+        2243,
+        "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c"
+      ],
+      "expected": [
+        2243,
+        "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/PLANS.md",
+      "actual": [
+        21111,
+        "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c"
+      ],
+      "expected": [
+        21111,
+        "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/README.md",
+      "actual": [
+        1917,
+        "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b"
+      ],
+      "expected": [
+        1917,
+        "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/REQUIREMENTS.md",
+      "actual": [
+        22277,
+        "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36"
+      ],
+      "expected": [
+        22277,
+        "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/approvals/APR-20261020-01-checks-initial.json",
+      "actual": [
+        1975,
+        "449733aad652647f1a5f35a7a92f5a8c5a3ddeabf865cdd7de0c201c23b19f38"
+      ],
+      "expected": [
+        1975,
+        "449733aad652647f1a5f35a7a92f5a8c5a3ddeabf865cdd7de0c201c23b19f38"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/approvals/APR-20261020-01-checks.json",
+      "actual": [
+        2187,
+        "c192777de03f42bf20d7a3afc2d689a42fcbc654dc22810bfcaaa45ed7f9ba1b"
+      ],
+      "expected": [
+        2187,
+        "c192777de03f42bf20d7a3afc2d689a42fcbc654dc22810bfcaaa45ed7f9ba1b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/approvals/APR-20261020-01.md",
+      "actual": [
+        3090,
+        "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e"
+      ],
+      "expected": [
+        3090,
+        "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-contract-v0.1.md",
+      "actual": [
+        10660,
+        "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+      ],
+      "expected": [
+        10660,
+        "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "actual": [
+        5905,
+        "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+      ],
+      "expected": [
+        5905,
+        "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/tasks/TASK-001-findings.json",
+      "actual": [
+        4609,
+        "4e0a670077bf6866b7e7048a6c3bbb268fce5da44486b8bcb57463c3aa3ab7ce"
+      ],
+      "expected": [
+        4609,
+        "4e0a670077bf6866b7e7048a6c3bbb268fce5da44486b8bcb57463c3aa3ab7ce"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/tasks/TASK-001.md",
+      "actual": [
+        13751,
+        "ac3be755e4c58fed0ded5b97f06652887166587eabf13ab07b15d9eef7271376"
+      ],
+      "expected": [
+        13751,
+        "ac3be755e4c58fed0ded5b97f06652887166587eabf13ab07b15d9eef7271376"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/final-review.json",
+      "actual": [
+        36610,
+        "e7df11c35ac071c11f16d677e67cd60af6349e72c02e6269bd341b70a5428564"
+      ],
+      "expected": [
+        36610,
+        "e7df11c35ac071c11f16d677e67cd60af6349e72c02e6269bd341b70a5428564"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/final-review.md",
+      "actual": [
+        2744,
+        "01ff828c0803ace7c4e6872183dd46ba4fa93b17caed44c374e80d583026b02c"
+      ],
+      "expected": [
+        2744,
+        "01ff828c0803ace7c4e6872183dd46ba4fa93b17caed44c374e80d583026b02c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/independent-xpt-raw-v1.json",
+      "actual": [
+        4880,
+        "318846b3ccaff7890548064e791c2ea01c8f3563bc848654c1ceb2d7c85ff257"
+      ],
+      "expected": [
+        4880,
+        "318846b3ccaff7890548064e791c2ea01c8f3563bc848654c1ceb2d7c85ff257"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/independent_xpt_audit.py",
+      "actual": [
+        5043,
+        "c2199ecc15953657f328415ce0e635d64ce780cceaadce5b3431b2f320fa1731"
+      ],
+      "expected": [
+        5043,
+        "c2199ecc15953657f328415ce0e635d64ce780cceaadce5b3431b2f320fa1731"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/record_final_review.py",
+      "actual": [
+        18952,
+        "87efa42d5be4d076cbbc000fb4a4d86ece9bc28c703c73d91d77657f5b5e3777"
+      ],
+      "expected": [
+        18952,
+        "87efa42d5be4d076cbbc000fb4a4d86ece9bc28c703c73d91d77657f5b5e3777"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/coverage.json",
+      "actual": [
+        44169,
+        "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a"
+      ],
+      "expected": [
+        44169,
+        "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/expected.json",
+      "actual": [
+        13024,
+        "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808"
+      ],
+      "expected": [
+        13024,
+        "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/gate1-checklist.json",
+      "actual": [
+        4103,
+        "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373"
+      ],
+      "expected": [
+        4103,
+        "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/build-record.json",
+      "actual": [
+        1191,
+        "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a"
+      ],
+      "expected": [
+        1191,
+        "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/cm.xpt",
+      "actual": [
+        49,
+        "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a"
+      ],
+      "expected": [
+        49,
+        "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dependencies.json",
+      "actual": [
+        1525,
+        "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc"
+      ],
+      "expected": [
+        1525,
+        "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dependency-changes.json",
+      "actual": [
+        1453,
+        "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e"
+      ],
+      "expected": [
+        1453,
+        "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dm.xpt",
+      "actual": [
+        1920,
+        "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7"
+      ],
+      "expected": [
+        1920,
+        "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/input-manifest.json",
+      "actual": [
+        3065,
+        "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1"
+      ],
+      "expected": [
+        3065,
+        "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/patch.json",
+      "actual": [
+        595,
+        "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c"
+      ],
+      "expected": [
+        595,
+        "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/source-data.json",
+      "actual": [
+        1668,
+        "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d"
+      ],
+      "expected": [
+        1668,
+        "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec-changed.json",
+      "actual": [
+        3420,
+        "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd"
+      ],
+      "expected": [
+        3420,
+        "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json",
+      "actual": [
+        2295,
+        "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937"
+      ],
+      "expected": [
+        2295,
+        "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "actual": [
+        1440,
+        "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22"
+      ],
+      "expected": [
+        1440,
+        "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/GOALS.md",
+      "actual": [
+        6246,
+        "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+      ],
+      "expected": [
+        6246,
+        "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/manifest.json",
+      "actual": [
+        19112,
+        "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3"
+      ],
+      "expected": [
+        19112,
+        "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/PLANS.md",
+      "actual": [
+        24014,
+        "308c806c907187334593f8e402911b981f5b0c3d53cdcfdaf41acb6e32baeec3"
+      ],
+      "expected": [
+        24014,
+        "308c806c907187334593f8e402911b981f5b0c3d53cdcfdaf41acb6e32baeec3"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/README.md",
+      "actual": [
+        3388,
+        "19970c2e332404a9de6750b4d2273c69cf8515451dff2f361c56eef1c2c82d28"
+      ],
+      "expected": [
+        3388,
+        "19970c2e332404a9de6750b4d2273c69cf8515451dff2f361c56eef1c2c82d28"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/REQUIREMENTS.md",
+      "actual": [
+        22567,
+        "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+      ],
+      "expected": [
+        22567,
+        "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/tools/task001/build_fixtures.py",
+      "actual": [
+        6800,
+        "b2c9d290f94a6cfc3ca6393efe8faf2652f59ead924351be76e8b5a2076674ec"
+      ],
+      "expected": [
+        6800,
+        "b2c9d290f94a6cfc3ca6393efe8faf2652f59ead924351be76e8b5a2076674ec"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/tools/task001/check_documents.py",
+      "actual": [
+        2945,
+        "a36d9ae86e5d98012c2cbd8f47416704deea875e81e64de507ba49b857e72565"
+      ],
+      "expected": [
+        2945,
+        "a36d9ae86e5d98012c2cbd8f47416704deea875e81e64de507ba49b857e72565"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/tools/task001/check_materials.py",
+      "actual": [
+        12879,
+        "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c"
+      ],
+      "expected": [
+        12879,
+        "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/tools/task001/package_gate1.py",
+      "actual": [
+        5643,
+        "2941055cb392f609b4300a25dd8cbc310201020bc8eca4f1451fd463b23b8d4b"
+      ],
+      "expected": [
+        5643,
+        "2941055cb392f609b4300a25dd8cbc310201020bc8eca4f1451fd463b23b8d4b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/tools/task001/requirements-fixtures.lock.txt",
+      "actual": [
+        197,
+        "29e73867d345e6cbe16410521689877a9c3cfe1759445efcb576d4b46d17126a"
+      ],
+      "expected": [
+        197,
+        "29e73867d345e6cbe16410521689877a9c3cfe1759445efcb576d4b46d17126a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/define_auto/__init__.py",
+      "actual": [
+        102,
+        "5acf09fdb1b6f70166dabaa311dc406f4924cae85e4dbcbb5f122edd163f2743"
+      ],
+      "expected": [
+        102,
+        "5acf09fdb1b6f70166dabaa311dc406f4924cae85e4dbcbb5f122edd163f2743"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/define_auto/__main__.py",
+      "actual": [
+        6405,
+        "9c890d65fdafb488390dbfd638779abd73430047c06e5da268778bc35751c657"
+      ],
+      "expected": [
+        6405,
+        "9c890d65fdafb488390dbfd638779abd73430047c06e5da268778bc35751c657"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/define_auto/common.py",
+      "actual": [
+        3858,
+        "d741f19445a487343f8354edf021ee09f270c24eaa43f214723c9ba0a5947c54"
+      ],
+      "expected": [
+        3858,
+        "d741f19445a487343f8354edf021ee09f270c24eaa43f214723c9ba0a5947c54"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/define_auto/decisions.py",
+      "actual": [
+        11567,
+        "0c5f6f9f4475d03a8e7002a32db9209a13e69adc8be3fa50c28f00af75ab19c4"
+      ],
+      "expected": [
+        11567,
+        "0c5f6f9f4475d03a8e7002a32db9209a13e69adc8be3fa50c28f00af75ab19c4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/define_auto/engine.py",
+      "actual": [
+        17792,
+        "26870154a0524b0c20011ca62abe8096b716b6e378b3ce1f64031182b0488077"
+      ],
+      "expected": [
+        17792,
+        "26870154a0524b0c20011ca62abe8096b716b6e378b3ce1f64031182b0488077"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/define_auto/model.py",
+      "actual": [
+        10383,
+        "4f9fe85be4b6d7b4d9e4bd24ac555e5289c1774139edbe183cad131cafd69665"
+      ],
+      "expected": [
+        10383,
+        "4f9fe85be4b6d7b4d9e4bd24ac555e5289c1774139edbe183cad131cafd69665"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/define_auto/reporting.py",
+      "actual": [
+        3967,
+        "9bbba9ebebb11a6b3bd6742334eaa1beee439a98a8d8173fc18fa8c775976171"
+      ],
+      "expected": [
+        3967,
+        "9bbba9ebebb11a6b3bd6742334eaa1beee439a98a8d8173fc18fa8c775976171"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/define_auto/xpt.py",
+      "actual": [
+        10382,
+        "ebf50353473dbf8c67c62405616f70ee822860c6a5e6cce6a637edc48f92df04"
+      ],
+      "expected": [
+        10382,
+        "ebf50353473dbf8c67c62405616f70ee822860c6a5e6cce6a637edc48f92df04"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/agents/domain.md",
+      "actual": [
+        778,
+        "7d4d20926f473d469f5d25601d80c754aac55929f30537fd47a7f9a3ca8de7e8"
+      ],
+      "expected": [
+        778,
+        "7d4d20926f473d469f5d25601d80c754aac55929f30537fd47a7f9a3ca8de7e8"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/agents/issue-tracker.md",
+      "actual": [
+        1596,
+        "c00c0dcc1f54994b6eb63e0490a10aa038b6471f6eaf108f0b19b788a7d38604"
+      ],
+      "expected": [
+        1596,
+        "c00c0dcc1f54994b6eb63e0490a10aa038b6471f6eaf108f0b19b788a7d38604"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/agents/triage-labels.md",
+      "actual": [
+        486,
+        "ea31b80805479c7961dea05d37761a4edab330f657fbf39e17c1e61822a55cb9"
+      ],
+      "expected": [
+        486,
+        "ea31b80805479c7961dea05d37761a4edab330f657fbf39e17c1e61822a55cb9"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/approvals/APR-20261020-01.md",
+      "actual": [
+        3090,
+        "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e"
+      ],
+      "expected": [
+        3090,
+        "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/approvals/APR-20261020-02.md",
+      "actual": [
+        4201,
+        "7d6a616156e77bb36e47b76892104212660e75c48cf3ae05066d3cb1abaf5863"
+      ],
+      "expected": [
+        4201,
+        "7d6a616156e77bb36e47b76892104212660e75c48cf3ae05066d3cb1abaf5863"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/contracts/MVP-0.1-read-context-v0.1.md",
+      "actual": [
+        3698,
+        "99629de2acd4263fa16d908fac18fe07974a8b3dc347314f2d7f626984614a3b"
+      ],
+      "expected": [
+        3698,
+        "99629de2acd4263fa16d908fac18fe07974a8b3dc347314f2d7f626984614a3b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/contracts/TASK-001-contract-v0.1.md",
+      "actual": [
+        10660,
+        "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+      ],
+      "expected": [
+        10660,
+        "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "actual": [
+        5905,
+        "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+      ],
+      "expected": [
+        5905,
+        "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/MVP-0.1-kickoff-prompt.md",
+      "actual": [
+        7843,
+        "dbe7e937242c0bce625d8cb7444f84a1f3620574655fedf51543e3ab5b00c16a"
+      ],
+      "expected": [
+        7843,
+        "dbe7e937242c0bce625d8cb7444f84a1f3620574655fedf51543e3ab5b00c16a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/MVP-0.1-skill-setup-draft.md",
+      "actual": [
+        4607,
+        "8cbb9657b18e4a7bd16430bf0556b3cda3bbdc0255576cd3ce7d7dc96ecd875b"
+      ],
+      "expected": [
+        4607,
+        "8cbb9657b18e4a7bd16430bf0556b3cda3bbdc0255576cd3ce7d7dc96ecd875b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/MVP-0.1.md",
+      "actual": [
+        28392,
+        "c7115887cfe5d717340f3ce4bc399c5a7bcb3aac81d59e452a2935c3aed010b1"
+      ],
+      "expected": [
+        28392,
+        "c7115887cfe5d717340f3ce4bc399c5a7bcb3aac81d59e452a2935c3aed010b1"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/mvp01-review/final-review.md",
+      "actual": [
+        15499,
+        "c8cc732344f4626a72d3fc5eabf469d5c8404ebb1be7eb66d3d5e3a6e79b7575"
+      ],
+      "expected": [
+        15499,
+        "c8cc732344f4626a72d3fc5eabf469d5c8404ebb1be7eb66d3d5e3a6e79b7575"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/mvp01-review/implementation-review-round1.md",
+      "actual": [
+        13755,
+        "627575f5aedb0cee0a9498e9c70fe75655ec0f2c7fc7ebfcc7b92c71d53942f5"
+      ],
+      "expected": [
+        13755,
+        "627575f5aedb0cee0a9498e9c70fe75655ec0f2c7fc7ebfcc7b92c71d53942f5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/mvp01-review/read-context-expectations-v0.2.md",
+      "actual": [
+        8323,
+        "f43c3727e924ab64d19236edac33c3ab7ebe9217ff955170b7e73fbfe808bba5"
+      ],
+      "expected": [
+        8323,
+        "f43c3727e924ab64d19236edac33c3ab7ebe9217ff955170b7e73fbfe808bba5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/mvp01-review/read-context-review.md",
+      "actual": [
+        15457,
+        "cb7e71ffd6eaf94bf2bc99784911b03606a401e5555bdad6f11c731eec016311"
+      ],
+      "expected": [
+        15457,
+        "cb7e71ffd6eaf94bf2bc99784911b03606a401e5555bdad6f11c731eec016311"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/mvp01-review/startup-review.md",
+      "actual": [
+        6060,
+        "c9fd5e26a14d70eed2d6f542c12cc0e2f45a1f75070d9967a6e480c43c38c6c9"
+      ],
+      "expected": [
+        6060,
+        "c9fd5e26a14d70eed2d6f542c12cc0e2f45a1f75070d9967a6e480c43c38c6c9"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/TASK-000.md",
+      "actual": [
+        23154,
+        "70fba5c11415aaaf69e682a5f45aa1e6ac1d766166e81bbe4ca88a6037b7f610"
+      ],
+      "expected": [
+        23154,
+        "70fba5c11415aaaf69e682a5f45aa1e6ac1d766166e81bbe4ca88a6037b7f610"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/docs/tasks/TASK-001.md",
+      "actual": [
+        29328,
+        "1350a797f80a38752b1a7975a9ad5ad630cb2b3f703b37180035684690d7691e"
+      ],
+      "expected": [
+        29328,
+        "1350a797f80a38752b1a7975a9ad5ad630cb2b3f703b37180035684690d7691e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/expectations/mvp01/v0.1/additional-cases.json",
+      "actual": [
+        51945,
+        "34a92d1a8dd8039b20cbf380985d63c47189b6d86fd9c96fa04d77c9f768d40b"
+      ],
+      "expected": [
+        51945,
+        "34a92d1a8dd8039b20cbf380985d63c47189b6d86fd9c96fa04d77c9f768d40b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/expectations/mvp01/v0.2/read-context-cases.json",
+      "actual": [
+        18044,
+        "486069d14f3d8b22a88c6b25eeb1eb8485effbd96d846b01322de6e512c44f6a"
+      ],
+      "expected": [
+        18044,
+        "486069d14f3d8b22a88c6b25eeb1eb8485effbd96d846b01322de6e512c44f6a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/baseline-context-v0.1/delivery-record.json",
+      "actual": [
+        1266,
+        "60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd"
+      ],
+      "expected": [
+        1266,
+        "60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/baseline-context-v0.1/manifest.json",
+      "actual": [
+        481,
+        "3927c937f3fbe773d5cd93e40d825afb5a5d308b9718ece96437ae17ce7dd5cb"
+      ],
+      "expected": [
+        481,
+        "3927c937f3fbe773d5cd93e40d825afb5a5d308b9718ece96437ae17ce7dd5cb"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/baseline-context-v0.1/read-context.json",
+      "actual": [
+        1154,
+        "dd2bb06e831e4fa6cb2ad435bdd9191ad7a0475b3a2c6de393ada0e907f1c7b6"
+      ],
+      "expected": [
+        1154,
+        "dd2bb06e831e4fa6cb2ad435bdd9191ad7a0475b3a2c6de393ada0e907f1c7b6"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/all_missing_codes.xpt",
+      "actual": [
+        4240,
+        "7e54e3963a6920d89cb7badb0303cfc2cedb4823687f442de147f73983dccfaf"
+      ],
+      "expected": [
+        4240,
+        "7e54e3963a6920d89cb7badb0303cfc2cedb4823687f442de147f73983dccfaf"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/invalid_utf8.xpt",
+      "actual": [
+        1600,
+        "ccfd99484a3808c7e009d385f512b99b76f24e8e48439187bc7e3699bb8e7f8c"
+      ],
+      "expected": [
+        1600,
+        "ccfd99484a3808c7e009d385f512b99b76f24e8e48439187bc7e3699bb8e7f8c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/manifest.json",
+      "actual": [
+        1686,
+        "98e88fe8c507623dbaa2e15d44cde1b37984de4f3146371521945fd6220f629e"
+      ],
+      "expected": [
+        1686,
+        "98e88fe8c507623dbaa2e15d44cde1b37984de4f3146371521945fd6220f629e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/manufacturing-record.json",
+      "actual": [
+        2376,
+        "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a"
+      ],
+      "expected": [
+        2376,
+        "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/nbsp.xpt",
+      "actual": [
+        1600,
+        "49526a631bd1d8352d176c667827f49f79efa16d9372d18af0c0e9d8541402bd"
+      ],
+      "expected": [
+        1600,
+        "49526a631bd1d8352d176c667827f49f79efa16d9372d18af0c0e9d8541402bd"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/numeric_date.xpt",
+      "actual": [
+        1760,
+        "05616be21e4b3a75c8dd2d33ff85db837cf840e140adb749e825e93b3f6df55e"
+      ],
+      "expected": [
+        1760,
+        "05616be21e4b3a75c8dd2d33ff85db837cf840e140adb749e825e93b3f6df55e"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/partial_date.xpt",
+      "actual": [
+        1600,
+        "670b61b62567e2204434beff7589c1b48e3ab82c28fc897db109a5bbec74762f"
+      ],
+      "expected": [
+        1600,
+        "670b61b62567e2204434beff7589c1b48e3ab82c28fc897db109a5bbec74762f"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/read-context.json",
+      "actual": [
+        4084,
+        "596d2df418bb09fdc958d065d2586f4f5aa4dd3d75e444005b48d15348780a98"
+      ],
+      "expected": [
+        4084,
+        "596d2df418bb09fdc958d065d2586f4f5aa4dd3d75e444005b48d15348780a98"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/scale10000.xpt",
+      "actual": [
+        841440,
+        "af6f6a9a1484f429b7c3a1a57f3547b65e19d79050711fc2b09803cccfffde48"
+      ],
+      "expected": [
+        841440,
+        "af6f6a9a1484f429b7c3a1a57f3547b65e19d79050711fc2b09803cccfffde48"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/unknown_format.xpt",
+      "actual": [
+        1600,
+        "9972cd31b4b689c9ee83344d7b485c6a57f22074383ab68ea47404d0f75e337a"
+      ],
+      "expected": [
+        1600,
+        "9972cd31b4b689c9ee83344d7b485c6a57f22074383ab68ea47404d0f75e337a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/fixtures/mvp01/v0.1/utf8.xpt",
+      "actual": [
+        1600,
+        "8ef1f8e5464b905e5ce8af82ae0ad62c46bad90ac970839a37ab811170e2e11c"
+      ],
+      "expected": [
+        1600,
+        "8ef1f8e5464b905e5ce8af82ae0ad62c46bad90ac970839a37ab811170e2e11c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/gate2-evaluation.json",
+      "actual": [
+        1307,
+        "82a7802a49ae13cd1bd416f455c67e81fba81787a456c3e2de7e2fcf7bcb35a5"
+      ],
+      "expected": [
+        1307,
+        "82a7802a49ae13cd1bd416f455c67e81fba81787a456c3e2de7e2fcf7bcb35a5"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/GOALS.md",
+      "actual": [
+        6246,
+        "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+      ],
+      "expected": [
+        6246,
+        "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/PLANS.md",
+      "actual": [
+        34014,
+        "8cc131c73ae3b35d9ef946e8a6f33f92bd4fe7d9891154f65e3e4a1cdcbbe460"
+      ],
+      "expected": [
+        34014,
+        "8cc131c73ae3b35d9ef946e8a6f33f92bd4fe7d9891154f65e3e4a1cdcbbe460"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/README.md",
+      "actual": [
+        8699,
+        "2816f70b2f056931dc9467698630134143cf4a3ac8177af19fd9b64b25a3def4"
+      ],
+      "expected": [
+        8699,
+        "2816f70b2f056931dc9467698630134143cf4a3ac8177af19fd9b64b25a3def4"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/REQUIREMENTS.md",
+      "actual": [
+        22567,
+        "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+      ],
+      "expected": [
+        22567,
+        "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tests/__init__.py",
+      "actual": [
+        77,
+        "8d6ef68a9da579b079b2889545f95549fb3e388e8ed44b66c117bd8eac8c9419"
+      ],
+      "expected": [
+        77,
+        "8d6ef68a9da579b079b2889545f95549fb3e388e8ed44b66c117bd8eac8c9419"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tests/support.py",
+      "actual": [
+        2180,
+        "431ed908acb223889e4f40774c1a2b40753f0380f6369572e64c169a60e10444"
+      ],
+      "expected": [
+        2180,
+        "431ed908acb223889e4f40774c1a2b40753f0380f6369572e64c169a60e10444"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tests/test_baseline.py",
+      "actual": [
+        7671,
+        "66bb39ce925035da32a3e634d2523adce559b3bc1086047a498bcd5736bfb68b"
+      ],
+      "expected": [
+        7671,
+        "66bb39ce925035da32a3e634d2523adce559b3bc1086047a498bcd5736bfb68b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tests/test_boundaries.py",
+      "actual": [
+        23164,
+        "ac739c65b2664fb74485bac5aadec1eecf00ddc7a39815529ea051ac09dab336"
+      ],
+      "expected": [
+        23164,
+        "ac739c65b2664fb74485bac5aadec1eecf00ddc7a39815529ea051ac09dab336"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tests/test_read_context.py",
+      "actual": [
+        20734,
+        "d88c01d2bbfc1606c06306ac5b94e4d38b9d1c2b5e19df16a5588fb661f69b32"
+      ],
+      "expected": [
+        20734,
+        "d88c01d2bbfc1606c06306ac5b94e4d38b9d1c2b5e19df16a5588fb661f69b32"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tools/mvp01/materialize_inputs.py",
+      "actual": [
+        4687,
+        "36952c9a8f765cb438b4ac211b9016d799e215ba9c91c225cc3dee684f76ed78"
+      ],
+      "expected": [
+        4687,
+        "36952c9a8f765cb438b4ac211b9016d799e215ba9c91c225cc3dee684f76ed78"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tools/mvp01/run_checks.py",
+      "actual": [
+        11471,
+        "f52c1ab0e2d66c3510e1a0c0fdf454523e3225ba4fe82a11ad585136d11de4f2"
+      ],
+      "expected": [
+        11471,
+        "f52c1ab0e2d66c3510e1a0c0fdf454523e3225ba4fe82a11ad585136d11de4f2"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tools/mvp01/startup_audit.py",
+      "actual": [
+        7528,
+        "b8a42b9c013d4486304291e93077e564097d30062af8dac1ab3330079996e9ab"
+      ],
+      "expected": [
+        7528,
+        "b8a42b9c013d4486304291e93077e564097d30062af8dac1ab3330079996e9ab"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tools/task001/build_fixtures.py",
+      "actual": [
+        6800,
+        "b2c9d290f94a6cfc3ca6393efe8faf2652f59ead924351be76e8b5a2076674ec"
+      ],
+      "expected": [
+        6800,
+        "b2c9d290f94a6cfc3ca6393efe8faf2652f59ead924351be76e8b5a2076674ec"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tools/task001/check_documents.py",
+      "actual": [
+        2945,
+        "a36d9ae86e5d98012c2cbd8f47416704deea875e81e64de507ba49b857e72565"
+      ],
+      "expected": [
+        2945,
+        "a36d9ae86e5d98012c2cbd8f47416704deea875e81e64de507ba49b857e72565"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tools/task001/check_git_preservation.py",
+      "actual": [
+        3294,
+        "3ee81de142a68fade65faabba7578c68a4e9bef51c73fc90786697cf611aa35a"
+      ],
+      "expected": [
+        3294,
+        "3ee81de142a68fade65faabba7578c68a4e9bef51c73fc90786697cf611aa35a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tools/task001/check_materials.py",
+      "actual": [
+        12879,
+        "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c"
+      ],
+      "expected": [
+        12879,
+        "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tools/task001/package_gate1.py",
+      "actual": [
+        5643,
+        "2941055cb392f609b4300a25dd8cbc310201020bc8eca4f1451fd463b23b8d4b"
+      ],
+      "expected": [
+        5643,
+        "2941055cb392f609b4300a25dd8cbc310201020bc8eca4f1451fd463b23b8d4b"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "artifacts/MVP-0.1/gate2-v0.1/tools/task001/requirements-fixtures.lock.txt",
+      "actual": [
+        197,
+        "29e73867d345e6cbe16410521689877a9c3cfe1759445efcb576d4b46d17126a"
+      ],
+      "expected": [
+        197,
+        "29e73867d345e6cbe16410521689877a9c3cfe1759445efcb576d4b46d17126a"
+      ],
+      "result": "passed"
+    },
+    {
+      "check_id": "formal_config_or_approval/AGENTS.md",
+      "actual": "c620815558b35d60bcdf6fdeeb5cafa23eeb2e7076dc4c33395ec88087792f89",
+      "expected": "c620815558b35d60bcdf6fdeeb5cafa23eeb2e7076dc4c33395ec88087792f89",
+      "result": "passed"
+    },
+    {
+      "check_id": "formal_config_or_approval/docs/agents/issue-tracker.md",
+      "actual": "c00c0dcc1f54994b6eb63e0490a10aa038b6471f6eaf108f0b19b788a7d38604",
+      "expected": "c00c0dcc1f54994b6eb63e0490a10aa038b6471f6eaf108f0b19b788a7d38604",
+      "result": "passed"
+    },
+    {
+      "check_id": "formal_config_or_approval/docs/agents/triage-labels.md",
+      "actual": "ea31b80805479c7961dea05d37761a4edab330f657fbf39e17c1e61822a55cb9",
+      "expected": "ea31b80805479c7961dea05d37761a4edab330f657fbf39e17c1e61822a55cb9",
+      "result": "passed"
+    },
+    {
+      "check_id": "formal_config_or_approval/docs/agents/domain.md",
+      "actual": "7d4d20926f473d469f5d25601d80c754aac55929f30537fd47a7f9a3ca8de7e8",
+      "expected": "7d4d20926f473d469f5d25601d80c754aac55929f30537fd47a7f9a3ca8de7e8",
+      "result": "passed"
+    },
+    {
+      "check_id": "formal_config_or_approval/docs/tasks/MVP-0.1-skill-setup-draft.md",
+      "actual": "8cbb9657b18e4a7bd16430bf0556b3cda3bbdc0255576cd3ce7d7dc96ecd875b",
+      "expected": "8cbb9657b18e4a7bd16430bf0556b3cda3bbdc0255576cd3ce7d7dc96ecd875b",
+      "result": "passed"
+    },
+    {
+      "check_id": "formal_config_or_approval/docs/approvals/APR-20261020-01.md",
+      "actual": "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e",
+      "expected": "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e",
+      "result": "passed"
+    },
+    {
+      "check_id": "formal_config_or_approval/docs/approvals/APR-20261020-02.md",
+      "actual": "7d6a616156e77bb36e47b76892104212660e75c48cf3ae05066d3cb1abaf5863",
+      "expected": "7d6a616156e77bb36e47b76892104212660e75c48cf3ae05066d3cb1abaf5863",
+      "result": "passed"
+    },
+    {
+      "check_id": "independent_expectations",
+      "actual": "0e36a52f457072f624f094ffd426e8a7357bcf9fb22df75c3299043fd418fdf0",
+      "expected": "0e36a52f457072f624f094ffd426e8a7357bcf9fb22df75c3299043fd418fdf0",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/checks.json",
+      "actual": "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850",
+      "expected": "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/coverage.json",
+      "actual": "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11",
+      "expected": "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/dependencies.json",
+      "actual": "5de062cbc834a619b936c3308dc03335a87af3e3537f592bfcb20114b2010837",
+      "expected": "5de062cbc834a619b936c3308dc03335a87af3e3537f592bfcb20114b2010837",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/evidence.json",
+      "actual": "b66bf1257490d607ce8fed07831e45f6e2df6f2ac6b8bacfd87f558d9a2ed735",
+      "expected": "b66bf1257490d607ce8fed07831e45f6e2df6f2ac6b8bacfd87f558d9a2ed735",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/inputs-manifest.json",
+      "actual": "c7214953b5ed2a450767deeef95ef53fdd3a0679f5f7c785a430e78b18cadd9a",
+      "expected": "c7214953b5ed2a450767deeef95ef53fdd3a0679f5f7c785a430e78b18cadd9a",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/issues.json",
+      "actual": "4e6f5203503a156feb3dbf5f2641e884b7cd7a78572d0373491b70017b8973ce",
+      "expected": "4e6f5203503a156feb3dbf5f2641e884b7cd7a78572d0373491b70017b8973ce",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/model.json",
+      "actual": "da12ffe1c43127d699632b01c8667cb846333cc5d4e81ffa27758db4343f7d9d",
+      "expected": "da12ffe1c43127d699632b01c8667cb846333cc5d4e81ffa27758db4343f7d9d",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/patch-applicability.json",
+      "actual": "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799",
+      "expected": "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/review-actions.json",
+      "actual": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "expected": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/review-policy.json",
+      "actual": "6dd2ed397d344c086f9122aaebc27307c9e69918edc9fb70e22addc49dcd7e38",
+      "expected": "6dd2ed397d344c086f9122aaebc27307c9e69918edc9fb70e22addc49dcd7e38",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/review.html",
+      "actual": "897738e0c184c4cebffbaeabddeb91b2add25ca13aa332116a9cbee674376b61",
+      "expected": "897738e0c184c4cebffbaeabddeb91b2add25ca13aa332116a9cbee674376b61",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/review.md",
+      "actual": "7d15bb501b5963c1561d09630b15a0c911b81bdcace83b971419aa609efcfe3e",
+      "expected": "7d15bb501b5963c1561d09630b15a0c911b81bdcace83b971419aa609efcfe3e",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-demo-20261022-02/run.json",
+      "actual": "5f267eaa62c0b814e2dd031f172738a36ca60e2cf11322979b8543226a2e52f5",
+      "expected": "5f267eaa62c0b814e2dd031f172738a36ca60e2cf11322979b8543226a2e52f5",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/checks.json",
+      "actual": "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850",
+      "expected": "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/coverage.json",
+      "actual": "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11",
+      "expected": "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/dependencies.json",
+      "actual": "5de062cbc834a619b936c3308dc03335a87af3e3537f592bfcb20114b2010837",
+      "expected": "5de062cbc834a619b936c3308dc03335a87af3e3537f592bfcb20114b2010837",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/evidence.json",
+      "actual": "b66bf1257490d607ce8fed07831e45f6e2df6f2ac6b8bacfd87f558d9a2ed735",
+      "expected": "b66bf1257490d607ce8fed07831e45f6e2df6f2ac6b8bacfd87f558d9a2ed735",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/inputs-manifest.json",
+      "actual": "a2227e1ff440a884088c5d343e8c40d55c980518d6fcfdf32d82f08017e9f7cf",
+      "expected": "a2227e1ff440a884088c5d343e8c40d55c980518d6fcfdf32d82f08017e9f7cf",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/issues.json",
+      "actual": "4e6f5203503a156feb3dbf5f2641e884b7cd7a78572d0373491b70017b8973ce",
+      "expected": "4e6f5203503a156feb3dbf5f2641e884b7cd7a78572d0373491b70017b8973ce",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/model.json",
+      "actual": "bfdf218cec6d0dfd05ab98605470e7c6948d11ba6ba71dde96c524c41fbb9290",
+      "expected": "bfdf218cec6d0dfd05ab98605470e7c6948d11ba6ba71dde96c524c41fbb9290",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/patch-applicability.json",
+      "actual": "fd972ad1e84a859e6b0f0ba17e07714bfb337801edc86e8b3f46eb5968b39993",
+      "expected": "fd972ad1e84a859e6b0f0ba17e07714bfb337801edc86e8b3f46eb5968b39993",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/review-actions.json",
+      "actual": "6788983787f46046c0083da0ddd4a5389ad1c065598e16a437053a670bd2d75d",
+      "expected": "6788983787f46046c0083da0ddd4a5389ad1c065598e16a437053a670bd2d75d",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/review-policy.json",
+      "actual": "d7c8198bcd1c357bbd34cb00ec360d1f4aeb3b324488a170874d5a760123ac0f",
+      "expected": "d7c8198bcd1c357bbd34cb00ec360d1f4aeb3b324488a170874d5a760123ac0f",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/review.html",
+      "actual": "c6edf1690b8110872884df1a129c14a529eb99cb0e9e5499e175f18b8b46877c",
+      "expected": "c6edf1690b8110872884df1a129c14a529eb99cb0e9e5499e175f18b8b46877c",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/review.md",
+      "actual": "64a6f5df05796f1c2411269406aba86210841c3de585a871636a38c8ade8036c",
+      "expected": "64a6f5df05796f1c2411269406aba86210841c3de585a871636a38c8ade8036c",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-confirm-20261022-02/run.json",
+      "actual": "d4c963263914b1ed67499d55a99804e13297977cc1bc9bd54a296e0e22741805",
+      "expected": "d4c963263914b1ed67499d55a99804e13297977cc1bc9bd54a296e0e22741805",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/checks.json",
+      "actual": "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850",
+      "expected": "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/coverage.json",
+      "actual": "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11",
+      "expected": "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/dependencies.json",
+      "actual": "5de062cbc834a619b936c3308dc03335a87af3e3537f592bfcb20114b2010837",
+      "expected": "5de062cbc834a619b936c3308dc03335a87af3e3537f592bfcb20114b2010837",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/evidence.json",
+      "actual": "b66bf1257490d607ce8fed07831e45f6e2df6f2ac6b8bacfd87f558d9a2ed735",
+      "expected": "b66bf1257490d607ce8fed07831e45f6e2df6f2ac6b8bacfd87f558d9a2ed735",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/inputs-manifest.json",
+      "actual": "0619a9d581b15dac0c9e3066546a1bdb4b3d423c7c5f3fa1ed250fd8c9e85c32",
+      "expected": "0619a9d581b15dac0c9e3066546a1bdb4b3d423c7c5f3fa1ed250fd8c9e85c32",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/issues.json",
+      "actual": "4e6f5203503a156feb3dbf5f2641e884b7cd7a78572d0373491b70017b8973ce",
+      "expected": "4e6f5203503a156feb3dbf5f2641e884b7cd7a78572d0373491b70017b8973ce",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/model.json",
+      "actual": "bfdf218cec6d0dfd05ab98605470e7c6948d11ba6ba71dde96c524c41fbb9290",
+      "expected": "bfdf218cec6d0dfd05ab98605470e7c6948d11ba6ba71dde96c524c41fbb9290",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/patch-applicability.json",
+      "actual": "f277041ffed7ab2b383b7df3d11f0ddd0b1a8e8cc6aa6fbd8a981d2f4f292380",
+      "expected": "f277041ffed7ab2b383b7df3d11f0ddd0b1a8e8cc6aa6fbd8a981d2f4f292380",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/review-actions.json",
+      "actual": "6788983787f46046c0083da0ddd4a5389ad1c065598e16a437053a670bd2d75d",
+      "expected": "6788983787f46046c0083da0ddd4a5389ad1c065598e16a437053a670bd2d75d",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/review-policy.json",
+      "actual": "d7c8198bcd1c357bbd34cb00ec360d1f4aeb3b324488a170874d5a760123ac0f",
+      "expected": "d7c8198bcd1c357bbd34cb00ec360d1f4aeb3b324488a170874d5a760123ac0f",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/review.html",
+      "actual": "c6edf1690b8110872884df1a129c14a529eb99cb0e9e5499e175f18b8b46877c",
+      "expected": "c6edf1690b8110872884df1a129c14a529eb99cb0e9e5499e175f18b8b46877c",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/review.md",
+      "actual": "64a6f5df05796f1c2411269406aba86210841c3de585a871636a38c8ade8036c",
+      "expected": "64a6f5df05796f1c2411269406aba86210841c3de585a871636a38c8ade8036c",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-rerun-20261022-02/run.json",
+      "actual": "ce0e9dfd69bdfc320d5321c2b3351714f0c31634f3bcd983e20d866fb2a0ec89",
+      "expected": "ce0e9dfd69bdfc320d5321c2b3351714f0c31634f3bcd983e20d866fb2a0ec89",
+      "result": "passed"
+    },
+    {
+      "check_id": "complete_model_rerun_bytes",
+      "actual": "bfdf218cec6d0dfd05ab98605470e7c6948d11ba6ba71dde96c524c41fbb9290",
+      "expected": "bfdf218cec6d0dfd05ab98605470e7c6948d11ba6ba71dde96c524c41fbb9290",
+      "result": "passed"
+    },
+    {
+      "check_id": "review-policy-suite-20261022-05",
+      "actual": {
+        "result": "passed",
+        "collected": 133,
+        "executed": 133,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0,
+        "missing": [],
+        "not_run": []
+      },
+      "expected": {
+        "result": "passed",
+        "collected": 133,
+        "executed": 133,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0,
+        "missing": [],
+        "not_run": []
+      },
+      "result": "passed"
+    }
+  ],
+  "total": 515,
+  "failed": 0
+}

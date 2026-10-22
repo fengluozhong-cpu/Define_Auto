@@ -1,0 +1,10 @@
+{
+  "checks": [
+    {
+      "check_id": "runtime_model_constraints",
+      "result": "passed"
+    }
+  ],
+  "scope": "runtime construction only, not full regression suite",
+  "gate2": "not_assessed"
+}

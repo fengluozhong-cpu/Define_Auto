@@ -1,0 +1,57 @@
+{
+  "task_id": "MVP-0.1",
+  "delivery_status": "review_ready",
+  "task_status": "blocked_pending_chris_gate2",
+  "checklist": "v0.2 confirmed by Chris",
+  "checks": [
+    {
+      "check_id": "M01-Q01",
+      "result": "passed"
+    },
+    {
+      "check_id": "M01-Q02",
+      "result": "passed"
+    },
+    {
+      "check_id": "M01-Q03",
+      "result": "passed"
+    },
+    {
+      "check_id": "M01-Q04",
+      "result": "passed"
+    },
+    {
+      "check_id": "M01-Q05",
+      "result": "passed"
+    },
+    {
+      "check_id": "M01-Q06",
+      "result": "passed"
+    },
+    {
+      "check_id": "M01-Q07",
+      "result": "not_run"
+    }
+  ],
+  "full_suite": {
+    "collected": 88,
+    "executed": 88,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "missing": []
+  },
+  "independent_review": {
+    "path": "docs/tasks/mvp01-review/final-review.md",
+    "sha256": "c8cc732344f4626a72d3fc5eabf469d5c8404ebb1be7eb66d3d5e3a6e79b7575",
+    "open_technical_blockers": 0
+  },
+  "recovery": {
+    "suite": 88,
+    "git_unavailable_suite": 88,
+    "model_equal": true
+  },
+  "labels": "not_run_gh_unavailable",
+  "final_approval": "pending_Chris",
+  "limitations": "See docs/tasks/MVP-0.1.md section 10; no production or submission readiness claim."
+}

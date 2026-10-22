@@ -1,0 +1,46 @@
+{
+  "reviewer": "/root/review_policy_independent",
+  "status": "passed",
+  "package": "E:\\Initiation\\Define_Auto\\artifacts\\MVP-0.1\\gate2-v0.2",
+  "checks": [
+    {
+      "id": "PK01",
+      "passed": true,
+      "manifest_sha256": "326b72e4ae13af031170360c5b29005a5d10a061e4041f1491a81931078f153b",
+      "files": 542,
+      "mismatches": []
+    },
+    {
+      "id": "PK02",
+      "passed": true,
+      "core_and_test_files": 16,
+      "core_test_drift": [],
+      "tool_drift": [
+        "tools/mvp01/package_candidate.py"
+      ],
+      "tool_drift_explanation": "package_candidate.py changed only freeze whitelist historical-evidence fallback; independently read this final copy."
+    },
+    {
+      "id": "PK03",
+      "passed": true,
+      "report_sha256": "1d4fecadd68074d89df3a272936541892c0dc3f094efeba59cc1aad14ce41799",
+      "contract_sha256": "659262ffd8d9c4c13f40007d2b28a8f31c8d9afc9c366dfb7ba33f2df9a676c6"
+    },
+    {
+      "id": "PK04",
+      "passed": true,
+      "evidence": "independent-policy-full-20261022-03"
+    },
+    {
+      "id": "PK05",
+      "passed": true,
+      "canonical_model_equal": true,
+      "model_id": "model-e9e02603d6a28dfb8b1b1054d796c96aa0399a63bde6563696693bfd122db584",
+      "test_only": true,
+      "real_approved_count": 0
+    }
+  ],
+  "business_gate2": "pending_chris",
+  "actual_recovery": "passed; see recovery-verification.json",
+  "recovery_status": "passed"
+}

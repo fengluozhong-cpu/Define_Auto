@@ -1,0 +1,9 @@
+{
+  "cases": [],
+  "actual_baseline": {},
+  "actual_additional": {},
+  "historical_pending_cases": {
+    "M01-A22": "superseded_by_RC01_RC06",
+    "M01-A23": "superseded_by_RC07_RC11"
+  }
+}

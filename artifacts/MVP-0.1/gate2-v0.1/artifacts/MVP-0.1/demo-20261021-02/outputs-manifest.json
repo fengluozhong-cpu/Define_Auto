@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "checks.json",
+      "sha256": "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850",
+      "bytes": 200
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11",
+      "bytes": 144
+    },
+    {
+      "path": "dependencies.json",
+      "sha256": "066011bd4a9b3520338d2fc36e9cdb0f8b4aa51c98832250c8f33b1559bb83f3",
+      "bytes": 5122
+    },
+    {
+      "path": "evidence.json",
+      "sha256": "7463268aab6060e53eb784762a0ae4b2369675882a80e3c300334f0bd0407503",
+      "bytes": 174097
+    },
+    {
+      "path": "inputs-manifest.json",
+      "sha256": "fabf5c1a6103c736445fe686a22528c8117749f55dc6d7919d9ab34bc9e8e7d2",
+      "bytes": 4636
+    },
+    {
+      "path": "issues.json",
+      "sha256": "6bc78eba993f00dc2bef63584db14d2e7b42e3bbcb3f25453144b400e7feabfe",
+      "bytes": 7870
+    },
+    {
+      "path": "model.json",
+      "sha256": "f0b4ca4649087a1b28012e4454eff2cb8df3d2bbd580debe7a39c617fdfa93dc",
+      "bytes": 364971
+    },
+    {
+      "path": "patch-applicability.json",
+      "sha256": "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799",
+      "bytes": 56
+    },
+    {
+      "path": "review.html",
+      "sha256": "6ac6d9716051475b4de4da181ed9290f44b3c714c528136896fbb6fc6334a812",
+      "bytes": 25291
+    },
+    {
+      "path": "review.md",
+      "sha256": "953cba0b04a3a62ae6e1f03b3cc21cbcad9fb632dd49c1f75fc723c684733031",
+      "bytes": 22634
+    },
+    {
+      "path": "run.json",
+      "sha256": "7c5bdf264c12dcea581dac8f7580025e6c2b56a73539fd61e450a4fceb6d2797",
+      "bytes": 893
+    }
+  ],
+  "excludes_self": true
+}

@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "path": "carryover.json",
+      "sha256": "5148800fb0b90c8b4545e5950175102b5b66a1878463f901ae88b62806f5c8c4",
+      "bytes": 48934
+    },
+    {
+      "path": "checks.json",
+      "sha256": "c4b06de7b8a6ef0476049474c5ebc9bd183423d6a18b1822e9f5b46f9e8a9f11",
+      "bytes": 31320
+    },
+    {
+      "path": "frozen-reference-map.json",
+      "sha256": "74de4a142192d0771a7a37f6a089168df40a647620f92654f994d3e86c5ac1c1",
+      "bytes": 26824
+    },
+    {
+      "path": "inputs-manifest.json",
+      "sha256": "57cbf127c7ca5c673996901f583ee5742de8998117239e9a9c67e2b57ca1615a",
+      "bytes": 639
+    },
+    {
+      "path": "reading-record.json",
+      "sha256": "59c4ba1f328393f75a2ba510e3c1dd7e92f4f019a542a458bbc9367b4519c477",
+      "bytes": 5003
+    },
+    {
+      "path": "run.json",
+      "sha256": "7f93e71b7f1d652450f4581e2b2029b7f794e3ed3b91c2137b8816ae643f5129",
+      "bytes": 585
+    }
+  ],
+  "excludes_self": true
+}

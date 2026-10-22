@@ -1,0 +1,89 @@
+{
+  "version": "0.1",
+  "findings": [
+    {
+      "finding_id": "F-001",
+      "requirements_cases": "NFR-001/NFR-006; Q06",
+      "affected_version": "Task 001 v0.1 preparation before final submission",
+      "severity": "blocking",
+      "original_evidence": "artifacts/TASK-001/references/sources-initial.json",
+      "original_finding": "Two DDE sources originally wrote the same dde-define.yaml filename; one referenced hash could not be restored.",
+      "owner": "implementation Agent",
+      "history": [
+        "open",
+        "in_progress",
+        "ready_for_retest",
+        "closed_fixed"
+      ],
+      "status": "closed_fixed",
+      "revision": "Separate dde-dds-define.yaml and dde-xml-define.yaml; keep initial metadata and the unreferenced initial file.",
+      "original_scenario_retest": "Q06.source.* and Q06.unique_source_paths",
+      "regression": "materials-04 plus independent final review",
+      "independent_closure": "T001-IR-01, docs/tasks/task001-review/final-review.json; reviewer /root/review_contract; 2026-10-20T10:02:40.923873+08:00",
+      "business_confirmation": "not a business decision; GATE-1 remains pending"
+    },
+    {
+      "finding_id": "F-002",
+      "requirements_cases": "FR-006/007; NFR-001; T001-C24",
+      "affected_version": "Task 001 v0.1 preparation before final submission",
+      "severity": "blocking",
+      "original_evidence": "Independent reviewer initial read of contract section 2; captured in final review report",
+      "original_finding": "Initial Dataset serialization omitted family and proposed adding it on collision, risking identity drift.",
+      "owner": "implementation Agent",
+      "history": [
+        "open",
+        "in_progress",
+        "ready_for_retest",
+        "closed_fixed"
+      ],
+      "status": "closed_fixed",
+      "revision": "All examples/patch/dependency object IDs now include /family/SDTM/ permanently.",
+      "original_scenario_retest": "Independent contract/patch/dependencies identity review",
+      "regression": "materials-04 plus independent final review",
+      "independent_closure": "T001-IR-01, docs/tasks/task001-review/final-review.json; reviewer /root/review_contract; 2026-10-20T10:02:40.923873+08:00",
+      "business_confirmation": "not a business decision; GATE-1 remains pending"
+    },
+    {
+      "finding_id": "F-003",
+      "requirements_cases": "NFR-007; CTRL-02/06; Q04",
+      "affected_version": "Task 001 v0.1 preparation before final submission",
+      "severity": "blocking",
+      "original_evidence": "artifacts/TASK-001/materials-01/case-readiness.json",
+      "original_finding": "Initial case-readiness unconditionally set automated_material_check=passed for every documented case.",
+      "owner": "implementation Agent",
+      "history": [
+        "open",
+        "in_progress",
+        "ready_for_retest",
+        "closed_fixed"
+      ],
+      "status": "closed_fixed",
+      "revision": "Change to material_registration_status=registered; keep engine_behavior_result=not_run; record actual selected cases in run manifest.",
+      "original_scenario_retest": "materials-04/case-readiness.json and independent code review",
+      "regression": "materials-04 plus independent final review",
+      "independent_closure": "T001-IR-01, docs/tasks/task001-review/final-review.json; reviewer /root/review_contract; 2026-10-20T10:02:40.923873+08:00",
+      "business_confirmation": "not a business decision; GATE-1 remains pending"
+    },
+    {
+      "finding_id": "F-004",
+      "requirements_cases": "NFR-003; Q04",
+      "affected_version": "Task 001 v0.1 preparation before final submission",
+      "severity": "nonblocking",
+      "original_evidence": "Independent reviewer pre-review message",
+      "original_finding": "Contract called checker standard-library-only although it also used pandas/pyreadstat.",
+      "owner": "implementation Agent",
+      "history": [
+        "open",
+        "in_progress",
+        "ready_for_retest",
+        "closed_fixed"
+      ],
+      "status": "closed_fixed",
+      "revision": "Describe fixture library audit and separate stdlib raw-byte audit accurately.",
+      "original_scenario_retest": "Contract section 7 vs imports",
+      "regression": "materials-04 plus independent final review",
+      "independent_closure": "T001-IR-01, docs/tasks/task001-review/final-review.json; reviewer /root/review_contract; 2026-10-20T10:02:40.923873+08:00",
+      "business_confirmation": "not a business decision; GATE-1 remains pending"
+    }
+  ]
+}

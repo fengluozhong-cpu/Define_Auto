@@ -1,0 +1,23 @@
+{
+  "command": [
+    "E:\\Initiation\\Define_Auto\\define_auto\\__main__.py",
+    "--manifest",
+    "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/input-manifest.json",
+    "--read-context",
+    "fixtures/mvp01/baseline-context-v0.1/read-context.json",
+    "--provenance",
+    "TEST-BASELINE-MANUFACTURE-001=fixtures/mvp01/baseline-context-v0.1/delivery-record.json",
+    "--isolated-test",
+    "--out",
+    "artifacts/MVP-0.1/demo-20261021-01"
+  ],
+  "started_at": "2026-10-21T04:01:05.379474+00:00",
+  "finished_at": "2026-10-21T04:01:05.514657+00:00",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "result": "completed_with_review_items",
+  "exit_code": 0,
+  "model_snapshot_id": "model-b71ef9588def355c85782ede32a69f90965d7ae83180b6f16a02ae09a2cda2e8",
+  "gate2": "pending_chris",
+  "test_only": true
+}

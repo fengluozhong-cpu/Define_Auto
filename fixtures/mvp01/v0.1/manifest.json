@@ -1,0 +1,56 @@
+{
+  "scope": "8 independent synthetic XPT byte fixtures; no engine tested",
+  "files": [
+    {
+      "path": "all_missing_codes.xpt",
+      "sha256": "7e54e3963a6920d89cb7badb0303cfc2cedb4823687f442de147f73983dccfaf",
+      "bytes": 4240
+    },
+    {
+      "path": "invalid_utf8.xpt",
+      "sha256": "ccfd99484a3808c7e009d385f512b99b76f24e8e48439187bc7e3699bb8e7f8c",
+      "bytes": 1600
+    },
+    {
+      "path": "manufacturing-record.json",
+      "sha256": "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a",
+      "bytes": 2376
+    },
+    {
+      "path": "nbsp.xpt",
+      "sha256": "49526a631bd1d8352d176c667827f49f79efa16d9372d18af0c0e9d8541402bd",
+      "bytes": 1600
+    },
+    {
+      "path": "numeric_date.xpt",
+      "sha256": "05616be21e4b3a75c8dd2d33ff85db837cf840e140adb749e825e93b3f6df55e",
+      "bytes": 1760
+    },
+    {
+      "path": "partial_date.xpt",
+      "sha256": "670b61b62567e2204434beff7589c1b48e3ab82c28fc897db109a5bbec74762f",
+      "bytes": 1600
+    },
+    {
+      "path": "read-context.json",
+      "sha256": "596d2df418bb09fdc958d065d2586f4f5aa4dd3d75e444005b48d15348780a98",
+      "bytes": 4084
+    },
+    {
+      "path": "scale10000.xpt",
+      "sha256": "af6f6a9a1484f429b7c3a1a57f3547b65e19d79050711fc2b09803cccfffde48",
+      "bytes": 841440
+    },
+    {
+      "path": "unknown_format.xpt",
+      "sha256": "9972cd31b4b689c9ee83344d7b485c6a57f22074383ab68ea47404d0f75e337a",
+      "bytes": 1600
+    },
+    {
+      "path": "utf8.xpt",
+      "sha256": "8ef1f8e5464b905e5ce8af82ae0ad62c46bad90ac970839a37ab811170e2e11c",
+      "bytes": 1600
+    }
+  ],
+  "excludes_self": true
+}

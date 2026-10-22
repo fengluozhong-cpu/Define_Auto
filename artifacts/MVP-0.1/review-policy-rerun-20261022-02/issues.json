@@ -1,0 +1,242 @@
+[
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/AE/variable/AETERM:availability:expected_missing:R-COMPARE-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/AE/variable/AETERM",
+    "field_path": "availability",
+    "category": "expected_missing",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": "AETERM"
+      },
+      {
+        "kind": "observed",
+        "value": "unknown"
+      }
+    ],
+    "evidence_ids": [
+      "ev-14539b53f2870549ac7db8cd19deb0b4c5d89a1e7a7dd33987b644bec5313422",
+      "ev-3fc84368767fa25cd6ee33bafc0972d56b4eb6ff67473f537e296800c62f09dc"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-COMPARE-1",
+    "revision_id": "issue-revision-c5f40c02f029e45f76386235e2c7dd24a6880c6fe6a1a723723b4c3feeb71418"
+  },
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/AE:availability:expected_missing:R-COMPARE-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/AE",
+    "field_path": "availability",
+    "category": "expected_missing",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": "provided_readable"
+      },
+      {
+        "kind": "observed",
+        "value": "not_attempted"
+      }
+    ],
+    "evidence_ids": [
+      "ev-07ecab9bdfa980eccdea6d3902bbaf6ef3ecc45075b6d971f2a3f509bfccc4c3",
+      "ev-1685047f0abc2bc3c08bfd5728fbd218bebdf6ff5596d861a7bdb2ae96497821"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-COMPARE-1",
+    "revision_id": "issue-revision-80fba7a36fa04c2f38d4e46b9b959bb39b02dd66e709135b09e6be5a105801e2"
+  },
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/CM/variable/CMTRT:availability:expected_missing:R-COMPARE-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/CM/variable/CMTRT",
+    "field_path": "availability",
+    "category": "expected_missing",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": "CMTRT"
+      },
+      {
+        "kind": "observed",
+        "value": "unknown"
+      }
+    ],
+    "evidence_ids": [
+      "ev-d573ba12ccc97216926b6fbe3b84e3dd7777133ff8f280c5c8cee84b306600eb",
+      "ev-67ccd7fe9d6d0ae1e5b7c2ea12a2e452b2de325416c4b60911cc24c8116f5f21"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-COMPARE-1",
+    "revision_id": "issue-revision-c68d43d24b64b25df5031ee5bc23dc58a162c88eb2ffaa7f0ac16c975cac6ea2"
+  },
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/CM:availability:expected_missing:R-COMPARE-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/CM",
+    "field_path": "availability",
+    "category": "expected_missing",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": "provided_readable"
+      },
+      {
+        "kind": "observed",
+        "value": "unreadable"
+      }
+    ],
+    "evidence_ids": [
+      "ev-fd1f89e9af623d277b4ed33ef5ac714762b469048b3ceda02eeea8413b4724ce",
+      "ev-70cc4925ed10678765f7f6363827a8521d36e91397b80c0a729352013c91f173"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-COMPARE-1",
+    "revision_id": "issue-revision-5e4f4daa86660bce20554117b5503a0c5d2b81aaed0c38057630689818e20483"
+  },
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/DM/variable/ARM:availability:expected_missing:R-COMPARE-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/ARM",
+    "field_path": "availability",
+    "category": "expected_missing",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": "ARM"
+      },
+      {
+        "kind": "observed",
+        "value": "variable_absent"
+      }
+    ],
+    "evidence_ids": [
+      "ev-10f684584e6d56a5919cebe054d5c2729bfbc0a212eaed2291f5aad49644827b",
+      "ev-55c4edc3d63cdb3fa4655cd89c92d45bea92d4490ba97ad91b76365afddecb50"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-COMPARE-1",
+    "revision_id": "issue-revision-26142c9f87361193735d1b471b935df62838a18ce0806c064d2d266c24e64e33"
+  },
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/DM/variable/ARMCD:label:field_conflict:R-LABEL-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/ARMCD",
+    "field_path": "label",
+    "category": "field_conflict",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": "Planned Arm Code"
+      },
+      {
+        "kind": "observed",
+        "value": "Actual Arm Code"
+      }
+    ],
+    "evidence_ids": [
+      "ev-2cbea94894348f2fa3696d32a50e9ab6b4547ffcfc96564ffb5e4fa2d58ae5b2",
+      "ev-7b70b9b1813e38c683a36cef3fe082d349a79638dc24d34522bdcb7713ca4adb"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-LABEL-1",
+    "revision_id": "issue-revision-2958d0042b76497a5471def61b118d03240cae20e6126c01c787a122b8023d8f"
+  },
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/DM/variable/ARMCD:type:field_conflict:R-COMPARE-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/ARMCD",
+    "field_path": "type",
+    "category": "field_conflict",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": "character"
+      },
+      {
+        "kind": "observed",
+        "value": "numeric"
+      }
+    ],
+    "evidence_ids": [
+      "ev-2cbea94894348f2fa3696d32a50e9ab6b4547ffcfc96564ffb5e4fa2d58ae5b2",
+      "ev-7b70b9b1813e38c683a36cef3fe082d349a79638dc24d34522bdcb7713ca4adb"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-COMPARE-1",
+    "revision_id": "issue-revision-9f6151a422192303454d9a3688359fe2a43c555587e2b161a7dbb4e773dd2619"
+  },
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/DM/variable/EXTRA:definition:unexpected_object:R-COMPARE-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/EXTRA",
+    "field_path": "definition",
+    "category": "unexpected_object",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": null
+      },
+      {
+        "kind": "observed",
+        "value": "EXTRA"
+      }
+    ],
+    "evidence_ids": [
+      "ev-c3a1cd3d86c860a1f161e35edf3d72b6ad633efd8782f51fb522741c5886d70d",
+      "ev-b267da1a66dd16b55916b1e62f203ec8aeff99fbac0eff530ccd362001f1b8f2"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-COMPARE-1",
+    "revision_id": "issue-revision-c8f117d50ac502243e8dc0e8e6bdcb9c35f5aeb257118a12bf2a012ee66ad749"
+  },
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX:label:field_conflict:R-LABEL-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX",
+    "field_path": "label",
+    "category": "field_conflict",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": "Biological Sex"
+      },
+      {
+        "kind": "observed",
+        "value": "Sex"
+      }
+    ],
+    "evidence_ids": [
+      "ev-4ee9336b56c55fbaa95e0a7625bac0085d15eaaaac3dbba21fcd73465d8a7d1f",
+      "ev-12a2ec9cdefcc6a5358e0b07891c8e8e957d1f27abbacd5dc500b5329a01f41a"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-LABEL-1",
+    "revision_id": "issue-revision-5eea6f820d64aaaf29f47b88b617a873c207a584f79ae6e2ffc31f5b9f832b81"
+  },
+  {
+    "issue_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX:storage_vs_declared_length:field_conflict:R-COMPARE-1",
+    "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX",
+    "field_path": "storage_vs_declared_length",
+    "category": "field_conflict",
+    "candidates": [
+      {
+        "kind": "expected",
+        "value": 3
+      },
+      {
+        "kind": "observed",
+        "value": 1
+      }
+    ],
+    "evidence_ids": [
+      "ev-4ee9336b56c55fbaa95e0a7625bac0085d15eaaaac3dbba21fcd73465d8a7d1f",
+      "ev-12a2ec9cdefcc6a5358e0b07891c8e8e957d1f27abbacd5dc500b5329a01f41a"
+    ],
+    "severity": "blocking",
+    "status": "open",
+    "rule_id": "R-COMPARE-1",
+    "revision_id": "issue-revision-fa367fc37e161c8c1548532a1aef0bd1bd4e81bd93eec1f9f052b6aa6761eb09"
+  }
+]

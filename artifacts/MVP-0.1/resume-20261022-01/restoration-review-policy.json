@@ -1,0 +1,40 @@
+{
+  "old_candidate_verified_files": 358,
+  "old_candidate_manifest_sha256": "825443dd56bd950f417d33a1922e98f283dabe4c297b0fe8a1e9fe5f109f206d",
+  "readings": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "c620815558b35d60bcdf6fdeeb5cafa23eeb2e7076dc4c33395ec88087792f89"
+    },
+    {
+      "path": "GOALS.md",
+      "sha256": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+    },
+    {
+      "path": "PLANS.md",
+      "sha256": "401274680592278c3844bcdf08dacb35c63a4501070f6c7655abe2eb7ee50c37"
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "sha256": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+    },
+    {
+      "path": "docs/tasks/MVP-0.1.md",
+      "sha256": "42235b597dd76f532048b24a0242d599ef83344cff16ff809e46f539ba75060d"
+    },
+    {
+      "path": "docs/tasks/MVP-0.1-kickoff-prompt.md",
+      "sha256": "dbe7e937242c0bce625d8cb7444f84a1f3620574655fedf51543e3ab5b00c16a"
+    },
+    {
+      "path": "docs/contracts/MVP-0.1-read-context-v0.1.md",
+      "sha256": "99629de2acd4263fa16d908fac18fe07974a8b3dc347314f2d7f626984614a3b"
+    }
+  ],
+  "date": "2026-10-22",
+  "authorization": "Chris explicitly requested implementation and validation of CARD01-06. No GATE2 approval."
+}

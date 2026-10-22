@@ -1,0 +1,17 @@
+{
+  "task_id": "MVP-0.1",
+  "run_id": "startup-20261021-01",
+  "command": [
+    "tools/mvp01/startup_audit.py",
+    "--run-id",
+    "startup-20261021-01"
+  ],
+  "started_at": "2026-10-21T07:45:27.532889+08:00",
+  "finished_at": "2026-10-21T07:45:27.609298+08:00",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "script_sha256": "d6ec4c3f363082a445a69f0bc5164702802e428454a002ac457aa416496ab424",
+  "head": "9e3d8c1990119cd59b779044c53e4e661fac6785",
+  "result": "passed",
+  "exit_code": 0
+}

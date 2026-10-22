@@ -1,0 +1,166 @@
+{
+  "files": [
+    {
+      "path": "E:\\Initiation\\Define_Auto\\fixtures\\mvp01\\review-policy-v0.1\\manifest.json",
+      "sha256": "4c4bb60ff371b440cec8b448268cc9ceded01d79af96e6a20cfa4f1873a6767c"
+    },
+    {
+      "path": "E:\\Initiation\\Define_Auto\\fixtures\\mvp01\\review-policy-v0.1\\delivery.json",
+      "sha256": "7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461"
+    },
+    {
+      "path": "E:\\Initiation\\Define_Auto\\fixtures\\mvp01\\review-policy-v0.1\\context.json",
+      "sha256": "cdedcbacc201b1552c7c3a6b7abe509423d24467b4a8bcb3e565f23233caae7f"
+    },
+    {
+      "path": "E:\\Initiation\\Define_Auto\\artifacts\\MVP-0.1\\review-policy-confirm-20261022-01\\model.json",
+      "sha256": "3763e25bf4e752eb9553cc383550cd5e9a0b2e3e2c87887a76edd61b7676ba32"
+    },
+    {
+      "path": "E:\\Initiation\\Define_Auto\\fixtures\\mvp01\\review-policy-v0.1\\confirm-no-data.json",
+      "sha256": "29b654e3410d13e02fa9318dbdcf29869fe9ca35c30ba0ecaec769712c9eaadf"
+    },
+    {
+      "path": "E:\\Initiation\\Define_Auto\\fixtures\\mvp01\\review-policy-v0.1\\authorization.json",
+      "sha256": "de8619c7fcb49cdc42bff65afd676f8a02b2a90f142cf6a69900d4e83a0d4d7b"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "AUTHORIZATION-de8619c7fcb49cdc42bff65afd676f8a02b2a90f142cf6a69900d4e83a0d4d7b",
+      "relative_path": "authorization.json",
+      "sha256": "de8619c7fcb49cdc42bff65afd676f8a02b2a90f142cf6a69900d4e83a0d4d7b",
+      "version": "sha256:de8619c7fcb49cdc42bff65afd676f8a02b2a90f142cf6a69900d4e83a0d4d7b",
+      "source_type": "authorization",
+      "acquired_at": "recorded_in_run",
+      "confidentiality": "local",
+      "completeness_scope": {
+        "scope": "human_decision"
+      },
+      "provision_status": "provided",
+      "read_status": "readable"
+    },
+    {
+      "source_id": "READ-CONTEXT",
+      "relative_path": "context.json",
+      "sha256": "cdedcbacc201b1552c7c3a6b7abe509423d24467b4a8bcb3e565f23233caae7f",
+      "source_type": "read_context",
+      "version": "mvp01-read-context-0.1",
+      "acquired_at": "recorded_in_run_manifest",
+      "confidentiality": "local",
+      "completeness_scope": {
+        "declaration": "read_context"
+      },
+      "provision_status": "provided",
+      "read_status": "readable"
+    },
+    {
+      "source_id": "SRC-AE",
+      "relative_path": "ae.xpt",
+      "sha256": null,
+      "source_type": "xpt",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "not_provided",
+      "completeness_scope": {
+        "datasets": [
+          "AE"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": "Intentionally not supplied; business No Data reason unknown",
+      "read_status": "not_attempted"
+    },
+    {
+      "source_id": "SRC-CM",
+      "relative_path": "cm.xpt",
+      "sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "source_type": "xpt",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "CM"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": null,
+      "read_status": "unreadable"
+    },
+    {
+      "source_id": "SRC-DM",
+      "relative_path": "dm.xpt",
+      "sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "source_type": "xpt",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "DM"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": null,
+      "read_status": "readable"
+    },
+    {
+      "source_id": "SRC-SPEC",
+      "relative_path": "spec.json",
+      "sha256": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "source_type": "structured_spec",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "DM",
+          "VS",
+          "AE",
+          "CM"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": null,
+      "read_status": "readable"
+    },
+    {
+      "source_id": "SRC-VS",
+      "relative_path": "vs.xpt",
+      "sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "source_type": "xpt",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "VS"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": null,
+      "read_status": "readable"
+    },
+    {
+      "source_id": "SYN-DELIVERY",
+      "relative_path": "delivery.json",
+      "sha256": "7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+      "source_type": "delivery_evidence",
+      "version": "sha256:7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+      "acquired_at": "recorded_in_run_manifest",
+      "confidentiality": "local",
+      "completeness_scope": {
+        "declaration": "external_delivery_evidence"
+      },
+      "provision_status": "provided",
+      "read_status": "readable"
+    }
+  ],
+  "source_content_recovery": "Source files remain read-only at manifest root; preserve them with the delivery."
+}

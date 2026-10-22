@@ -1,0 +1,16 @@
+{
+  "command": [
+    "tools/mvp01/review_policy_collection_probe.py",
+    "--run-id",
+    "independent-policy-missing-20261022-02"
+  ],
+  "started_at": "2026-10-22T04:19:20.578073+00:00",
+  "finished_at": "2026-10-22T04:19:34.634837+00:00",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "head": "9e3d8c1990119cd59b779044c53e4e661fac6785",
+  "result": "failed",
+  "tests_run": 132,
+  "exit_code": 1,
+  "gate2": "not_approved"
+}

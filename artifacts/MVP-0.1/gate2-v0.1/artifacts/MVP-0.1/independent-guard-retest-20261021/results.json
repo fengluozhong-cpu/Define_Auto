@@ -1,0 +1,33 @@
+{
+  "scope": "Independent fault injection; target product suite states are failed, not product acceptance",
+  "checks": [
+    {
+      "mode": "missing",
+      "fault_handling_result": "passed",
+      "target_suite_result": "failed",
+      "exit_code": 1,
+      "target_evidence": "artifacts/MVP-0.1/independent-guard-missing-20261021"
+    },
+    {
+      "mode": "zero",
+      "fault_handling_result": "passed",
+      "target_suite_result": "failed",
+      "exit_code": 1,
+      "target_evidence": "artifacts/MVP-0.1/independent-guard-zero-20261021"
+    },
+    {
+      "mode": "skip",
+      "fault_handling_result": "passed",
+      "target_suite_result": "failed",
+      "exit_code": 1,
+      "target_evidence": "artifacts/MVP-0.1/independent-guard-skip-20261021"
+    },
+    {
+      "mode": "error",
+      "fault_handling_result": "passed",
+      "target_suite_result": "failed",
+      "exit_code": 1,
+      "target_evidence": "artifacts/MVP-0.1/independent-guard-error-20261021"
+    }
+  ]
+}

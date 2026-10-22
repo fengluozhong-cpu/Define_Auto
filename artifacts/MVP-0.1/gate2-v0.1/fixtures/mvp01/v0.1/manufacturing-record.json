@@ -1,0 +1,74 @@
+{
+  "source_id": "TEST-MANUFACTURE-M01-001",
+  "test_only": true,
+  "purpose": "Independent recipe materialization, no engine execution or business approval",
+  "recipe_path": "expectations/mvp01/v0.1/additional-cases.json",
+  "recipe_sha256": "34a92d1a8dd8039b20cbf380985d63c47189b6d86fd9c96fa04d77c9f768d40b",
+  "builder_sha256": "36952c9a8f765cb438b4ac211b9016d799e215ba9c91c225cc3dee684f76ed78",
+  "files": [
+    {
+      "file": "utf8.xpt",
+      "sha256": "8ef1f8e5464b905e5ce8af82ae0ad62c46bad90ac970839a37ab811170e2e11c",
+      "bytes": 1600,
+      "manufactured_record_count": 1,
+      "member": "VS",
+      "test_only": true
+    },
+    {
+      "file": "invalid_utf8.xpt",
+      "sha256": "ccfd99484a3808c7e009d385f512b99b76f24e8e48439187bc7e3699bb8e7f8c",
+      "bytes": 1600,
+      "manufactured_record_count": 1,
+      "member": "VS",
+      "test_only": true
+    },
+    {
+      "file": "nbsp.xpt",
+      "sha256": "49526a631bd1d8352d176c667827f49f79efa16d9372d18af0c0e9d8541402bd",
+      "bytes": 1600,
+      "manufactured_record_count": 1,
+      "member": "VS",
+      "test_only": true
+    },
+    {
+      "file": "partial_date.xpt",
+      "sha256": "670b61b62567e2204434beff7589c1b48e3ab82c28fc897db109a5bbec74762f",
+      "bytes": 1600,
+      "manufactured_record_count": 1,
+      "member": "VS",
+      "test_only": true
+    },
+    {
+      "file": "scale10000.xpt",
+      "sha256": "af6f6a9a1484f429b7c3a1a57f3547b65e19d79050711fc2b09803cccfffde48",
+      "bytes": 841440,
+      "manufactured_record_count": 10000,
+      "member": "VS",
+      "test_only": true
+    },
+    {
+      "file": "all_missing_codes.xpt",
+      "sha256": "7e54e3963a6920d89cb7badb0303cfc2cedb4823687f442de147f73983dccfaf",
+      "bytes": 4240,
+      "manufactured_record_count": 31,
+      "member": "VS",
+      "test_only": true
+    },
+    {
+      "file": "numeric_date.xpt",
+      "sha256": "05616be21e4b3a75c8dd2d33ff85db837cf840e140adb749e825e93b3f6df55e",
+      "bytes": 1760,
+      "manufactured_record_count": 3,
+      "member": "VS",
+      "test_only": true
+    },
+    {
+      "file": "unknown_format.xpt",
+      "sha256": "9972cd31b4b689c9ee83344d7b485c6a57f22074383ab68ea47404d0f75e337a",
+      "bytes": 1600,
+      "manufactured_record_count": 1,
+      "member": "VS",
+      "test_only": true
+    }
+  ]
+}

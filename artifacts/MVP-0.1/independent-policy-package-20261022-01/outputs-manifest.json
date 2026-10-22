@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "checks.json",
+      "sha256": "f092feb7d5fa956b9c7afffa2dd1c08f2418eb1406921cbbc649a4931f2b334c",
+      "bytes": 1421
+    },
+    {
+      "path": "recovery-verification.json",
+      "sha256": "b38abf98069f74d1b4e8629bc6df1dedf6b2cda3986d1cf3b5309ac3265ef006",
+      "bytes": 2105
+    }
+  ],
+  "excludes_self": true
+}

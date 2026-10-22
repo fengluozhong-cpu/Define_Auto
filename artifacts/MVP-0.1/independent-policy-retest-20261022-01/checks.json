@@ -1,0 +1,67 @@
+{
+  "reviewer": "/root/review_policy_independent",
+  "checks": [
+    {
+      "id": "IP01",
+      "scenario": "Type rule on physically absent DM.ARM",
+      "actual": {
+        "rule_id": "TEST-type",
+        "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/ARM",
+        "result": "not_completed",
+        "violations": [],
+        "not_evaluable": [
+          {
+            "view": "observed",
+            "field": "type"
+          }
+        ],
+        "required_value": "character",
+        "source_id": "SYN-LOCAL-RULES",
+        "source_sha256": "da43a719025d150c79a2c9a28ad4d9361086b241a4a6ee76a267418a3c84bcaf",
+        "locator": "/rules/0; synthetic independent rule declaration",
+        "ig_version": "TEST-IG-1",
+        "ct_version": "TEST-CT-1"
+      },
+      "passed": true
+    },
+    {
+      "id": "IP02",
+      "scenario": "Human returns ordinary label conflict upstream",
+      "actual": {
+        "action_result": {
+          "business_changes": 1,
+          "status": "simulated"
+        },
+        "upstream_projection": [
+          {
+            "issue_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX:label:field_conflict:R-LABEL-1",
+            "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX",
+            "basis": "human_return",
+            "action_id": "SYN-ACTION-1",
+            "workflow": "upstream_rework",
+            "blocking": true
+          }
+        ],
+        "report_has_action_id": false
+      },
+      "passed": true
+    },
+    {
+      "id": "IP03",
+      "scenario": "Malformed return scope nested list",
+      "actual": "ContractError:invalid_return_scope",
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "define_auto\\__init__.py": "5acf09fdb1b6f70166dabaa311dc406f4924cae85e4dbcbb5f122edd163f2743",
+    "define_auto\\__main__.py": "f43143ef285981434fb1db675c1aca19fe62ec0ddb035b7a862f8bfd2d270e6b",
+    "define_auto\\common.py": "d741f19445a487343f8354edf021ee09f270c24eaa43f214723c9ba0a5947c54",
+    "define_auto\\decisions.py": "8b50631e26e5059ddb353bc9dee22cd385f975f991154635a5100afbefdce02b",
+    "define_auto\\engine.py": "9df4cb5479eafc6389bfbe71d641383f389bda251e58954c21d0556e81bc99c2",
+    "define_auto\\model.py": "07a7ad46cb009b282267720e5ee471df956ece65e12fc724bd261db40793149e",
+    "define_auto\\reporting.py": "6c63ee44c2bfe2d9fa910b80e5c6393ffd7ab182b1ac367472eb5853539d0c4e",
+    "define_auto\\review.py": "6b9391381e562c6ed554f8dd0b6b8fd16f93d2b79f0135417ac66e5b4488f246",
+    "define_auto\\xpt.py": "ebf50353473dbf8c67c62405616f70ee822860c6a5e6cce6a637edc48f92df04"
+  }
+}

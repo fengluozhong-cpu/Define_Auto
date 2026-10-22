@@ -1,0 +1,13 @@
+{
+  "candidate": "gate2-v0.2",
+  "gate2": "pending_chris",
+  "task_status": "verification_complete",
+  "technical_evidence": "artifacts/MVP-0.1/independent-policy-full-20261022-03/checks.json",
+  "independent_review": "docs/tasks/mvp01-review/review-policy-implementation-review.md",
+  "M01-Q01_to_Q06": "passed_current_scope",
+  "M01-Q07": "not_run",
+  "business_approval": "not_granted",
+  "standards_conformance": "not_assessed",
+  "actual_xml_p21": "not_run",
+  "recovery_checks": "see_external_receipt"
+}

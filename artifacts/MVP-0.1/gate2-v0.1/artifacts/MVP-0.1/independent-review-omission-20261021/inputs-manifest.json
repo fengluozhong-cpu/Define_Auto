@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/expected.json",
+      "sha256": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808"
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/manifest.json",
+      "sha256": "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3"
+    },
+    {
+      "path": "define_auto/__init__.py",
+      "sha256": "5acf09fdb1b6f70166dabaa311dc406f4924cae85e4dbcbb5f122edd163f2743"
+    },
+    {
+      "path": "define_auto/__main__.py",
+      "sha256": "633e4d049a6004bb3c4f13cd788cf6b00fe5afb7e916e5b73b625dd49e550410"
+    },
+    {
+      "path": "define_auto/common.py",
+      "sha256": "d741f19445a487343f8354edf021ee09f270c24eaa43f214723c9ba0a5947c54"
+    },
+    {
+      "path": "define_auto/decisions.py",
+      "sha256": "73a8ab177d2664a8565af8b00ff6d12d6f162c0f6f0f4ddf326d26e5407c108d"
+    },
+    {
+      "path": "define_auto/engine.py",
+      "sha256": "6e106c64c84661044e504e2bbc2e42ebd8f10341429f569a8aba51a0914475ab"
+    },
+    {
+      "path": "define_auto/model.py",
+      "sha256": "00d7fd61f89e06fc378373d4c57cc98c34745cb4b2751bff64ca39c3af028216"
+    },
+    {
+      "path": "define_auto/reporting.py",
+      "sha256": "f5e851ebf0f879e5d8d53d1d7f7e3b24f8ba46a80162201e3c1a5624050c58c6"
+    },
+    {
+      "path": "define_auto/xpt.py",
+      "sha256": "ebf50353473dbf8c67c62405616f70ee822860c6a5e6cce6a637edc48f92df04"
+    },
+    {
+      "path": "expectations/mvp01/v0.1/additional-cases.json",
+      "sha256": "34a92d1a8dd8039b20cbf380985d63c47189b6d86fd9c96fa04d77c9f768d40b"
+    },
+    {
+      "path": "expectations/mvp01/v0.2/read-context-cases.json",
+      "sha256": "486069d14f3d8b22a88c6b25eeb1eb8485effbd96d846b01322de6e512c44f6a"
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "8d6ef68a9da579b079b2889545f95549fb3e388e8ed44b66c117bd8eac8c9419"
+    },
+    {
+      "path": "tests/support.py",
+      "sha256": "431ed908acb223889e4f40774c1a2b40753f0380f6369572e64c169a60e10444"
+    },
+    {
+      "path": "tests/test_baseline.py",
+      "sha256": "26488044400680e0cc1523019f5a41961b4398b3165b0c4e830f50ca58c91897"
+    },
+    {
+      "path": "tests/test_boundaries.py",
+      "sha256": "0dcaf777972cee81b56a1d105a8a722988e5a5bccc49cc9db22997c7dedddbff"
+    },
+    {
+      "path": "tests/test_read_context.py",
+      "sha256": "d88c01d2bbfc1606c06306ac5b94e4d38b9d1c2b5e19df16a5588fb661f69b32"
+    },
+    {
+      "path": "tools/mvp01/materialize_inputs.py",
+      "sha256": "36952c9a8f765cb438b4ac211b9016d799e215ba9c91c225cc3dee684f76ed78"
+    },
+    {
+      "path": "tools/mvp01/run_checks.py",
+      "sha256": "f4362ebcac9fe25b0a3a05c4f5de9f622ddda70ad250bf0e25c1b77ddb8c934d"
+    },
+    {
+      "path": "tools/mvp01/startup_audit.py",
+      "sha256": "b8a42b9c013d4486304291e93077e564097d30062af8dac1ab3330079996e9ab"
+    }
+  ],
+  "fixture_provenance": [
+    "fixtures/mvp01/v0.1/manifest.json",
+    "fixtures/mvp01/baseline-context-v0.1/manifest.json"
+  ],
+  "frozen_inputs": "artifacts/TASK-001/gate1-v0.1/manifest.json"
+}

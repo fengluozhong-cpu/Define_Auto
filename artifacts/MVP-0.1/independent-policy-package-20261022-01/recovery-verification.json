@@ -1,0 +1,66 @@
+{
+  "reviewer": "/root/review_policy_independent",
+  "status": "passed",
+  "checks": [
+    {
+      "id": "PK06",
+      "passed": true,
+      "output_manifests": [
+        {
+          "manifest": "artifacts\\MVP-0.1\\review-policy-recovery-20261022-01\\outputs-manifest.json",
+          "errors": []
+        },
+        {
+          "manifest": "artifacts\\MVP-0.1\\review-policy-recovery-20261022-01\\recovery-policy-20261022-01\\outputs-manifest.json",
+          "errors": []
+        },
+        {
+          "manifest": "artifacts\\MVP-0.1\\review-policy-recovery-20261022-01\\recovery-policy-cli-20261022-01\\outputs-manifest.json",
+          "errors": []
+        },
+        {
+          "manifest": "artifacts\\MVP-0.1\\review-policy-recovery-20261022-01\\recovery-policy-no-git-20261022-01\\outputs-manifest.json",
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "PK07-recovery-policy-20261022-01",
+      "passed": true,
+      "cases": 133,
+      "source_drift": [],
+      "head": "9e3d8c1990119cd59b779044c53e4e661fac6785",
+      "command": [
+        "tools/mvp01/run_checks.py",
+        "--run-id",
+        "recovery-policy-20261022-01"
+      ]
+    },
+    {
+      "id": "PK07-recovery-policy-no-git-20261022-01",
+      "passed": true,
+      "cases": 133,
+      "source_drift": [],
+      "head": "unavailable_in_source_bundle",
+      "command": [
+        "tools/mvp01/run_checks.py",
+        "--run-id",
+        "recovery-policy-no-git-20261022-01"
+      ]
+    },
+    {
+      "id": "PK08",
+      "passed": true,
+      "recovered_model_sha256": "bfdf218cec6d0dfd05ab98605470e7c6948d11ba6ba71dde96c524c41fbb9290",
+      "frozen_model_sha256": "bfdf218cec6d0dfd05ab98605470e7c6948d11ba6ba71dde96c524c41fbb9290"
+    },
+    {
+      "id": "PK09",
+      "passed": true,
+      "frozen_file_mismatches_after_recovery": [],
+      "manifest_sha256": "326b72e4ae13af031170360c5b29005a5d10a061e4041f1491a81931078f153b"
+    }
+  ],
+  "freeze_scope": "542 manifest entries; recovery-generated runtime files are supplementary and are not frozen candidate entries",
+  "business_gate2": "pending_chris"
+}

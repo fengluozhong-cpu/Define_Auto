@@ -7,15 +7,15 @@
 
 | 项目 | 状态 |
 |---|---|
-| 当前任务 | [Task 001](E:/Initiation/Define_Auto/docs/tasks/TASK-001.md)：accepted；gate1-v0.1 已由 Chris 批准作为后续实现依据，GATE-1 passed，见 [APR-20261020-02](E:/Initiation/Define_Auto/docs/approvals/APR-20261020-02.md) |
-| 当前授权 | Chris 于 2026-10-20 明确授权 Task 001 六项工作及独立子 Agent 审阅；不含核对引擎、Git 提交／推送、发布、全局安装或保密数据外发 |
+| 当前任务 | [MVP 0.1](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1.md)：accepted（Chris 已批准 gate2-v0.2 通过 GATE-2；APR-20261022-01）；目标 GATE-2。Task 001 已 accepted，GATE-1 批准继续有效 |
+| 当前授权 | Chris 于 2026-10-22 明确批准 gate2-v0.2 通过 GATE-2 并授权本阶段成果 commit／push；此前明确要求实现和验证 CARD-01–06 新增行为并推进 GATE-2；2026-10-21 已明确要求读取启动提示词并开启 MVP 0.1，授权提示词 v0.2 的本地实现、检查、文档和独立 Agent 审阅；质量门清单按 CTRL-02 另行确认。本次新增 Git commit／push 授权，不包括部署／版本发布、全局安装或保密数据外发 |
 | 项目根 | `E:\Initiation\Define_Auto`，本轮已确认可访问 |
 | 已有内容 | discussion.md 与 `.workbuddy` 下已有文件；全部保留 |
-| 交付 | Task 001 契约／样本／独立预期交付 approved；批准绑定 gate1-v0.1，不回写该包或原基线快照；软件尚未实现 |
+| 交付 | Task 001 契约／样本／独立预期交付 approved；批准绑定 gate1-v0.1；MVP 0.1 六卡新增行为及正式配置已落地；新版 133 项完整套件及独立技术审阅通过；gate2-v0.2 已由 Chris 正式批准（APR-20261022-01）；旧 gate2-v0.1 保留 |
 | 基线批准 | Approved：`BL-20261020-01`；Chris；批准记录时间 2026-10-20T08:56:33+08:00；[批准记录](E:/Initiation/Define_Auto/docs/approvals/APR-20261020-01.md)，精确消息时间未提供 |
-| 当前任务卡／证据 | [TASK-001](E:/Initiation/Define_Auto/docs/tasks/TASK-001.md)；基线核验及当前证据位于 artifacts/TASK-001；Task 000 既有批准持续有效 |
-| 当前未决项 | OQ-01 首批方案及 OQ-05 本阶段边界已接受；No Data 正式语义、精确兼容性及延期保留。T001-POST-01 已修复：项目字节保真规则及 91 项 Git/独立恢复检查通过，见 TASK-001 §10 |
-| 下一步 | 核对本次 Git 修复提交及远端一致；[MVP 0.1 启动提示 v0.2](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1-kickoff-prompt.md) 已备妥，阶段实施仍待明确授权，当前未启动核心 |
+| 当前任务卡／证据 | [MVP-0.1](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1.md)；本阶段启动证据 artifacts/MVP-0.1/startup-20261021-01；上游材料／恢复检查在 artifacts/TASK-001/mvp01-start-*；旧任务入口见 §2 |
+| 当前未决项 | 质量门 v0.2 和 Skill 配置已确认，远端标签因 gh 不可用尚未执行。M01-D01／CHG-010 可追溯记录数声明方案已由 Chris 接受，读取契约及测试输入已准备；六卡实现、完整检查及独立技术审阅已完成；GATE-2 已批准。已实现有限 No Data 标志／原因，完整 VLM／XML 等责任与已批准延期保留 |
+| 下一步 | 完成本次授权的 Git 提交／推送及字节恢复核验；从 MVP-0.1 §13、APR-20261022-01、包外收据接续。后续阶段需另行确定任务及授权，不自动开发 |
 
 文件职责及阅读顺序见 [AGENTS.md](E:/Initiation/Define_Auto/AGENTS.md)。完整目标见 [GOALS.md](E:/Initiation/Define_Auto/GOALS.md)，需求与证据见 [REQUIREMENTS.md](E:/Initiation/Define_Auto/REQUIREMENTS.md)，设计决策见 [ARCHITECTURE.md](E:/Initiation/Define_Auto/ARCHITECTURE.md)。
 
@@ -27,12 +27,13 @@
 |---|---|
 | Task 000 | [TASK-000](E:/Initiation/Define_Auto/docs/tasks/TASK-000.md)；历史子任务见 [§10](E:/Initiation/Define_Auto/docs/tasks/TASK-000.md#stage-status)，最新验收见 [T000-A01](E:/Initiation/Define_Auto/docs/tasks/TASK-000.md#t000-a01) |
 | Task 001 | [TASK-001](E:/Initiation/Define_Auto/docs/tasks/TASK-001.md)；成果见 §2 至 §5，分组审阅见 §6，最终验收及接续见 §8（T001-A01）；MVP 0.1 启动提示另存 [MVP-0.1-kickoff-prompt](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1-kickoff-prompt.md) |
+| MVP 0.1 | [MVP-0.1](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1.md)：启动任务卡、质量门、补测及延期承接；[Skill 配置草案](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1-skill-setup-draft.md)待单独确认 |
 
 原始验收记录见 [TASK-000 §2](E:/Initiation/Define_Auto/docs/tasks/TASK-000.md#task000-acceptance)，T000-R01／R02／R03 的任务卡与证据见同一任务文件。迁移保留历史状态及限制；最新基线批准见 TASK-000 §11，不能把历史 Pending 当作当前状态。
 
 ## 3. 建议阶段与退出条件
 
-Task 001 已获当前会话明确授权并启动，状态以 §1 及任务卡为准；其余后续阶段状态为 **Proposed / Not started**。不承诺人日；任务编号不是自动执行授权。可拆小任务，但不能把延期目标删除。每阶段按 CTRL-01 确定任务范围及证据，按 CTRL-02 冻结质量门清单；批准现有范围内的普通实现细节由执行者处理，无需逐项重复申请。
+Task 001 已 accepted；MVP 0.1 于 2026-10-21 获明确启动授权，已由 Chris 验收，GATE-2 passed，状态以 §1 及任务卡最新 §13 为准；其余后续阶段状态为 **Proposed / Not started**。不承诺人日；任务编号不是自动执行授权。可拆小任务，但不能把延期目标删除。每阶段按 CTRL-01 确定任务范围及证据，按 CTRL-02 冻结质量门清单；批准现有范围内的普通实现细节由执行者处理，无需逐项重复申请。
 
 | 阶段 | 目标与交付 | 主要需求 | 退出条件／批准门 |
 |---|---|---|---|
@@ -147,6 +148,16 @@ Task 001 已获当前会话明确授权并启动，状态以 §1 及任务卡为
 | CHG-006 | 2026-10-20 | T001-A01：绑定 gate1-v0.1 的契约、样本、24 条预期、覆盖和质量门批准，更新当前入口；不更改冻结正文及旧检查结果，保留延期和未决项 | Approved；Task 001 accepted，GATE-1 passed；CHG-005 的待批准状态为历史 | Chris 直接确认；登记时间 2026-10-20T23:36:21.257260+08:00，精确消息时间未提供；APR-20261020-02 |
 | CHG-007 | 2026-10-20 | 审阅并修订启动提示至 v0.2，澄清必测基线、模型交付、授权、GATE-2 和人读报告；记录 Git 字节保真缺口 T001-POST-01，不改批准契约或预期 | 提示词修订完成；Git 字节保真修复 open；未启动 MVP 0.1 | Chris 明确授权 review 提示词并直接修改；本次不提交／推送 |
 | CHG-008 | 2026-10-21 | 修复 T001-POST-01：项目 .gitattributes 保留原字节、重新入库、独立恢复核验，保留失败记录；不改批准对象／hash，不重写历史 | closed_fixed，91 项恢复检查通过；最终提交／推送状态以 Git 核验为准 | Chris 明确要求先修复 Git，延续此前提交／推送工作；保留既有提示词审阅修改 |
+| CHG-009 | 2026-10-21 | 按启动提示 v0.2 开启 MVP 0.1；建立任务卡、阶段限定 M01-Q01–07、补测与延期承接及启动核验；FR-001/002/003/006/007/014/015/018，NFR 及 AC 当前子集；工程 Skill 配置另列待确认草案 | 实施已授权；质量门范围及 Skill 配置待确认；GATE-2 not_assessed | Chris 本轮直接指令；未产生业务／阶段批准，无 Git 提交／推送授权 |
+| CHG-010 | 2026-10-21 | M01-D01：XPORT v5 尾部空格存在记录／填充歧义；绑定来源与 XPT hash 的 record_count 辅助声明，无可信声明歧义拒绝；涉及 FR-001/002/006/007/015/018、NFR-001/004、中心输入与依赖契约；详见 MVP-0.1 §6/7 | Chris 已接受方案；读取契约和 8 份固定测试输入已准备，核心未实现；原批准包／基线预期保持不变 | Chris 本轮直接选择“接受可追溯声明方案（推荐）”；精确消息时间未提供 |
+| CHG-011 | 2026-10-21 | M01-AUTH-20261021-01：Chris 确认质量门 v0.2／台账及匹配 hash 的 Skill 草案，授权正式配置和核心开发；FR-001/002/003/006/007/014/015/018、NFR 当前条款；成果及独立审阅见 MVP-0.1 §10 | 本地实施及技术验证完成，候选 review_ready；GATE-2 最终批准 pending；远端标签 not_run | Chris 直接指令，记录日期 2026-10-21，精确消息时间未提供；原确认副本及 hash 保存于 authorization-20261021-01 |
+| CHG-012 | 2026-10-22 | 中文审阅卡 M01-CARD-01：AE／CM 增加人工确认提示；Chris 提出可读零行 VS 自动设置数据集级 HasNoData，涉及 FR-008／FR-011、原契约§4及候选结果；不得扩大至变量／VLM | 业务规则 confirmed；2026-10-22 实现及新版独立预期／133项回归／独立技术审阅完成，见 MVP-0.1 §12；旧包不改，GATE-2 最终验收待批准 | Chris 直接回复卡01；精确消息时间未提供；本条不代表 GATE-2 最终批准 |
+| CHG-013 | 2026-10-22 | CARD-02：Chris 同意实际存在且全缺失变量自动设置变量级 HasNoData=Yes，人工确认并补充原因，保留 SAS 特殊缺失；缺变量仅提示人工核对，影响 FR-002／006／008／011 及原契约§4，不扩展至 VLM | 业务规则 confirmed；2026-10-22 实现及新版独立预期／133项回归／独立技术审阅完成，见 MVP-0.1 §12；旧包不改，GATE-2 最终验收待批准 | Chris 直接回复“同意”；精确消息时间未提供；不是 GATE-2 最终批准 |
+| CHG-014 | 2026-10-22 | CARD-03：Chris 接受必要人工裁决，强调基础 label／类型／长度问题应在 SDTM／P21 QC 解决，Define 仅复核及阻断；涉及 FR-005／006／014／015、阶段质量门；须按 IG／CT 版本及规则区分确定错误和可解释差异 | 业务规则 confirmed；2026-10-22 实现及新版独立预期／133项回归／独立技术审阅完成，见 MVP-0.1 §12；旧包不改，GATE-2 最终验收待批准 | Chris 直接回复；本轮依据官方 label 版本说明及 SDTMIG 3.3 §4.2.9 修正技术概括，不代表已选标准版本或 GATE-2 批准 |
+| CHG-015 | 2026-10-22 | CARD-05：Chris 确认额外变量须返回上游返工，按根因修正 Spec／数据／建模并重新复核；涉及 FR-003／006／014／015，不允许仅补 Define 或加说明代替修复 | 业务规则 confirmed；2026-10-22 实现及新版独立预期／133项回归／独立技术审阅完成，见 MVP-0.1 §12；旧包不改，GATE-2 最终验收待批准 | Chris 直接回复同意并明确上游返工；精确消息时间未提供；不授权本工具改写原始输入或最终 GATE-2 批准 |
+| CHG-016 | 2026-10-22 | CARD-06：Chris 确认依赖变化重审／历史保留，并要求 XPT 变化、Spec／衍生规则未变时可由业务人员确认沿用；新确认绑定当前依赖及原决定，重新执行受影响检查，涉及 FR-015／018、CTRL-04 | 业务规则 confirmed；2026-10-22 实现及新版独立预期／133项回归／独立技术审阅完成，见 MVP-0.1 §12；旧包不改，GATE-2 最终验收待批准 | Chris 直接回复；按 Spec／衍生规则理解其文字；不是 GATE-2 最终批准 |
+
+| CHG-017 | 2026-10-22 | M01-A01：Chris 批准 gate2-v0.2 通过 GATE-2，绑定542份冻结文件、133项技术检查及独立审阅／恢复证据，更新包外批准和当前状态；另授权本阶段 Git commit／push | Approved；MVP 0.1 accepted，GATE-2 passed；既有待批准记录为历史，不回写冻结包 | Chris 直接指令；登记时间2026-10-22T12:45:36.666919+08:00，精确消息时间未提供；APR-20261022-01 |
 
 未来变更需补充原因、影响需求／ADR、证据、验证和回滚／兼容说明（适用时）。不得通过修改本表将助手建议变为用户批准。Chris 可批准整体基线或列出批准／保留／修改项；批准后保留版本历史，后续任务授权单列。
 
@@ -165,6 +176,30 @@ Task 001 已获当前会话明确授权并启动，状态以 §1 及任务卡为
 [v0.1 创建检查及 T000-R01 修订证据](E:/Initiation/Define_Auto/docs/tasks/TASK-000.md#historical-verification) 已迁移，原 hash、失败结果、检查限制及任务状态均保留。本轮证据见 [T000-R02](E:/Initiation/Define_Auto/docs/tasks/TASK-000.md#t000-r02)。历史通过不能替代当前版本的适用检查。
 
 ## 8. 最新交接
+
+2026-10-22 GATE-2 正式批准：Chris 直接批准 gate2-v0.2 并授权 commit／push。APR-20261022-01 绑定 manifest `326b72e4ae13af031170360c5b29005a5d10a061e4041f1491a81931078f153b`，本轮563项对象核验通过；MVP 0.1 accepted，M01-Q07／GATE-2 passed，冻结文件及旧报告状态不改。当前接续 MVP-0.1 §13 完成提交／推送及 Git 字节恢复核验；下列“待批准”均为历史。不自动启动后续阶段。
+
+2026-10-22 最终包外收据：gate2-v0.2 manifest SHA-256=`326b72e4ae13af031170360c5b29005a5d10a061e4041f1491a81931078f153b`，542份冻结文件核验一致；实际包内／无Git完整套件各133/133，CLI恢复完整模型一致。证据在 review-policy-recovery-20261022-01、independent-policy-package-20261022-01，收据 gate2-v0.2-receipt.json；任务卡§12.3。技术交付已完成，当前只待Chris以中文单主题卡对该确切候选作GATE-2最终决定，Q07 not_run。不改冻结包，不自行批准，不提交／推送。
+
+2026-10-22 六卡新增行为技术交付：MVP-0.1 §12 为最新入口。版本0.1.1、规则0.2，原88项及新增40RP＋5运行时回归，共133项实际通过；独立 IP01–04／IP07 修复复测关闭，报告及旧失败证据保留。新demo／confirm／rerun-02完整模型重跑一致，原因仅测试模拟、真实approved为空；515项保护／配置／输出审计通过。gate2-v0.2 冻结／恢复以包外receipt为准；M01-Q07 not_run，最终批准待Chris。没有提交／推送／发布或新核心依赖，远端标签仍not_run。
+
+2026-10-22 新版实施启动：Chris 已明确授权实现及验证六卡新增行为，当前 in_progress。恢复审计 resume-20261022-01：86/86；旧 gate2-v0.1 的 358 份文件及 manifest 均核验一致。新契约 docs/contracts/MVP-0.1-review-policy-v0.1.md；独立 Agent 正在冻结新版预期，对应核心逻辑尚未修改。继续新预期→实现→全量回归→独立技术审阅→新候选包，最终批准仍待 Chris。
+
+2026-10-22 中文逐卡人审进行中：最新意见见 MVP-0.1 §11／M01-CARD-01／CHG-012。Chris 要求 AE／CM 提示后引导人工确认，并提出可读零行 VS 自动设置数据集级 HasNoData；CARD-01 已补充确认：VS 标记后仍需人工确认／补充原因，并反映于 Define-XML。CARD-02 变量缺席／全缺失规则已获 Chris 回复“同意”，记录 CHG-013；CARD-03 已接受必要人工裁决，并要求基础错误在上游 SDTM／P21 QC 阶段解决，记录 CHG-014；CARD-04 分工已获 Chris 明确同意；CARD-05 已获确认，Chris 明确额外变量须返回上游返工，记录 CHG-015；CARD-06 已确认，并补充业务人员确认沿用选项，记录 CHG-016；本轮六卡意见已齐，接续汇总具体实施及新版本验证。原 gate2-v0.1 不改，尚无新规则实现／验证，不把旧技术通过当作新规则通过或 GATE-2 最终批准。
+
+最终封存收据：MVP-0.1 gate2-v0.1 manifest SHA-256=`825443dd56bd950f417d33a1922e98f283dabe4c297b0fe8a1e9fe5f109f206d`，358/358 文件核验一致；包外 receipt 与任务卡 §10 绑定恢复、完整检查和独立审阅。工作区此条仅为封存后索引，不回写候选包；当前等待 Chris 最终批准。
+
+2026-10-21 MVP 0.1 技术交付：最新入口 [MVP-0.1 §10](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1.md#10-技术交付gate-2-确认卡与最新交接)。正式 Skill 配置落地；核心／CLI／中文表／完整套件完成，88/88、0 漏项／跳过／失败；两轮独立审阅共 10 项发现已技术关闭。候选恢复副本套件 88/88，无 Git 模式亦通过，CLI 业务快照一致；gate2-v0.1 最终 manifest 由包外 receipt 绑定。产品 review_ready，任务 blocked 等待 Chris 最终 GATE-2 验收，不自行 accepted。远端标签因 gh 不可用 not_run；无 Git 提交／推送。具体限制、固定预期时序事实及后续延期见任务卡，以下是历史进展。
+
+2026-10-21 恢复开发：Chris 已明确确认质量门 v0.2／执行台账及匹配 hash 的 Skill 草案；配置已写入 AGENTS 和 docs/agents。确认副本与记录见 artifacts/MVP-0.1/authorization-20261021-01；冻结包恢复审计 86 项通过。当前 in_progress，接续 MVP-0.1 §9；下文等待额度和待确认状态为历史。gh 不可用，远端标签 not_run；没有扩大远端授权或执行 Git 提交／推送。
+
+2026-10-21 文档修订收尾：已按 Chris 指令落实质量门与 Skill 草案审查建议；最新交接以 [MVP-0.1 §8](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1.md#8-最新交接审查建议落实与额度恢复后接续) 为准。质量门 v0.2 明确 M01-D01 的正反例／依赖检查，新增七项 not_run 执行台账；Skill 草案已清理杂字符并澄清正式 Spec／契约权威位置。本轮仅修改这两份文件及 PLANS，未写正式 Skill 配置、未操作远端、未实现或运行引擎。清单与配置确认待登记，GATE-2 未通过；按 Chris 要求完成本次交接后等待额度恢复，不自动继续开发。下列 §7 交接为此前状态，材料证据继续保留原适用范围。
+
+2026-10-21 本轮最后完成点：MVP-0.1 §7 已保存当前交接。8 份实体 XPT、21 条固定技术派生预期及共 10 条测试读取声明已准备；独立补充材料复核 73 条通过，无材料阻断。M01-D01 方案已接受，原批准包及原夹具／预期不变。任务 blocked 的唯一核心开发前置项为 §3 质量门清单确认；Skill 配置仍按其写前确认要求单独等待，不是引擎依赖。核心代码及 C01–C24 引擎执行仍为 0；没有 GATE-2 验收、Git 提交／推送或运行中服务。
+
+2026-10-21 MVP 0.1 接续更新：Chris 已接受 M01-D01 可追溯记录数声明方案，详见任务卡 §7；读取上下文契约与 TEST 专用声明已准备，8 份 XPT 实体化后与事前固定字节 hash 全部匹配。独立准备审阅保存 23 条新增预期（21 fixed，2 条保留原 pending 状态待新版分支补齐），并确认冻结 82 份副本；不是最终引擎技术审阅。质量门清单及 Skill 完整配置仍待确认，核心实际执行仍为 0。后续从 MVP-0.1 §7 恢复；下段是本轮早期准备状态，M01-D01 当时的 pending 已由本次决定接续。
+
+2026-10-21 MVP 0.1 启动：Chris 明确要求读取启动提示并开发，当前任务转至 [MVP-0.1](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1.md)。启动审计 86 项通过（批准 manifest、82 份副本、24 例登记及 36 行覆盖），上游材料 109 项和批准字节／HEAD 独立恢复 91 项重新通过。正式证据及精确读取 hash 位于 artifacts/MVP-0.1/startup-20261021-01；这些均为启动证据，引擎执行仍为 0。任务卡 §3 的质量门清单待 Chris 按 CTRL-02 确认，确认前只做独立预期／准备审阅；setup-matt-pocock-skills 的 GitHub Issues／默认标签已选，完整配置草案待写前确认。未改批准对象、原始夹具／预期、未提交／推送。下列“未启动”为历史记录。
 
 2026-10-21 Git 保真修复：T001-POST-01 已修复，最新结果见 TASK-001 §10。根 .gitattributes 禁用换行转换，原字节重新入库；91 个批准文件／manifest 在工作区、修复 Git tree 和独立恢复目录全部匹配。原失败结果保留；原批准及快照均不改，未改变全局设置。下面 §9 的 open 为修复前状态。本轮同时保留提示词 v0.2 和审阅记录；MVP 0.1 尚未启动。
 

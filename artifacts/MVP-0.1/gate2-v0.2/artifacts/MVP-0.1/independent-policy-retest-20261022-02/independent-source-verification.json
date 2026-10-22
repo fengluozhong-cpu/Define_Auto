@@ -1,0 +1,5 @@
+{
+  "source_drift": [],
+  "independent_expectation_sha256": "0e36a52f457072f624f094ffd426e8a7357bcf9fb22df75c3299043fd418fdf0",
+  "meaning": "Actual current source matches suite input snapshot; business GATE-2 approval not assessed."
+}

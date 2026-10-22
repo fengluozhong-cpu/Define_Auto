@@ -1,0 +1,6 @@
+{
+  "exit_code": 1,
+  "stdout": "{\"result\": \"failed\", \"error\": \"invalid_rule_value\"}\n",
+  "stderr": "",
+  "output_exists": false
+}

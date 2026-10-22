@@ -1,0 +1,10 @@
+{
+  "full_check_exit": 2,
+  "reason": "Inherited third-party reference files contain trailing spaces; preserve approved bytes rather than reformat frozen references.",
+  "scoped_exclusions": [
+    "artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/*",
+    "artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/*"
+  ],
+  "preservation_check": "checks.json; every frozen reference checked against original approved hashes",
+  "scoped_check_exit": 0
+}

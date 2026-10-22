@@ -1,0 +1,16 @@
+{
+  "authorization_id": "SYN-AUTH-SYN-ACTION-FINAL-2",
+  "reviewer": "synthetic_boundary_reviewer",
+  "test_only": true,
+  "scope": {
+    "action_id": "SYN-ACTION-FINAL-2",
+    "kind": "confirm_no_data",
+    "object_id": "study/SYN001/family/SDTM/dataset/VS",
+    "reviewer": "synthetic_boundary_reviewer",
+    "decided_at": "2026-10-22T10:00:00+08:00",
+    "rationale": "独立合成场景，明确人工审阅范围",
+    "dependency_snapshot_id": "dep-740fd39de6fab4345bad32ba93ce2b8a1b71a432b27ccf6adee5981a1d5e4fb6",
+    "supersedes": null,
+    "value": "本合成研究未采集生命体征；仅用于隔离测试演示。"
+  }
+}

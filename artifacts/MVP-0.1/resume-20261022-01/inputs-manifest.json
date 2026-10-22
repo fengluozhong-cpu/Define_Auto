@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/manifest.json",
+      "sha256": "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3",
+      "bytes": 19112
+    },
+    {
+      "path": "tools/mvp01/startup_audit.py",
+      "sha256": "b8a42b9c013d4486304291e93077e564097d30062af8dac1ab3330079996e9ab",
+      "bytes": 7528
+    },
+    {
+      "path": "docs/tasks/MVP-0.1.md",
+      "sha256": "42235b597dd76f532048b24a0242d599ef83344cff16ff809e46f539ba75060d",
+      "bytes": 44382
+    }
+  ],
+  "frozen_files": "frozen-reference-map.json",
+  "other_read_dependencies": "reading-record.json"
+}

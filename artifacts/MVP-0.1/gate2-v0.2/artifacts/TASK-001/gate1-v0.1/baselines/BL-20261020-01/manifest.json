@@ -1,0 +1,68 @@
+{
+  "baseline_id": "BL-20261020-01",
+  "captured_at": "2026-10-20T08:56:33+08:00",
+  "time_zone": "Asia/Shanghai",
+  "git_commit": "f5607200aba7e22f78fd3459321635c927e2fe00",
+  "approved_scope": [
+    "AGENTS.md",
+    "GOALS.md",
+    "REQUIREMENTS.md",
+    "ARCHITECTURE.md",
+    "PLANS.md"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "approved_core",
+      "version": "v0.4",
+      "bytes": 9529,
+      "sha256": "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5"
+    },
+    {
+      "path": "GOALS.md",
+      "role": "approved_core",
+      "version": "v0.1",
+      "bytes": 6018,
+      "sha256": "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043"
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "role": "approved_core",
+      "version": "v0.3",
+      "bytes": 22277,
+      "sha256": "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "role": "approved_core",
+      "version": "v0.2",
+      "bytes": 14667,
+      "sha256": "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9"
+    },
+    {
+      "path": "PLANS.md",
+      "role": "approved_core",
+      "version": "v0.4",
+      "bytes": 21111,
+      "sha256": "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c"
+    },
+    {
+      "path": "docs/tasks/TASK-000.md",
+      "role": "supporting_history",
+      "version": "v0.4",
+      "bytes": 20518,
+      "sha256": "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc"
+    },
+    {
+      "path": "README.md",
+      "role": "supporting_history",
+      "version": "git HEAD",
+      "bytes": 1917,
+      "sha256": "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b"
+    }
+  ],
+  "reference_resolution": {
+    "project_prefix": "E:/Initiation/Define_Auto/",
+    "rule": "Resolve paths listed in files against this snapshot directory, never against the live workspace. Anchors refer to the captured Markdown. Other references are historical/external context, not frozen regulatory evidence or approved implementation dependencies. Reacquire and pin them before dependent technical acceptance."
+  }
+}

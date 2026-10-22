@@ -1,0 +1,1108 @@
+{
+  "result": "passed",
+  "check_count": 102,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check_id": "Q01.manifest_hash",
+      "actual": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c",
+      "expected": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.baseline.AGENTS.md",
+      "actual": [
+        "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5",
+        9529
+      ],
+      "expected": [
+        "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5",
+        9529
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.baseline.GOALS.md",
+      "actual": [
+        "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043",
+        6018
+      ],
+      "expected": [
+        "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043",
+        6018
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.baseline.REQUIREMENTS.md",
+      "actual": [
+        "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36",
+        22277
+      ],
+      "expected": [
+        "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36",
+        22277
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.baseline.ARCHITECTURE.md",
+      "actual": [
+        "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9",
+        14667
+      ],
+      "expected": [
+        "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9",
+        14667
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.baseline.PLANS.md",
+      "actual": [
+        "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c",
+        21111
+      ],
+      "expected": [
+        "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c",
+        21111
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.baseline.docs/tasks/TASK-000.md",
+      "actual": [
+        "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc",
+        20518
+      ],
+      "expected": [
+        "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc",
+        20518
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.baseline.README.md",
+      "actual": [
+        "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b",
+        1917
+      ],
+      "expected": [
+        "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b",
+        1917
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.AGENTS.md",
+      "actual": "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf",
+      "expected": "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.GOALS.md",
+      "actual": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23",
+      "expected": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.REQUIREMENTS.md",
+      "actual": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b",
+      "expected": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.ARCHITECTURE.md",
+      "actual": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7",
+      "expected": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.docs/tasks/TASK-000.md",
+      "actual": "70fba5c11415aaaf69e682a5f45aa1e6ac1d766166e81bbe4ca88a6037b7f610",
+      "expected": "70fba5c11415aaaf69e682a5f45aa1e6ac1d766166e81bbe4ca88a6037b7f610",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.discussion.md",
+      "actual": "ecbe95bc8c9a60b402622a8fa428d329c97095dee8b326cfafae9f38355652a6",
+      "expected": "ecbe95bc8c9a60b402622a8fa428d329c97095dee8b326cfafae9f38355652a6",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected..workbuddy/memory/2026-10-19.md",
+      "actual": "48e6d3faaac7559ce678aa91d3347d974d53d880f7e0106b9eed63e9c7350850",
+      "expected": "48e6d3faaac7559ce678aa91d3347d974d53d880f7e0106b9eed63e9c7350850",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected..workbuddy/memory/MEMORY.md",
+      "actual": "7c8965462e0d8c2d4196a2a53ded5408cd0c05ea117f82aafb65a64956986c4c",
+      "expected": "7c8965462e0d8c2d4196a2a53ded5408cd0c05ea117f82aafb65a64956986c4c",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected..workbuddy/tools/export_conversation.py",
+      "actual": "16b508611cdf74b3c2da2506ef40ea5abc2f18fbd78a1be72a44eff73a358090",
+      "expected": "16b508611cdf74b3c2da2506ef40ea5abc2f18fbd78a1be72a44eff73a358090",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.baselines/BL-20261020-01/AGENTS.md",
+      "actual": "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5",
+      "expected": "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.baselines/BL-20261020-01/ARCHITECTURE.md",
+      "actual": "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9",
+      "expected": "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.baselines/BL-20261020-01/GOALS.md",
+      "actual": "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043",
+      "expected": "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.baselines/BL-20261020-01/manifest.json",
+      "actual": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c",
+      "expected": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.baselines/BL-20261020-01/PLANS.md",
+      "actual": "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c",
+      "expected": "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.baselines/BL-20261020-01/README.md",
+      "actual": "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b",
+      "expected": "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.baselines/BL-20261020-01/REQUIREMENTS.md",
+      "actual": "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36",
+      "expected": "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.baselines/BL-20261020-01/docs/tasks/TASK-000.md",
+      "actual": "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc",
+      "expected": "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.docs/approvals/APR-20261020-01-checks-initial.json",
+      "actual": "449733aad652647f1a5f35a7a92f5a8c5a3ddeabf865cdd7de0c201c23b19f38",
+      "expected": "449733aad652647f1a5f35a7a92f5a8c5a3ddeabf865cdd7de0c201c23b19f38",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.docs/approvals/APR-20261020-01-checks.json",
+      "actual": "c192777de03f42bf20d7a3afc2d689a42fcbc654dc22810bfcaaa45ed7f9ba1b",
+      "expected": "c192777de03f42bf20d7a3afc2d689a42fcbc654dc22810bfcaaa45ed7f9ba1b",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q01.protected.docs/approvals/APR-20261020-01.md",
+      "actual": "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e",
+      "expected": "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.source_ids_unique",
+      "actual": 5,
+      "expected": 5,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.root_containment.SRC-DM",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.exists.SRC-DM",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.hash.SRC-DM",
+      "actual": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "expected": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.root_containment.SRC-VS",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.exists.SRC-VS",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.hash.SRC-VS",
+      "actual": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "expected": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.root_containment.SRC-AE",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.exists.SRC-AE",
+      "actual": false,
+      "expected": false,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.hash.SRC-AE",
+      "actual": null,
+      "expected": null,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.root_containment.SRC-CM",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.exists.SRC-CM",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.hash.SRC-CM",
+      "actual": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "expected": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.root_containment.SRC-SPEC",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.exists.SRC-SPEC",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.hash.SRC-SPEC",
+      "actual": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "expected": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.AE_absent",
+      "actual": false,
+      "expected": false,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.CM_unreadable",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": {
+        "exception_type": "ReadstatError",
+        "message": "Unable to read from file"
+      }
+    },
+    {
+      "check_id": "Q02.library.DM.row_count",
+      "actual": 3,
+      "expected": 3,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.DM.label",
+      "actual": "Demographics",
+      "expected": "Demographics",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.DM.column_names",
+      "actual": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SEX",
+        "AGE",
+        "ARMCD",
+        "EXTRA"
+      ],
+      "expected": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SEX",
+        "AGE",
+        "ARMCD",
+        "EXTRA"
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.DM.storage_widths",
+      "actual": {
+        "STUDYID": 6,
+        "DOMAIN": 2,
+        "USUBJID": 8,
+        "SEX": 1,
+        "AGE": 8,
+        "ARMCD": 8,
+        "EXTRA": 1
+      },
+      "expected": {
+        "STUDYID": 6,
+        "DOMAIN": 2,
+        "USUBJID": 8,
+        "SEX": 1,
+        "AGE": 8,
+        "ARMCD": 8,
+        "EXTRA": 1
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.DM.types",
+      "actual": {
+        "STUDYID": "string",
+        "DOMAIN": "string",
+        "USUBJID": "string",
+        "SEX": "string",
+        "AGE": "double",
+        "ARMCD": "double",
+        "EXTRA": "string"
+      },
+      "expected": {
+        "STUDYID": "string",
+        "DOMAIN": "string",
+        "USUBJID": "string",
+        "SEX": "string",
+        "AGE": "double",
+        "ARMCD": "double",
+        "EXTRA": "string"
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.DM.labels",
+      "actual": {
+        "STUDYID": "Study Identifier",
+        "DOMAIN": "Domain Abbreviation",
+        "USUBJID": "Unique Subject Identifier",
+        "SEX": "Sex",
+        "AGE": "Age",
+        "ARMCD": "Actual Arm Code",
+        "EXTRA": "Synthetic Extra"
+      },
+      "expected": {
+        "STUDYID": "Study Identifier",
+        "DOMAIN": "Domain Abbreviation",
+        "USUBJID": "Unique Subject Identifier",
+        "SEX": "Sex",
+        "AGE": "Age",
+        "ARMCD": "Actual Arm Code",
+        "EXTRA": "Synthetic Extra"
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.DM.missing_counts",
+      "actual": {
+        "STUDYID": 0,
+        "DOMAIN": 0,
+        "USUBJID": 0,
+        "SEX": 3,
+        "AGE": 3,
+        "ARMCD": 0,
+        "EXTRA": 0
+      },
+      "expected": {
+        "STUDYID": 0,
+        "DOMAIN": 0,
+        "USUBJID": 0,
+        "SEX": 3,
+        "AGE": 3,
+        "ARMCD": 0,
+        "EXTRA": 0
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.DM.nonmissing_distinct_counts",
+      "actual": {
+        "STUDYID": 1,
+        "DOMAIN": 1,
+        "USUBJID": 3,
+        "SEX": 0,
+        "AGE": 0,
+        "ARMCD": 2,
+        "EXTRA": 2
+      },
+      "expected": {
+        "STUDYID": 1,
+        "DOMAIN": 1,
+        "USUBJID": 3,
+        "SEX": 0,
+        "AGE": 0,
+        "ARMCD": 2,
+        "EXTRA": 2
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.DM.observed_max_content_lengths",
+      "actual": {
+        "STUDYID": 6,
+        "DOMAIN": 2,
+        "USUBJID": 8,
+        "SEX": 0,
+        "EXTRA": 1
+      },
+      "expected": {
+        "STUDYID": 6,
+        "DOMAIN": 2,
+        "USUBJID": 8,
+        "SEX": 0,
+        "EXTRA": 1
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.80byte_records",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.names",
+      "actual": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SEX",
+        "AGE",
+        "ARMCD",
+        "EXTRA"
+      ],
+      "expected": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "SEX",
+        "AGE",
+        "ARMCD",
+        "EXTRA"
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.width",
+      "actual": {
+        "STUDYID": 6,
+        "DOMAIN": 2,
+        "USUBJID": 8,
+        "SEX": 1,
+        "AGE": 8,
+        "ARMCD": 8,
+        "EXTRA": 1
+      },
+      "expected": {
+        "STUDYID": 6,
+        "DOMAIN": 2,
+        "USUBJID": 8,
+        "SEX": 1,
+        "AGE": 8,
+        "ARMCD": 8,
+        "EXTRA": 1
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.type",
+      "actual": {
+        "STUDYID": "string",
+        "DOMAIN": "string",
+        "USUBJID": "string",
+        "SEX": "string",
+        "AGE": "double",
+        "ARMCD": "double",
+        "EXTRA": "string"
+      },
+      "expected": {
+        "STUDYID": "string",
+        "DOMAIN": "string",
+        "USUBJID": "string",
+        "SEX": "string",
+        "AGE": "double",
+        "ARMCD": "double",
+        "EXTRA": "string"
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.label",
+      "actual": {
+        "STUDYID": "Study Identifier",
+        "DOMAIN": "Domain Abbreviation",
+        "USUBJID": "Unique Subject Identifier",
+        "SEX": "Sex",
+        "AGE": "Age",
+        "ARMCD": "Actual Arm Code",
+        "EXTRA": "Synthetic Extra"
+      },
+      "expected": {
+        "STUDYID": "Study Identifier",
+        "DOMAIN": "Domain Abbreviation",
+        "USUBJID": "Unique Subject Identifier",
+        "SEX": "Sex",
+        "AGE": "Age",
+        "ARMCD": "Actual Arm Code",
+        "EXTRA": "Synthetic Extra"
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.data_bytes",
+      "actual": 102,
+      "expected": 102,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.AGE.zero_tail.0",
+      "actual": "00000000000000",
+      "expected": "00000000000000",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.AGE.zero_tail.1",
+      "actual": "00000000000000",
+      "expected": "00000000000000",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.AGE.zero_tail.2",
+      "actual": "00000000000000",
+      "expected": "00000000000000",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.DM.AGE.missing_codes",
+      "actual": {
+        ".": 1,
+        "A": 1,
+        "Z": 1
+      },
+      "expected": {
+        ".": 1,
+        "A": 1,
+        "Z": 1
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.VS.row_count",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.VS.label",
+      "actual": "Vital Signs",
+      "expected": "Vital Signs",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.VS.column_names",
+      "actual": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "VSTESTCD",
+        "VSORRES"
+      ],
+      "expected": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "VSTESTCD",
+        "VSORRES"
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.VS.storage_widths",
+      "actual": {
+        "STUDYID": 1,
+        "DOMAIN": 1,
+        "USUBJID": 1,
+        "VSTESTCD": 1,
+        "VSORRES": 1
+      },
+      "expected": {
+        "STUDYID": 1,
+        "DOMAIN": 1,
+        "USUBJID": 1,
+        "VSTESTCD": 1,
+        "VSORRES": 1
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.VS.types",
+      "actual": {
+        "STUDYID": "string",
+        "DOMAIN": "string",
+        "USUBJID": "string",
+        "VSTESTCD": "string",
+        "VSORRES": "string"
+      },
+      "expected": {
+        "STUDYID": "string",
+        "DOMAIN": "string",
+        "USUBJID": "string",
+        "VSTESTCD": "string",
+        "VSORRES": "string"
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.VS.labels",
+      "actual": {
+        "STUDYID": "Study Identifier",
+        "DOMAIN": "Domain Abbreviation",
+        "USUBJID": "Unique Subject Identifier",
+        "VSTESTCD": "Vital Signs Test Short Name",
+        "VSORRES": "Result or Finding in Original Units"
+      },
+      "expected": {
+        "STUDYID": "Study Identifier",
+        "DOMAIN": "Domain Abbreviation",
+        "USUBJID": "Unique Subject Identifier",
+        "VSTESTCD": "Vital Signs Test Short Name",
+        "VSORRES": "Result or Finding in Original Units"
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.VS.missing_counts",
+      "actual": {
+        "STUDYID": 0,
+        "DOMAIN": 0,
+        "USUBJID": 0,
+        "VSTESTCD": 0,
+        "VSORRES": 0
+      },
+      "expected": {
+        "STUDYID": 0,
+        "DOMAIN": 0,
+        "USUBJID": 0,
+        "VSTESTCD": 0,
+        "VSORRES": 0
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.VS.nonmissing_distinct_counts",
+      "actual": {
+        "STUDYID": 0,
+        "DOMAIN": 0,
+        "USUBJID": 0,
+        "VSTESTCD": 0,
+        "VSORRES": 0
+      },
+      "expected": {
+        "STUDYID": 0,
+        "DOMAIN": 0,
+        "USUBJID": 0,
+        "VSTESTCD": 0,
+        "VSORRES": 0
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.library.VS.observed_max_content_lengths",
+      "actual": {
+        "STUDYID": 0,
+        "DOMAIN": 0,
+        "USUBJID": 0,
+        "VSTESTCD": 0,
+        "VSORRES": 0
+      },
+      "expected": {
+        "STUDYID": 0,
+        "DOMAIN": 0,
+        "USUBJID": 0,
+        "VSTESTCD": 0,
+        "VSORRES": 0
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.VS.80byte_records",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.VS.names",
+      "actual": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "VSTESTCD",
+        "VSORRES"
+      ],
+      "expected": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "VSTESTCD",
+        "VSORRES"
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.VS.width",
+      "actual": {
+        "STUDYID": 1,
+        "DOMAIN": 1,
+        "USUBJID": 1,
+        "VSTESTCD": 1,
+        "VSORRES": 1
+      },
+      "expected": {
+        "STUDYID": 1,
+        "DOMAIN": 1,
+        "USUBJID": 1,
+        "VSTESTCD": 1,
+        "VSORRES": 1
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.VS.type",
+      "actual": {
+        "STUDYID": "string",
+        "DOMAIN": "string",
+        "USUBJID": "string",
+        "VSTESTCD": "string",
+        "VSORRES": "string"
+      },
+      "expected": {
+        "STUDYID": "string",
+        "DOMAIN": "string",
+        "USUBJID": "string",
+        "VSTESTCD": "string",
+        "VSORRES": "string"
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.VS.label",
+      "actual": {
+        "STUDYID": "Study Identifier",
+        "DOMAIN": "Domain Abbreviation",
+        "USUBJID": "Unique Subject Identifier",
+        "VSTESTCD": "Vital Signs Test Short Name",
+        "VSORRES": "Result or Finding in Original Units"
+      },
+      "expected": {
+        "STUDYID": "Study Identifier",
+        "DOMAIN": "Domain Abbreviation",
+        "USUBJID": "Unique Subject Identifier",
+        "VSTESTCD": "Vital Signs Test Short Name",
+        "VSORRES": "Result or Finding in Original Units"
+      },
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.raw.VS.data_bytes",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.datasets",
+      "actual": [
+        "DM",
+        "VS",
+        "AE",
+        "CM"
+      ],
+      "expected": [
+        "DM",
+        "VS",
+        "AE",
+        "CM"
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.unique_datasets",
+      "actual": 4,
+      "expected": 4,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.unique_variables.DM",
+      "actual": 7,
+      "expected": 7,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.minimum_fields.DM",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.unique_variables.VS",
+      "actual": 5,
+      "expected": 5,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.minimum_fields.VS",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.unique_variables.AE",
+      "actual": 1,
+      "expected": 1,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.minimum_fields.AE",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.unique_variables.CM",
+      "actual": 1,
+      "expected": 1,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q02.spec.minimum_fields.CM",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q03.case_count",
+      "actual": 24,
+      "expected": 24,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q03.unique_cases",
+      "actual": 24,
+      "expected": 24,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q03.derivations_present",
+      "actual": true,
+      "expected": true,
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q03.dependency_variants",
+      "actual": [
+        "inputs",
+        "standards",
+        "rules",
+        "config",
+        "model_schema",
+        "upstream_decisions",
+        "tools",
+        "audit"
+      ],
+      "expected": [
+        "inputs",
+        "standards",
+        "rules",
+        "config",
+        "model_schema",
+        "upstream_decisions",
+        "tools",
+        "audit"
+      ],
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q03.patch_synthetic",
+      "actual": "synthetic_only",
+      "expected": "synthetic_only",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q06.source.dde-readme.md",
+      "actual": "d26495a44cfe931123f39742734632d08dcfdb566c372e351b5a0436317ef413",
+      "expected": "d26495a44cfe931123f39742734632d08dcfdb566c372e351b5a0436317ef413",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q06.source.sas-xport-v5.pdf",
+      "actual": "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3",
+      "expected": "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q06.source.pyreadstat-api.html",
+      "actual": "4b2b4145e5c8ba7e902cf07a1bd74ef1bd28002d15a9431d587b6dcd48880cee",
+      "expected": "4b2b4145e5c8ba7e902cf07a1bd74ef1bd28002d15a9431d587b6dcd48880cee",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q06.source.dde-dds.yaml",
+      "actual": "a4649e1d33a6d3ef832b301ebd875e782f740811a8d48e9e744c66492b84f91d",
+      "expected": "a4649e1d33a6d3ef832b301ebd875e782f740811a8d48e9e744c66492b84f91d",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q06.source.dde-dds-define.yaml",
+      "actual": "010dbaddb6b55041450e4c857e6f0765e84898505aeb2373f256ab19dd37ce02",
+      "expected": "010dbaddb6b55041450e4c857e6f0765e84898505aeb2373f256ab19dd37ce02",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q06.source.dde-xml-define.yaml",
+      "actual": "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa",
+      "expected": "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa",
+      "result": "passed",
+      "detail": null
+    },
+    {
+      "check_id": "Q06.unique_source_paths",
+      "actual": 6,
+      "expected": 6,
+      "result": "passed",
+      "detail": null
+    }
+  ],
+  "engine_behavior": "not_run",
+  "gate1": "pending_chris"
+}

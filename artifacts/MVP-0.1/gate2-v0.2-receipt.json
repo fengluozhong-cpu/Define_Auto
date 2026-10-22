@@ -1,0 +1,31 @@
+{
+  "package_id": "gate2-v0.2",
+  "manifest_sha256": "326b72e4ae13af031170360c5b29005a5d10a061e4041f1491a81931078f153b",
+  "files": 542,
+  "gate2": "passed",
+  "recovery_checks": "passed",
+  "recovery_evidence": "artifacts/MVP-0.1/review-policy-recovery-20261022-01",
+  "full_suite": {
+    "collected": 133,
+    "executed": 133,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "missing": []
+  },
+  "no_git_full_suite": "133/133 passed; HEAD explicitly unavailable",
+  "cli_model_snapshot_id": "model-e9e02603d6a28dfb8b1b1054d796c96aa0399a63bde6563696693bfd122db584",
+  "frozen_files_verified": 542,
+  "independent_review_sha256": "1d4fecadd68074d89df3a272936541892c0dc3f094efeba59cc1aad14ce41799",
+  "business_approval": "granted_for_mvp01_stage_scope_only",
+  "independent_package_and_recovery": "passed",
+  "independent_package_evidence": "artifacts/MVP-0.1/independent-policy-package-20261022-01/checks.json",
+  "independent_package_checks_sha256": "f092feb7d5fa956b9c7afffa2dd1c08f2418eb1406921cbbc649a4931f2b334c",
+  "independent_recovery_evidence": "artifacts/MVP-0.1/independent-policy-package-20261022-01/recovery-verification.json",
+  "current_task_handoff": "docs/tasks/MVP-0.1.md section 12.3; PLANS.md section 8",
+  "approval_id": "APR-20261022-01",
+  "approval_record": "docs/approvals/APR-20261022-01.md",
+  "approved_by": "Chris Zhong",
+  "approved_date": "2026-10-22",
+  "historical_package_status": "Frozen pending/not_approved fields retained; external approval record governs current stage status."
+}

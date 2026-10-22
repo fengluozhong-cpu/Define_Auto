@@ -1,0 +1,16 @@
+{
+  "packages": [
+    {
+      "package": "artifacts/TASK-001/gate1-v0.1",
+      "manifest_match": true,
+      "file_count": 82,
+      "mismatches": []
+    },
+    {
+      "package": "artifacts/MVP-0.1/gate2-v0.1",
+      "manifest_match": true,
+      "file_count": 358,
+      "mismatches": []
+    }
+  ]
+}

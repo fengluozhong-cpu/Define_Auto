@@ -1,0 +1,650 @@
+{
+  "performed_at": "2026-10-21T07:42:51.899680+08:00",
+  "requested_ref": "HEAD",
+  "tree": "4e4ad9f7a392c28074b69a7b4a52ffe6f4367b12",
+  "scope": "Approved Task 000 and Task 001 exact bytes in worktree, Git blobs and independent git archive extraction; no engine execution",
+  "result": "passed",
+  "check_count": 91,
+  "failed_count": 0,
+  "restore_directory": "work\\mvp01-start-bytes-20261021-01",
+  "archive_sha256": "b9adbbc7b32e6706effa2060306eac69aef1f8cb7baa1c57f9bc1f1602b57e53",
+  "checks": [
+    {
+      "path": "baselines/BL-20261020-01/manifest.json",
+      "expected_sha256": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "baselines/BL-20261020-01/AGENTS.md",
+      "expected_sha256": "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "baselines/BL-20261020-01/GOALS.md",
+      "expected_sha256": "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "baselines/BL-20261020-01/REQUIREMENTS.md",
+      "expected_sha256": "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "baselines/BL-20261020-01/ARCHITECTURE.md",
+      "expected_sha256": "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "baselines/BL-20261020-01/PLANS.md",
+      "expected_sha256": "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "baselines/BL-20261020-01/docs/tasks/TASK-000.md",
+      "expected_sha256": "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "baselines/BL-20261020-01/README.md",
+      "expected_sha256": "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/manifest.json",
+      "expected_sha256": "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/.gitignore",
+      "expected_sha256": "f5fbcaddba16ca471b35b0b4545e318f10edb0a6766ec01b192010af462de5d4",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/AGENTS.md",
+      "expected_sha256": "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/ARCHITECTURE.md",
+      "expected_sha256": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/documents-01/checks.json",
+      "expected_sha256": "e40df4db7f7a97c27dde5b472bf9b8ac435783a03b71778fd924859f132f3f5b",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/documents-02/checks.json",
+      "expected_sha256": "a5deebd1c33d7e02ea390e211bed891ceb66fa7efabbe1c36979fe3c25da981c",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-01/case-readiness.json",
+      "expected_sha256": "c0d714bd0a9f1775f54ae232477a10458f0779d605e3c108c060b9d5bec9b06a",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-01/checks.json",
+      "expected_sha256": "e77dd316f91c022fd952214bb6fc405d40905e7653d9129c9812ff5fff7b0a14",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-01/run.json",
+      "expected_sha256": "2ab116767042290bcb31859ccf5af12732eec42fbc6af7911e3c369774fcf82a",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/case-readiness.json",
+      "expected_sha256": "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/checks.json",
+      "expected_sha256": "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/inputs-manifest.json",
+      "expected_sha256": "c3e92fc9eee4519b25de8947e3c65926963a7914697e2b45bee13b9c499492b6",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/outputs-manifest.json",
+      "expected_sha256": "2145e1bbc08af63e57d4076308c524cdd00a9ca9cb071a16f895a17ecc3bc2f8",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-02/run.json",
+      "expected_sha256": "8283496e288df80e7535ccf03fd89a396ceb57b5c89bbd6002691cc852170bfc",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/case-readiness.json",
+      "expected_sha256": "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/checks.json",
+      "expected_sha256": "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/coverage.json",
+      "expected_sha256": "80c3bd873888477ab1ec59c53ca9c0b941da86a7f90dc74ec98ebb80f3610957",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/inputs-manifest.json",
+      "expected_sha256": "8bd3a7b3feff95661c58b452565dac65edae4ac1d561225de78b698d4005a1b1",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/outputs-manifest.json",
+      "expected_sha256": "9e325cf1c759d3db24ca44b55ea545d33fad1ff11eca9e6883b218d206464a61",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-03/run.json",
+      "expected_sha256": "6346c4c59ec05ca9d7c603fbead4fc7ea54aa71fbcd70c8c9f6492bf64c3c5ff",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/case-readiness.json",
+      "expected_sha256": "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/checks.json",
+      "expected_sha256": "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/coverage.json",
+      "expected_sha256": "36d63bf5941aea6e8b41b7cc3fc1546f3ac6885636ac1c8d341e47adb6c35262",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/inputs-manifest.json",
+      "expected_sha256": "dd210a0e12b71b90d74a1a6a0e82d439ddce9306c647acf9a4d9541bce34b741",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/outputs-manifest.json",
+      "expected_sha256": "ebc4944e442272f77823595e0b49f6a6e6b98095cbf57971a2eaf206b404a5e3",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/materials-04/run.json",
+      "expected_sha256": "0d623e3e9581b4542c41cd607e724c3e267c57ecd98c933a39d2dc94f7918c65",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/rebuild-01/build-record.json",
+      "expected_sha256": "94cd96f456dd214614ba46bb3720f302c1363c3cc75a3efa0d82ab62a7231ded",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/rebuild-01/checks.json",
+      "expected_sha256": "289f8c9e19f515b0ff0f399a2ab3b28d01335afd4f394950bdf33d1b54fcdf38",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-dds-define.yaml",
+      "expected_sha256": "010dbaddb6b55041450e4c857e6f0765e84898505aeb2373f256ab19dd37ce02",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-dds.yaml",
+      "expected_sha256": "a4649e1d33a6d3ef832b301ebd875e782f740811a8d48e9e744c66492b84f91d",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml",
+      "expected_sha256": "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-LICENSE",
+      "expected_sha256": "4c21061e36524297b6173f929b507edea5208254af1d743370047e54f52f9ce1",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-readme.md",
+      "expected_sha256": "d26495a44cfe931123f39742734632d08dcfdb566c372e351b5a0436317ef413",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml",
+      "expected_sha256": "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html",
+      "expected_sha256": "4b2b4145e5c8ba7e902cf07a1bd74ef1bd28002d15a9431d587b6dcd48880cee",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sas-xport-v5.pdf",
+      "expected_sha256": "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sources-initial.json",
+      "expected_sha256": "17e6d6b549da4c7ba2f0cde33b7c1d0d7febd97623676c3bc9da96f74878728c",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sources.json",
+      "expected_sha256": "569a708fcb1963ac990aa112b131f3bca93adce5e40b73995c09908def1a6917",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/start/dependencies.json",
+      "expected_sha256": "7e9a556918f9727cfafe3caf28c4bd1947bca9e67c4c38575a4d068efcebaf99",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/start/post-review-changes.json",
+      "expected_sha256": "11d2a370cebcb5912731e48f07b5f176b9641ac39353ab25b3720b94f94a1d70",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/AGENTS.md",
+      "expected_sha256": "ed937441d3c30d59de7c87b3a6e274e80a42d7bbb59773b6aebc370f234f99f5",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/ARCHITECTURE.md",
+      "expected_sha256": "14586f22d2c3a79588ce809184d605169973bb241b24e484a1248ec314755cf9",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/docs/tasks/TASK-000.md",
+      "expected_sha256": "84dda0c03cbdc4673252f6254696ca98548dc905cb486ed8599f06d97b9865bc",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/GOALS.md",
+      "expected_sha256": "f59dec46510d6c072059039a68442facd514bc5b5472d0b4d70ec86355b84043",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/manifest.json",
+      "expected_sha256": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/PLANS.md",
+      "expected_sha256": "49bb6ef3e431ccadac9c9f01a74297ae10aa26e2dd2ce7fa28293dab512a6d8c",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/README.md",
+      "expected_sha256": "432a34b6f4a39a77113aa3a16a104453c42a531546a8d33d71b91b3da00b0f4b",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/baselines/BL-20261020-01/REQUIREMENTS.md",
+      "expected_sha256": "ca229b307348e984bc4d5b5077564de91254be3f29e529a67a8619bd30f8eb36",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/approvals/APR-20261020-01-checks-initial.json",
+      "expected_sha256": "449733aad652647f1a5f35a7a92f5a8c5a3ddeabf865cdd7de0c201c23b19f38",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/approvals/APR-20261020-01-checks.json",
+      "expected_sha256": "c192777de03f42bf20d7a3afc2d689a42fcbc654dc22810bfcaaa45ed7f9ba1b",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/approvals/APR-20261020-01.md",
+      "expected_sha256": "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-contract-v0.1.md",
+      "expected_sha256": "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "expected_sha256": "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/tasks/TASK-001-findings.json",
+      "expected_sha256": "4e0a670077bf6866b7e7048a6c3bbb268fce5da44486b8bcb57463c3aa3ab7ce",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/tasks/TASK-001.md",
+      "expected_sha256": "ac3be755e4c58fed0ded5b97f06652887166587eabf13ab07b15d9eef7271376",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/final-review.json",
+      "expected_sha256": "e7df11c35ac071c11f16d677e67cd60af6349e72c02e6269bd341b70a5428564",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/final-review.md",
+      "expected_sha256": "01ff828c0803ace7c4e6872183dd46ba4fa93b17caed44c374e80d583026b02c",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/independent-xpt-raw-v1.json",
+      "expected_sha256": "318846b3ccaff7890548064e791c2ea01c8f3563bc848654c1ceb2d7c85ff257",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/independent_xpt_audit.py",
+      "expected_sha256": "c2199ecc15953657f328415ce0e635d64ce780cceaadce5b3431b2f320fa1731",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/tasks/task001-review/record_final_review.py",
+      "expected_sha256": "87efa42d5be4d076cbbc000fb4a4d86ece9bc28c703c73d91d77657f5b5e3777",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/coverage.json",
+      "expected_sha256": "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/expected.json",
+      "expected_sha256": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/gate1-checklist.json",
+      "expected_sha256": "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/build-record.json",
+      "expected_sha256": "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/cm.xpt",
+      "expected_sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dependencies.json",
+      "expected_sha256": "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dependency-changes.json",
+      "expected_sha256": "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dm.xpt",
+      "expected_sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/input-manifest.json",
+      "expected_sha256": "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/patch.json",
+      "expected_sha256": "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/source-data.json",
+      "expected_sha256": "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec-changed.json",
+      "expected_sha256": "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json",
+      "expected_sha256": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "expected_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/GOALS.md",
+      "expected_sha256": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/PLANS.md",
+      "expected_sha256": "308c806c907187334593f8e402911b981f5b0c3d53cdcfdaf41acb6e32baeec3",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/README.md",
+      "expected_sha256": "19970c2e332404a9de6750b4d2273c69cf8515451dff2f361c56eef1c2c82d28",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/REQUIREMENTS.md",
+      "expected_sha256": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/tools/task001/build_fixtures.py",
+      "expected_sha256": "b2c9d290f94a6cfc3ca6393efe8faf2652f59ead924351be76e8b5a2076674ec",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/tools/task001/check_documents.py",
+      "expected_sha256": "a36d9ae86e5d98012c2cbd8f47416704deea875e81e64de507ba49b857e72565",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/tools/task001/check_materials.py",
+      "expected_sha256": "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/tools/task001/package_gate1.py",
+      "expected_sha256": "2941055cb392f609b4300a25dd8cbc310201020bc8eca4f1451fd463b23b8d4b",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/tools/task001/requirements-fixtures.lock.txt",
+      "expected_sha256": "29e73867d345e6cbe16410521689877a9c3cfe1759445efcb576d4b46d17126a",
+      "worktree_match": true,
+      "git_blob_match": true,
+      "archive_restore_match": true
+    }
+  ]
+}

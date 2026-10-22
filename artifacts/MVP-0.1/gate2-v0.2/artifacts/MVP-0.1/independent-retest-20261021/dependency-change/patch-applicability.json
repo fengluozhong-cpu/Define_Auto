@@ -1,0 +1,12 @@
+{
+  "business_changes": 0,
+  "status": "needs_review",
+  "impact": {
+    "changed_components": [
+      "config",
+      "effective_encodings"
+    ],
+    "requires_business_rereview": true,
+    "basis": "conservative_entire_associated_chain"
+  }
+}

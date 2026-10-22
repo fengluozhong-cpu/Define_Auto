@@ -1,0 +1,22 @@
+[
+  {
+    "path": "PLANS.md",
+    "sha256": "af44c63de8c71449b4fa8b3b6ed54c0b37969e32b5822e6222c7527c2c9fed05"
+  },
+  {
+    "path": "README.md",
+    "sha256": "70f59714fe512ac3b11ee478504c127c90c20ece786024aac0f85ee340daa178"
+  },
+  {
+    "path": "docs/tasks/MVP-0.1.md",
+    "sha256": "cd830efc226fc76004e57c273d5742158b3c0ce797ca105c3ef676e3a2ba2589"
+  },
+  {
+    "path": "docs/tasks/MVP-0.1-skill-setup-draft.md",
+    "sha256": "28615aa27d1ac202da3f71cc793c5de03123d2065c94296d27c824d0963938af"
+  },
+  {
+    "path": "tools/mvp01/startup_audit.py",
+    "sha256": "d6ec4c3f363082a445a69f0bc5164702802e428454a002ac457aa416496ab424"
+  }
+]

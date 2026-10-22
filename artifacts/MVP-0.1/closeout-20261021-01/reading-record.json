@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sections": "complete",
+      "sha256": "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf"
+    },
+    {
+      "path": "GOALS.md",
+      "sections": "complete",
+      "sha256": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+    },
+    {
+      "path": "PLANS.md",
+      "sections": "1/2/3/CTRL-01/02/03/8",
+      "sha256": "48714b706bb65bb4bf6a7db000264084569e75d95a88d4aa1b993c9318c12509"
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "sections": "complete including CTRL-05/06",
+      "sha256": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "sections": "complete including 1-4.1/5/10",
+      "sha256": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+    },
+    {
+      "path": "docs/tasks/TASK-001.md",
+      "sections": "complete latest handoff and approval",
+      "sha256": "1350a797f80a38752b1a7975a9ad5ad630cb2b3f703b37180035684690d7691e"
+    },
+    {
+      "path": "docs/tasks/MVP-0.1-kickoff-prompt.md",
+      "sections": "complete v0.2",
+      "sha256": "dbe7e937242c0bce625d8cb7444f84a1f3620574655fedf51543e3ab5b00c16a"
+    },
+    {
+      "path": "docs/tasks/MVP-0.1.md",
+      "sections": "complete initial task/checklist draft",
+      "sha256": "a1a0222f5f73943326574b192592badbcda71a5ad3d9dd24b9b33fe5aa55155e"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-01.md",
+      "sections": "baseline approval",
+      "sha256": "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-02.md",
+      "sections": "complete",
+      "sha256": "7d6a616156e77bb36e47b76892104212660e75c48cf3ae05066d3cb1abaf5863"
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-contract-v0.1.md",
+      "sections": "complete",
+      "sha256": "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "sections": "complete",
+      "sha256": "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/expected.json",
+      "sections": "complete 24 cases/facts",
+      "sha256": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808"
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/coverage.json",
+      "sections": "complete 36 rows",
+      "sha256": "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a"
+    },
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/gate1-checklist.json",
+      "sections": "complete Q01-Q07",
+      "sha256": "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373"
+    },
+    {
+      "path": "tools/task001/check_materials.py",
+      "sections": "complete applicability/environment audit",
+      "sha256": "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c"
+    },
+    {
+      "path": "tools/task001/check_git_preservation.py",
+      "sections": "complete read-only Git recovery audit",
+      "sha256": "3ee81de142a68fade65faabba7578c68a4e9bef51c73fc90786697cf611aa35a"
+    },
+    {
+      "path": "docs/contracts/MVP-0.1-read-context-v0.1.md",
+      "sections": "complete accepted M01-D01 implementation contract",
+      "sha256": "99629de2acd4263fa16d908fac18fe07974a8b3dc347314f2d7f626984614a3b"
+    },
+    {
+      "path": "expectations/mvp01/v0.1/additional-cases.json",
+      "sections": "independent 23 case expectations and byte recipes; materialization verified",
+      "sha256": "34a92d1a8dd8039b20cbf380985d63c47189b6d86fd9c96fa04d77c9f768d40b"
+    },
+    {
+      "path": "docs/tasks/mvp01-review/startup-review.md",
+      "sections": "complete independent preparation review",
+      "sha256": "c9fd5e26a14d70eed2d6f542c12cc0e2f45a1f75070d9967a6e480c43c38c6c9"
+    },
+    {
+      "path": "docs/tasks/mvp01-review/read-context-review.md",
+      "sections": "complete independent material/context review",
+      "sha256": "cb7e71ffd6eaf94bf2bc99784911b03606a401e5555bdad6f11c731eec016311"
+    },
+    {
+      "path": "docs/tasks/MVP-0.1-skill-setup-draft.md",
+      "sections": "complete pending configuration draft",
+      "sha256": "28615aa27d1ac202da3f71cc793c5de03123d2065c94296d27c824d0963938af"
+    },
+    {
+      "path": "fixtures/mvp01/v0.1/manifest.json",
+      "sections": "materialized independent byte fixtures",
+      "sha256": "98e88fe8c507623dbaa2e15d44cde1b37984de4f3146371521945fd6220f629e"
+    },
+    {
+      "path": "fixtures/mvp01/baseline-context-v0.1/manifest.json",
+      "sections": "synthetic baseline declarations",
+      "sha256": "3927c937f3fbe773d5cd93e40d825afb5a5d308b9718ece96437ae17ce7dd5cb"
+    }
+  ]
+}

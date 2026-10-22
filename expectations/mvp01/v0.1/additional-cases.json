@@ -1,0 +1,1638 @@
+{
+  "version": "0.1",
+  "task_id": "MVP-0.1",
+  "author": "/root/mvp01_independent_prep",
+  "date": "2026-10-21",
+  "purpose": "independent preimplementation technical expectations, not business approval or final review",
+  "status": "prepared_technical_cases_with_two_pending_contract_cases",
+  "engine_execution": "not_run",
+  "authorization_records": "all test_only; no genuine business approval",
+  "independence": "Derived before define_auto/ or tests/ existed; no production parser, fixture writer, material checker output or implementation output generates these answers.",
+  "input_hashes": {
+    "AGENTS.md": "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf",
+    "GOALS.md": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23",
+    "PLANS.md": "cfa332009d1d4e6ef33554ef41a2a7f1f01d17448d9d1c29956f3cbfebcf696a",
+    "REQUIREMENTS.md": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b",
+    "ARCHITECTURE.md": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7",
+    "docs/tasks/MVP-0.1.md": "092f62f49027df12ea4c636ba2287687a249e3c17c259a2ab4de89a377dc8d46",
+    "docs/tasks/MVP-0.1-kickoff-prompt.md": "dbe7e937242c0bce625d8cb7444f84a1f3620574655fedf51543e3ab5b00c16a",
+    "docs/approvals/APR-20261020-02.md": "7d6a616156e77bb36e47b76892104212660e75c48cf3ae05066d3cb1abaf5863",
+    "artifacts/TASK-001/gate1-v0.1/manifest.json": "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3",
+    "artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-contract-v0.1.md": "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d",
+    "artifacts/TASK-001/gate1-v0.1/docs/contracts/TASK-001-technical-basis-v0.1.md": "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc",
+    "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/coverage.json": "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a",
+    "artifacts/TASK-001/gate1-v0.1/expectations/task001/v0.1/expected.json": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808",
+    "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dm.xpt": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+    "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+    "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+    "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/patch.json": "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c",
+    "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dependencies.json": "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc",
+    "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sas-xport-v5.pdf": "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3"
+  },
+  "fixture_delivery": "Virtual bytes recoverable exactly from seed hash + fixed-length edits + payload_pattern_hex repeated payload_repeat + ascii_padding_bytes 0x20. Materialize under new fixtures/mvp01 version before corresponding logic; verify each recorded hash. Production code must never read expectations.",
+  "sources": [
+    {
+      "path": "artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/sas-xport-v5.pdf",
+      "sha256": "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3",
+      "url": "https://support.sas.com/content/dam/SAS/support/en/technical-papers/record-layout-of-a-sas-version-5-or-6-data-set-in-sas-transport-xport-format.pdf",
+      "pages": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        20,
+        21,
+        27
+      ],
+      "read_method": "existing local pdftotext, no network or install"
+    }
+  ],
+  "xpt_fixtures": {
+    "utf8": {
+      "base_path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "base_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "edits": [
+        {
+          "offset": 640,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 644,
+          "length": 2,
+          "replacement_hex": "0050"
+        },
+        {
+          "offset": 648,
+          "length": 8,
+          "replacement_hex": "56414c5545202020"
+        },
+        {
+          "offset": 724,
+          "length": 4,
+          "replacement_hex": "00000000"
+        },
+        {
+          "offset": 696,
+          "length": 8,
+          "replacement_hex": "2020202020202020"
+        },
+        {
+          "offset": 704,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 706,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 780,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 784,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 788,
+          "length": 8,
+          "replacement_hex": "4331202020202020"
+        },
+        {
+          "offset": 864,
+          "length": 4,
+          "replacement_hex": "00000050"
+        },
+        {
+          "offset": 920,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 924,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 928,
+          "length": 8,
+          "replacement_hex": "4332202020202020"
+        },
+        {
+          "offset": 1004,
+          "length": 4,
+          "replacement_hex": "00000051"
+        },
+        {
+          "offset": 1060,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1064,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1068,
+          "length": 8,
+          "replacement_hex": "4333202020202020"
+        },
+        {
+          "offset": 1144,
+          "length": 4,
+          "replacement_hex": "00000052"
+        },
+        {
+          "offset": 1200,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1204,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1208,
+          "length": 8,
+          "replacement_hex": "4334202020202020"
+        },
+        {
+          "offset": 1284,
+          "length": 4,
+          "replacement_hex": "00000053"
+        }
+      ],
+      "payload_pattern_hex": "e4b8adc3a920202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202041424344",
+      "payload_repeat": 1,
+      "ascii_padding_bytes": 76,
+      "row_width": 84,
+      "bytes": 1600,
+      "sha256": "8ef1f8e5464b905e5ce8af82ae0ad62c46bad90ac970839a37ab811170e2e11c"
+    },
+    "invalid_utf8": {
+      "base_path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "base_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "edits": [
+        {
+          "offset": 640,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 644,
+          "length": 2,
+          "replacement_hex": "0050"
+        },
+        {
+          "offset": 648,
+          "length": 8,
+          "replacement_hex": "56414c5545202020"
+        },
+        {
+          "offset": 724,
+          "length": 4,
+          "replacement_hex": "00000000"
+        },
+        {
+          "offset": 696,
+          "length": 8,
+          "replacement_hex": "2020202020202020"
+        },
+        {
+          "offset": 704,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 706,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 780,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 784,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 788,
+          "length": 8,
+          "replacement_hex": "4331202020202020"
+        },
+        {
+          "offset": 864,
+          "length": 4,
+          "replacement_hex": "00000050"
+        },
+        {
+          "offset": 920,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 924,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 928,
+          "length": 8,
+          "replacement_hex": "4332202020202020"
+        },
+        {
+          "offset": 1004,
+          "length": 4,
+          "replacement_hex": "00000051"
+        },
+        {
+          "offset": 1060,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1064,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1068,
+          "length": 8,
+          "replacement_hex": "4333202020202020"
+        },
+        {
+          "offset": 1144,
+          "length": 4,
+          "replacement_hex": "00000052"
+        },
+        {
+          "offset": 1200,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1204,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1208,
+          "length": 8,
+          "replacement_hex": "4334202020202020"
+        },
+        {
+          "offset": 1284,
+          "length": 4,
+          "replacement_hex": "00000053"
+        }
+      ],
+      "payload_pattern_hex": "c32820202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202041424344",
+      "payload_repeat": 1,
+      "ascii_padding_bytes": 76,
+      "row_width": 84,
+      "bytes": 1600,
+      "sha256": "ccfd99484a3808c7e009d385f512b99b76f24e8e48439187bc7e3699bb8e7f8c"
+    },
+    "nbsp": {
+      "base_path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "base_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "edits": [
+        {
+          "offset": 640,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 644,
+          "length": 2,
+          "replacement_hex": "0050"
+        },
+        {
+          "offset": 648,
+          "length": 8,
+          "replacement_hex": "56414c5545202020"
+        },
+        {
+          "offset": 724,
+          "length": 4,
+          "replacement_hex": "00000000"
+        },
+        {
+          "offset": 696,
+          "length": 8,
+          "replacement_hex": "2020202020202020"
+        },
+        {
+          "offset": 704,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 706,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 780,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 784,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 788,
+          "length": 8,
+          "replacement_hex": "4331202020202020"
+        },
+        {
+          "offset": 864,
+          "length": 4,
+          "replacement_hex": "00000050"
+        },
+        {
+          "offset": 920,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 924,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 928,
+          "length": 8,
+          "replacement_hex": "4332202020202020"
+        },
+        {
+          "offset": 1004,
+          "length": 4,
+          "replacement_hex": "00000051"
+        },
+        {
+          "offset": 1060,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1064,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1068,
+          "length": 8,
+          "replacement_hex": "4333202020202020"
+        },
+        {
+          "offset": 1144,
+          "length": 4,
+          "replacement_hex": "00000052"
+        },
+        {
+          "offset": 1200,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1204,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1208,
+          "length": 8,
+          "replacement_hex": "4334202020202020"
+        },
+        {
+          "offset": 1284,
+          "length": 4,
+          "replacement_hex": "00000053"
+        }
+      ],
+      "payload_pattern_hex": "c2a020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202041424344",
+      "payload_repeat": 1,
+      "ascii_padding_bytes": 76,
+      "row_width": 84,
+      "bytes": 1600,
+      "sha256": "49526a631bd1d8352d176c667827f49f79efa16d9372d18af0c0e9d8541402bd"
+    },
+    "partial_date": {
+      "base_path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "base_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "edits": [
+        {
+          "offset": 640,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 644,
+          "length": 2,
+          "replacement_hex": "0050"
+        },
+        {
+          "offset": 648,
+          "length": 8,
+          "replacement_hex": "56414c5545202020"
+        },
+        {
+          "offset": 724,
+          "length": 4,
+          "replacement_hex": "00000000"
+        },
+        {
+          "offset": 696,
+          "length": 8,
+          "replacement_hex": "2020202020202020"
+        },
+        {
+          "offset": 704,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 706,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 780,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 784,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 788,
+          "length": 8,
+          "replacement_hex": "4331202020202020"
+        },
+        {
+          "offset": 864,
+          "length": 4,
+          "replacement_hex": "00000050"
+        },
+        {
+          "offset": 920,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 924,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 928,
+          "length": 8,
+          "replacement_hex": "4332202020202020"
+        },
+        {
+          "offset": 1004,
+          "length": 4,
+          "replacement_hex": "00000051"
+        },
+        {
+          "offset": 1060,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1064,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1068,
+          "length": 8,
+          "replacement_hex": "4333202020202020"
+        },
+        {
+          "offset": 1144,
+          "length": 4,
+          "replacement_hex": "00000052"
+        },
+        {
+          "offset": 1200,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1204,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1208,
+          "length": 8,
+          "replacement_hex": "4334202020202020"
+        },
+        {
+          "offset": 1284,
+          "length": 4,
+          "replacement_hex": "00000053"
+        }
+      ],
+      "payload_pattern_hex": "323032362d31302020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202041424344",
+      "payload_repeat": 1,
+      "ascii_padding_bytes": 76,
+      "row_width": 84,
+      "bytes": 1600,
+      "sha256": "670b61b62567e2204434beff7589c1b48e3ab82c28fc897db109a5bbec74762f"
+    },
+    "scale10000": {
+      "base_path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "base_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "edits": [
+        {
+          "offset": 640,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 644,
+          "length": 2,
+          "replacement_hex": "0050"
+        },
+        {
+          "offset": 648,
+          "length": 8,
+          "replacement_hex": "56414c5545202020"
+        },
+        {
+          "offset": 724,
+          "length": 4,
+          "replacement_hex": "00000000"
+        },
+        {
+          "offset": 696,
+          "length": 8,
+          "replacement_hex": "2020202020202020"
+        },
+        {
+          "offset": 704,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 706,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 780,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 784,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 788,
+          "length": 8,
+          "replacement_hex": "4331202020202020"
+        },
+        {
+          "offset": 864,
+          "length": 4,
+          "replacement_hex": "00000050"
+        },
+        {
+          "offset": 920,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 924,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 928,
+          "length": 8,
+          "replacement_hex": "4332202020202020"
+        },
+        {
+          "offset": 1004,
+          "length": 4,
+          "replacement_hex": "00000051"
+        },
+        {
+          "offset": 1060,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1064,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1068,
+          "length": 8,
+          "replacement_hex": "4333202020202020"
+        },
+        {
+          "offset": 1144,
+          "length": 4,
+          "replacement_hex": "00000052"
+        },
+        {
+          "offset": 1200,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1204,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 1208,
+          "length": 8,
+          "replacement_hex": "4334202020202020"
+        },
+        {
+          "offset": 1284,
+          "length": 4,
+          "replacement_hex": "00000053"
+        }
+      ],
+      "payload_pattern_hex": "e4b8adc3a920202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202041424344",
+      "payload_repeat": 10000,
+      "ascii_padding_bytes": 0,
+      "row_width": 84,
+      "bytes": 841440,
+      "sha256": "af6f6a9a1484f429b7c3a1a57f3547b65e19d79050711fc2b09803cccfffde48"
+    },
+    "all_missing_codes": {
+      "base_path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "base_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "edits": [
+        {
+          "offset": 640,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 644,
+          "length": 2,
+          "replacement_hex": "0008"
+        },
+        {
+          "offset": 648,
+          "length": 8,
+          "replacement_hex": "56414c5545202020"
+        },
+        {
+          "offset": 724,
+          "length": 4,
+          "replacement_hex": "00000000"
+        },
+        {
+          "offset": 696,
+          "length": 8,
+          "replacement_hex": "2020202020202020"
+        },
+        {
+          "offset": 704,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 706,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 780,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 784,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 788,
+          "length": 8,
+          "replacement_hex": "4331202020202020"
+        },
+        {
+          "offset": 864,
+          "length": 4,
+          "replacement_hex": "00000008"
+        },
+        {
+          "offset": 920,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 924,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 928,
+          "length": 8,
+          "replacement_hex": "4332202020202020"
+        },
+        {
+          "offset": 1004,
+          "length": 4,
+          "replacement_hex": "0000001c"
+        },
+        {
+          "offset": 1060,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1064,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 1068,
+          "length": 8,
+          "replacement_hex": "4333202020202020"
+        },
+        {
+          "offset": 1144,
+          "length": 4,
+          "replacement_hex": "00000030"
+        },
+        {
+          "offset": 1200,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1204,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 1208,
+          "length": 8,
+          "replacement_hex": "4334202020202020"
+        },
+        {
+          "offset": 1284,
+          "length": 4,
+          "replacement_hex": "00000044"
+        }
+      ],
+      "payload_pattern_hex": "5f0000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858582e0000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858584100000000000000585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585842000000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858430000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858584400000000000000585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585845000000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858460000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858584700000000000000585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585848000000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858490000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858584a0000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858584b0000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858584c0000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858584d0000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858584e0000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858584f000000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858500000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585100000000000000585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585852000000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858530000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585400000000000000585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585855000000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858560000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585700000000000000585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858000000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858590000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585a0000000000000058585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858580000000000000000585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585841100000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858c1100000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858",
+      "payload_repeat": 1,
+      "ascii_padding_bytes": 72,
+      "row_width": 88,
+      "bytes": 4240,
+      "sha256": "7e54e3963a6920d89cb7badb0303cfc2cedb4823687f442de147f73983dccfaf"
+    },
+    "numeric_date": {
+      "base_path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "base_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "edits": [
+        {
+          "offset": 640,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 644,
+          "length": 2,
+          "replacement_hex": "0008"
+        },
+        {
+          "offset": 648,
+          "length": 8,
+          "replacement_hex": "56414c5545202020"
+        },
+        {
+          "offset": 724,
+          "length": 4,
+          "replacement_hex": "00000000"
+        },
+        {
+          "offset": 696,
+          "length": 8,
+          "replacement_hex": "4441544520202020"
+        },
+        {
+          "offset": 704,
+          "length": 2,
+          "replacement_hex": "0009"
+        },
+        {
+          "offset": 706,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 780,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 784,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 788,
+          "length": 8,
+          "replacement_hex": "4331202020202020"
+        },
+        {
+          "offset": 864,
+          "length": 4,
+          "replacement_hex": "00000008"
+        },
+        {
+          "offset": 920,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 924,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 928,
+          "length": 8,
+          "replacement_hex": "4332202020202020"
+        },
+        {
+          "offset": 1004,
+          "length": 4,
+          "replacement_hex": "0000001c"
+        },
+        {
+          "offset": 1060,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1064,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 1068,
+          "length": 8,
+          "replacement_hex": "4333202020202020"
+        },
+        {
+          "offset": 1144,
+          "length": 4,
+          "replacement_hex": "00000030"
+        },
+        {
+          "offset": 1200,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1204,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 1208,
+          "length": 8,
+          "replacement_hex": "4334202020202020"
+        },
+        {
+          "offset": 1284,
+          "length": 4,
+          "replacement_hex": "00000044"
+        }
+      ],
+      "payload_pattern_hex": "0000000000000000585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585841100000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858c1100000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858",
+      "payload_repeat": 1,
+      "ascii_padding_bytes": 56,
+      "row_width": 88,
+      "bytes": 1760,
+      "sha256": "05616be21e4b3a75c8dd2d33ff85db837cf840e140adb749e825e93b3f6df55e"
+    },
+    "unknown_format": {
+      "base_path": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+      "base_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "edits": [
+        {
+          "offset": 640,
+          "length": 2,
+          "replacement_hex": "0001"
+        },
+        {
+          "offset": 644,
+          "length": 2,
+          "replacement_hex": "0008"
+        },
+        {
+          "offset": 648,
+          "length": 8,
+          "replacement_hex": "56414c5545202020"
+        },
+        {
+          "offset": 724,
+          "length": 4,
+          "replacement_hex": "00000000"
+        },
+        {
+          "offset": 696,
+          "length": 8,
+          "replacement_hex": "5a5a544553542020"
+        },
+        {
+          "offset": 704,
+          "length": 2,
+          "replacement_hex": "000c"
+        },
+        {
+          "offset": 706,
+          "length": 2,
+          "replacement_hex": "0000"
+        },
+        {
+          "offset": 780,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 784,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 788,
+          "length": 8,
+          "replacement_hex": "4331202020202020"
+        },
+        {
+          "offset": 864,
+          "length": 4,
+          "replacement_hex": "00000008"
+        },
+        {
+          "offset": 920,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 924,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 928,
+          "length": 8,
+          "replacement_hex": "4332202020202020"
+        },
+        {
+          "offset": 1004,
+          "length": 4,
+          "replacement_hex": "0000001c"
+        },
+        {
+          "offset": 1060,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1064,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 1068,
+          "length": 8,
+          "replacement_hex": "4333202020202020"
+        },
+        {
+          "offset": 1144,
+          "length": 4,
+          "replacement_hex": "00000030"
+        },
+        {
+          "offset": 1200,
+          "length": 2,
+          "replacement_hex": "0002"
+        },
+        {
+          "offset": 1204,
+          "length": 2,
+          "replacement_hex": "0014"
+        },
+        {
+          "offset": 1208,
+          "length": 8,
+          "replacement_hex": "4334202020202020"
+        },
+        {
+          "offset": 1284,
+          "length": 4,
+          "replacement_hex": "00000044"
+        }
+      ],
+      "payload_pattern_hex": "41100000000000005858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858585858",
+      "payload_repeat": 1,
+      "ascii_padding_bytes": 72,
+      "row_width": 88,
+      "bytes": 1600,
+      "sha256": "9972cd31b4b689c9ee83344d7b485c6a57f22074383ab68ea47404d0f75e337a"
+    }
+  },
+  "cases": [
+    {
+      "case_id": "M01-A01",
+      "title": "UTF-8 byte/character separation",
+      "group": "M01-B02",
+      "input": {
+        "fixture": "utf8",
+        "encoding": "utf-8",
+        "spec_declared_length": 80
+      },
+      "expected": {
+        "rows": 1,
+        "VALUE": {
+          "storage_bytes": 80,
+          "max_content_bytes": 5,
+          "max_content_characters": 2,
+          "missing": 0,
+          "nonmissing": 1
+        },
+        "spec_declared_length": 80
+      },
+      "basis": "contract §3/4; UTF-8 E4B8AD C3A9; SAS p.27",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A02",
+      "title": "Invalid UTF-8",
+      "group": "M01-B02",
+      "input": {
+        "fixture": "invalid_utf8",
+        "encoding": "utf-8"
+      },
+      "expected": {
+        "read_state": "unreadable",
+        "observation": "unknown",
+        "row_count": null,
+        "error_locator_required": true,
+        "replacement_decode_forbidden": true
+      },
+      "basis": "contract §1/3; NFR-004",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A03",
+      "title": "No guessing encoding",
+      "group": "M01-B02",
+      "input": {
+        "fixture": "utf8",
+        "encoding": null
+      },
+      "expected": {
+        "explicit_gap_or_rejection_unless_effective_config_documents_encoding": true,
+        "must_not_guess_utf8_or_system_locale": true
+      },
+      "basis": "SAS p.27; contract §5",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A04",
+      "title": "NBSP remains nonmissing under ASCII-only rule",
+      "group": "M01-B02",
+      "input": {
+        "fixture": "nbsp",
+        "encoding": "utf-8"
+      },
+      "expected": {
+        "rows": 1,
+        "VALUE": {
+          "max_content_bytes": 2,
+          "max_content_characters": 1,
+          "missing": 0,
+          "nonmissing": 1
+        }
+      },
+      "basis": "contract §4 ASCII blank/empty only",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A05",
+      "title": "All 28 numeric missing codes and zero",
+      "group": "M01-B02",
+      "input": {
+        "fixture": "all_missing_codes"
+      },
+      "expected": {
+        "rows": 31,
+        "VALUE": {
+          "missing": 28,
+          "nonmissing": 3,
+          "missing_codes": {
+            "._": 1,
+            ".": 1,
+            ".A": 1,
+            ".B": 1,
+            ".C": 1,
+            ".D": 1,
+            ".E": 1,
+            ".F": 1,
+            ".G": 1,
+            ".H": 1,
+            ".I": 1,
+            ".J": 1,
+            ".K": 1,
+            ".L": 1,
+            ".M": 1,
+            ".N": 1,
+            ".O": 1,
+            ".P": 1,
+            ".Q": 1,
+            ".R": 1,
+            ".S": 1,
+            ".T": 1,
+            ".U": 1,
+            ".V": 1,
+            ".W": 1,
+            ".X": 1,
+            ".Y": 1,
+            ".Z": 1
+          },
+          "nonmissing_values": [
+            0,
+            1,
+            -1
+          ]
+        }
+      },
+      "basis": "SAS p.7 byte plus seven 00; pp.11/20-21 IBM numeric",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A06",
+      "title": "Date raw number and format retained",
+      "group": "M01-B03",
+      "input": {
+        "fixture": "numeric_date"
+      },
+      "expected": {
+        "rows": 3,
+        "VALUE": {
+          "physical_type": "numeric",
+          "raw_numeric_values": [
+            0,
+            1,
+            -1
+          ],
+          "format_name": "DATE",
+          "format_width": 9,
+          "format_decimals": 0
+        },
+        "no_implicit_date_conversion_or_imputation": true
+      },
+      "basis": "SAS p.6 and pp.7-8 DATE7 example; contract §3",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A07",
+      "title": "Partial date retained",
+      "group": "M01-B03",
+      "input": {
+        "fixture": "partial_date",
+        "encoding": "ascii"
+      },
+      "expected": {
+        "rows": 1,
+        "VALUE": {
+          "preserved_text": "2026-10",
+          "max_content_bytes": 7,
+          "max_content_characters": 7
+        },
+        "invented_day": null
+      },
+      "basis": "contract §3; kickoff dates/partial dates",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A08",
+      "title": "Unknown format explicit handling",
+      "group": "M01-B03",
+      "input": {
+        "fixture": "unknown_format"
+      },
+      "expected": {
+        "raw_value": 1,
+        "format_name": "ZZTEST",
+        "format_width": 12,
+        "semantic_interpretation": "explicit gap or rejection",
+        "no_silent_format_drop": true
+      },
+      "basis": "NFR-004; raw preservation",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A09",
+      "title": "Duplicate dataset",
+      "group": "M01-B04",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json",
+        "mutation": {
+          "append_copy_of": "/datasets/0",
+          "to": "/datasets"
+        }
+      },
+      "expected": {
+        "reject_or_issue": "ambiguous_identity",
+        "no_silent_merge": true
+      },
+      "basis": "contract §1/2/3; FR-003/NFR-004",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A10",
+      "title": "Duplicate variable",
+      "group": "M01-B04",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json",
+        "mutation": {
+          "append_copy_of": "/datasets/0/variables/0",
+          "to": "/datasets/0/variables"
+        }
+      },
+      "expected": {
+        "reject_or_issue": "ambiguous_identity",
+        "no_silent_merge": true
+      },
+      "basis": "contract §1/2/3; FR-003/NFR-004",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A11",
+      "title": "Duplicate JSON key",
+      "group": "M01-B04",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json",
+        "mutation": {
+          "replace_exact_once": {
+            "old": "\"family\": \"SDTM\"",
+            "new": "\"family\": \"SDTM\", \"family\": \"ADAM\""
+          }
+        }
+      },
+      "expected": {
+        "parse_rejected": true,
+        "duplicate_key": "family"
+      },
+      "basis": "contract §1/2/3; FR-003/NFR-004",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A12",
+      "title": "Unknown Spec column",
+      "group": "M01-B04",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json",
+        "mutation": {
+          "add_at": "/datasets/0/variables/0/mystery",
+          "value": "KEEP-ME"
+        }
+      },
+      "expected": {
+        "explicit_unsupported_metadata": true,
+        "source_pointer_retained": true
+      },
+      "basis": "contract §1/2/3; FR-003/NFR-004",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A13",
+      "title": "Nonempty deferred extension",
+      "group": "M01-B04",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json",
+        "mutation": {
+          "replace_at": "/extension_slots/methods",
+          "value": [
+            {
+              "method_id": "TEST-M1",
+              "text": "Synthetic candidate"
+            }
+          ]
+        }
+      },
+      "expected": {
+        "retain_candidate_or_explicit_unsupported_metadata": true,
+        "no_true_approval": true
+      },
+      "basis": "contract §1/2/3; FR-003/NFR-004",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A14",
+      "title": "Invalid lower-case dataset",
+      "group": "M01-B04",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/spec.json",
+        "mutation": {
+          "replace_at": "/datasets/0/name",
+          "value": "dm"
+        }
+      },
+      "expected": {
+        "rejected": true,
+        "no_silent_uppercase": true
+      },
+      "basis": "contract §1/2/3; FR-003/NFR-004",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A15",
+      "title": "Model invalid references and values",
+      "group": "M01-B05",
+      "input": {
+        "construction": "minimal otherwise-valid model; independently apply each mutation",
+        "variants": [
+          {
+            "assertion_kind": "guessed"
+          },
+          {
+            "evidence_ids": [
+              "NO-SUCH-EVIDENCE"
+            ]
+          },
+          {
+            "parent_dataset_missing": true
+          },
+          {
+            "same_evidence_id_different_content": true
+          },
+          {
+            "numeric_literal": "NaN"
+          }
+        ]
+      },
+      "expected": {
+        "all_variants_runtime_rejected": true
+      },
+      "basis": "contract §2/3/5; ARCHITECTURE §4; NFR-004",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A16",
+      "title": "Patch authorization boundary",
+      "group": "M01-B06",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/patch.json",
+        "variants": [
+          {
+            "mode": "ordinary",
+            "authorization_status": "synthetic_only"
+          },
+          {
+            "mode": "ordinary",
+            "authorization_status": "authorized",
+            "authorization_record": null
+          },
+          {
+            "mode": "isolated_test",
+            "test_authorization": {
+              "test_only": true,
+              "id": "TEST-AUTH-001",
+              "purpose": "fixture-only"
+            }
+          }
+        ]
+      },
+      "expected": {
+        "first_two_cannot_create_approved_or_resolve_real_issue": true,
+        "third_may_simulate_only_in_test_namespace": true,
+        "test_record_reuse_in_ordinary_mode_rejected": true
+      },
+      "basis": "contract §5; kickoff authorization boundary",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A17",
+      "title": "Patch object/field/value/rationale/reviewer rejection",
+      "group": "M01-B06",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/patch.json",
+        "independent_variants": [
+          {
+            "object_id": "study/OTHER/family/SDTM/dataset/DM/variable/SEX"
+          },
+          {
+            "field_path": "not_a_field"
+          },
+          {
+            "selected_value": "NOT-A-CANDIDATE",
+            "selection_basis": null
+          },
+          {
+            "rationale": ""
+          },
+          {
+            "reviewer": ""
+          }
+        ]
+      },
+      "expected": {
+        "all_variants_rejected": true
+      },
+      "basis": "contract §5",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A18",
+      "title": "Decision revision and history",
+      "group": "M01-B06",
+      "input": {
+        "mode": "isolated_test",
+        "new_decision_id": "TEST-DEC-002",
+        "supersedes": "SYN-DEC-001",
+        "selected_value": "Sex",
+        "selection_basis": "current observed label",
+        "test_only": true
+      },
+      "expected": {
+        "old_decision_unchanged": true,
+        "new_links_old": true,
+        "repeat_is_business_noop": true,
+        "no_true_approval": true
+      },
+      "basis": "contract §5; AC-05/08",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A19",
+      "title": "Stale decision downstream linkage",
+      "group": "M01-B07",
+      "input": {
+        "mode": "isolated_test",
+        "dependency_mutation": "rules.version=SYN-RULE-2",
+        "prior_validation_and_approval": "TEST_ONLY_RECORDS"
+      },
+      "expected": {
+        "decision": "needs_review",
+        "automatic_apply": false,
+        "downstream_current_validation_and_approval": "needs_review",
+        "history_unchanged": true
+      },
+      "basis": "ARCHITECTURE CTRL-04; FR-015/018",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A20",
+      "title": "Synthetic scale facts",
+      "group": "M01-B02",
+      "input": {
+        "fixture": "scale10000",
+        "encoding": "utf-8"
+      },
+      "expected": {
+        "rows": 10000,
+        "VALUE": {
+          "missing": 0,
+          "nonmissing": 10000,
+          "distinct_nonmissing": 1,
+          "max_content_bytes": 5,
+          "max_content_characters": 2
+        },
+        "record_actual_elapsed": true,
+        "approved_performance_threshold": null
+      },
+      "basis": "coverage FR-002 large sample; current task §4",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A21",
+      "title": "XPT corruption rejection",
+      "group": "M01-B09",
+      "input": {
+        "fixture": "utf8",
+        "independent_variants": [
+          "remove final byte",
+          "set C1 NAMESTR npos=0 creating overlap",
+          "change MEMBER descriptor size 0140 to 0136 without repacking descriptors"
+        ]
+      },
+      "expected": {
+        "all_variants_rejected": true,
+        "no_partial_success_stats": true
+      },
+      "basis": "SAS pp.3/4/6; NFR-004",
+      "status": "fixed_technical_derivation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A22",
+      "title": "Frozen DM short-row ambiguity",
+      "group": "M01-B09",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/dm.xpt",
+        "obs_start": 1760,
+        "payload_bytes": 160,
+        "stride": 34,
+        "candidate_rows": [
+          3,
+          4
+        ],
+        "candidate_padding": [
+          58,
+          24
+        ],
+        "extra_numeric_hex": "2020202020202020"
+      },
+      "expected": {
+        "design_decision_required": true,
+        "must_not_weaken_C01": true,
+        "no_silent_new_nobs_contract": true
+      },
+      "basis": "SAS pp.3/6/11/20-21; startup-review M01-IR-PREP-01",
+      "status": "pending_business_or_contract_confirmation",
+      "engine_result": "not_run"
+    },
+    {
+      "case_id": "M01-A23",
+      "title": "All-character blank tail ambiguity",
+      "group": "M01-B09",
+      "input": {
+        "base": "artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/vs.xpt",
+        "append_hex": "2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "candidate_rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "expected": {
+        "no_exact_nobs_claim_without_resolved_policy": true,
+        "no_zero_row_or_all_missing_guess": true
+      },
+      "basis": "SAS pp.3/6; state separation",
+      "status": "pending_business_or_contract_confirmation",
+      "engine_result": "not_run"
+    }
+  ]
+}

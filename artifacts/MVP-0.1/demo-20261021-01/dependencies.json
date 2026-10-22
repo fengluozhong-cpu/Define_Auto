@@ -1,0 +1,171 @@
+{
+  "inputs": {
+    "READ-CONTEXT": {
+      "sha256": "dd2bb06e831e4fa6cb2ad435bdd9191ad7a0475b3a2c6de393ada0e907f1c7b6",
+      "version": "mvp01-read-context-0.1",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "declaration": "read_context"
+      }
+    },
+    "SRC-AE": {
+      "sha256": null,
+      "version": "0.1",
+      "provision_status": "not_provided",
+      "completeness_scope": {
+        "datasets": [
+          "AE"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      }
+    },
+    "SRC-CM": {
+      "sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "version": "0.1",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "CM"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      }
+    },
+    "SRC-DM": {
+      "sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "version": "0.1",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "DM"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      }
+    },
+    "SRC-SPEC": {
+      "sha256": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "version": "0.1",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "DM",
+          "VS",
+          "AE",
+          "CM"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      }
+    },
+    "SRC-VS": {
+      "sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "version": "0.1",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "VS"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      }
+    },
+    "TEST-BASELINE-MANUFACTURE-001": {
+      "sha256": "60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd",
+      "version": "sha256:60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "declaration": "external_delivery_evidence"
+      }
+    }
+  },
+  "study_id": "SYN001",
+  "family": "SDTM",
+  "standards": {
+    "define_xml_target": "2.1",
+    "sdtmig": null,
+    "ct": null
+  },
+  "input_scope": {
+    "version": "0.1",
+    "study_id": "SYN001",
+    "family": "SDTM",
+    "planned_datasets": [
+      "DM",
+      "VS",
+      "AE",
+      "CM"
+    ],
+    "provided_scope_complete": false,
+    "other_sources": {
+      "acrf": "not_provided",
+      "ct": "not_provided",
+      "protocol": "not_provided",
+      "sap": "not_provided"
+    }
+  },
+  "rules": {
+    "version": "mvp01-rule-0.1"
+  },
+  "config": {
+    "trim_ascii_spaces": true
+  },
+  "model_schema": "mvp01-model-0.1",
+  "upstream_decisions": [],
+  "read_context": {
+    "schema_version": "mvp01-read-context-0.1",
+    "study_id": "SYN001",
+    "family": "SDTM",
+    "test_only": true,
+    "declarations": [
+      {
+        "declaration_id": "TEST-BASELINE-READ-DM",
+        "source_sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+        "member": "DM",
+        "encoding": "ascii",
+        "record_count": 3,
+        "provided_by": "TEST_FIXTURE_MANUFACTURER",
+        "provenance": {
+          "source_id": "TEST-BASELINE-MANUFACTURE-001",
+          "source_sha256": "60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd",
+          "locator": "/declarations/0"
+        }
+      },
+      {
+        "declaration_id": "TEST-BASELINE-READ-VS",
+        "source_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+        "member": "VS",
+        "encoding": "ascii",
+        "record_count": 0,
+        "provided_by": "TEST_FIXTURE_MANUFACTURER",
+        "provenance": {
+          "source_id": "TEST-BASELINE-MANUFACTURE-001",
+          "source_sha256": "60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd",
+          "locator": "/declarations/1"
+        }
+      }
+    ]
+  },
+  "effective_encodings": {
+    "AE": null,
+    "CM": null,
+    "DM": "ascii",
+    "VS": "ascii"
+  },
+  "tools": {
+    "define_auto": "0.1.0",
+    "python_implementation": "CPython",
+    "python_version": [
+      3,
+      12,
+      13
+    ],
+    "source_hashes": {
+      "__init__.py": "5acf09fdb1b6f70166dabaa311dc406f4924cae85e4dbcbb5f122edd163f2743",
+      "__main__.py": "9c890d65fdafb488390dbfd638779abd73430047c06e5da268778bc35751c657",
+      "common.py": "d741f19445a487343f8354edf021ee09f270c24eaa43f214723c9ba0a5947c54",
+      "decisions.py": "0c5f6f9f4475d03a8e7002a32db9209a13e69adc8be3fa50c28f00af75ab19c4",
+      "engine.py": "26870154a0524b0c20011ca62abe8096b716b6e378b3ce1f64031182b0488077",
+      "model.py": "4f9fe85be4b6d7b4d9e4bd24ac555e5289c1774139edbe183cad131cafd69665",
+      "reporting.py": "cfcc22ff8172ac6ba710d0c64f5bb0c8a731405974d3d329f05eb4cc2e945e7c",
+      "xpt.py": "ebf50353473dbf8c67c62405616f70ee822860c6a5e6cce6a637edc48f92df04"
+    }
+  },
+  "dependency_snapshot_id": "dep-aa7536ede414f692793ed53557dcd79bfd4a5418bdf2bacbfeba60f8a9ae9b10"
+}

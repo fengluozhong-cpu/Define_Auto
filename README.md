@@ -4,7 +4,7 @@ Define-XML 2.1 与 SDRG／ADRG 自动化项目，面向统计编程人员。长�
 
 ## 当前状态
 
-Task 000 的五份核心文件已由 Chris 批准正式生效，基线 `BL-20261020-01`，见 [批准记录](docs/approvals/APR-20261020-01.md)。[Task 001](docs/tasks/TASK-001.md) 已验收，GATE-1 已由 Chris 确认通过；`gate1-v0.1` 的合成 XPT／Spec、最小契约、24 条独立预期、覆盖及质量门已批准作为后续实现依据，见 [APR-20261020-02](docs/approvals/APR-20261020-02.md)。未决项及延期保留；核对引擎尚未实现，MVP 0.1 实施待明确授权。阶段计划和退出条件以 [PLANS.md](PLANS.md) 为准。
+Task 000 基线 `BL-20261020-01` 与 Task 001／GATE-1 已批准，见 [APR-20261020-01](docs/approvals/APR-20261020-01.md) 和 [APR-20261020-02](docs/approvals/APR-20261020-02.md)。[MVP 0.1](docs/tasks/MVP-0.1.md) 已获清单 v0.2 及正式 Skill 配置确认，并实现本地核心、CLI、自动检查和中文审阅表。实际执行及独立审阅证据以任务卡最新交接为准；Chris 已批准 gate2-v0.2 通过 GATE-2，见 [APR-20261022-01](docs/approvals/APR-20261022-01.md)；冻结包及历史待批准状态不回写。长期未决项及延期保留，阶段退出条件见 [PLANS.md](PLANS.md)。
 
 ## 项目文档
 
@@ -27,6 +27,63 @@ Task 000 的五份核心文件已由 Chris 批准正式生效，基线 `BL-20261
 ```
 
 `run-id` 必须每次唯一，证据写入 `artifacts/TASK-001/<run-id>/`，不会覆盖旧结果。需要重建 XPT 时用 `build_fixtures.py --out work/task001-rebuild-new` 指定新目录；原始固定夹具不覆盖，重建物理字节与正式输入另行比对。不要将检查器通过误记为核对行为、业务预期或 GATE-1 已通过。
+
+## MVP 0.1 启动材料核验
+
+核心开发的任务卡、质量门及补测范围见 [MVP-0.1](docs/tasks/MVP-0.1.md)。以下入口只核验批准包／引用映射并记录依赖，不运行核对引擎，不表示 GATE-2 通过；`run-id` 每次使用新值：
+
+```powershell
+.\.venv-task001\Scripts\python.exe tools/mvp01/startup_audit.py --run-id startup-new
+```
+
+结果保存在 `artifacts/MVP-0.1/<run-id>/`；遇到批准 manifest／文件 hash 不符时返回非零并阻断依赖该副本的工作。
+
+## MVP 0.1 本地运行与完整检查
+
+核心仅使用 Python 3.12 标准库，不需要 pandas／pyreadstat。可用已有 Python 3.12 创建项目内独立环境（本次已实际重建并运行）：
+
+```powershell
+.\.venv-task001\Scripts\python.exe -m venv .venv-mvp01
+.\.venv-mvp01\Scripts\python.exe -m define_auto --manifest artifacts/TASK-001/gate1-v0.1/fixtures/task001/v0.1/input-manifest.json --read-context fixtures/mvp01/baseline-context-v0.1/read-context.json --provenance TEST-BASELINE-MANUFACTURE-001=fixtures/mvp01/baseline-context-v0.1/delivery-record.json --isolated-test --out artifacts/MVP-0.1/demo-new
+.\.venv-mvp01\Scripts\python.exe tools/mvp01/run_checks.py --run-id suite-new
+```
+
+输出路径／run-id 每次使用新值；已存在则拒绝。完整检查独立登记全部必需用例，漏收集、零用例、跳过或错误均返回非零。`--probe missing|zero|skipped|error` 只运行质量门故障注入，预期退出 1，不能作为引擎套件通过证据。
+
+上面的环境重建入口使用本机已存在的 Python 3.12 夹具环境作启动器；不从中继承第三方包。新机器须先具备 Python 3.12，并用其实际 executable 路径替换首条命令的启动器。本机 `py -3.12` 未登记可用运行时，因此不依赖该快捷命令。
+
+运行目录保存 `model.json`、`issues.json`、`evidence.json`、`dependencies.json`、`patch-applicability.json`、输入／输出 manifests、`run.json`、`checks.json`、`coverage.json`，以及可直接打开的 `review.html`／`review.md`。单次 CLI 的 runtime 检查与完整回归分开，单次成功不表示 GATE-2 通过。完整套件另外保存逐例实际值、子分支、收集／执行数及需求覆盖。
+
+当前支持：单 member 的 XPORT v5，140 字节 NAMESTR，合法连续变量布局；字符宽度 1–200 字节、数值宽度 2–8 字节；显式 codec，保留所有 28 种 SAS 缺失代码。日期保留物理数值、格式和部分日期原文，不自动补日期；未知格式明确为 gap。非 v5、多 member、136 字节描述符等不支持布局显式拒绝，不声称任意 SAS 文件均可读取。
+
+读取辅助声明规则见 [读取上下文契约](docs/contracts/MVP-0.1-read-context-v0.1.md)。XPORT v5 可能无法唯一确定尾部行数；声明必须绑定实际 XPT hash／member 和登记的来源文件及定位，数量还须与真实字节相容。生产 reader 不读取制造配方或测试答案。当前来源定位适配器支持结构化 JSON；其他来源类型需显式扩展。CLI 不验证交付者身份真实性，也不以相容性证明外部计数真实。普通路径拒绝 test_only 声明；`--isolated-test` 仅用于明确隔离的合成验证。
+
+人工决定参数为 `--patch <patch.json> --previous-dependency <dependencies.json> --authorization <authorization.json>`；跨运行再加 `--prior-model <model.json>`。历史模型加载验证内容摘要、引用及四视图约束；依赖变化时保留历史、撤下当前选值并标记重审。授权文件包含 `authorization_id`、`reviewer`、布尔 `test_only`、`scope`；scope 精确绑定 object_id／field_path／selected_value／dependency_snapshot_id。文件按实际 hash 登记；真实性由项目交付／人工批准流程负责，CLI 不代替身份认证。合成决定只产生 simulated_selection，不能写入真实 approved 或 resolved。
+
+业务摘要排除纯运行审计时间；输入、读取声明、来源、有效配置、规则、模型 schema、上游决定、核心源码及 Python 实现／版本均进入依赖。报告默认屏蔽受试者标识和普通运行的内容取值明细；保留聚合统计、字段原始标签与规范化标签及证据。
+
+正式工程 Skill 配置位于根 AGENTS.md 与 `docs/agents/`，供 to-spec／to-tickets／triage 等读取；它们继续遵守本项目授权规则。GitHub 仅用于工程任务及摘要，正式 Spec／契约／批准仍在项目文档。当前 `gh` 不可用，远端标签同步未执行，不影响本地核心使用。
+
+## 六卡新增审阅行为（2026-10-22）
+
+运行版本 0.1.1。规则与接口见 [审阅策略契约](docs/contracts/MVP-0.1-review-policy-v0.1.md)，当前证据见 [任务卡 §12](docs/tasks/MVP-0.1.md)。原物理观察不回写；自动 No Data 标志、人工原因、待确认及返工队列保存在同一模型的 review_policy。review-policy.json／review-actions.json 是该快照的导出，Markdown／HTML 消费相同内容。
+
+可读零行计划数据集，以及非零父域内实际存在且全缺失的计划变量，自动标 Yes；仍须人工确认并补原因。缺输入、读失败、缺变量不推断无数据；零行父域不逐变量推断。额外对象及锁版规则明确错误要求返回上游，说明文字或选择 Define 值不能关闭。标准未锁定时明确“未完成标准核查”；本阶段没有运行真实 P21、完整 CT 或 XML 生成。
+
+下面两条命令已实际执行；输入完全合成，原因确认是隔离模拟，不是 Chris 对真实研究的批准。示例 action 绑定本次工具／Python 依赖；依赖变化时不得直接更新 hash 盲用旧授权，应重新审阅并生成新 action／authorization。
+
+```powershell
+.\.venv-mvp01\Scripts\python.exe -m define_auto --manifest fixtures/mvp01/review-policy-v0.1/manifest.json --read-context fixtures/mvp01/review-policy-v0.1/context.json --provenance SYN-DELIVERY=fixtures/mvp01/review-policy-v0.1/delivery.json --isolated-test --out artifacts/MVP-0.1/review-policy-demo-new
+.\.venv-mvp01\Scripts\python.exe -m define_auto --manifest fixtures/mvp01/review-policy-v0.1/manifest.json --read-context fixtures/mvp01/review-policy-v0.1/context.json --provenance SYN-DELIVERY=fixtures/mvp01/review-policy-v0.1/delivery.json --isolated-test --review-action fixtures/mvp01/review-policy-v0.1/confirm-no-data-v0.2.json --authorization fixtures/mvp01/review-policy-v0.1/authorization-v0.2.json --prior-model artifacts/MVP-0.1/review-policy-demo-new/model.json --out artifacts/MVP-0.1/review-policy-confirm-new
+```
+
+真实人工操作使用自己提供且绑定当前依赖的 action／authorization，不带 --isolated-test，也不得使用测试读取声明。action 的精确字段和修订规则见契约；authorization 的 scope 是整个 action，含 kind／value／reviewer／decided_at／rationale／supersedes／当前依赖，不与旧字段 patch 的 scope 混用。CLI 记录授权文件 hash，但不能独立认证签署者身份。
+
+输入变化时 --prior-model 保留历史并撤下旧适用性；报告展示前后输入、统计、候选及其他依赖。符合 XPT 单独变化条件时，业务人员可提交 kind=confirm_reuse、value=原 decision_id 的新动作。系统复核当前候选，生成新决定并关联旧决定；旧验证及最终批准仍需重新执行／审阅。Spec／规则或其他结果相关依赖变化时保守拒绝该快捷沿用。No Data 原因重新确认使用 confirm_no_data＋supersedes，当前事实必须仍成立。
+
+--review-rules 可装载显式锁版、带定位和 hash 的局部规则摘录；支持面和精确 JSON schema 见契约。列明规则通过只表示该子集已检查，合成 TEST-* 规则不代表真实 CDISC 合规。完整 Standard Provider、CT、VLM／SUPP、XML／RG 及外部验证继续按原阶段承接。
+
+完整检查入口不变，当前登记原 88 项＋40 条独立 RP 预期＋5 条技术回归，共 133 项。漏收集／跳过／错误均阻断；最终结果以新运行证据为准。旧 88 项及旧 gate2-v0.1 只保留原适用范围，不用来证明新增行为通过。
 
 ## Git 恢复后的字节核验
 

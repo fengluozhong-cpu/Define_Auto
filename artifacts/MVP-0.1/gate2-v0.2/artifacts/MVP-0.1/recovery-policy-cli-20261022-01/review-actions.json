@@ -1,0 +1,235 @@
+[
+  {
+    "action": {
+      "action_id": "SYN-ACTION-FINAL-2",
+      "kind": "confirm_no_data",
+      "object_id": "study/SYN001/family/SDTM/dataset/VS",
+      "reviewer": "synthetic_boundary_reviewer",
+      "decided_at": "2026-10-22T10:00:00+08:00",
+      "rationale": "独立合成场景，明确人工审阅范围",
+      "dependency_snapshot_id": "dep-740fd39de6fab4345bad32ba93ce2b8a1b71a432b27ccf6adee5981a1d5e4fb6",
+      "supersedes": null,
+      "value": "本合成研究未采集生命体征；仅用于隔离测试演示。"
+    },
+    "authorization": {
+      "authorization_id": "SYN-AUTH-SYN-ACTION-FINAL-2",
+      "reviewer": "synthetic_boundary_reviewer",
+      "test_only": true,
+      "scope": {
+        "action_id": "SYN-ACTION-FINAL-2",
+        "kind": "confirm_no_data",
+        "object_id": "study/SYN001/family/SDTM/dataset/VS",
+        "reviewer": "synthetic_boundary_reviewer",
+        "decided_at": "2026-10-22T10:00:00+08:00",
+        "rationale": "独立合成场景，明确人工审阅范围",
+        "dependency_snapshot_id": "dep-740fd39de6fab4345bad32ba93ce2b8a1b71a432b27ccf6adee5981a1d5e4fb6",
+        "supersedes": null,
+        "value": "本合成研究未采集生命体征；仅用于隔离测试演示。"
+      },
+      "source_id": "AUTHORIZATION-746792575a8e77c451ece6b9095226dca5830fbd8dde0f86ad568d2f43208407",
+      "source_sha256": "746792575a8e77c451ece6b9095226dca5830fbd8dde0f86ad568d2f43208407"
+    },
+    "dependency_snapshot": {
+      "inputs": {
+        "READ-CONTEXT": {
+          "sha256": "cdedcbacc201b1552c7c3a6b7abe509423d24467b4a8bcb3e565f23233caae7f",
+          "version": "mvp01-read-context-0.1",
+          "provision_status": "provided",
+          "completeness_scope": {
+            "declaration": "read_context"
+          }
+        },
+        "SRC-AE": {
+          "sha256": null,
+          "version": "0.1",
+          "provision_status": "not_provided",
+          "completeness_scope": {
+            "datasets": [
+              "AE"
+            ],
+            "declaration": "closed_for_synthetic_scenario"
+          }
+        },
+        "SRC-CM": {
+          "sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+          "version": "0.1",
+          "provision_status": "provided",
+          "completeness_scope": {
+            "datasets": [
+              "CM"
+            ],
+            "declaration": "closed_for_synthetic_scenario"
+          }
+        },
+        "SRC-DM": {
+          "sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+          "version": "0.1",
+          "provision_status": "provided",
+          "completeness_scope": {
+            "datasets": [
+              "DM"
+            ],
+            "declaration": "closed_for_synthetic_scenario"
+          }
+        },
+        "SRC-SPEC": {
+          "sha256": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+          "version": "0.1",
+          "provision_status": "provided",
+          "completeness_scope": {
+            "datasets": [
+              "DM",
+              "VS",
+              "AE",
+              "CM"
+            ],
+            "declaration": "closed_for_synthetic_scenario"
+          }
+        },
+        "SRC-VS": {
+          "sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+          "version": "0.1",
+          "provision_status": "provided",
+          "completeness_scope": {
+            "datasets": [
+              "VS"
+            ],
+            "declaration": "closed_for_synthetic_scenario"
+          }
+        },
+        "SYN-DELIVERY": {
+          "sha256": "7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+          "version": "sha256:7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+          "provision_status": "provided",
+          "completeness_scope": {
+            "declaration": "external_delivery_evidence"
+          }
+        }
+      },
+      "study_id": "SYN001",
+      "family": "SDTM",
+      "standards": {
+        "define_xml_target": "2.1",
+        "sdtmig": null,
+        "ct": null
+      },
+      "input_scope": {
+        "version": "0.1",
+        "study_id": "SYN001",
+        "family": "SDTM",
+        "planned_datasets": [
+          "DM",
+          "VS",
+          "AE",
+          "CM"
+        ],
+        "provided_scope_complete": false,
+        "other_sources": {
+          "acrf": "not_provided",
+          "ct": "not_provided",
+          "protocol": "not_provided",
+          "sap": "not_provided"
+        }
+      },
+      "rules": {
+        "version": "mvp01-rule-0.2",
+        "review_policy": "mvp01-review-0.1"
+      },
+      "config": {
+        "trim_ascii_spaces": true
+      },
+      "model_schema": "mvp01-model-0.1",
+      "upstream_decisions": [],
+      "read_context": {
+        "schema_version": "mvp01-read-context-0.1",
+        "study_id": "SYN001",
+        "family": "SDTM",
+        "test_only": true,
+        "declarations": [
+          {
+            "member": "DM",
+            "source_sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+            "record_count": 3,
+            "encoding": "ascii",
+            "declaration_id": "SYN-BOUNDARY-DM",
+            "provided_by": "synthetic_boundary_delivery_constructor",
+            "provenance": {
+              "source_id": "SYN-DELIVERY",
+              "source_sha256": "7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+              "locator": "/declarations/0"
+            }
+          },
+          {
+            "member": "VS",
+            "source_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+            "record_count": 0,
+            "encoding": "ascii",
+            "declaration_id": "SYN-BOUNDARY-VS",
+            "provided_by": "synthetic_boundary_delivery_constructor",
+            "provenance": {
+              "source_id": "SYN-DELIVERY",
+              "source_sha256": "7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+              "locator": "/declarations/1"
+            }
+          }
+        ]
+      },
+      "effective_encodings": {
+        "AE": null,
+        "CM": null,
+        "DM": "ascii",
+        "VS": "ascii"
+      },
+      "tools": {
+        "define_auto": "0.1.1",
+        "python_implementation": "CPython",
+        "python_version": [
+          3,
+          12,
+          13
+        ],
+        "source_hashes": {
+          "__init__.py": "9f3c31c3a6b5ec78f2846479efeb4c8191df063582eb3ad1c6998cac765c76b6",
+          "__main__.py": "f43143ef285981434fb1db675c1aca19fe62ec0ddb035b7a862f8bfd2d270e6b",
+          "common.py": "d741f19445a487343f8354edf021ee09f270c24eaa43f214723c9ba0a5947c54",
+          "decisions.py": "8b50631e26e5059ddb353bc9dee22cd385f975f991154635a5100afbefdce02b",
+          "engine.py": "c280e3924a20955d80a3726503f5ef2efa68a4bb78e89a0fc80e444c3e534941",
+          "model.py": "07a7ad46cb009b282267720e5ee471df956ece65e12fc724bd261db40793149e",
+          "reporting.py": "6c63ee44c2bfe2d9fa910b80e5c6393ffd7ab182b1ac367472eb5853539d0c4e",
+          "review.py": "92cc074d6e8edbf5fb078c9b0e51c74dca4fbefa5699c863783bad1139cfec43",
+          "xpt.py": "ebf50353473dbf8c67c62405616f70ee822860c6a5e6cce6a637edc48f92df04"
+        }
+      },
+      "dependency_snapshot_id": "dep-740fd39de6fab4345bad32ba93ce2b8a1b71a432b27ccf6adee5981a1d5e4fb6"
+    },
+    "reviewed_observation": {
+      "provision_status": "provided",
+      "read_status": "readable",
+      "row_count": 0,
+      "variables": [
+        "STUDYID",
+        "DOMAIN",
+        "USUBJID",
+        "VSTESTCD",
+        "VSORRES"
+      ],
+      "observed_status": "present_empty",
+      "no_data_reason": null,
+      "has_no_data": null,
+      "member": "VS",
+      "label": "Vital Signs",
+      "raw_label": "Vital Signs                             ",
+      "row_count_basis": "delivery_declaration",
+      "declaration_id": "SYN-BOUNDARY-VS",
+      "padding_bytes": 0,
+      "observation_offset": 1440,
+      "declaration_provenance": {
+        "source_id": "SYN-DELIVERY",
+        "source_sha256": "7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+        "locator": "/declarations/1"
+      },
+      "count_limitation": "trusted_delivery_declaration_not_independently_verified"
+    },
+    "status": "simulated"
+  }
+]

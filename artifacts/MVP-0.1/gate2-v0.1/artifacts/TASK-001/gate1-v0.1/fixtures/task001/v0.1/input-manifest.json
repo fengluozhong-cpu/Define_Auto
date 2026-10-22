@@ -1,0 +1,108 @@
+{
+  "version": "0.1",
+  "study_id": "SYN001",
+  "family": "SDTM",
+  "planned_datasets": [
+    "DM",
+    "VS",
+    "AE",
+    "CM"
+  ],
+  "provided_scope_complete": false,
+  "other_sources": {
+    "acrf": "not_provided",
+    "ct": "not_provided",
+    "protocol": "not_provided",
+    "sap": "not_provided"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-DM",
+      "relative_path": "dm.xpt",
+      "sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "source_type": "xpt",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "DM"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": null
+    },
+    {
+      "source_id": "SRC-VS",
+      "relative_path": "vs.xpt",
+      "sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "source_type": "xpt",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "VS"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": null
+    },
+    {
+      "source_id": "SRC-AE",
+      "relative_path": "ae.xpt",
+      "sha256": null,
+      "source_type": "xpt",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "not_provided",
+      "completeness_scope": {
+        "datasets": [
+          "AE"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": "Intentionally not supplied; business No Data reason unknown"
+    },
+    {
+      "source_id": "SRC-CM",
+      "relative_path": "cm.xpt",
+      "sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "source_type": "xpt",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "CM"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": null
+    },
+    {
+      "source_id": "SRC-SPEC",
+      "relative_path": "spec.json",
+      "sha256": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "source_type": "structured_spec",
+      "version": "0.1",
+      "acquired_at": "2026-10-20T09:50:38.761874+08:00",
+      "confidentiality": "fully_synthetic",
+      "provision_status": "provided",
+      "completeness_scope": {
+        "datasets": [
+          "DM",
+          "VS",
+          "AE",
+          "CM"
+        ],
+        "declaration": "closed_for_synthetic_scenario"
+      },
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "path": "checks.json",
+      "sha256": "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850",
+      "bytes": 200
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11",
+      "bytes": 144
+    },
+    {
+      "path": "dependencies.json",
+      "sha256": "592c3093161004508f871e4b01159ba629e97c70bffe285f60ad852d3f16c8d9",
+      "bytes": 5215
+    },
+    {
+      "path": "evidence.json",
+      "sha256": "b66bf1257490d607ce8fed07831e45f6e2df6f2ac6b8bacfd87f558d9a2ed735",
+      "bytes": 174005
+    },
+    {
+      "path": "inputs-manifest.json",
+      "sha256": "c7214953b5ed2a450767deeef95ef53fdd3a0679f5f7c785a430e78b18cadd9a",
+      "bytes": 4562
+    },
+    {
+      "path": "issues.json",
+      "sha256": "4e6f5203503a156feb3dbf5f2641e884b7cd7a78572d0373491b70017b8973ce",
+      "bytes": 7870
+    },
+    {
+      "path": "model.json",
+      "sha256": "bd733bb6ead56b22bc36e5aecbbb2c8e1819f8603fb335114be547e781be4c33",
+      "bytes": 370997
+    },
+    {
+      "path": "patch-applicability.json",
+      "sha256": "789b46a2c19b4d584602808388e2c547db149e535e439cf861b2068a25cc5799",
+      "bytes": 56
+    },
+    {
+      "path": "review-actions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "review-policy.json",
+      "sha256": "b96d807cb4a5de8ee5d9ea89583dc15a8938c7f0b83d83016fbfef4434f3ead6",
+      "bytes": 5868
+    },
+    {
+      "path": "review.html",
+      "sha256": "329986a19e0fbfd9185abb48df09c64ad037c9e23bb89e7c198182f7d5f513e0",
+      "bytes": 29544
+    },
+    {
+      "path": "review.md",
+      "sha256": "038fd62b4d6d690bd0f7d2f694c1d8f735822de00a8c7fdd354226499e692328",
+      "bytes": 26611
+    },
+    {
+      "path": "run.json",
+      "sha256": "1bc2de3769b2f8f03964000d33d0ebefea580b75dc41fcba72694e88638ea0cd",
+      "bytes": 848
+    }
+  ],
+  "excludes_self": true
+}

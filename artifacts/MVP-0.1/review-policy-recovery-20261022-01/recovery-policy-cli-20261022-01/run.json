@@ -1,0 +1,29 @@
+{
+  "command": [
+    "E:\\Initiation\\Define_Auto\\artifacts\\MVP-0.1\\gate2-v0.2\\define_auto\\__main__.py",
+    "--manifest",
+    "fixtures/mvp01/review-policy-v0.1/manifest.json",
+    "--read-context",
+    "fixtures/mvp01/review-policy-v0.1/context.json",
+    "--provenance",
+    "SYN-DELIVERY=fixtures/mvp01/review-policy-v0.1/delivery.json",
+    "--isolated-test",
+    "--review-action",
+    "fixtures/mvp01/review-policy-v0.1/confirm-no-data-v0.2.json",
+    "--authorization",
+    "fixtures/mvp01/review-policy-v0.1/authorization-v0.2.json",
+    "--prior-model",
+    "artifacts/MVP-0.1/review-policy-confirm-20261022-02/model.json",
+    "--out",
+    "artifacts/MVP-0.1/recovery-policy-cli-20261022-01"
+  ],
+  "started_at": "2026-10-22T04:28:04.123409+00:00",
+  "finished_at": "2026-10-22T04:28:04.258783+00:00",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "result": "completed_with_review_items",
+  "exit_code": 0,
+  "model_snapshot_id": "model-e9e02603d6a28dfb8b1b1054d796c96aa0399a63bde6563696693bfd122db584",
+  "gate2": "pending_chris",
+  "test_only": true
+}

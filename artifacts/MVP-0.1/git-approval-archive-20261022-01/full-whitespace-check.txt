@@ -1,0 +1,136 @@
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:80: trailing whitespace.
++        multivalued: true 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:460: trailing whitespace.
++        
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:523: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:625: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1230: trailing whitespace.
++          References to different situations that define when this parameter 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1232: trailing whitespace.
++          Multiple whereClauses are combined with OR logic: the parameter applies 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1236: trailing whitespace.
++          Example: applicableWhen: ["WC.ADULT", "WC.PEDIATRIC"] means the parameter 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1237: trailing whitespace.
++          is needed when (all conditions in WC.ADULT are true) OR 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1246: trailing whitespace.
++          Use these for parameter validation rules, distinct from applicableWhen 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1248: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1253: trailing whitespace.
++        inlined: false    
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1256: trailing whitespace.
++          Indicates whether this parameter must be provided when the 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:2075: trailing whitespace.
++          The reason this analysis was performed.  
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:80: trailing whitespace.
++        multivalued: true 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:460: trailing whitespace.
++        
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:523: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:625: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1230: trailing whitespace.
++          References to different situations that define when this parameter 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1232: trailing whitespace.
++          Multiple whereClauses are combined with OR logic: the parameter applies 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1236: trailing whitespace.
++          Example: applicableWhen: ["WC.ADULT", "WC.PEDIATRIC"] means the parameter 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1237: trailing whitespace.
++          is needed when (all conditions in WC.ADULT are true) OR 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1246: trailing whitespace.
++          Use these for parameter validation rules, distinct from applicableWhen 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1248: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1253: trailing whitespace.
++        inlined: false    
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1256: trailing whitespace.
++          Indicates whether this parameter must be provided when the 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:2075: trailing whitespace.
++          The reason this analysis was performed.  
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:13: trailing whitespace.
++  
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:19: trailing whitespace.
++    <link rel="search" title="Search" href="search.html" /> 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:22: trailing whitespace.
++<body class="wy-body-for-nav"> 
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:28: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:29: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:91: trailing whitespace.
++             
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:683: trailing whitespace.
++   
+artifacts/MVP-0.1/gate2-v0.1/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:694: trailing whitespace.
++  </script> 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:80: trailing whitespace.
++        multivalued: true 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:460: trailing whitespace.
++        
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:523: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:625: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1230: trailing whitespace.
++          References to different situations that define when this parameter 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1232: trailing whitespace.
++          Multiple whereClauses are combined with OR logic: the parameter applies 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1236: trailing whitespace.
++          Example: applicableWhen: ["WC.ADULT", "WC.PEDIATRIC"] means the parameter 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1237: trailing whitespace.
++          is needed when (all conditions in WC.ADULT are true) OR 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1246: trailing whitespace.
++          Use these for parameter validation rules, distinct from applicableWhen 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1248: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1253: trailing whitespace.
++        inlined: false    
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:1256: trailing whitespace.
++          Indicates whether this parameter must be provided when the 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-define.yaml:2075: trailing whitespace.
++          The reason this analysis was performed.  
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:80: trailing whitespace.
++        multivalued: true 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:460: trailing whitespace.
++        
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:523: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:625: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1230: trailing whitespace.
++          References to different situations that define when this parameter 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1232: trailing whitespace.
++          Multiple whereClauses are combined with OR logic: the parameter applies 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1236: trailing whitespace.
++          Example: applicableWhen: ["WC.ADULT", "WC.PEDIATRIC"] means the parameter 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1237: trailing whitespace.
++          is needed when (all conditions in WC.ADULT are true) OR 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1246: trailing whitespace.
++          Use these for parameter validation rules, distinct from applicableWhen 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1248: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1253: trailing whitespace.
++        inlined: false    
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:1256: trailing whitespace.
++          Indicates whether this parameter must be provided when the 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/dde-xml-define.yaml:2075: trailing whitespace.
++          The reason this analysis was performed.  
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:13: trailing whitespace.
++  
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:19: trailing whitespace.
++    <link rel="search" title="Search" href="search.html" /> 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:22: trailing whitespace.
++<body class="wy-body-for-nav"> 
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:28: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:29: trailing whitespace.
++          
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:91: trailing whitespace.
++             
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:683: trailing whitespace.
++   
+artifacts/MVP-0.1/gate2-v0.2/artifacts/TASK-001/gate1-v0.1/artifacts/TASK-001/references/pyreadstat-api.html:694: trailing whitespace.
++  </script> 

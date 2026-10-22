@@ -1,0 +1,11 @@
+{
+  "authorization_id": "TEST-INDEPENDENT-AUTH-2",
+  "reviewer": "SYNTHETIC_REVIEWER",
+  "test_only": true,
+  "scope": {
+    "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX",
+    "field_path": "label",
+    "selected_value": "Sex",
+    "dependency_snapshot_id": "dep-94dbfeac9b95dcf07b08fe81318b29d531016e844d83f91d7994d04400ce2de4"
+  }
+}

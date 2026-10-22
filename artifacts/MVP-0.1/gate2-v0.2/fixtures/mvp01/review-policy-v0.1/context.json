@@ -1,0 +1,34 @@
+{
+  "schema_version": "mvp01-read-context-0.1",
+  "study_id": "SYN001",
+  "family": "SDTM",
+  "test_only": true,
+  "declarations": [
+    {
+      "member": "DM",
+      "source_sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "record_count": 3,
+      "encoding": "ascii",
+      "declaration_id": "SYN-BOUNDARY-DM",
+      "provided_by": "synthetic_boundary_delivery_constructor",
+      "provenance": {
+        "source_id": "SYN-DELIVERY",
+        "source_sha256": "7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+        "locator": "/declarations/0"
+      }
+    },
+    {
+      "member": "VS",
+      "source_sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "record_count": 0,
+      "encoding": "ascii",
+      "declaration_id": "SYN-BOUNDARY-VS",
+      "provided_by": "synthetic_boundary_delivery_constructor",
+      "provenance": {
+        "source_id": "SYN-DELIVERY",
+        "source_sha256": "7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+        "locator": "/declarations/1"
+      }
+    }
+  ]
+}

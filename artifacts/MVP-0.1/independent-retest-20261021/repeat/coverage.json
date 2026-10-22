@@ -1,0 +1,5 @@
+{
+  "scope": "runtime only",
+  "requirement_acceptance": "not_assessed",
+  "full_suite_evidence": "Run tools/mvp01/run_checks.py separately."
+}

@@ -1,0 +1,30 @@
+{
+  "task_id": "TASK-001",
+  "run_id": "materials-01",
+  "command": [
+    "tools/task001/check_materials.py",
+    "--run-id",
+    "materials-01"
+  ],
+  "started_at": "2026-10-20T09:53:08.915650+08:00",
+  "finished_at": "2026-10-20T09:53:09.319357+08:00",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "pandas": "3.0.6",
+    "pyreadstat": "1.3.6",
+    "numpy": "2.5.4",
+    "narwhals": "2.27.1"
+  },
+  "script_sha256": "67ac54e50dead780b2e432bf4d86a13720d539b9ff0edd725ed00c6382fae5bb",
+  "fixture_manifest_sha256": "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1",
+  "expected_sha256": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808",
+  "contract_sha256": "1cc2519ce532f2f6fc1ccfed970390bb14052982b2e56b18ea7e00124396ed26",
+  "collected_checks": 102,
+  "executed_checks": 102,
+  "skipped_checks": 0,
+  "case_count": 24,
+  "engine_cases_executed": 0,
+  "result": "passed",
+  "exit_code": 0
+}

@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "requirement": "FR-005",
+      "clause": "标准/CT 版本身份、术语和扩展",
+      "current_task_applicable": true,
+      "execution_result": "passed",
+      "case_ids": [
+        "M01-RP25",
+        "M01-RP26",
+        "M01-RP27",
+        "M01-RP28",
+        "M01-RP29",
+        "M01-RP36",
+        "T001-C23"
+      ]
+    },
+    {
+      "requirement": "FR-008",
+      "clause": "缺文件/零行/缺变量/全空/条件无行/条件全空；原因人审",
+      "current_task_applicable": true,
+      "execution_result": "passed",
+      "case_ids": [
+        "M01-RP01",
+        "M01-RP02",
+        "M01-RP03",
+        "M01-RP04",
+        "M01-RP05",
+        "M01-RP06",
+        "M01-RP07",
+        "M01-RP08",
+        "M01-RP09",
+        "M01-RP11",
+        "M01-RP12",
+        "M01-RP13",
+        "M01-RP14",
+        "M01-RP34",
+        "T001-C02",
+        "T001-C03",
+        "T001-C04",
+        "T001-C05",
+        "T001-C06",
+        "T001-C07"
+      ]
+    },
+    {
+      "requirement": "FR-011",
+      "clause": "SDTM/ADaM Define-XML 2.1、全部适用字段及不支持项",
+      "current_task_applicable": true,
+      "execution_result": "passed",
+      "case_ids": [
+        "M01-RP11",
+        "M01-RP12"
+      ]
+    }
+  ],
+  "suite_input_drift": [],
+  "expectation_sha256": "0e36a52f457072f624f094ffd426e8a7357bcf9fb22df75c3299043fd418fdf0"
+}

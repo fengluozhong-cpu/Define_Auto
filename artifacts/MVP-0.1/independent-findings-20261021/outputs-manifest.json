@@ -1,0 +1,21 @@
+{
+  "purpose": "Independent initial findings and witnesses; initial accepted bad models and omission passed are defect observations, not product passes",
+  "files": [
+    {
+      "path": "initial-results.json",
+      "sha256": "1e15eb620f039921bc99aefa3cd13d8b645f4007f6a877f5f216f1d8dbc66eb2"
+    },
+    {
+      "path": "omission_probe.py",
+      "sha256": "e3700561a673041bed94d38b0acbd6517f26edee4a04302b264047add1e923ee"
+    },
+    {
+      "path": "preservation.py",
+      "sha256": "eb451fa831a9e62d02a3588b9ec6815ae2801b31d77b2e5f40d87be3ec2de505"
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "c9a751ab0de24717bc9abbade729d1eedb660c2063b7cfbd7c35adec60df1e23"
+    }
+  ]
+}

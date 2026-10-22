@@ -1,0 +1,147 @@
+{
+  "scope": "startup tool refusal, protected fixture/expectation hashes and document checks only",
+  "checks": [
+    {
+      "check_id": "existing_run_refused",
+      "actual": true,
+      "expected": true,
+      "result": "passed"
+    },
+    {
+      "check_id": "existing_run_unchanged",
+      "actual": {
+        "carryover.json": "5148800fb0b90c8b4545e5950175102b5b66a1878463f901ae88b62806f5c8c4",
+        "checks.json": "c4b06de7b8a6ef0476049474c5ebc9bd183423d6a18b1822e9f5b46f9e8a9f11",
+        "frozen-reference-map.json": "74de4a142192d0771a7a37f6a089168df40a647620f92654f994d3e86c5ac1c1",
+        "inputs-manifest.json": "fb00819156c42e429dc50e610851e7748f5ebcadb1680852337b72be782d6bc4",
+        "outputs-manifest.json": "8e8d5a50295dc91bf8fc9228908e64c99431461e409c2bd136667eb8969a4416",
+        "reading-record.json": "ee4a9303e5fbc7ee2b11899981b3ddc3a721cbcf5635eda92024769f6b46824d",
+        "run.json": "a56b5ac36649c140472203be4d179f76efbb072d20498a10aaabdefd2a7a1f04"
+      },
+      "expected": {
+        "carryover.json": "5148800fb0b90c8b4545e5950175102b5b66a1878463f901ae88b62806f5c8c4",
+        "checks.json": "c4b06de7b8a6ef0476049474c5ebc9bd183423d6a18b1822e9f5b46f9e8a9f11",
+        "frozen-reference-map.json": "74de4a142192d0771a7a37f6a089168df40a647620f92654f994d3e86c5ac1c1",
+        "inputs-manifest.json": "fb00819156c42e429dc50e610851e7748f5ebcadb1680852337b72be782d6bc4",
+        "outputs-manifest.json": "8e8d5a50295dc91bf8fc9228908e64c99431461e409c2bd136667eb8969a4416",
+        "reading-record.json": "ee4a9303e5fbc7ee2b11899981b3ddc3a721cbcf5635eda92024769f6b46824d",
+        "run.json": "a56b5ac36649c140472203be4d179f76efbb072d20498a10aaabdefd2a7a1f04"
+      },
+      "result": "passed"
+    },
+    {
+      "check_id": "changed_lines_whitespace",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.expectations/task001/v0.1/coverage.json",
+      "actual": "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a",
+      "expected": "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.expectations/task001/v0.1/expected.json",
+      "actual": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808",
+      "expected": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.expectations/task001/v0.1/gate1-checklist.json",
+      "actual": "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373",
+      "expected": "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/build-record.json",
+      "actual": "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a",
+      "expected": "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/cm.xpt",
+      "actual": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "expected": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/dependencies.json",
+      "actual": "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc",
+      "expected": "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/dependency-changes.json",
+      "actual": "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e",
+      "expected": "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/dm.xpt",
+      "actual": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "expected": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/input-manifest.json",
+      "actual": "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1",
+      "expected": "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/patch.json",
+      "actual": "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c",
+      "expected": "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/source-data.json",
+      "actual": "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d",
+      "expected": "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/spec-changed.json",
+      "actual": "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd",
+      "expected": "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/spec.json",
+      "actual": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "expected": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937",
+      "result": "passed"
+    },
+    {
+      "check_id": "original_readonly.fixtures/task001/v0.1/vs.xpt",
+      "actual": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "expected": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22",
+      "result": "passed"
+    },
+    {
+      "check_id": "deliverable_exists.docs/tasks/MVP-0.1.md",
+      "actual": true,
+      "expected": true,
+      "result": "passed"
+    },
+    {
+      "check_id": "deliverable_exists.docs/tasks/MVP-0.1-skill-setup-draft.md",
+      "actual": true,
+      "expected": true,
+      "result": "passed"
+    },
+    {
+      "check_id": "deliverable_exists.tools/mvp01/startup_audit.py",
+      "actual": true,
+      "expected": true,
+      "result": "passed"
+    }
+  ],
+  "collected": 20,
+  "executed": 20,
+  "failed": 0,
+  "skipped": 0,
+  "engine_cases_executed": 0,
+  "gate2": "not_assessed"
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "Synthetic baseline read context only; original XPT and expectations unchanged; no engine execution",
+  "files": [
+    {
+      "path": "delivery-record.json",
+      "sha256": "60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd",
+      "bytes": 1266
+    },
+    {
+      "path": "read-context.json",
+      "sha256": "dd2bb06e831e4fa6cb2ad435bdd9191ad7a0475b3a2c6de393ada0e907f1c7b6",
+      "bytes": 1154
+    }
+  ],
+  "excludes_self": true
+}

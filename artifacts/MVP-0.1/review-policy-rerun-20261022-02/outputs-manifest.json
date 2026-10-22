@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "path": "checks.json",
+      "sha256": "e030e35ae0e218beff095a7946568a608d65e9e8a63912a89165d98dc53fc850",
+      "bytes": 200
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "b712fe1855923e78414217e515556f70ebea246743d81adaa559df995dc93c11",
+      "bytes": 144
+    },
+    {
+      "path": "dependencies.json",
+      "sha256": "5de062cbc834a619b936c3308dc03335a87af3e3537f592bfcb20114b2010837",
+      "bytes": 5215
+    },
+    {
+      "path": "evidence.json",
+      "sha256": "b66bf1257490d607ce8fed07831e45f6e2df6f2ac6b8bacfd87f558d9a2ed735",
+      "bytes": 174005
+    },
+    {
+      "path": "inputs-manifest.json",
+      "sha256": "0619a9d581b15dac0c9e3066546a1bdb4b3d423c7c5f3fa1ed250fd8c9e85c32",
+      "bytes": 5773
+    },
+    {
+      "path": "issues.json",
+      "sha256": "4e6f5203503a156feb3dbf5f2641e884b7cd7a78572d0373491b70017b8973ce",
+      "bytes": 7870
+    },
+    {
+      "path": "model.json",
+      "sha256": "bfdf218cec6d0dfd05ab98605470e7c6948d11ba6ba71dde96c524c41fbb9290",
+      "bytes": 380474
+    },
+    {
+      "path": "patch-applicability.json",
+      "sha256": "f277041ffed7ab2b383b7df3d11f0ddd0b1a8e8cc6aa6fbd8a981d2f4f292380",
+      "bytes": 53
+    },
+    {
+      "path": "review-actions.json",
+      "sha256": "6788983787f46046c0083da0ddd4a5389ad1c065598e16a437053a670bd2d75d",
+      "bytes": 8332
+    },
+    {
+      "path": "review-policy.json",
+      "sha256": "d7c8198bcd1c357bbd34cb00ec360d1f4aeb3b324488a170874d5a760123ac0f",
+      "bytes": 5953
+    },
+    {
+      "path": "review.html",
+      "sha256": "c6edf1690b8110872884df1a129c14a529eb99cb0e9e5499e175f18b8b46877c",
+      "bytes": 29566
+    },
+    {
+      "path": "review.md",
+      "sha256": "64a6f5df05796f1c2411269406aba86210841c3de585a871636a38c8ade8036c",
+      "bytes": 26633
+    },
+    {
+      "path": "run.json",
+      "sha256": "ce0e9dfd69bdfc320d5321c2b3351714f0c31634f3bcd983e20d866fb2a0ec89",
+      "bytes": 1118
+    }
+  ],
+  "excludes_self": true
+}

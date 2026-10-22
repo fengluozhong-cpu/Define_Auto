@@ -1,0 +1,112 @@
+{
+  "schema_version": "mvp01-read-context-0.1",
+  "study_id": "SYN001",
+  "family": "SDTM",
+  "test_only": true,
+  "declarations": [
+    {
+      "declaration_id": "TEST-READ-utf8",
+      "source_sha256": "8ef1f8e5464b905e5ce8af82ae0ad62c46bad90ac970839a37ab811170e2e11c",
+      "member": "VS",
+      "encoding": "utf-8",
+      "record_count": 1,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-MANUFACTURE-M01-001",
+        "source_sha256": "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a",
+        "locator": "/files/0"
+      }
+    },
+    {
+      "declaration_id": "TEST-READ-invalid_utf8",
+      "source_sha256": "ccfd99484a3808c7e009d385f512b99b76f24e8e48439187bc7e3699bb8e7f8c",
+      "member": "VS",
+      "encoding": "utf-8",
+      "record_count": 1,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-MANUFACTURE-M01-001",
+        "source_sha256": "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a",
+        "locator": "/files/1"
+      }
+    },
+    {
+      "declaration_id": "TEST-READ-nbsp",
+      "source_sha256": "49526a631bd1d8352d176c667827f49f79efa16d9372d18af0c0e9d8541402bd",
+      "member": "VS",
+      "encoding": "utf-8",
+      "record_count": 1,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-MANUFACTURE-M01-001",
+        "source_sha256": "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a",
+        "locator": "/files/2"
+      }
+    },
+    {
+      "declaration_id": "TEST-READ-partial_date",
+      "source_sha256": "670b61b62567e2204434beff7589c1b48e3ab82c28fc897db109a5bbec74762f",
+      "member": "VS",
+      "encoding": "ascii",
+      "record_count": 1,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-MANUFACTURE-M01-001",
+        "source_sha256": "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a",
+        "locator": "/files/3"
+      }
+    },
+    {
+      "declaration_id": "TEST-READ-scale10000",
+      "source_sha256": "af6f6a9a1484f429b7c3a1a57f3547b65e19d79050711fc2b09803cccfffde48",
+      "member": "VS",
+      "encoding": "utf-8",
+      "record_count": 10000,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-MANUFACTURE-M01-001",
+        "source_sha256": "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a",
+        "locator": "/files/4"
+      }
+    },
+    {
+      "declaration_id": "TEST-READ-all_missing_codes",
+      "source_sha256": "7e54e3963a6920d89cb7badb0303cfc2cedb4823687f442de147f73983dccfaf",
+      "member": "VS",
+      "encoding": "ascii",
+      "record_count": 31,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-MANUFACTURE-M01-001",
+        "source_sha256": "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a",
+        "locator": "/files/5"
+      }
+    },
+    {
+      "declaration_id": "TEST-READ-numeric_date",
+      "source_sha256": "05616be21e4b3a75c8dd2d33ff85db837cf840e140adb749e825e93b3f6df55e",
+      "member": "VS",
+      "encoding": "ascii",
+      "record_count": 3,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-MANUFACTURE-M01-001",
+        "source_sha256": "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a",
+        "locator": "/files/6"
+      }
+    },
+    {
+      "declaration_id": "TEST-READ-unknown_format",
+      "source_sha256": "9972cd31b4b689c9ee83344d7b485c6a57f22074383ab68ea47404d0f75e337a",
+      "member": "VS",
+      "encoding": "ascii",
+      "record_count": 1,
+      "provided_by": "TEST_FIXTURE_MANUFACTURER",
+      "provenance": {
+        "source_id": "TEST-MANUFACTURE-M01-001",
+        "source_sha256": "08d594a75845d04ba6c3f55536818a8949f784576a41aadb9dfb5eb098eae35a",
+        "locator": "/files/7"
+      }
+    }
+  ]
+}

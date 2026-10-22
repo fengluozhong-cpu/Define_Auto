@@ -1,0 +1,48 @@
+{
+  "retrieved_at": "2026-10-20T09:48:06.462855+08:00",
+  "dde_commit": "dc3e47bc24e864805d998f663f6e85ddc32d0cd9",
+  "assets": [
+    {
+      "path": "dde-readme.md",
+      "url": "https://raw.githubusercontent.com/cdisc-org/data-definition-engine/dc3e47bc24e864805d998f663f6e85ddc32d0cd9/README.md",
+      "sha256": "d26495a44cfe931123f39742734632d08dcfdb566c372e351b5a0436317ef413",
+      "bytes": 21385,
+      "kind": "reference_implementation"
+    },
+    {
+      "path": "sas-xport-v5.pdf",
+      "url": "https://support.sas.com/content/dam/SAS/support/en/technical-papers/record-layout-of-a-sas-version-5-or-6-data-set-in-sas-transport-xport-format.pdf",
+      "sha256": "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3",
+      "bytes": 1038715,
+      "kind": "vendor_technical_documentation"
+    },
+    {
+      "path": "pyreadstat-api.html",
+      "url": "https://ofajardo.github.io/pyreadstat_documentation/_build/html/index.html",
+      "sha256": "4b2b4145e5c8ba7e902cf07a1bd74ef1bd28002d15a9431d587b6dcd48880cee",
+      "bytes": 246324,
+      "kind": "vendor_technical_documentation"
+    },
+    {
+      "path": "dde-dds.yaml",
+      "url": "https://raw.githubusercontent.com/cdisc-org/data-definition-engine/dc3e47bc24e864805d998f663f6e85ddc32d0cd9/schemas/dds/dds.yaml",
+      "sha256": "a4649e1d33a6d3ef832b301ebd875e782f740811a8d48e9e744c66492b84f91d",
+      "bytes": 82157,
+      "kind": "reference_implementation"
+    },
+    {
+      "path": "dde-define.yaml",
+      "url": "https://raw.githubusercontent.com/cdisc-org/data-definition-engine/dc3e47bc24e864805d998f663f6e85ddc32d0cd9/schemas/dds/define.yaml",
+      "sha256": "010dbaddb6b55041450e4c857e6f0765e84898505aeb2373f256ab19dd37ce02",
+      "bytes": 84668,
+      "kind": "reference_implementation"
+    },
+    {
+      "path": "dde-define.yaml",
+      "url": "https://raw.githubusercontent.com/cdisc-org/data-definition-engine/dc3e47bc24e864805d998f663f6e85ddc32d0cd9/src/define-xml/define.yaml",
+      "sha256": "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa",
+      "bytes": 83131,
+      "kind": "reference_implementation"
+    }
+  ]
+}

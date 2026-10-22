@@ -1,0 +1,234 @@
+{
+  "reviewer": "/root/review_policy_independent",
+  "checks": [
+    {
+      "id": "IP01",
+      "scenario": "Type rule on physically absent DM.ARM",
+      "actual": {
+        "rule_id": "TEST-type",
+        "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/ARM",
+        "result": "not_completed",
+        "violations": [],
+        "not_evaluable": [
+          {
+            "view": "observed",
+            "field": "type"
+          }
+        ],
+        "required_value": "character",
+        "source_id": "SYN-LOCAL-RULES",
+        "source_sha256": "da43a719025d150c79a2c9a28ad4d9361086b241a4a6ee76a267418a3c84bcaf",
+        "locator": "/rules/0; synthetic independent rule declaration",
+        "ig_version": "TEST-IG-1",
+        "ct_version": "TEST-CT-1"
+      },
+      "passed": true
+    },
+    {
+      "id": "IP02",
+      "scenario": "Human returns ordinary label conflict upstream",
+      "actual": {
+        "action_result": {
+          "business_changes": 1,
+          "status": "simulated"
+        },
+        "upstream_projection": [
+          {
+            "issue_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX:label:field_conflict:R-LABEL-1",
+            "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX",
+            "basis": "human_return",
+            "action_id": "SYN-ACTION-1",
+            "workflow": "upstream_rework",
+            "blocking": true
+          }
+        ],
+        "report_has_upstream_instruction": true
+      },
+      "passed": true
+    },
+    {
+      "id": "IP03",
+      "scenario": "Malformed return scope nested list",
+      "actual": "ContractError:invalid_return_scope",
+      "passed": true
+    },
+    {
+      "id": "IP06",
+      "scenario": "Malformed rule value through real CLI",
+      "actual": {
+        "exit_code": 1,
+        "stdout": "{\"result\": \"failed\", \"error\": \"invalid_rule_value\"}\n",
+        "stderr": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "IP05",
+      "scenario": "Human reuse shows immutable previous and current observations",
+      "actual": {
+        "decision_id": "SYN-DEC-001",
+        "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX",
+        "eligible": true,
+        "changed_components": [
+          "inputs",
+          "read_context"
+        ],
+        "changed_inputs": [
+          "READ-CONTEXT",
+          "SRC-DM",
+          "SYN-DELIVERY"
+        ],
+        "input_changes": [
+          {
+            "source_id": "READ-CONTEXT",
+            "previous": {
+              "sha256": "cdedcbacc201b1552c7c3a6b7abe509423d24467b4a8bcb3e565f23233caae7f",
+              "version": "mvp01-read-context-0.1",
+              "provision_status": "provided",
+              "completeness_scope": {
+                "declaration": "read_context"
+              }
+            },
+            "current": {
+              "sha256": "61aafdecd6a1ee4f05279e8110288282fab6e87a302c2a01609bf52e7a2351c1",
+              "version": "mvp01-read-context-0.1",
+              "provision_status": "provided",
+              "completeness_scope": {
+                "declaration": "read_context"
+              }
+            }
+          },
+          {
+            "source_id": "SRC-DM",
+            "previous": {
+              "sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7",
+              "version": "0.1",
+              "provision_status": "provided",
+              "completeness_scope": {
+                "datasets": [
+                  "DM"
+                ],
+                "declaration": "closed_for_synthetic_scenario"
+              }
+            },
+            "current": {
+              "sha256": "1b8e78008d9913437279a4b4e6444ed24bba5d91a39ba07fcef52d018bba8002",
+              "version": "0.1",
+              "provision_status": "provided",
+              "completeness_scope": {
+                "datasets": [
+                  "DM"
+                ],
+                "declaration": "closed_for_synthetic_scenario"
+              }
+            }
+          },
+          {
+            "source_id": "SYN-DELIVERY",
+            "previous": {
+              "sha256": "7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+              "version": "sha256:7120ea178435121dc3756aae8d1919fd161100b305a437b6826580aea0187461",
+              "provision_status": "provided",
+              "completeness_scope": {
+                "declaration": "external_delivery_evidence"
+              }
+            },
+            "current": {
+              "sha256": "8e29d2bb7a89d40e0a6fc25d0ac3928340d51d0f6bd48b3cf213ec54f06c5328",
+              "version": "sha256:8e29d2bb7a89d40e0a6fc25d0ac3928340d51d0f6bd48b3cf213ec54f06c5328",
+              "provision_status": "provided",
+              "completeness_scope": {
+                "declaration": "external_delivery_evidence"
+              }
+            }
+          }
+        ],
+        "other_changed_dependencies": [],
+        "current_candidate_valid": true,
+        "current_observation": {
+          "name": "SEX",
+          "label": "Sex",
+          "raw_label": "Sex                                     ",
+          "type": "character",
+          "storage_length": 1,
+          "position": 16,
+          "descriptor_offset": 1060,
+          "format_name": "",
+          "format_width": 0,
+          "format_decimals": 0,
+          "format_interpretation": "raw_preserved",
+          "missing_count": 3,
+          "nonmissing_count": 0,
+          "missing_code_counts": {},
+          "max_content_bytes": 0,
+          "max_content_characters": 0,
+          "distinct_nonmissing": 0,
+          "observed_status": "present_all_missing",
+          "no_data_reason": null,
+          "has_no_data": null
+        },
+        "current_candidates": [
+          [
+            {
+              "kind": "expected",
+              "value": "Biological Sex"
+            },
+            {
+              "kind": "observed",
+              "value": "Sex"
+            }
+          ]
+        ],
+        "previous_observation": {
+          "name": "SEX",
+          "label": "Sex",
+          "raw_label": "Sex                                     ",
+          "type": "character",
+          "storage_length": 1,
+          "position": 16,
+          "descriptor_offset": 1060,
+          "format_name": "",
+          "format_width": 0,
+          "format_decimals": 0,
+          "format_interpretation": "raw_preserved",
+          "missing_count": 3,
+          "nonmissing_count": 0,
+          "missing_code_counts": {},
+          "max_content_bytes": 0,
+          "max_content_characters": 0,
+          "distinct_nonmissing": 0,
+          "observed_status": "present_all_missing",
+          "no_data_reason": null,
+          "has_no_data": null
+        },
+        "previous_candidates": [
+          [
+            {
+              "kind": "expected",
+              "value": "Biological Sex"
+            },
+            {
+              "kind": "observed",
+              "value": "Sex"
+            }
+          ]
+        ],
+        "human_confirmation_required": true,
+        "downstream_validation_and_approval": "needs_review",
+        "unattended_reuse": false
+      },
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "define_auto\\__init__.py": "5acf09fdb1b6f70166dabaa311dc406f4924cae85e4dbcbb5f122edd163f2743",
+    "define_auto\\__main__.py": "f43143ef285981434fb1db675c1aca19fe62ec0ddb035b7a862f8bfd2d270e6b",
+    "define_auto\\common.py": "d741f19445a487343f8354edf021ee09f270c24eaa43f214723c9ba0a5947c54",
+    "define_auto\\decisions.py": "8b50631e26e5059ddb353bc9dee22cd385f975f991154635a5100afbefdce02b",
+    "define_auto\\engine.py": "9df4cb5479eafc6389bfbe71d641383f389bda251e58954c21d0556e81bc99c2",
+    "define_auto\\model.py": "07a7ad46cb009b282267720e5ee471df956ece65e12fc724bd261db40793149e",
+    "define_auto\\reporting.py": "6c63ee44c2bfe2d9fa910b80e5c6393ffd7ab182b1ac367472eb5853539d0c4e",
+    "define_auto\\review.py": "6b9391381e562c6ed554f8dd0b6b8fd16f93d2b79f0135417ac66e5b4488f246",
+    "define_auto\\xpt.py": "ebf50353473dbf8c67c62405616f70ee822860c6a5e6cce6a637edc48f92df04"
+  }
+}

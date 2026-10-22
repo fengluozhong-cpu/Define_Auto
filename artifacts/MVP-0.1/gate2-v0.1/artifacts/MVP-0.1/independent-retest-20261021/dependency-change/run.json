@@ -1,0 +1,33 @@
+{
+  "command": [
+    "E:\\Initiation\\Define_Auto\\define_auto\\__main__.py",
+    "--manifest",
+    "E:\\Initiation\\Define_Auto\\artifacts\\TASK-001\\gate1-v0.1\\fixtures\\task001\\v0.1\\input-manifest.json",
+    "--read-context",
+    "E:\\Initiation\\Define_Auto\\fixtures\\mvp01\\baseline-context-v0.1\\read-context.json",
+    "--provenance",
+    "TEST-BASELINE-MANUFACTURE-001=E:\\Initiation\\Define_Auto\\fixtures\\mvp01\\baseline-context-v0.1\\delivery-record.json",
+    "--isolated-test",
+    "--patch",
+    "E:\\Initiation\\Define_Auto\\artifacts\\MVP-0.1\\independent-retest-20261021\\patch.json",
+    "--authorization",
+    "E:\\Initiation\\Define_Auto\\artifacts\\MVP-0.1\\independent-retest-20261021\\authorization.json",
+    "--previous-dependency",
+    "E:\\Initiation\\Define_Auto\\artifacts\\MVP-0.1\\independent-retest-20261021\\base\\dependencies.json",
+    "--prior-model",
+    "E:\\Initiation\\Define_Auto\\artifacts\\MVP-0.1\\independent-retest-20261021\\revision\\model.json",
+    "--encoding",
+    "ascii",
+    "--out",
+    "E:\\Initiation\\Define_Auto\\artifacts\\MVP-0.1\\independent-retest-20261021\\dependency-change"
+  ],
+  "started_at": "2026-10-21T04:02:27.633959+00:00",
+  "finished_at": "2026-10-21T04:02:27.735833+00:00",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "result": "completed_with_review_items",
+  "exit_code": 0,
+  "model_snapshot_id": "model-3fabd9fc97c2c563f14b732fc15f3cb1e3772953272974ba770841ce762ca038",
+  "gate2": "pending_chris",
+  "test_only": true
+}

@@ -1,0 +1,1214 @@
+{
+  "cases": [
+    {
+      "case_id": "T001-C01",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C01",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C02",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C02",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C03",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C03",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C04",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C04",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C05",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C05",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C06",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C06",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C07",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C07",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C08",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C08",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C09",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C09",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C10",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C10",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C11",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C11",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C12",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C12",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C13",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C13",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C14",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C14",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C15",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C15",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C16",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C16",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C17",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C17",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C18",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C18",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C19",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C19",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C20",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C20",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C21",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C21",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C22",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C22",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C23",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C23",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "T001-C24",
+      "test_id": "tests.test_baseline.BaselineTests.test_T001_C24",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A01",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A01",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A02",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A02",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A03",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A03",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A04",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A04",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A05",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A05",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A06",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A06",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A07",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A07",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A08",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A08",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A09",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A09",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A10",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A10",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A11",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A11",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A12",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A12",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A13",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A13",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A14",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A14",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A15",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A15",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_A15 (tests.test_boundaries.AdditionalTests.test_M01_A15) (variant=19)",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_A15 (tests.test_boundaries.AdditionalTests.test_M01_A15) (variant=19)",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_A15 (tests.test_boundaries.AdditionalTests.test_M01_A15) (variant=18)",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_A15 (tests.test_boundaries.AdditionalTests.test_M01_A15) (variant=19)",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_A15 (tests.test_boundaries.AdditionalTests.test_M01_A15) (variant=19)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-A16",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A16",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A17",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A17",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_A17 (tests.test_boundaries.AdditionalTests.test_M01_A17) (change={'object_id': 'study/OTHER/family/SDTM/dataset/DM/variable/SEX'})",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_A17 (tests.test_boundaries.AdditionalTests.test_M01_A17) (change={'field_path': 'not_a_field'})",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_A17 (tests.test_boundaries.AdditionalTests.test_M01_A17) (change={'selected_value': 'NOT-A-CANDIDATE'})",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_A17 (tests.test_boundaries.AdditionalTests.test_M01_A17) (change={'rationale': ''})",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_A17 (tests.test_boundaries.AdditionalTests.test_M01_A17) (change={'reviewer': ''})",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-A18",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A18",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A19",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A19",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A20",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A20",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-A21",
+      "test_id": "tests.test_boundaries.AdditionalTests.test_M01_A21",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_cli_contract_errors",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_cli_contract_errors",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_cli_decision_history",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_cli_decision_history",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_cli_recovery_and_no_overwrite",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_cli_recovery_and_no_overwrite",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_html_and_markdown_escape",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_html_and_markdown_escape",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_manifest_failures",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_manifest_failures",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_model_review_regressions",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_model_review_regressions",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_persisted_model_integrity",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_persisted_model_integrity",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_provenance_wrong_target_and_pointer",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_provenance_wrong_target_and_pointer",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_raw_label_and_privacy",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_raw_label_and_privacy",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_report_field_provenance_and_length",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_report_field_provenance_and_length",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "tests.test_boundaries.RuntimeBoundaryTests.test_stability_and_reordered_input",
+      "test_id": "tests.test_boundaries.RuntimeBoundaryTests.test_stability_and_reordered_input",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-RC01",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC01",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC01 (tests.test_read_context.ReadContextCases.test_M01_RC01) (case_id='M01-RC01', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC02",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC02",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC02 (tests.test_read_context.ReadContextCases.test_M01_RC02) (case_id='M01-RC02', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC03",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC03",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC03 (tests.test_read_context.ReadContextCases.test_M01_RC03) (case_id='M01-RC03', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC04",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC04",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC04 (tests.test_read_context.ReadContextCases.test_M01_RC04) (case_id='M01-RC04', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC05",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC05",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC05 (tests.test_read_context.ReadContextCases.test_M01_RC05) (case_id='M01-RC05', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC06",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC06",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC06 (tests.test_read_context.ReadContextCases.test_M01_RC06) (case_id='M01-RC06', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC07",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC07",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC07 (tests.test_read_context.ReadContextCases.test_M01_RC07) (case_id='M01-RC07', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC08",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC08",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC08 (tests.test_read_context.ReadContextCases.test_M01_RC08) (case_id='M01-RC08', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC09",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC09",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC09 (tests.test_read_context.ReadContextCases.test_M01_RC09) (case_id='M01-RC09', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC10",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC10",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC10 (tests.test_read_context.ReadContextCases.test_M01_RC10) (case_id='M01-RC10', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC11",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC11",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC11 (tests.test_read_context.ReadContextCases.test_M01_RC11) (case_id='M01-RC11', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC12",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC12",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC12 (tests.test_read_context.ReadContextCases.test_M01_RC12) (case_id='M01-RC12', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC13",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC13",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC13 (tests.test_read_context.ReadContextCases.test_M01_RC13) (case_id='M01-RC13', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC14",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC14",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC14 (tests.test_read_context.ReadContextCases.test_M01_RC14) (case_id='M01-RC14', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC15",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC15",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC15 (tests.test_read_context.ReadContextCases.test_M01_RC15) (case_id='M01-RC15', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC16",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC16",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC16 (tests.test_read_context.ReadContextCases.test_M01_RC16) (case_id='M01-RC16', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC17",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC17",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC17 (tests.test_read_context.ReadContextCases.test_M01_RC17) (case_id='M01-RC17', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC18",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC18",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC18 (tests.test_read_context.ReadContextCases.test_M01_RC18) (case_id='M01-RC18', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC19",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC19",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC19 (tests.test_read_context.ReadContextCases.test_M01_RC19) (case_id='M01-RC19', branch=1)",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_RC19 (tests.test_read_context.ReadContextCases.test_M01_RC19) (case_id='M01-RC19', branch=2)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC20",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC20",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC20 (tests.test_read_context.ReadContextCases.test_M01_RC20) (case_id='M01-RC20', branch=1)",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_RC20 (tests.test_read_context.ReadContextCases.test_M01_RC20) (case_id='M01-RC20', branch=2)",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_RC20 (tests.test_read_context.ReadContextCases.test_M01_RC20) (case_id='M01-RC20', branch=3)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC21",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC21",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC21 (tests.test_read_context.ReadContextCases.test_M01_RC21) (case_id='M01-RC21', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC22",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC22",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC22 (tests.test_read_context.ReadContextCases.test_M01_RC22) (case_id='M01-RC22', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC23",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC23",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC23 (tests.test_read_context.ReadContextCases.test_M01_RC23) (case_id='M01-RC23', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC24",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC24",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC24 (tests.test_read_context.ReadContextCases.test_M01_RC24) (case_id='M01-RC24', branch=1)",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_RC24 (tests.test_read_context.ReadContextCases.test_M01_RC24) (case_id='M01-RC24', branch=2)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC25",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC25",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC25 (tests.test_read_context.ReadContextCases.test_M01_RC25) (case_id='M01-RC25', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC26",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC26",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC26 (tests.test_read_context.ReadContextCases.test_M01_RC26) (case_id='M01-RC26', branch=1)",
+          "result": "passed"
+        },
+        {
+          "id": "test_M01_RC26 (tests.test_read_context.ReadContextCases.test_M01_RC26) (case_id='M01-RC26', branch=2)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC27",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC27",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC27 (tests.test_read_context.ReadContextCases.test_M01_RC27) (case_id='M01-RC27', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC28",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC28",
+      "result": "passed",
+      "subcases": [
+        {
+          "id": "test_M01_RC28 (tests.test_read_context.ReadContextCases.test_M01_RC28) (case_id='M01-RC28', branch=1)",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "case_id": "M01-RC29",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC29",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-RC30",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC30",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-RC31",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC31",
+      "result": "passed",
+      "subcases": []
+    },
+    {
+      "case_id": "M01-RC32",
+      "test_id": "tests.test_read_context.ReadContextCases.test_M01_RC32",
+      "result": "passed",
+      "subcases": []
+    }
+  ],
+  "actual_baseline": {
+    "T001-C01": {
+      "object": "DM.STUDYID",
+      "row_count": 3,
+      "storage_length": 6,
+      "max_content_length": 6,
+      "field_conflicts": [],
+      "approved": null
+    },
+    "T001-C02": {
+      "provision_status": "not_provided",
+      "row_count": null,
+      "no_data_reason": null,
+      "has_no_data": null,
+      "object": "AE",
+      "category": "expected_missing"
+    },
+    "T001-C03": {
+      "provision_status": "provided",
+      "read_status": "unreadable",
+      "row_count": null,
+      "variables": null,
+      "no_data_reason": null,
+      "object": "CM"
+    },
+    "T001-C04": {
+      "object": "VS",
+      "observed_status": "present_empty",
+      "row_count": 0,
+      "variable_status": "unknown",
+      "per_variable_missing_count": 0,
+      "per_variable_nonmissing_count": 0,
+      "no_data_reason": null
+    },
+    "T001-C05": {
+      "object": "DM.ARM",
+      "category": "expected_missing",
+      "observed_status": "variable_absent",
+      "missing_count": null,
+      "has_no_data": null
+    },
+    "T001-C06": {
+      "observed_status": "present_all_missing",
+      "missing_count": 3,
+      "nonmissing_count": 0,
+      "observed_values": [],
+      "no_data_reason": null,
+      "object": "DM.SEX"
+    },
+    "T001-C07": {
+      "observed_status": "present_all_missing",
+      "missing_count": 3,
+      "nonmissing_count": 0,
+      "object": "DM.AGE",
+      "missing_code_counts": {
+        ".": 1,
+        "A": 1,
+        "Z": 1
+      }
+    },
+    "T001-C08": {
+      "object": "DM.SEX",
+      "field": "label",
+      "category": "field_conflict",
+      "expected": "Biological Sex",
+      "observed": "Sex",
+      "status": "open",
+      "approved": null
+    },
+    "T001-C09": {
+      "object": "DM.SEX",
+      "field": "storage_vs_declared_length",
+      "category": "field_conflict",
+      "expected": 3,
+      "observed": 1,
+      "observed_content_length": 0
+    },
+    "T001-C10": {
+      "object": "DM.ARMCD",
+      "field": "type",
+      "category": "field_conflict",
+      "expected": "character",
+      "observed": "numeric",
+      "approved": null
+    },
+    "T001-C11": {
+      "object": "DM.ARMCD",
+      "field": "label",
+      "category": "field_conflict",
+      "expected": "Planned Arm Code",
+      "observed": "Actual Arm Code"
+    },
+    "T001-C12": {
+      "object": "DM.EXTRA",
+      "category": "unexpected_object",
+      "status": "open",
+      "approved": null
+    },
+    "T001-C13": {
+      "simulation_unique_decisions": 1,
+      "second_application_business_changes": 0,
+      "real_approved_assertion": false
+    },
+    "T001-C14": {
+      "scenario": "P-INPUT",
+      "patch": "needs_review",
+      "downstream_validation_and_approval": "needs_review",
+      "old_records_retained": true
+    },
+    "T001-C15": {
+      "scenario": "P-CT",
+      "patch": "needs_review",
+      "downstream_validation_and_approval": "needs_review"
+    },
+    "T001-C16": {
+      "scenario": "P-RULE",
+      "patch": "needs_review",
+      "downstream_validation_and_approval": "needs_review"
+    },
+    "T001-C17": {
+      "scenario": "P-CONFIG",
+      "patch": "needs_review",
+      "downstream_validation_and_approval": "needs_review"
+    },
+    "T001-C18": {
+      "scenario": "P-SCHEMA",
+      "patch": "needs_review",
+      "downstream_validation_and_approval": "needs_review"
+    },
+    "T001-C19": {
+      "scenario": "P-UPSTREAM",
+      "patch": "needs_review",
+      "downstream_validation_and_approval": "needs_review"
+    },
+    "T001-C20": {
+      "scenario": "P-TOOL",
+      "patch": "needs_review",
+      "downstream_validation_and_approval": "needs_review"
+    },
+    "T001-C21": {
+      "scenario": "P-AUDIT",
+      "business_identity_changed": false,
+      "requires_business_rereview": false,
+      "impact_record_required": true
+    },
+    "T001-C22": {
+      "mutate": {
+        "selected_value": "Sex"
+      },
+      "result": "reject_same_id_different_content",
+      "old_record_retained": true
+    },
+    "T001-C23": {
+      "reference_state": "gap",
+      "submission_readiness": "not_assessed",
+      "invented_nci_codes": false
+    },
+    "T001-C24": {
+      "same_name_cross_family_equal": false,
+      "same_name_cross_study_equal": false,
+      "input_order_changes_identity": false
+    }
+  },
+  "actual_additional": {
+    "M01-A01": {
+      "row_count": 1,
+      "aggregate": {
+        "name": "VALUE",
+        "label": "Study Identifier",
+        "raw_label": "Study Identifier                        ",
+        "type": "character",
+        "storage_length": 80,
+        "position": 0,
+        "descriptor_offset": 640,
+        "format_name": "",
+        "format_width": 0,
+        "format_decimals": 0,
+        "format_interpretation": "raw_preserved",
+        "missing_count": 0,
+        "nonmissing_count": 1,
+        "missing_code_counts": {},
+        "max_content_bytes": 5,
+        "max_content_characters": 2,
+        "distinct_nonmissing": 1,
+        "observed_status": "present_with_data",
+        "observed_values": [
+          "中é"
+        ]
+      },
+      "elapsed_seconds": 0.0005224999913480133
+    },
+    "M01-A02": {
+      "result": "unreadable",
+      "code": "decode_error"
+    },
+    "M01-A03": {
+      "code": "encoding_required"
+    },
+    "M01-A04": {
+      "row_count": 1,
+      "aggregate": {
+        "name": "VALUE",
+        "label": "Study Identifier",
+        "raw_label": "Study Identifier                        ",
+        "type": "character",
+        "storage_length": 80,
+        "position": 0,
+        "descriptor_offset": 640,
+        "format_name": "",
+        "format_width": 0,
+        "format_decimals": 0,
+        "format_interpretation": "raw_preserved",
+        "missing_count": 0,
+        "nonmissing_count": 1,
+        "missing_code_counts": {},
+        "max_content_bytes": 2,
+        "max_content_characters": 1,
+        "distinct_nonmissing": 1,
+        "observed_status": "present_with_data",
+        "observed_values": [
+          " "
+        ]
+      },
+      "elapsed_seconds": 0.00031749997287988663
+    },
+    "M01-A05": {
+      "row_count": 31,
+      "aggregate": {
+        "name": "VALUE",
+        "label": "Study Identifier",
+        "raw_label": "Study Identifier                        ",
+        "type": "numeric",
+        "storage_length": 8,
+        "position": 0,
+        "descriptor_offset": 640,
+        "format_name": "",
+        "format_width": 0,
+        "format_decimals": 0,
+        "format_interpretation": "raw_preserved",
+        "missing_count": 28,
+        "nonmissing_count": 3,
+        "missing_code_counts": {
+          "._": 1,
+          ".": 1,
+          ".A": 1,
+          ".B": 1,
+          ".C": 1,
+          ".D": 1,
+          ".E": 1,
+          ".F": 1,
+          ".G": 1,
+          ".H": 1,
+          ".I": 1,
+          ".J": 1,
+          ".K": 1,
+          ".L": 1,
+          ".M": 1,
+          ".N": 1,
+          ".O": 1,
+          ".P": 1,
+          ".Q": 1,
+          ".R": 1,
+          ".S": 1,
+          ".T": 1,
+          ".U": 1,
+          ".V": 1,
+          ".W": 1,
+          ".X": 1,
+          ".Y": 1,
+          ".Z": 1
+        },
+        "max_content_bytes": 0,
+        "max_content_characters": 0,
+        "distinct_nonmissing": 3,
+        "observed_status": "present_with_data",
+        "observed_values": [
+          -1.0,
+          0,
+          1.0
+        ]
+      },
+      "elapsed_seconds": 0.0005163000023458153
+    },
+    "M01-A06": {
+      "row_count": 3,
+      "aggregate": {
+        "name": "VALUE",
+        "label": "Study Identifier",
+        "raw_label": "Study Identifier                        ",
+        "type": "numeric",
+        "storage_length": 8,
+        "position": 0,
+        "descriptor_offset": 640,
+        "format_name": "DATE",
+        "format_width": 9,
+        "format_decimals": 0,
+        "format_interpretation": "raw_preserved",
+        "missing_count": 0,
+        "nonmissing_count": 3,
+        "missing_code_counts": {},
+        "max_content_bytes": 0,
+        "max_content_characters": 0,
+        "distinct_nonmissing": 3,
+        "observed_status": "present_with_data",
+        "observed_values": [
+          -1.0,
+          0,
+          1.0
+        ]
+      },
+      "elapsed_seconds": 0.0003443000023253262
+    },
+    "M01-A07": {
+      "row_count": 1,
+      "aggregate": {
+        "name": "VALUE",
+        "label": "Study Identifier",
+        "raw_label": "Study Identifier                        ",
+        "type": "character",
+        "storage_length": 80,
+        "position": 0,
+        "descriptor_offset": 640,
+        "format_name": "",
+        "format_width": 0,
+        "format_decimals": 0,
+        "format_interpretation": "raw_preserved",
+        "missing_count": 0,
+        "nonmissing_count": 1,
+        "missing_code_counts": {},
+        "max_content_bytes": 7,
+        "max_content_characters": 7,
+        "distinct_nonmissing": 1,
+        "observed_status": "present_with_data",
+        "observed_values": [
+          "2026-10"
+        ]
+      },
+      "elapsed_seconds": 0.0002924999862443656
+    },
+    "M01-A08": {
+      "row_count": 1,
+      "aggregate": {
+        "name": "VALUE",
+        "label": "Study Identifier",
+        "raw_label": "Study Identifier                        ",
+        "type": "numeric",
+        "storage_length": 8,
+        "position": 0,
+        "descriptor_offset": 640,
+        "format_name": "ZZTEST",
+        "format_width": 12,
+        "format_decimals": 0,
+        "format_interpretation": "gap",
+        "missing_count": 0,
+        "nonmissing_count": 1,
+        "missing_code_counts": {},
+        "max_content_bytes": 0,
+        "max_content_characters": 0,
+        "distinct_nonmissing": 1,
+        "observed_status": "present_with_data",
+        "observed_values": [
+          1.0
+        ]
+      },
+      "elapsed_seconds": 0.00028440001187846065
+    },
+    "M01-A09": {
+      "code": "ambiguous_identity"
+    },
+    "M01-A10": {
+      "code": "ambiguous_identity"
+    },
+    "M01-A11": {
+      "code": "duplicate_json_key"
+    },
+    "M01-A12": {
+      "unsupported": [
+        [
+          "/datasets/0/variables/0/mystery",
+          "KEEP-ME"
+        ]
+      ]
+    },
+    "M01-A13": {
+      "unsupported": [
+        [
+          "/extension_slots/methods",
+          [
+            {
+              "method_id": "TEST-M1",
+              "text": "Synthetic candidate"
+            }
+          ]
+        ]
+      ]
+    },
+    "M01-A14": {
+      "code": "invalid_object_name"
+    },
+    "M01-A15": {
+      "rejected_variants": 5
+    },
+    "M01-A16": {
+      "business_changes": 1,
+      "status": "test_simulated",
+      "impact": {
+        "changed_components": [],
+        "requires_business_rereview": false,
+        "basis": "business_dependencies_equal_audit_only_or_identical"
+      }
+    },
+    "M01-A17": {
+      "all_variants_rejected": true
+    },
+    "M01-A18": {
+      "first": {
+        "business_changes": 1,
+        "status": "test_simulated",
+        "impact": {
+          "changed_components": [],
+          "requires_business_rereview": false,
+          "basis": "business_dependencies_equal_audit_only_or_identical"
+        }
+      },
+      "repeat": {
+        "business_changes": 0,
+        "status": "test_simulated",
+        "impact": {
+          "changed_components": [],
+          "requires_business_rereview": false,
+          "basis": "business_dependencies_equal_audit_only_or_identical"
+        }
+      }
+    },
+    "M01-A19": {
+      "business_changes": 0,
+      "status": "needs_review",
+      "impact": {
+        "changed_components": [
+          "rules"
+        ],
+        "requires_business_rereview": true,
+        "basis": "conservative_entire_associated_chain"
+      }
+    },
+    "M01-A20": {
+      "row_count": 10000,
+      "aggregate": {
+        "name": "VALUE",
+        "label": "Study Identifier",
+        "raw_label": "Study Identifier                        ",
+        "type": "character",
+        "storage_length": 80,
+        "position": 0,
+        "descriptor_offset": 640,
+        "format_name": "",
+        "format_width": 0,
+        "format_decimals": 0,
+        "format_interpretation": "raw_preserved",
+        "missing_count": 0,
+        "nonmissing_count": 10000,
+        "missing_code_counts": {},
+        "max_content_bytes": 5,
+        "max_content_characters": 2,
+        "distinct_nonmissing": 1,
+        "observed_status": "present_with_data",
+        "observed_values": [
+          "中é"
+        ]
+      },
+      "elapsed_seconds": 0.05449049998424016
+    },
+    "M01-A21": {
+      "rejected_variants": 3
+    }
+  },
+  "historical_pending_cases": {
+    "M01-A22": "superseded_by_RC01_RC06",
+    "M01-A23": "superseded_by_RC07_RC11"
+  }
+}

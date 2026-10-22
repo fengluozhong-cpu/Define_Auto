@@ -1,0 +1,58 @@
+{
+  "dependency_snapshot_id": "SYN-DEP-001",
+  "inputs": {
+    "SRC-DM": {
+      "path": "dm.xpt",
+      "sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7"
+    },
+    "SRC-VS": {
+      "path": "vs.xpt",
+      "sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22"
+    },
+    "SRC-AE": {
+      "path": "ae.xpt",
+      "sha256": null
+    },
+    "SRC-CM": {
+      "path": "cm.xpt",
+      "sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a"
+    },
+    "SRC-SPEC": {
+      "path": "spec.json",
+      "sha256": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937"
+    }
+  },
+  "study_id": "SYN001",
+  "object_id": "study/SYN001/family/SDTM/dataset/DM/variable/SEX",
+  "field_path": "label",
+  "standards": {
+    "sdtmig": {
+      "status": "not_selected"
+    },
+    "ct": {
+      "status": "not_selected"
+    },
+    "define_target": "2.1"
+  },
+  "rules": {
+    "version": "SYN-RULE-1",
+    "label_comparison": "trim_ascii_spaces_then_exact"
+  },
+  "config": {
+    "version": "SYN-CONFIG-1",
+    "trim_ascii_spaces": true
+  },
+  "model_schema": {
+    "version": "task001-contract-0.1",
+    "path": "docs/contracts/TASK-001-contract-v0.1.md"
+  },
+  "upstream_decisions": [],
+  "tools": {
+    "pyreadstat": "1.3.6",
+    "pandas": "3.0.6"
+  },
+  "audit": {
+    "run_started_at": "2026-10-20T09:50:38.761874+08:00"
+  },
+  "scope": "synthetic_test_dependency_context_not_business_approval"
+}

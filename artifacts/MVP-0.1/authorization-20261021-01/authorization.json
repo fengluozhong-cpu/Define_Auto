@@ -1,0 +1,29 @@
+{
+  "record_id": "M01-AUTH-20261021-01",
+  "date": "2026-10-21",
+  "approver": "Chris Zhong",
+  "source": "direct user message in current chat",
+  "gate_checklist": {
+    "version": "0.2",
+    "sections": "3 and 3.1",
+    "source_sha256": "111b5e5da72e470892de16c1c503f5c4aec8f04bb4be2dca646fc899fde5240e",
+    "snapshot": "MVP-0.1.md",
+    "scope": "checklist confirmation only; not gate acceptance"
+  },
+  "skill_config": {
+    "draft_sha256": "8cbb9657b18e4a7bd16430bf0556b3cda3bbdc0255576cd3ce7d7dc96ecd875b",
+    "snapshot": "MVP-0.1-skill-setup-draft.md",
+    "written_files": [
+      "AGENTS.md",
+      "docs/agents/issue-tracker.md",
+      "docs/agents/triage-labels.md",
+      "docs/agents/domain.md"
+    ]
+  },
+  "labels": {
+    "result": "not_run",
+    "reason": "gh CLI unavailable on PATH; no global installation authorized"
+  },
+  "engine_execution": 0,
+  "gate2": "not_assessed"
+}

@@ -1,0 +1,8 @@
+# Fixture tooling only. Python 3.12.13; not a core-engine dependency decision.
+narwhals==2.27.1
+numpy==2.5.4
+pandas==3.0.6
+pyreadstat==1.3.6
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2026.5

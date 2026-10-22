@@ -1,0 +1,9 @@
+{
+  "business_changes": 1,
+  "status": "test_simulated",
+  "impact": {
+    "changed_components": [],
+    "requires_business_rereview": false,
+    "basis": "business_dependencies_equal_audit_only_or_identical"
+  }
+}

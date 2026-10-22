@@ -1,0 +1,12 @@
+{
+  "scope": "guard_fault_injection_not_real_suite",
+  "result": "failed",
+  "missing": [],
+  "not_run": [],
+  "duplicate_cases": false,
+  "failed": 0,
+  "errors": 1,
+  "skipped": 0,
+  "collected": 1,
+  "executed": 1
+}

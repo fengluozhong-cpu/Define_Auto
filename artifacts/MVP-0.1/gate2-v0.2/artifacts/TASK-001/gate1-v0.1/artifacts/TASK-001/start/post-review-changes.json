@@ -1,0 +1,38 @@
+{
+  "performed_at": "2026-10-20T10:03:58.765072+08:00",
+  "review_id": "T001-IR-01",
+  "result": "passed",
+  "unchanged_reviewed_objects": 64,
+  "administrative_changes": [
+    {
+      "path": "docs/tasks/TASK-001-findings.json",
+      "reviewed_sha256": "455a66ab4143a456100016a1bf6978f79e7d0335ca2993da04aa979a29e3b35c",
+      "current_sha256": "4e0a670077bf6866b7e7048a6c3bbb268fce5da44486b8bcb57463c3aa3ab7ce",
+      "changed": true,
+      "allowed_administrative_update": true
+    },
+    {
+      "path": "docs/tasks/TASK-001.md",
+      "reviewed_sha256": "5d4902192b1df9419744ed0b24c39a5eb81b6550e90b8d88cabb0351f920b67b",
+      "current_sha256": "ac3be755e4c58fed0ded5b97f06652887166587eabf13ab07b15d9eef7271376",
+      "changed": true,
+      "allowed_administrative_update": true
+    },
+    {
+      "path": "PLANS.md",
+      "reviewed_sha256": "3d23d908dae82b6deb9fd14aee4e0638be5958911aca723cc8870c41dff0ce68",
+      "current_sha256": "308c806c907187334593f8e402911b981f5b0c3d53cdcfdaf41acb6e32baeec3",
+      "changed": true,
+      "allowed_administrative_update": true
+    },
+    {
+      "path": "README.md",
+      "reviewed_sha256": "5db3f8c4203e968b8289af0760a9fa4f2c0deda4f6e0efc93fe8a05e103e7fdc",
+      "current_sha256": "19970c2e332404a9de6750b4d2273c69cf8515451dff2f361c56eef1c2c82d28",
+      "changed": true,
+      "allowed_administrative_update": true
+    }
+  ],
+  "unexpected_changes": [],
+  "basis": "Only final task/PLANS/README status and findings closure updated. Contract, fixture, expected, coverage, scripts and run evidence hashes unchanged from independent review. Original report hashes retained."
+}

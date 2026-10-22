@@ -1,0 +1,43 @@
+{
+  "source_hashes": {
+    "E:\\Initiation\\Define_Auto\\define_auto\\__init__.py": "5acf09fdb1b6f70166dabaa311dc406f4924cae85e4dbcbb5f122edd163f2743",
+    "E:\\Initiation\\Define_Auto\\define_auto\\__main__.py": "3bfbf0b9f2709ce54c1b3fefabb63c8557c1f48573bf3f3b65d668040ee7bb29",
+    "E:\\Initiation\\Define_Auto\\define_auto\\common.py": "d741f19445a487343f8354edf021ee09f270c24eaa43f214723c9ba0a5947c54",
+    "E:\\Initiation\\Define_Auto\\define_auto\\decisions.py": "74deb83a68d3548c882cd40156600deef3fb49e638394f18b3dfef2ed9bc513c",
+    "E:\\Initiation\\Define_Auto\\define_auto\\engine.py": "6e106c64c84661044e504e2bbc2e42ebd8f10341429f569a8aba51a0914475ab",
+    "E:\\Initiation\\Define_Auto\\define_auto\\model.py": "00d7fd61f89e06fc378373d4c57cc98c34745cb4b2751bff64ca39c3af028216",
+    "E:\\Initiation\\Define_Auto\\define_auto\\reporting.py": "f5e851ebf0f879e5d8d53d1d7f7e3b24f8ba46a80162201e3c1a5624050c58c6",
+    "E:\\Initiation\\Define_Auto\\define_auto\\xpt.py": "ebf50353473dbf8c67c62405616f70ee822860c6a5e6cce6a637edc48f92df04"
+  },
+  "results": {
+    "resolved_missing_decision": {
+      "accepted": false,
+      "error": "missing_resolution_decision"
+    },
+    "forged_evidence_id": {
+      "accepted": false,
+      "error": "missing_evidence_reference"
+    },
+    "wrong_snapshot_hash": {
+      "accepted": true
+    },
+    "wrong_dependency_hash": {
+      "accepted": true
+    },
+    "observed_type_wrong": {
+      "accepted": true
+    },
+    "view_assertion_divergence": {
+      "accepted": true
+    },
+    "downstream_invalid": {
+      "accepted": true
+    },
+    "real_supersedes": {
+      "success": true,
+      "approved": {
+        "label": "Sex"
+      }
+    }
+  }
+}

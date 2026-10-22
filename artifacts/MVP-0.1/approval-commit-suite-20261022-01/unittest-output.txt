@@ -1,0 +1,170 @@
+test_T001_C01 (tests.test_baseline.BaselineTests.test_T001_C01) ... ok
+test_T001_C02 (tests.test_baseline.BaselineTests.test_T001_C02) ... ok
+test_T001_C03 (tests.test_baseline.BaselineTests.test_T001_C03) ... ok
+test_T001_C04 (tests.test_baseline.BaselineTests.test_T001_C04) ... ok
+test_T001_C05 (tests.test_baseline.BaselineTests.test_T001_C05) ... ok
+test_T001_C06 (tests.test_baseline.BaselineTests.test_T001_C06) ... ok
+test_T001_C07 (tests.test_baseline.BaselineTests.test_T001_C07) ... ok
+test_T001_C08 (tests.test_baseline.BaselineTests.test_T001_C08) ... ok
+test_T001_C09 (tests.test_baseline.BaselineTests.test_T001_C09) ... ok
+test_T001_C10 (tests.test_baseline.BaselineTests.test_T001_C10) ... ok
+test_T001_C11 (tests.test_baseline.BaselineTests.test_T001_C11) ... ok
+test_T001_C12 (tests.test_baseline.BaselineTests.test_T001_C12) ... ok
+test_T001_C13 (tests.test_baseline.BaselineTests.test_T001_C13) ... ok
+test_T001_C14 (tests.test_baseline.BaselineTests.test_T001_C14) ... ok
+test_T001_C15 (tests.test_baseline.BaselineTests.test_T001_C15) ... ok
+test_T001_C16 (tests.test_baseline.BaselineTests.test_T001_C16) ... ok
+test_T001_C17 (tests.test_baseline.BaselineTests.test_T001_C17) ... ok
+test_T001_C18 (tests.test_baseline.BaselineTests.test_T001_C18) ... ok
+test_T001_C19 (tests.test_baseline.BaselineTests.test_T001_C19) ... ok
+test_T001_C20 (tests.test_baseline.BaselineTests.test_T001_C20) ... ok
+test_T001_C21 (tests.test_baseline.BaselineTests.test_T001_C21) ... ok
+test_T001_C22 (tests.test_baseline.BaselineTests.test_T001_C22) ... ok
+test_T001_C23 (tests.test_baseline.BaselineTests.test_T001_C23) ... ok
+test_T001_C24 (tests.test_baseline.BaselineTests.test_T001_C24) ... ok
+test_M01_A01 (tests.test_boundaries.AdditionalTests.test_M01_A01) ... ok
+test_M01_A02 (tests.test_boundaries.AdditionalTests.test_M01_A02) ... ok
+test_M01_A03 (tests.test_boundaries.AdditionalTests.test_M01_A03) ... ok
+test_M01_A04 (tests.test_boundaries.AdditionalTests.test_M01_A04) ... ok
+test_M01_A05 (tests.test_boundaries.AdditionalTests.test_M01_A05) ... ok
+test_M01_A06 (tests.test_boundaries.AdditionalTests.test_M01_A06) ... ok
+test_M01_A07 (tests.test_boundaries.AdditionalTests.test_M01_A07) ... ok
+test_M01_A08 (tests.test_boundaries.AdditionalTests.test_M01_A08) ... ok
+test_M01_A09 (tests.test_boundaries.AdditionalTests.test_M01_A09) ... ok
+test_M01_A10 (tests.test_boundaries.AdditionalTests.test_M01_A10) ... ok
+test_M01_A11 (tests.test_boundaries.AdditionalTests.test_M01_A11) ... ok
+test_M01_A12 (tests.test_boundaries.AdditionalTests.test_M01_A12) ... ok
+test_M01_A13 (tests.test_boundaries.AdditionalTests.test_M01_A13) ... ok
+test_M01_A14 (tests.test_boundaries.AdditionalTests.test_M01_A14) ... ok
+test_M01_A15 (tests.test_boundaries.AdditionalTests.test_M01_A15) ... ok
+test_M01_A16 (tests.test_boundaries.AdditionalTests.test_M01_A16) ... ok
+test_M01_A17 (tests.test_boundaries.AdditionalTests.test_M01_A17) ... ok
+test_M01_A18 (tests.test_boundaries.AdditionalTests.test_M01_A18) ... ok
+test_M01_A19 (tests.test_boundaries.AdditionalTests.test_M01_A19) ... ok
+test_M01_A20 (tests.test_boundaries.AdditionalTests.test_M01_A20) ... ok
+test_M01_A21 (tests.test_boundaries.AdditionalTests.test_M01_A21) ... ok
+test_cli_contract_errors (tests.test_boundaries.RuntimeBoundaryTests.test_cli_contract_errors) ... ok
+test_cli_decision_history (tests.test_boundaries.RuntimeBoundaryTests.test_cli_decision_history) ... ok
+test_cli_recovery_and_no_overwrite (tests.test_boundaries.RuntimeBoundaryTests.test_cli_recovery_and_no_overwrite) ... ok
+test_html_and_markdown_escape (tests.test_boundaries.RuntimeBoundaryTests.test_html_and_markdown_escape) ... ok
+test_manifest_failures (tests.test_boundaries.RuntimeBoundaryTests.test_manifest_failures) ... ok
+test_model_review_regressions (tests.test_boundaries.RuntimeBoundaryTests.test_model_review_regressions) ... ok
+test_persisted_model_integrity (tests.test_boundaries.RuntimeBoundaryTests.test_persisted_model_integrity) ... ok
+test_provenance_wrong_target_and_pointer (tests.test_boundaries.RuntimeBoundaryTests.test_provenance_wrong_target_and_pointer) ... ok
+test_raw_label_and_privacy (tests.test_boundaries.RuntimeBoundaryTests.test_raw_label_and_privacy) ... ok
+test_report_field_provenance_and_length (tests.test_boundaries.RuntimeBoundaryTests.test_report_field_provenance_and_length) ... ok
+test_stability_and_reordered_input (tests.test_boundaries.RuntimeBoundaryTests.test_stability_and_reordered_input) ... ok
+test_M01_RC01 (tests.test_read_context.ReadContextCases.test_M01_RC01)
+DM count 3 external declaration ... ok
+test_M01_RC02 (tests.test_read_context.ReadContextCases.test_M01_RC02)
+DM without count evidence remains ambiguous ... ok
+test_M01_RC03 (tests.test_read_context.ReadContextCases.test_M01_RC03)
+DM null count does not resolve ambiguity ... ok
+test_M01_RC04 (tests.test_read_context.ReadContextCases.test_M01_RC04)
+DM count 4 is physically compatible, not a new baseline truth ... ok
+test_M01_RC05 (tests.test_read_context.ReadContextCases.test_M01_RC05)
+DM count 2 leaves nonpadding content ... ok
+test_M01_RC06 (tests.test_read_context.ReadContextCases.test_M01_RC06)
+DM count 5 exceeds payload ... ok
+test_M01_RC07 (tests.test_read_context.ReadContextCases.test_M01_RC07)
+All-character blank tail without declaration ... ok
+test_M01_RC08 (tests.test_read_context.ReadContextCases.test_M01_RC08)
+One declared all-blank row retained ... ok
+test_M01_RC09 (tests.test_read_context.ReadContextCases.test_M01_RC09)
+Sixteen declared all-blank rows retained ... ok
+test_M01_RC10 (tests.test_read_context.ReadContextCases.test_M01_RC10)
+Eighty blank bytes cannot be zero-row padding ... ok
+test_M01_RC11 (tests.test_read_context.ReadContextCases.test_M01_RC11)
+Genuinely empty VS is uniquely zero without count ... ok
+test_M01_RC12 (tests.test_read_context.ReadContextCases.test_M01_RC12)
+XPT hash mismatch ... ok
+test_M01_RC13 (tests.test_read_context.ReadContextCases.test_M01_RC13)
+Absent declaration member target ... ok
+test_M01_RC14 (tests.test_read_context.ReadContextCases.test_M01_RC14)
+Unregistered provenance source ... ok
+test_M01_RC15 (tests.test_read_context.ReadContextCases.test_M01_RC15)
+Registered but missing provenance file ... ok
+test_M01_RC16 (tests.test_read_context.ReadContextCases.test_M01_RC16)
+Accessible changed provenance bytes with stale binding ... ok
+test_M01_RC17 (tests.test_read_context.ReadContextCases.test_M01_RC17)
+Explicit wrong provenance hash ... ok
+test_M01_RC18 (tests.test_read_context.ReadContextCases.test_M01_RC18)
+Test declaration forbidden in ordinary mode ... ok
+test_M01_RC19 (tests.test_read_context.ReadContextCases.test_M01_RC19)
+Boolean count is not integer ... ok
+test_M01_RC20 (tests.test_read_context.ReadContextCases.test_M01_RC20)
+Negative, floating and string counts rejected ... ok
+test_M01_RC21 (tests.test_read_context.ReadContextCases.test_M01_RC21)
+Duplicate declaration ID ... ok
+test_M01_RC22 (tests.test_read_context.ReadContextCases.test_M01_RC22)
+Same target, different ID, same count still duplicate ... ok
+test_M01_RC23 (tests.test_read_context.ReadContextCases.test_M01_RC23)
+Same target, different ID, conflicting compatible count ... ok
+test_M01_RC24 (tests.test_read_context.ReadContextCases.test_M01_RC24)
+Study or family scope mismatch ... ok
+test_M01_RC25 (tests.test_read_context.ReadContextCases.test_M01_RC25)
+Explicit encoding is mandatory ... ok
+test_M01_RC26 (tests.test_read_context.ReadContextCases.test_M01_RC26)
+Codec unsupported or contradicts bytes ... ok
+test_M01_RC27 (tests.test_read_context.ReadContextCases.test_M01_RC27)
+Unique layout with null count is permitted ... ok
+test_M01_RC28 (tests.test_read_context.ReadContextCases.test_M01_RC28)
+Nonspace padding rejected even with rebound XPT hash ... ok
+test_M01_RC29 (tests.test_read_context.ReadContextCases.test_M01_RC29)
+Count change with same XPT invalidates dependent decision and downstream ... ok
+test_M01_RC30 (tests.test_read_context.ReadContextCases.test_M01_RC30)
+Changed source hash with compatible count requires dependency analysis ... ok
+test_M01_RC31 (tests.test_read_context.ReadContextCases.test_M01_RC31)
+Effective encoding enters dependency snapshot ... ok
+test_M01_RC32 (tests.test_read_context.ReadContextCases.test_M01_RC32)
+Stable same context and pure audit timestamp rerun ... ok
+test_M01_RP01 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP01) ... ok
+test_M01_RP02 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP02) ... ok
+test_M01_RP03 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP03) ... ok
+test_M01_RP04 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP04) ... ok
+test_M01_RP05 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP05) ... ok
+test_M01_RP06 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP06) ... ok
+test_M01_RP07 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP07) ... ok
+test_M01_RP08 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP08) ... ok
+test_M01_RP09 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP09) ... ok
+test_M01_RP10 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP10) ... ok
+test_M01_RP11 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP11) ... ok
+test_M01_RP12 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP12) ... ok
+test_M01_RP13 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP13) ... ok
+test_M01_RP14 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP14) ... ok
+test_M01_RP15 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP15) ... ok
+test_M01_RP16 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP16) ... ok
+test_M01_RP17 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP17) ... ok
+test_M01_RP18 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP18) ... ok
+test_M01_RP19 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP19) ... ok
+test_M01_RP20 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP20) ... ok
+test_M01_RP21 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP21) ... ok
+test_M01_RP22 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP22) ... ok
+test_M01_RP23 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP23) ... ok
+test_M01_RP24 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP24) ... ok
+test_M01_RP25 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP25) ... ok
+test_M01_RP26 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP26) ... ok
+test_M01_RP27 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP27) ... ok
+test_M01_RP28 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP28) ... ok
+test_M01_RP29 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP29) ... ok
+test_M01_RP30 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP30) ... ok
+test_M01_RP31 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP31) ... ok
+test_M01_RP32 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP32) ... ok
+test_M01_RP33 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP33) ... ok
+test_M01_RP34 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP34) ... ok
+test_M01_RP35 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP35) ... ok
+test_M01_RP36 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP36) ... ok
+test_M01_RP37 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP37) ... ok
+test_M01_RP38 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP38) ... ok
+test_M01_RP39 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP39) ... ok
+test_M01_RP40 (tests.test_review_policy.ReviewPolicyCases.test_M01_RP40) ... ok
+test_manual_return_routes_and_blocks_selection (tests.test_review_runtime.ReviewRuntimeTests.test_manual_return_routes_and_blocks_selection) ... ok
+test_persisted_policy_and_review_history_constraints (tests.test_review_runtime.ReviewRuntimeTests.test_persisted_policy_and_review_history_constraints) ... ok
+test_review_time_and_supersedes (tests.test_review_runtime.ReviewRuntimeTests.test_review_time_and_supersedes) ... ok
+test_rule_label_versions_and_invalid_values (tests.test_review_runtime.ReviewRuntimeTests.test_rule_label_versions_and_invalid_values) ... ok
+test_unavailable_rule_is_not_pass (tests.test_review_runtime.ReviewRuntimeTests.test_unavailable_rule_is_not_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 133 tests in 14.013s
+
+OK

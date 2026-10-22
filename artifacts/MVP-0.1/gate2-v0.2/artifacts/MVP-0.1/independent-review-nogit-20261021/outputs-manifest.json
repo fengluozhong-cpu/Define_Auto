@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "path": "case-results.json",
+      "sha256": "5eeaff2c3cc9b1234462b3e1cc1df166586139341efdff5f428bd2ddf3eb2fd1",
+      "bytes": 35257
+    },
+    {
+      "path": "checks.json",
+      "sha256": "312a4d11ecbe16753c52f3652cc82a0010226ed642ba48cc5dc8c9231146422b",
+      "bytes": 6587
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "300fe290fddb889e53695fab0ec26f1c13ed6cafa81033214488ea6993a30bf3",
+      "bytes": 48508
+    },
+    {
+      "path": "inputs-manifest.json",
+      "sha256": "defe004582c615a51d9494f196bf0fbe1ac5a1caa200bbcfc39c9464360f2e2d",
+      "bytes": 3064
+    },
+    {
+      "path": "run.json",
+      "sha256": "3a72e5a11aaeb3d26c5656062c83c942c46569f9a2ab0f05e100462787f3b36b",
+      "bytes": 471
+    },
+    {
+      "path": "unittest-output.txt",
+      "sha256": "68084b6cce72b31a79c1441c403d5144b2ff6f243d946d9e8c8921b278f1bdbf",
+      "bytes": 8575
+    }
+  ],
+  "excludes_self": true
+}

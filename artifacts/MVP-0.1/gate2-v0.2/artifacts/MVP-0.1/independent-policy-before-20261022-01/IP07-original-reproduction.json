@@ -1,0 +1,10 @@
+{
+  "finding_id": "IP07",
+  "changed_keys": [
+    "model_snapshot_id",
+    "sources"
+  ],
+  "first_model_id": "model-19bcc77de3940e033fdd5ff7f84d3962a7aedccfcd8c79206ba6c270563e1360",
+  "rerun_model_id": "model-dce4ee107a07b241fd6cf4975658b6232e5eef8c2ee0c12e18c7abb98bdf2b04",
+  "equal_after_source_sort_and_ignoring_snapshot": true
+}

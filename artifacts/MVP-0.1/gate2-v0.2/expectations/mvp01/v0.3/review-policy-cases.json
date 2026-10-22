@@ -1,0 +1,1082 @@
+{
+  "version": "0.3",
+  "task_id": "MVP-0.1",
+  "author": "/root/new_behavior_expectations",
+  "date": "2026-10-22",
+  "status": "fixed_preimplementation_independent_technical_derivation",
+  "engine_execution": "not_run",
+  "business_basis": "Chris confirmed M01-CARD-01 through 06 / CHG-012 through 016; exact projections are technical derivations, not GATE-2 approval.",
+  "interpretation": {
+    "projection": "Expected keys describe semantic projections, not mandatory implementation wire names. Tests must compute each actual value from exercised runtime state or artifacts, never echo scenario/expected as actual. Missing policy entries project has_no_data=None.",
+    "baseline": "Fresh actual bytes and structured Spec from protected gate1-v0.1 plus registered baseline read-context; no cumulative scenario mutations. Old approved observed.has_no_data/no_data_reason remain untouched; new automatic flag lives in separate policy/decision layer.",
+    "nontest_authorization": "Only synthetic data and fabricated explicitly labelled non-test authorization documents for boundary testing; they exercise production validation semantics, not real clinical/business approvals. A test-only model cannot produce real approvals. Positive non-test cases must use a separately constructed synthetic non-test model/read declaration, not toggle a test-only model silently.",
+    "synthetic_facts": "Deterministic standalone model fixture built from literal facts stated per scenario. These unit cases supplement, and do not replace, actual-byte baseline/CLI cases.",
+    "standard_rules": "TEST-* rules are local explicit versioned synthetic declarations with source/hash references. Their pass/fail proves supported rule execution and workflow routing, never real CDISC compliance or selected project IG/CT. No automatic standards version selection.",
+    "reject": "A locating rejection, no new effective approval/confirmed reason, and no partial mutation to persisted business state. Exception-code spelling is not fixed.",
+    "xml_target": "Logical future mapping contract only. No XML generation or full XSD/P21 check is implied.",
+    "history": "Old decision content and old check outcomes remain unchanged; current applicability is separate. Reuse creates a current authorization/decision linked to predecessor, with invalidated downstream checks still requiring rerun.",
+    "rework_close": "An upstream return is not resolution. Only a newly supplied corrected input plus re-executed reconciliation can demonstrate the original fact discrepancy disappeared.",
+    "input_variants": "Each listed variants/rules_variants item is a mandatory subcase; do not test only the first."
+  },
+  "source_hashes": {
+    "AGENTS.md": "c620815558b35d60bcdf6fdeeb5cafa23eeb2e7076dc4c33395ec88087792f89",
+    "GOALS.md": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23",
+    "PLANS.md": "cc2ab3b83c28571fc0b4e0e28ca1fc5d60d4c687d6dd78f941097c243c4e6c3a",
+    "REQUIREMENTS.md": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b",
+    "ARCHITECTURE.md": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7",
+    "docs/tasks/MVP-0.1.md": "558fe05a2738f8ca9c84f0a17d085adbe736d08849a256613f14d246421c1376",
+    "artifacts/TASK-001/gate1-v0.1/manifest.json": "b9ce2f9788cb157b3cfde09d05de9165371a223a57a7425261b6a5db5f38fea3",
+    "expectations/task001/v0.1/expected.json": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808",
+    "fixtures/mvp01/baseline-context-v0.1/manifest.json": "3927c937f3fbe773d5cd93e40d825afb5a5d308b9718ece96437ae17ce7dd5cb",
+    "fixtures/mvp01/baseline-context-v0.1/read-context.json": "dd2bb06e831e4fa6cb2ad435bdd9191ad7a0475b3a2c6de393ada0e907f1c7b6",
+    "fixtures/mvp01/baseline-context-v0.1/delivery-record.json": "60aea2b0366ad3182d3cea2c8b2ad9f9e4327de817a107b79fd91189e94bfccd"
+  },
+  "case_count": 40,
+  "cases": [
+    {
+      "case_id": "M01-RP01",
+      "title": "缺输入仅人工确认",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "AE"
+      },
+      "expected": {
+        "observed_state": "not_provided",
+        "has_no_data": null,
+        "reason": null,
+        "manual_confirmation_required": true,
+        "approved": false
+      },
+      "requirements": [
+        "FR-001",
+        "FR-008",
+        "AC-01"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP02",
+      "title": "读失败仅人工确认",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "CM"
+      },
+      "expected": {
+        "observed_state": "unreadable",
+        "has_no_data": null,
+        "reason": null,
+        "manual_confirmation_required": true,
+        "approved": false
+      },
+      "requirements": [
+        "FR-001",
+        "FR-008"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP03",
+      "title": "可信零行域自动标志仍待原因",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "VS"
+      },
+      "expected": {
+        "row_count": 0,
+        "has_no_data": "Yes",
+        "confirmation": "pending",
+        "reason": null,
+        "human_confirmation_required": true,
+        "xml_comment_required": true,
+        "approved": false
+      },
+      "requirements": [
+        "FR-008",
+        "FR-015",
+        "NFR-003"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP04",
+      "title": "字符全空的实际变量",
+      "changes": [
+        "CHG-013"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "DM.SEX"
+      },
+      "expected": {
+        "parent_row_count": 3,
+        "missing_count": 3,
+        "has_no_data": "Yes",
+        "confirmation": "pending",
+        "reason": null,
+        "approved": false
+      },
+      "requirements": [
+        "FR-008",
+        "FR-015",
+        "NFR-003"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP05",
+      "title": "普通及特殊缺失保留",
+      "changes": [
+        "CHG-013"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "DM.AGE"
+      },
+      "expected": {
+        "parent_row_count": 3,
+        "missing_count": 3,
+        "special_missing_counts": {
+          ".": 1,
+          ".A": 1,
+          ".Z": 1
+        },
+        "has_no_data": "Yes",
+        "confirmation": "pending",
+        "reason": null,
+        "approved": false
+      },
+      "requirements": [
+        "FR-002",
+        "FR-008",
+        "AC-02"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP06",
+      "title": "缺变量不得推断无数据",
+      "changes": [
+        "CHG-013"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "DM.ARM"
+      },
+      "expected": {
+        "observed_state": "expected_missing",
+        "has_no_data": null,
+        "manual_confirmation_required": true,
+        "approved": false
+      },
+      "requirements": [
+        "FR-003",
+        "FR-008"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP07",
+      "title": "零行父域不推断子变量全缺失",
+      "changes": [
+        "CHG-013"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "VS.*"
+      },
+      "expected": {
+        "each_variable_has_no_data": null,
+        "each_variable_observed_state": "unknown",
+        "dataset_has_no_data": "Yes"
+      },
+      "requirements": [
+        "FR-002",
+        "FR-008",
+        "AC-02"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP08",
+      "title": "部分缺失不标无数据",
+      "changes": [
+        "CHG-013"
+      ],
+      "scenario": {
+        "baseline": "synthetic_facts",
+        "object": "DM.TEST",
+        "parent_row_count": 3,
+        "missing_count": 2,
+        "nonmissing_count": 1
+      },
+      "expected": {
+        "has_no_data": null,
+        "reason": null
+      },
+      "requirements": [
+        "FR-002",
+        "FR-008"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP09",
+      "title": "数值零是数据",
+      "changes": [
+        "CHG-013"
+      ],
+      "scenario": {
+        "baseline": "synthetic_facts",
+        "object": "DM.TEST",
+        "parent_row_count": 1,
+        "values": [
+          0
+        ],
+        "missing_count": 0,
+        "nonmissing_count": 1
+      },
+      "expected": {
+        "has_no_data": null,
+        "reason": null
+      },
+      "requirements": [
+        "FR-002",
+        "FR-008"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP10",
+      "title": "政策不改写旧观察与批准视图",
+      "changes": [
+        "CHG-012",
+        "CHG-013"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "operation": "project_review_twice"
+      },
+      "expected": {
+        "old_observed_has_no_data": null,
+        "old_observed_no_data_reason": null,
+        "old_approved_unchanged": true,
+        "policy_equal": true,
+        "duplicate_entries": 0
+      },
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "NFR-001"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP11",
+      "title": "人确认域原因绑定当前依赖",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "VS",
+        "operation": "confirm_no_data",
+        "reason": "本合成研究未采集生命体征。",
+        "authorization": "current_scope_valid_nontest"
+      },
+      "expected": {
+        "accepted": true,
+        "confirmation": "confirmed",
+        "reason": "本合成研究未采集生命体征。",
+        "xml_target": "ItemGroupDef/@CommentOID -> CommentDef/Description",
+        "new_decision_count": 1,
+        "final_delivery_approved": false
+      },
+      "requirements": [
+        "FR-008",
+        "FR-015",
+        "NFR-003"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP12",
+      "title": "人确认变量原因映射位置",
+      "changes": [
+        "CHG-013"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "DM.AGE",
+        "operation": "confirm_no_data",
+        "reason": "本合成研究未采集年龄。",
+        "authorization": "current_scope_valid_nontest"
+      },
+      "expected": {
+        "accepted": true,
+        "confirmation": "confirmed",
+        "reason": "本合成研究未采集年龄。",
+        "xml_target": "ItemRef/@def:HasNoData; ItemDef/@CommentOID -> CommentDef/Description",
+        "final_delivery_approved": false
+      },
+      "requirements": [
+        "FR-008",
+        "FR-015",
+        "NFR-003"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP13",
+      "title": "空原因拒绝",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "VS",
+        "operation": "confirm_no_data",
+        "reason": "   ",
+        "authorization": "current_scope_valid_nontest"
+      },
+      "expected": {
+        "accepted": false,
+        "business_state_unchanged": true
+      },
+      "requirements": [
+        "FR-008",
+        "FR-015",
+        "NFR-003"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP14",
+      "title": "无授权拒绝",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "VS",
+        "operation": "confirm_no_data",
+        "reason": "合成原因",
+        "authorization": null
+      },
+      "expected": {
+        "accepted": false,
+        "business_state_unchanged": true
+      },
+      "requirements": [
+        "FR-008",
+        "FR-015",
+        "NFR-003"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP15",
+      "title": "授权对象或摘要不符拒绝",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "VS",
+        "operation": "confirm_no_data",
+        "reason": "合成原因",
+        "authorization": "scope_for_DM_AGE_or_changed_reason"
+      },
+      "expected": {
+        "accepted": false,
+        "business_state_unchanged": true
+      },
+      "requirements": [
+        "FR-015",
+        "NFR-006"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP16",
+      "title": "过期依赖原因确认拒绝",
+      "changes": [
+        "CHG-012",
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "VS",
+        "operation": "confirm_no_data",
+        "reason": "合成原因",
+        "dependency": "previous_not_current"
+      },
+      "expected": {
+        "accepted": false,
+        "business_state_unchanged": true
+      },
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP17",
+      "title": "测试原因不能升级正式批准",
+      "changes": [
+        "CHG-012",
+        "CHG-013"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "VS",
+        "operation": "confirm_no_data",
+        "reason": "测试原因",
+        "authorization": "test_only",
+        "isolated_test": true
+      },
+      "expected": {
+        "accepted": true,
+        "confirmation": "simulated",
+        "real_approved_count": 0,
+        "final_delivery_approved": false
+      },
+      "requirements": [
+        "FR-015",
+        "NFR-006",
+        "NFR-007"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP18",
+      "title": "测试授权普通路径拒绝",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "VS",
+        "operation": "confirm_no_data",
+        "reason": "测试原因",
+        "authorization": "test_only",
+        "isolated_test": false
+      },
+      "expected": {
+        "accepted": false,
+        "business_state_unchanged": true
+      },
+      "requirements": [
+        "FR-015",
+        "NFR-006"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP19",
+      "title": "相同人审动作幂等",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "operation": "apply_identical_confirm_no_data_twice"
+      },
+      "expected": {
+        "second_business_changes": 0,
+        "new_decision_count_total": 1,
+        "history_duplicates": 0
+      },
+      "requirements": [
+        "FR-015",
+        "NFR-001"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP20",
+      "title": "同动作ID异内容拒绝",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "operation": "apply_same_action_id_changed_reason"
+      },
+      "expected": {
+        "accepted": false,
+        "business_state_unchanged": true,
+        "old_history_unchanged": true
+      },
+      "requirements": [
+        "FR-015",
+        "NFR-004"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP21",
+      "title": "修订原因保留历史",
+      "changes": [
+        "CHG-012"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "operation": "new_action_supersedes_current_reason",
+        "old_reason": "原因一",
+        "new_reason": "原因二",
+        "authorization": "current_scope_valid_nontest"
+      },
+      "expected": {
+        "accepted": true,
+        "current_reason": "原因二",
+        "old_reason_preserved": "原因一",
+        "history_count": 2,
+        "new_links_old": true
+      },
+      "requirements": [
+        "FR-015",
+        "FR-018"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP22",
+      "title": "额外变量须返工",
+      "changes": [
+        "CHG-015"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "DM.EXTRA"
+      },
+      "expected": {
+        "workflow": "upstream_rework",
+        "blocking": true,
+        "approved": false,
+        "source_bytes_unchanged": true
+      },
+      "requirements": [
+        "FR-003",
+        "FR-006",
+        "FR-014"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP23",
+      "title": "返工动作不是修复关闭",
+      "changes": [
+        "CHG-015"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "DM.EXTRA",
+        "operation": "return_upstream",
+        "rationale": "补齐 Spec 后重新交付",
+        "authorization": "current_scope_valid_nontest"
+      },
+      "expected": {
+        "accepted": true,
+        "workflow": "upstream_rework",
+        "blocking": true,
+        "issue_resolved": false,
+        "source_bytes_unchanged": true
+      },
+      "requirements": [
+        "FR-014",
+        "FR-015"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP24",
+      "title": "返工需新输入复核",
+      "changes": [
+        "CHG-015"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "operation": "resubmit_spec_with_EXTRA_definition_matching_actual",
+        "input_hash_changes": true
+      },
+      "expected": {
+        "extra_object_issue_present": false,
+        "old_run_extra_issue_preserved": true,
+        "new_dependency_snapshot": true,
+        "old_validation_reused": false
+      },
+      "requirements": [
+        "FR-003",
+        "FR-006",
+        "FR-018"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP25",
+      "title": "未锁标准明示未完成",
+      "changes": [
+        "CHG-014"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "rules": null
+      },
+      "expected": {
+        "standard_check": "not_completed",
+        "standard_conformance_claim": false,
+        "p21_check": "not_run"
+      },
+      "requirements": [
+        "FR-005",
+        "FR-014",
+        "NFR-007"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP26",
+      "title": "锁版明确类型错误返工",
+      "changes": [
+        "CHG-014"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "DM.ARMCD",
+        "rules": {
+          "test_only": true,
+          "version": "TEST-IG-1",
+          "rule_id": "TEST-TYPE-ARMCD",
+          "source": "synthetic independent rule declaration",
+          "field": "type",
+          "required_value": "character",
+          "actual_value": "numeric"
+        }
+      },
+      "expected": {
+        "workflow": "upstream_rework",
+        "blocking": true,
+        "rule_evidence_present": true,
+        "selected_define_value_can_close": false,
+        "real_standard_conformance_claim": false
+      },
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-014"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP27",
+      "title": "锁版flag长度错误返工",
+      "changes": [
+        "CHG-014"
+      ],
+      "scenario": {
+        "baseline": "synthetic_facts",
+        "object": "DM.TESTFL",
+        "storage_length": 2,
+        "rules": {
+          "test_only": true,
+          "version": "TEST-IG-1",
+          "rule_id": "TEST-FLAG-LENGTH",
+          "source": "synthetic independent rule declaration",
+          "field": "storage_length",
+          "required_value": 1
+        }
+      },
+      "expected": {
+        "workflow": "upstream_rework",
+        "blocking": true,
+        "rule_evidence_present": true,
+        "observed_max_length_cannot_override": true
+      },
+      "requirements": [
+        "FR-002",
+        "FR-005",
+        "FR-014"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP28",
+      "title": "非逐字规范label留人工判断",
+      "changes": [
+        "CHG-014"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "object": "DM.SEX",
+        "rules": {
+          "test_only": true,
+          "version": "TEST-LABEL-NONVERBATIM",
+          "label_policy": "semantic_equivalence",
+          "expected_label": "Biological Sex",
+          "actual_label": "Sex"
+        }
+      },
+      "expected": {
+        "exact_text_mismatch_is_standard_error": false,
+        "project_conflict_retained": true,
+        "semantic_equivalence_not_auto_approved": true
+      },
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-015"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP29",
+      "title": "规则缺版本或来源不得宣称通过",
+      "changes": [
+        "CHG-014"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "rules_variants": [
+          "missing_version",
+          "missing_source_evidence"
+        ]
+      },
+      "expected": {
+        "standard_conformance_claim": false,
+        "false_standard_pass": false
+      },
+      "requirements": [
+        "FR-005",
+        "FR-014",
+        "NFR-006"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP30",
+      "title": "依赖变化默认重审",
+      "changes": [
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "prior_with_decision_and_validation",
+        "operation": "resume_after_xpt_change_spec_rules_same"
+      },
+      "expected": {
+        "decision_applicability": "needs_review",
+        "old_decision_unchanged": true,
+        "downstream_validation_applicability": "needs_review",
+        "downstream_approval_applicability": "needs_review",
+        "unattended_reuse": false
+      },
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP31",
+      "title": "人工沿用新绑定当前依赖",
+      "changes": [
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "prior_with_decision_and_validation",
+        "operation": "confirm_reuse_after_xpt_change_spec_rules_same",
+        "current_candidate_contains_old_value": true,
+        "authorization": "current_scope_valid_nontest"
+      },
+      "expected": {
+        "accepted": true,
+        "new_decision_links_old": true,
+        "new_decision_uses_current_dependency": true,
+        "old_decision_unchanged": true,
+        "old_validation_reused": false,
+        "final_delivery_approved": false
+      },
+      "requirements": [
+        "FR-015",
+        "FR-018",
+        "AC-08"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP32",
+      "title": "沿用无新授权拒绝",
+      "changes": [
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "prior_with_decision_and_validation",
+        "operation": "confirm_reuse",
+        "authorization": "old_or_absent"
+      },
+      "expected": {
+        "accepted": false,
+        "decision_applicability": "needs_review",
+        "old_history_unchanged": true
+      },
+      "requirements": [
+        "FR-015",
+        "NFR-006"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP33",
+      "title": "选值不再是当前候选拒绝",
+      "changes": [
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "prior_with_decision_and_validation",
+        "operation": "confirm_reuse",
+        "current_candidate_contains_old_value": false,
+        "authorization": "current_scope_valid_nontest"
+      },
+      "expected": {
+        "accepted": false,
+        "old_history_unchanged": true,
+        "current_approved_value_absent": true
+      },
+      "requirements": [
+        "FR-015",
+        "FR-018"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP34",
+      "title": "零行变有数据不得沿用原因",
+      "changes": [
+        "CHG-012",
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "prior_confirmed_no_data_VS",
+        "operation": "confirm_reuse",
+        "new_row_count": 1,
+        "new_nonmissing_count": 1,
+        "authorization": "current_scope_valid_nontest"
+      },
+      "expected": {
+        "accepted": false,
+        "current_has_no_data": null,
+        "current_confirmed_reason": null,
+        "old_reason_preserved_in_history": true
+      },
+      "requirements": [
+        "FR-008",
+        "FR-015",
+        "FR-018"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP35",
+      "title": "Spec或衍生规则变更不可视为未变沿用",
+      "changes": [
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "prior_with_decision_and_validation",
+        "operation": "offer_reuse",
+        "variants": [
+          "spec_hash_changed",
+          "derivation_rules_changed"
+        ]
+      },
+      "expected": {
+        "eligible_for_xpt_only_reuse": false,
+        "needs_review": true,
+        "unattended_reuse": false
+      },
+      "requirements": [
+        "FR-015",
+        "FR-018"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP36",
+      "title": "其他依赖变化必须揭示",
+      "changes": [
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "prior_with_decision_and_validation",
+        "operation": "offer_reuse",
+        "xpt_changed": true,
+        "spec_rules_unchanged": true,
+        "other_changed_dependency": "CT"
+      },
+      "expected": {
+        "other_change_displayed": true,
+        "unattended_reuse": false,
+        "old_validation_reused": false
+      },
+      "requirements": [
+        "FR-005",
+        "FR-015",
+        "FR-018"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP37",
+      "title": "纯审计变化不重复重审",
+      "changes": [
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "prior_with_decision_and_validation",
+        "operation": "resume_audit_timestamp_only"
+      },
+      "expected": {
+        "business_digest_unchanged": true,
+        "dependency_changes": [],
+        "new_business_review_required": false
+      },
+      "requirements": [
+        "FR-015",
+        "NFR-001"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP38",
+      "title": "沿用测试记录仍隔离",
+      "changes": [
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "synthetic_prior_decision",
+        "operation": "confirm_reuse",
+        "authorization": "test_only",
+        "isolated_test": true
+      },
+      "expected": {
+        "accepted": true,
+        "real_approved_count": 0,
+        "old_validation_reused": false,
+        "final_delivery_approved": false
+      },
+      "requirements": [
+        "FR-015",
+        "NFR-006",
+        "NFR-007"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP39",
+      "title": "中文报告同模型展现人审返工与缺口",
+      "changes": [
+        "CHG-012",
+        "CHG-013",
+        "CHG-014",
+        "CHG-015"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "operation": "render_markdown_and_html"
+      },
+      "expected": {
+        "both_show_pending_no_data_reason": true,
+        "both_show_AE_CM_human_confirmation": true,
+        "both_show_EXTRA_upstream_rework": true,
+        "both_show_standard_not_completed": true,
+        "same_model_snapshot": true,
+        "source_bytes_unchanged": true
+      },
+      "requirements": [
+        "FR-007",
+        "NFR-002",
+        "NFR-003"
+      ],
+      "required": true,
+      "status": "fixed"
+    },
+    {
+      "case_id": "M01-RP40",
+      "title": "实际CLI持久化与恢复新行为",
+      "changes": [
+        "CHG-012",
+        "CHG-013",
+        "CHG-016"
+      ],
+      "scenario": {
+        "baseline": "approved_baseline",
+        "operation": "cli_run_then_reload_then_resume_and_reconfirm",
+        "new_output_directory_each_run": true
+      },
+      "expected": {
+        "persisted_policy_matches_report": true,
+        "reload_validates": true,
+        "history_preserved": true,
+        "existing_output_rejected": true,
+        "final_delivery_approved": false
+      },
+      "requirements": [
+        "FR-007",
+        "FR-015",
+        "FR-018",
+        "NFR-004"
+      ],
+      "required": true,
+      "status": "fixed"
+    }
+  ]
+}

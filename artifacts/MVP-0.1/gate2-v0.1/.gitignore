@@ -1,0 +1,4 @@
+.venv-task001/
+.venv-mvp01/
+__pycache__/
+*.pyc

@@ -1,0 +1,1022 @@
+{
+  "review_id": "T001-IR-01",
+  "reviewer": "/root/review_contract",
+  "reviewed_at": "2026-10-20T10:02:40.923873+08:00",
+  "technical_result": "passed",
+  "open_technical_blockers": [],
+  "business_confirmation": "pending_chris",
+  "gate1": "pending_chris",
+  "task_acceptance": "not_accepted",
+  "scope": "Independent technical readiness review of Task 001 materials, not approval of business semantics or engine execution.",
+  "reading_record": [
+    "AGENTS all",
+    "GOALS all",
+    "PLANS current/index/stages/CTRL-01/02/03/change/latest handoff",
+    "REQUIREMENTS all FR/NFR/AC/OQ/CTRL-05/06",
+    "ARCHITECTURE all, especially sections 1-6/CTRL-04/ADR",
+    "APR-20261020-01 and baseline manifest",
+    "all task/contracts/fixtures/expected/coverage/gates/tool sources and listed evidence"
+  ],
+  "selected_case_count": 24,
+  "selected_case_ids": [
+    "T001-C01",
+    "T001-C02",
+    "T001-C03",
+    "T001-C04",
+    "T001-C05",
+    "T001-C06",
+    "T001-C07",
+    "T001-C08",
+    "T001-C09",
+    "T001-C10",
+    "T001-C11",
+    "T001-C12",
+    "T001-C13",
+    "T001-C14",
+    "T001-C15",
+    "T001-C16",
+    "T001-C17",
+    "T001-C18",
+    "T001-C19",
+    "T001-C20",
+    "T001-C21",
+    "T001-C22",
+    "T001-C23",
+    "T001-C24"
+  ],
+  "manual_cases_reviewed": 24,
+  "skipped_cases": [],
+  "uncollected_cases": [],
+  "engine_cases_executed": 0,
+  "case_reviews": [
+    {
+      "case_id": "T001-C01",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "DM 三条显式 recipe 记录；STUDYID 全为 6 ASCII 字节，Spec、NAMESTR 与内容长度一致；不产生批准。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C02",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "Spec 计划 AE；manifest 明确未提供，ae.xpt 不存在；行数、业务原因及 HasNoData 都无证据，保持 null。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C03",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "CM 是已提供的故意损坏文本，无 XPORT library header；与 AE 缺席不同，不能推导其变量或行数。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C04",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "VS 有五个 NAMESTR 描述而无 observation payload；0 行、每变量统计 0，不由零分母推出全缺失。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C05",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "Spec 计划 ARM；DM 七个实际列没有 ARM；缺变量统计是未知/null，不能报告已存在且全空。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C06",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "DM.SEX 三个单字节空格；缺失 3、非缺失 0、观察非缺失集合为空；原因未知。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C07",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "DM.AGE 三个 raw cell 首字节分别 2e/41/5a，尾七字节皆零；普通点、A、Z 各一次，共缺失 3。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C08",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "Spec label Biological Sex 与 NAMESTR Sex 不同，精确/ASCII trim 比较仍冲突；没有人工最终批准选值。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C09",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "Spec SEX 长度 3 与 NAMESTR 存储宽度 1 不同；观察内容长度 0 独立保存，不覆盖两者。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C10",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "Spec ARMCD 为 character，NAMESTR type=1 numeric；宽度均 8 不消除类型冲突。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C11",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "Spec Planned Arm Code 与 NAMESTR Actual Arm Code 单独形成 label 冲突，不被类型冲突吞并。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C12",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "NAMESTR 有 EXTRA，但 Spec 七个计划变量无 EXTRA；是额外物理对象，不自动写 approved。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C13",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "相同 ID/内容重入按契约应幂等；合成 patch authorization=synthetic_only，不能产生真实批准；行为留待 MVP 0.1。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C14",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "spec-changed 确实变更 SEX label 和版本；旧选值依据的输入依赖变化，应重审，保留旧记录；未执行 patch 引擎。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C15",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "CT 从 not_selected 改为明确合成参考上下文；未证明影响范围可缩小时保守重审；不是实际 CT 验证。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C16",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "规则从 trim_ascii_spaces_then_exact 改为 exact；规则依赖变化可影响选值/比较，输入 hash 相同不足以复用。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C17",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "config trim_ascii_spaces 从 true 改 false；有效配置变化，须有影响分析并重审相关链。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C18",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "schema 提案由 task001-contract-0.1 改为 SYN-MODEL-2，字段约束改变；旧决定不能自动适用于新模型。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C19",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "upstream_decisions 从空改为合成决定；上游依赖变化触发下游验证及批准适用性重审。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C20",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "结果相关工具依赖改为合成 extractor；不能只因输入字节未变复用旧裁决。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C21",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "P-AUDIT 只替换审计 run_started_at；契约排除纯审计时间，业务身份不变但须记录影响依据。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C22",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "SYN-DEC-001 同 ID 将 selected_value 改为 Sex 属不同内容；应拒绝覆盖，修订须新 ID + supersedes。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C23",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "Spec/依赖明确未选 IG/CT；reference gap 与 not_assessed 正确；不得推造最新版或 NCI 编码。",
+      "actual_engine_result": "not_run"
+    },
+    {
+      "case_id": "T001-C24",
+      "technical_expected_review": "passed",
+      "method": "independent manual source/contract derivation with separate raw-byte fact audit where applicable",
+      "reasoning": "永久 identity 含 study/family/dataset/variable；同名跨 study/family 分离，源顺序/审计时间不参与；执行碰撞回归延期。",
+      "actual_engine_result": "not_run"
+    }
+  ],
+  "independent_evidence": "docs/tasks/task001-review/independent-xpt-raw-v1.json; 8 raw-byte assertions executed",
+  "reverification_assertions": [
+    {
+      "id": "baseline_manifest",
+      "result": "passed"
+    },
+    {
+      "id": "baseline.AGENTS.md",
+      "result": "passed"
+    },
+    {
+      "id": "baseline.GOALS.md",
+      "result": "passed"
+    },
+    {
+      "id": "baseline.REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "id": "baseline.ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "id": "baseline.PLANS.md",
+      "result": "passed"
+    },
+    {
+      "id": "baseline.docs/tasks/TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "id": "baseline.README.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.AGENTS.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.GOALS.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.docs/tasks/TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.discussion.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected..workbuddy/memory/2026-10-19.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected..workbuddy/memory/MEMORY.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected..workbuddy/tools/export_conversation.py",
+      "result": "passed"
+    },
+    {
+      "id": "protected.baselines/BL-20261020-01/AGENTS.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.baselines/BL-20261020-01/ARCHITECTURE.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.baselines/BL-20261020-01/GOALS.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.baselines/BL-20261020-01/manifest.json",
+      "result": "passed"
+    },
+    {
+      "id": "protected.baselines/BL-20261020-01/PLANS.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.baselines/BL-20261020-01/README.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.baselines/BL-20261020-01/REQUIREMENTS.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.baselines/BL-20261020-01/docs/tasks/TASK-000.md",
+      "result": "passed"
+    },
+    {
+      "id": "protected.docs/approvals/APR-20261020-01-checks-initial.json",
+      "result": "passed"
+    },
+    {
+      "id": "protected.docs/approvals/APR-20261020-01-checks.json",
+      "result": "passed"
+    },
+    {
+      "id": "protected.docs/approvals/APR-20261020-01.md",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/build-record.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/cm.xpt",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/dependencies.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/dependency-changes.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/dm.xpt",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/input-manifest.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/patch.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/source-data.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/spec-changed.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/spec.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.fixtures/task001/v0.1/vs.xpt",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.expectations/task001/v0.1/coverage.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.expectations/task001/v0.1/expected.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.expectations/task001/v0.1/gate1-checklist.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.docs/contracts/TASK-001-contract-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.tools/task001/check_materials.py",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.tools/task001/requirements-fixtures.lock.txt",
+      "result": "passed"
+    },
+    {
+      "id": "actual_input_version.artifacts/TASK-001/references/sources.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_output_version.case-readiness.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_output_version.checks.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_output_version.coverage.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_output_version.inputs-manifest.json",
+      "result": "passed"
+    },
+    {
+      "id": "actual_output_version.run.json",
+      "result": "passed"
+    },
+    {
+      "id": "F001.unique_paths",
+      "result": "passed"
+    },
+    {
+      "id": "F001.source.dde-readme.md",
+      "result": "passed"
+    },
+    {
+      "id": "F001.source.sas-xport-v5.pdf",
+      "result": "passed"
+    },
+    {
+      "id": "F001.source.pyreadstat-api.html",
+      "result": "passed"
+    },
+    {
+      "id": "F001.source.dde-dds.yaml",
+      "result": "passed"
+    },
+    {
+      "id": "F001.source.dde-dds-define.yaml",
+      "result": "passed"
+    },
+    {
+      "id": "F001.source.dde-xml-define.yaml",
+      "result": "passed"
+    },
+    {
+      "id": "F001.source.dde-LICENSE",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.current_bytes",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.rows",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.STUDYID",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.DOMAIN",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.USUBJID",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.SEX",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.AGE",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.ARMCD",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.EXTRA",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.content_length.STUDYID",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.content_length.DOMAIN",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.content_length.USUBJID",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.content_length.SEX",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.DM.content_length.EXTRA",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.current_bytes",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.rows",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.STUDYID",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.DOMAIN",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.USUBJID",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.VSTESTCD",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.VSORRES",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.content_length.STUDYID",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.content_length.DOMAIN",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.content_length.USUBJID",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.content_length.VSTESTCD",
+      "result": "passed"
+    },
+    {
+      "id": "independent_raw.VS.content_length.VSORRES",
+      "result": "passed"
+    },
+    {
+      "id": "materials_109_actual",
+      "result": "passed"
+    },
+    {
+      "id": "selected_cases_24",
+      "result": "passed"
+    },
+    {
+      "id": "no_skipped_or_engine",
+      "result": "passed"
+    },
+    {
+      "id": "F003.registration_only",
+      "result": "passed"
+    },
+    {
+      "id": "coverage_complete_registry",
+      "result": "passed"
+    },
+    {
+      "id": "coverage_no_behavior_claim",
+      "result": "passed"
+    },
+    {
+      "id": "patch_family",
+      "result": "passed"
+    },
+    {
+      "id": "documents_361_actual",
+      "result": "passed"
+    },
+    {
+      "id": "document_changes_limited_to_task_index",
+      "result": "passed"
+    },
+    {
+      "id": "rebuild_three",
+      "result": "passed"
+    },
+    {
+      "id": "gate_pending",
+      "result": "passed"
+    }
+  ],
+  "reverification_count": 97,
+  "findings": [
+    {
+      "finding_id": "F-001",
+      "original": "Two different DDE URLs shared dde-define.yaml and one frozen hash was unrestorable.",
+      "retest": "All 7 distinct asset paths, sizes and hashes independently recomputed; sources-initial retained.",
+      "technical_status": "closed_fixed"
+    },
+    {
+      "finding_id": "F-002",
+      "original": "Dataset serialization initially omitted family and added it only after name collision.",
+      "retest": "Contract requires family permanently; patch/dependency identities match; cross-family identity never rekeys old objects.",
+      "technical_status": "closed_fixed"
+    },
+    {
+      "finding_id": "F-003",
+      "original": "materials-01 case registration falsely assigned automated_material_check=passed unconditionally.",
+      "retest": "materials-04 has registered only, 24 explicit selected IDs, engine results not_run; reviewed revised script.",
+      "technical_status": "closed_fixed"
+    },
+    {
+      "finding_id": "F-004",
+      "original": "Contract described checker as stdlib-only despite pandas/pyreadstat imports.",
+      "retest": "Contract now accurately distinguishes library audit from independent stdlib byte audit and imports.",
+      "technical_status": "closed_fixed"
+    }
+  ],
+  "architecture_judgment": "Metadata Reconciliation remains central; observed/expected/reference/approved separated; field-specific authority; sidecar retains evidence/issues/decisions; no core engine or generator implemented. DDS conceptual mappings exist but byte/character and output compatibility gaps remain explicit.",
+  "long_term_retained": [
+    "XPT",
+    "SDTM/ADaM Spec",
+    "aCRF/preset values",
+    "CT/IG",
+    "Protocol/SAP",
+    "DDS-aligned model",
+    "No Data",
+    "VLM",
+    "SUPP",
+    "CodeList",
+    "Define-XML 2.1",
+    "SDRG/ADRG",
+    "validation",
+    "decisions/lineage"
+  ],
+  "quality_gates": {
+    "Q01_Q05": "technical review and current evidence support readiness within recorded scope",
+    "Q06": "package script/layout inspected only; actual package hash/copy verification pending post-package evidence",
+    "Q07": "not_run; Chris must confirm exact package, first expectations and proposed deferrals"
+  },
+  "package_script_review": "Read source: refuses existing package/submission, requires passed independent review with no blockers and passed material/rebuild/doc records, copies project-relative files, rereads copied hashes/sizes, manifest excludes itself, external submission remains pending_chris. Not executed by reviewer.",
+  "document_script_review": "Read source and 361-check evidence; verifies UTF-8 readability, fence pairing, internal link target existence and table endings only; does not validate external links/anchors/semantics.",
+  "document_version_deltas": [
+    {
+      "path": "docs/tasks/TASK-001.md",
+      "old_sha256": "b3834e47ec3252bf2a7205ed04e7c107e86ee74782e6cffca5561e319e1e1fbd",
+      "current_sha256": "5d4902192b1df9419744ed0b24c39a5eb81b6550e90b8d88cabb0351f920b67b",
+      "reason": "Task card only: submission filename index corrected; final documents-02 rerun required after administrative closeout"
+    }
+  ],
+  "material_run_index": "materials-04 reran the same 109-check script after only submission-filename index correction. Expected business content and contract unchanged; materials-03 kept as history.",
+  "limitations": [
+    "No live SAS execution; byte audit is limited to the two fixed single-member ASCII fixtures and nonblank DM final cell.",
+    "No reconciliation, patch application, runtime schema, XML, CT, P21, DDS loading or RG execution; all 24 engine behaviors are not_run.",
+    "Reviewer did not independently repeat network retrieval; fixed reference asset bytes/URLs/hashes and relevant DDE definitions were reviewed locally.",
+    "Q06 package has not been made during this review; subsequent actual package evidence is required.",
+    "Chris must approve semantics/expectations, current scope and deferrals; this report does not authorize MVP 0.1.",
+    "Any post-review administrative updates need recorded final-version checks; reviewed hashes remain historical evidence and must not be silently replaced."
+  ],
+  "reviewed_objects": [
+    {
+      "path": ".gitignore",
+      "bytes": 34,
+      "sha256": "f5fbcaddba16ca471b35b0b4545e318f10edb0a6766ec01b192010af462de5d4"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 9653,
+      "sha256": "87d5212595ff2f99e7a93184714e0df0681896d9ba04cae04a50436702f28adf"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "bytes": 15080,
+      "sha256": "7e2822449772feb81de33d89e8df0b7a86c7d9dfebe28a193902ee2e8c1c02f7"
+    },
+    {
+      "path": "artifacts/TASK-001/documents-01/checks.json",
+      "bytes": 43974,
+      "sha256": "e40df4db7f7a97c27dde5b472bf9b8ac435783a03b71778fd924859f132f3f5b"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-01/case-readiness.json",
+      "bytes": 10123,
+      "sha256": "c0d714bd0a9f1775f54ae232477a10458f0779d605e3c108c060b9d5bec9b06a"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-01/checks.json",
+      "bytes": 29718,
+      "sha256": "e77dd316f91c022fd952214bb6fc405d40905e7653d9129c9812ff5fff7b0a14"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-01/run.json",
+      "bytes": 1056,
+      "sha256": "2ab116767042290bcb31859ccf5af12732eec42fbc6af7911e3c369774fcf82a"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/case-readiness.json",
+      "bytes": 10315,
+      "sha256": "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/checks.json",
+      "bytes": 32567,
+      "sha256": "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/inputs-manifest.json",
+      "bytes": 2335,
+      "sha256": "c3e92fc9eee4519b25de8947e3c65926963a7914697e2b45bee13b9c499492b6"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/outputs-manifest.json",
+      "bytes": 580,
+      "sha256": "2145e1bbc08af63e57d4076308c524cdd00a9ca9cb071a16f895a17ecc3bc2f8"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-02/run.json",
+      "bytes": 1495,
+      "sha256": "8283496e288df80e7535ccf03fd89a396ceb57b5c89bbd6002691cc852170bfc"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/case-readiness.json",
+      "bytes": 10315,
+      "sha256": "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/checks.json",
+      "bytes": 32567,
+      "sha256": "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/coverage.json",
+      "bytes": 19158,
+      "sha256": "80c3bd873888477ab1ec59c53ca9c0b941da86a7f90dc74ec98ebb80f3610957"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/inputs-manifest.json",
+      "bytes": 2983,
+      "sha256": "8bd3a7b3feff95661c58b452565dac65edae4ac1d561225de78b698d4005a1b1"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/outputs-manifest.json",
+      "bytes": 711,
+      "sha256": "9e325cf1c759d3db24ca44b55ea545d33fad1ff11eca9e6883b218d206464a61"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-03/run.json",
+      "bytes": 1495,
+      "sha256": "6346c4c59ec05ca9d7c603fbead4fc7ea54aa71fbcd70c8c9f6492bf64c3c5ff"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/case-readiness.json",
+      "bytes": 10315,
+      "sha256": "36cc5b74384679a632a5f9011e442aab38053b86c8ea92b43320a8793f964e44"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/checks.json",
+      "bytes": 32567,
+      "sha256": "b1c9626879e4f1900d225667b34c5ab074f355e68bd1a433b2e6ec909031dee8"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/coverage.json",
+      "bytes": 19158,
+      "sha256": "36d63bf5941aea6e8b41b7cc3fc1546f3ac6885636ac1c8d341e47adb6c35262"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/inputs-manifest.json",
+      "bytes": 2983,
+      "sha256": "dd210a0e12b71b90d74a1a6a0e82d439ddce9306c647acf9a4d9541bce34b741"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/outputs-manifest.json",
+      "bytes": 711,
+      "sha256": "ebc4944e442272f77823595e0b49f6a6e6b98095cbf57971a2eaf206b404a5e3"
+    },
+    {
+      "path": "artifacts/TASK-001/materials-04/run.json",
+      "bytes": 1495,
+      "sha256": "0d623e3e9581b4542c41cd607e724c3e267c57ecd98c933a39d2dc94f7918c65"
+    },
+    {
+      "path": "artifacts/TASK-001/rebuild-01/build-record.json",
+      "bytes": 1191,
+      "sha256": "94cd96f456dd214614ba46bb3720f302c1363c3cc75a3efa0d82ab62a7231ded"
+    },
+    {
+      "path": "artifacts/TASK-001/rebuild-01/checks.json",
+      "bytes": 1091,
+      "sha256": "289f8c9e19f515b0ff0f399a2ab3b28d01335afd4f394950bdf33d1b54fcdf38"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-dds-define.yaml",
+      "bytes": 84668,
+      "sha256": "010dbaddb6b55041450e4c857e6f0765e84898505aeb2373f256ab19dd37ce02"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-dds.yaml",
+      "bytes": 82157,
+      "sha256": "a4649e1d33a6d3ef832b301ebd875e782f740811a8d48e9e744c66492b84f91d"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-define.yaml",
+      "bytes": 83131,
+      "sha256": "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-LICENSE",
+      "bytes": 1085,
+      "sha256": "4c21061e36524297b6173f929b507edea5208254af1d743370047e54f52f9ce1"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-readme.md",
+      "bytes": 21385,
+      "sha256": "d26495a44cfe931123f39742734632d08dcfdb566c372e351b5a0436317ef413"
+    },
+    {
+      "path": "artifacts/TASK-001/references/dde-xml-define.yaml",
+      "bytes": 83131,
+      "sha256": "1655244fabb9b7053eb3d33914c599a91ad351f9c3425fb9f4bc32f09d7210fa"
+    },
+    {
+      "path": "artifacts/TASK-001/references/pyreadstat-api.html",
+      "bytes": 246324,
+      "sha256": "4b2b4145e5c8ba7e902cf07a1bd74ef1bd28002d15a9431d587b6dcd48880cee"
+    },
+    {
+      "path": "artifacts/TASK-001/references/sas-xport-v5.pdf",
+      "bytes": 1038715,
+      "sha256": "c7c82e664651fdf7c74134b3536af2ba1c5c2834ca91ea427e886eea0b118ac3"
+    },
+    {
+      "path": "artifacts/TASK-001/references/sources-initial.json",
+      "bytes": 2190,
+      "sha256": "17e6d6b549da4c7ba2f0cde33b7c1d0d7febd97623676c3bc9da96f74878728c"
+    },
+    {
+      "path": "artifacts/TASK-001/references/sources.json",
+      "bytes": 2712,
+      "sha256": "569a708fcb1963ac990aa112b131f3bca93adce5e40b73995c09908def1a6917"
+    },
+    {
+      "path": "artifacts/TASK-001/start/dependencies.json",
+      "bytes": 5617,
+      "sha256": "7e9a556918f9727cfafe3caf28c4bd1947bca9e67c4c38575a4d068efcebaf99"
+    },
+    {
+      "path": "baselines/BL-20261020-01/manifest.json",
+      "bytes": 2243,
+      "sha256": "55b68829f17a489060281174c901a9de6fd2f5902831ed3b7aa717696e5e802c"
+    },
+    {
+      "path": "docs/approvals/APR-20261020-01.md",
+      "bytes": 3090,
+      "sha256": "cd3fdaee681f96b9d0d911e08797592e4e5621514a5ef4b7e81ef67d2adde51e"
+    },
+    {
+      "path": "docs/contracts/TASK-001-contract-v0.1.md",
+      "bytes": 10660,
+      "sha256": "6537d2103502734ba9a3fa6ffe39a610a350ed85aae06ac63bad29a997c7c87d"
+    },
+    {
+      "path": "docs/contracts/TASK-001-technical-basis-v0.1.md",
+      "bytes": 5905,
+      "sha256": "fd05940b4fa3238b122f9a1ae8ed600c77baa1fa6839cb6b838a3e46837a6ffc"
+    },
+    {
+      "path": "docs/tasks/TASK-001-findings.json",
+      "bytes": 4157,
+      "sha256": "455a66ab4143a456100016a1bf6978f79e7d0335ca2993da04aa979a29e3b35c"
+    },
+    {
+      "path": "docs/tasks/TASK-001.md",
+      "bytes": 11563,
+      "sha256": "5d4902192b1df9419744ed0b24c39a5eb81b6550e90b8d88cabb0351f920b67b"
+    },
+    {
+      "path": "docs/tasks/task001-review/independent-xpt-raw-v1.json",
+      "bytes": 4880,
+      "sha256": "318846b3ccaff7890548064e791c2ea01c8f3563bc848654c1ceb2d7c85ff257"
+    },
+    {
+      "path": "docs/tasks/task001-review/independent_xpt_audit.py",
+      "bytes": 5043,
+      "sha256": "c2199ecc15953657f328415ce0e635d64ce780cceaadce5b3431b2f320fa1731"
+    },
+    {
+      "path": "expectations/task001/v0.1/coverage.json",
+      "bytes": 44169,
+      "sha256": "8d64a1ed5df98032050b4fdaa90f7dcec00144a60c0f3bbb1abbad79f2b8d64a"
+    },
+    {
+      "path": "expectations/task001/v0.1/expected.json",
+      "bytes": 13024,
+      "sha256": "acf277e0e0963eeddb3712b754770ec84e0077a488208d9e0e15f83bb93fa808"
+    },
+    {
+      "path": "expectations/task001/v0.1/gate1-checklist.json",
+      "bytes": 4103,
+      "sha256": "e618e0b560a3b7046e3e5b721ee10dfce07a1eda22f7302711919e9eea7b1373"
+    },
+    {
+      "path": "fixtures/task001/v0.1/build-record.json",
+      "bytes": 1191,
+      "sha256": "3d78e41eeeb9d46cc567e54bcbfc5bffcceb546e316418090fe517a5f2b1d57a"
+    },
+    {
+      "path": "fixtures/task001/v0.1/cm.xpt",
+      "bytes": 49,
+      "sha256": "3ec294e0af5b7d2956467a4c9a96e242e19c07e153638d133daba3873236007a"
+    },
+    {
+      "path": "fixtures/task001/v0.1/dependencies.json",
+      "bytes": 1525,
+      "sha256": "e1bba0de0c941dd097bc2b8962af8546f29718a2d595881746ea79f3c83b0ebc"
+    },
+    {
+      "path": "fixtures/task001/v0.1/dependency-changes.json",
+      "bytes": 1453,
+      "sha256": "7caff2d153d44bc3948f5ca85744ff5d0345897f0f3afd5bb18d7da8b9adcc7e"
+    },
+    {
+      "path": "fixtures/task001/v0.1/dm.xpt",
+      "bytes": 1920,
+      "sha256": "fa525a236c6aec06a0bbb4edbf5838b93c8b2782a7ba4e03a71710b7ed82a0f7"
+    },
+    {
+      "path": "fixtures/task001/v0.1/input-manifest.json",
+      "bytes": 3065,
+      "sha256": "9103776ecb977380cf0236e4c71dd020154904d4fb62170ae5c7c079914ccdf1"
+    },
+    {
+      "path": "fixtures/task001/v0.1/patch.json",
+      "bytes": 595,
+      "sha256": "795dfd2f94af5aa4ad59e91158307c8fc3645ed6a357b7458991bf6cfdd6315c"
+    },
+    {
+      "path": "fixtures/task001/v0.1/source-data.json",
+      "bytes": 1668,
+      "sha256": "5af451f1e0101009b36588da9d5cfb8a6f36a0c2c0779eba9b3e7cc9c47bce7d"
+    },
+    {
+      "path": "fixtures/task001/v0.1/spec-changed.json",
+      "bytes": 3420,
+      "sha256": "b36e1a45e154793cd209b8d67475ea230dc412f83f11c7ad539a24d67f0b52bd"
+    },
+    {
+      "path": "fixtures/task001/v0.1/spec.json",
+      "bytes": 2295,
+      "sha256": "e004122a148a447a7ac526596439c562cd949ab83f242326824dfcbbf0481937"
+    },
+    {
+      "path": "fixtures/task001/v0.1/vs.xpt",
+      "bytes": 1440,
+      "sha256": "3216c84eaa21ff1291543f2e681836fd6dba9e1f18c78661d8ef102ef21f1e22"
+    },
+    {
+      "path": "GOALS.md",
+      "bytes": 6246,
+      "sha256": "8aaa34ca717f8be23a3dae5d78952a127a1fe0e23990ea5c6880a9c1a4550f23"
+    },
+    {
+      "path": "PLANS.md",
+      "bytes": 23706,
+      "sha256": "3d23d908dae82b6deb9fd14aee4e0638be5958911aca723cc8870c41dff0ce68"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3373,
+      "sha256": "5db3f8c4203e968b8289af0760a9fa4f2c0deda4f6e0efc93fe8a05e103e7fdc"
+    },
+    {
+      "path": "REQUIREMENTS.md",
+      "bytes": 22567,
+      "sha256": "17139ff7cbe22bad6fdcd9dd7915b89c02cc381dfd6998bc374b02cbc0a0aa2b"
+    },
+    {
+      "path": "tools/task001/build_fixtures.py",
+      "bytes": 6800,
+      "sha256": "b2c9d290f94a6cfc3ca6393efe8faf2652f59ead924351be76e8b5a2076674ec"
+    },
+    {
+      "path": "tools/task001/check_documents.py",
+      "bytes": 2945,
+      "sha256": "a36d9ae86e5d98012c2cbd8f47416704deea875e81e64de507ba49b857e72565"
+    },
+    {
+      "path": "tools/task001/check_materials.py",
+      "bytes": 12879,
+      "sha256": "56eeb2f3b36ff962f4d3fc555d5b6aba381c15b19a9e416ed816617b7e06747c"
+    },
+    {
+      "path": "tools/task001/package_gate1.py",
+      "bytes": 5643,
+      "sha256": "2941055cb392f609b4300a25dd8cbc310201020bc8eca4f1451fd463b23b8d4b"
+    },
+    {
+      "path": "tools/task001/requirements-fixtures.lock.txt",
+      "bytes": 197,
+      "sha256": "29e73867d345e6cbe16410521689877a9c3cfe1759445efcb576d4b46d17126a"
+    }
+  ]
+}
