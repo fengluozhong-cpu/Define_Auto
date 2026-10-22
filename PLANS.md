@@ -15,7 +15,7 @@
 | 基线批准 | Approved：`BL-20261020-01`；Chris；批准记录时间 2026-10-20T08:56:33+08:00；[批准记录](E:/Initiation/Define_Auto/docs/approvals/APR-20261020-01.md)，精确消息时间未提供 |
 | 当前任务卡／证据 | [MVP-0.1](E:/Initiation/Define_Auto/docs/tasks/MVP-0.1.md)；本阶段启动证据 artifacts/MVP-0.1/startup-20261021-01；上游材料／恢复检查在 artifacts/TASK-001/mvp01-start-*；旧任务入口见 §2 |
 | 当前未决项 | 质量门 v0.2 和 Skill 配置已确认，远端标签因 gh 不可用尚未执行。M01-D01／CHG-010 可追溯记录数声明方案已由 Chris 接受，读取契约及测试输入已准备；六卡实现、完整检查及独立技术审阅已完成；GATE-2 已批准。已实现有限 No Data 标志／原因，完整 VLM／XML 等责任与已批准延期保留 |
-| 下一步 | 完成本次授权的 Git 提交／推送及字节恢复核验；从 MVP-0.1 §13、APR-20261022-01、包外收据接续。后续阶段需另行确定任务及授权，不自动开发 |
+| 下一步 | 本阶段验收及主提交推送／远端恢复已完成，见 MVP-0.1 §13.1；保存补充验证文档后交接。后续阶段另行确定任务及授权，不自动开发 |
 
 文件职责及阅读顺序见 [AGENTS.md](E:/Initiation/Define_Auto/AGENTS.md)。完整目标见 [GOALS.md](E:/Initiation/Define_Auto/GOALS.md)，需求与证据见 [REQUIREMENTS.md](E:/Initiation/Define_Auto/REQUIREMENTS.md)，设计决策见 [ARCHITECTURE.md](E:/Initiation/Define_Auto/ARCHITECTURE.md)。
 
@@ -176,6 +176,8 @@ Task 001 已 accepted；MVP 0.1 于 2026-10-21 获明确启动授权，已由 Ch
 [v0.1 创建检查及 T000-R01 修订证据](E:/Initiation/Define_Auto/docs/tasks/TASK-000.md#historical-verification) 已迁移，原 hash、失败结果、检查限制及任务状态均保留。本轮证据见 [T000-R02](E:/Initiation/Define_Auto/docs/tasks/TASK-000.md#t000-r02)。历史通过不能替代当前版本的适用检查。
 
 ## 8. 最新交接
+
+2026-10-22 Git交付完成：主提交 `e78db4f760d2d97668052feffc3ed9243a85046e` 已推送 origin/main；全新GitHub克隆的993项批准快照字节核验及133项完整套件均通过。正式证据 git-delivery-20261022-01、remote-clone-suite-20261022-01，入口MVP-0.1 §13.1／APR-20261022-01／gate2-v0.2-receipt.json。补充证据与当前交接随后以文档提交保存；最终HEAD读取git log。不改冻结包，MVP0.1 accepted／GATE-2 passed，后续实施待新任务授权。
 
 2026-10-22 GATE-2 正式批准：Chris 直接批准 gate2-v0.2 并授权 commit／push。APR-20261022-01 绑定 manifest `326b72e4ae13af031170360c5b29005a5d10a061e4041f1491a81931078f153b`，本轮563项对象核验通过；MVP 0.1 accepted，M01-Q07／GATE-2 passed，冻结文件及旧报告状态不改。当前接续 MVP-0.1 §13 完成提交／推送及 Git 字节恢复核验；下列“待批准”均为历史。不自动启动后续阶段。
 

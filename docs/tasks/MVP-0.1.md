@@ -349,3 +349,13 @@ Chris 直接指令：“批准 gate2-v0.2 通过 GATE-2 并 commit 和 push Git�
 本轮授权包括本阶段代码、固定输入／独立预期、正式 Skill 配置、运行及独立审阅证据、冻结包和批准／交接文档的 commit／push；保护其他任务内容，沿用 main→origin/main，不强制推送。Git 实际结果及字节恢复检查以提交及后续核验为准，不提前声明成功。完整长期责任与 APR 保留项继续有效；后续阶段尚未因本次验收自动启动。
 
 提交前复核：`approval-commit-suite-20261022-01` 完整133/133通过；`git-approval-archive-20261022-01/checks.json` 验证4个批准／历史快照manifest及条目，共993项暂存Git归档／工作区字节一致。全量空白检查仅报已冻结第三方参考原有尾随空格，原输出保留；不修改批准字节，排除该精确参考路径的代码／项目内容检查通过。当前远端main与提交起点HEAD一致，提交／推送随后执行。
+
+### 13.1 提交／推送与远端恢复完成
+
+实施及批准主提交 `e78db4f760d2d97668052feffc3ed9243a85046e`（feat: 完成 MVP 0.1 核对闭环并批准 GATE-2）已成功推送至 `https://github.com/fengluozhong-cpu/Define_Auto.git` 的 main。GitHub refs/heads/main、工作区HEAD及全新远端克隆的HEAD已核对一致；本轮未强制推送或改写历史。
+
+- Git 暂存归档核验：`artifacts/MVP-0.1/git-approval-archive-20261022-01/`，993项批准／历史快照精确字节一致；外部参考原有尾随空格保持不变。
+- 真实远端克隆恢复：`artifacts/MVP-0.1/git-delivery-20261022-01/checks.json`，四个快照manifest及条目共993/993一致；不是只依赖push返回码。
+- 克隆内完整入口：`artifacts/MVP-0.1/remote-clone-suite-20261022-01/`，133收集／执行、0失败／错误／跳过／漏项，实际命令和被测HEAD在run.json，逐项结果及hash齐备。
+
+上述补充恢复证据、包外收据及当前交接在随后的文档提交保存，最终文档提交ID以 `git log -1` 和 origin/main 为准，不将提交自身hash写进自身内容。GATE-2 已正式通过，MVP 0.1 accepted；最后完成点为远端恢复验证。没有未完成的本阶段必需技术或业务审阅项。下一步仅在获得后续阶段具体任务及实施授权后推进；未执行真实 P21／XML／RG／完整标准等既有后续责任保持原样。
